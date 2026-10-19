@@ -1,0 +1,495 @@
+{
+  "id": "785",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 316,
+            "begin_shape_index": 0,
+            "cost": 1.724,
+            "end_shape_index": 1,
+            "instruction": "Drive northwest on Azaleenweg.",
+            "length": 0.013,
+            "street_names": [
+              "Azaleenweg"
+            ],
+            "time": 1.567,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 2,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 10 meters.",
+            "verbal_pre_transition_instruction": "Drive northwest on Azaleenweg. Then Turn right onto Hauptstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive northwest. Then Turn right onto Hauptstra\u00dfe."
+          },
+          {
+            "bearing_after": 41,
+            "bearing_before": 316,
+            "begin_shape_index": 1,
+            "begin_street_names": [
+              "Hauptstra\u00dfe",
+              "B 51"
+            ],
+            "cost": 322.848,
+            "end_shape_index": 112,
+            "instruction": "Turn right onto Hauptstra\u00dfe/B 51.",
+            "length": 4.893,
+            "street_names": [
+              "B 51"
+            ],
+            "time": 252.344,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Hauptstra\u00dfe, B 51.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Hauptstra\u00dfe."
+          },
+          {
+            "bearing_after": 52,
+            "bearing_before": 25,
+            "begin_shape_index": 112,
+            "cost": 490.621,
+            "end_shape_index": 305,
+            "highway": true,
+            "instruction": "Take the A 1 ramp toward Hamburg/Hannover.",
+            "length": 12.97,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Hamburg"
+                },
+                {
+                  "text": "Hannover"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 22"
+            ],
+            "time": 457.766,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 13 kilometers.",
+            "verbal_pre_transition_instruction": "Take the A 1 ramp toward Hamburg, Hannover.",
+            "verbal_transition_alert_instruction": "Take the A 1 ramp."
+          },
+          {
+            "bearing_after": 60,
+            "bearing_before": 54,
+            "begin_shape_index": 305,
+            "cost": 4.084,
+            "end_shape_index": 308,
+            "instruction": "Take exit 53 onto A 27 toward Cuxhaven/Bremen-Sebaldsbr\u00fcck.",
+            "length": 0.146,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 27"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Bremer Kreuz"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "53"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Cuxhaven"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Bremen-Sebaldsbr\u00fcck"
+                },
+                {
+                  "text": "Hannover"
+                },
+                {
+                  "text": "Achim"
+                }
+              ]
+            },
+            "time": 4.391,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 53 onto A 27 toward Cuxhaven, Bremen-Sebaldsbr\u00fcck. Then Keep left to take A 27.",
+            "verbal_transition_alert_instruction": "Take exit 53."
+          },
+          {
+            "bearing_after": 57,
+            "bearing_before": 60,
+            "begin_shape_index": 308,
+            "cost": 16.094,
+            "end_shape_index": 317,
+            "instruction": "Keep left to take A 27 toward Cuxhaven/Bremen-Sebaldsbr\u00fcck.",
+            "length": 0.553,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 27"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Cuxhaven"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Bremen-Sebaldsbr\u00fcck"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Bremerhaven"
+                }
+              ]
+            },
+            "time": 16.619,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 27 toward Cuxhaven, Bremen-Sebaldsbr\u00fcck.",
+            "verbal_transition_alert_instruction": "Keep left to take A 27."
+          },
+          {
+            "bearing_after": 79,
+            "bearing_before": 58,
+            "begin_shape_index": 317,
+            "cost": 14.982,
+            "end_shape_index": 341,
+            "instruction": "Keep right to take A 27 toward Cuxhaven/Bremerhaven/Bremen-Sebaldsbr\u00fcck.",
+            "length": 0.484,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 27"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Cuxhaven"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Bremerhaven"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Bremen-Sebaldsbr\u00fcck"
+                }
+              ]
+            },
+            "time": 14.564,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 27 toward Cuxhaven, Bremerhaven.",
+            "verbal_transition_alert_instruction": "Keep right to take A 27."
+          },
+          {
+            "bearing_after": 317,
+            "bearing_before": 317,
+            "begin_shape_index": 341,
+            "cost": 403.004,
+            "end_shape_index": 495,
+            "highway": true,
+            "instruction": "Keep left to take A 27 toward Cuxhaven/Bremerhaven/Bremen-Sebaldsbr\u00fcck.",
+            "length": 11.232,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 27"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Cuxhaven"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Bremerhaven"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Bremen-Sebaldsbr\u00fcck"
+                },
+                {
+                  "text": "Bremen-Centrum"
+                }
+              ]
+            },
+            "street_names": [
+              "A 27",
+              "E 234"
+            ],
+            "time": 337.069,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 11 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 27 toward Cuxhaven, Bremerhaven.",
+            "verbal_transition_alert_instruction": "Keep left to take A 27."
+          },
+          {
+            "bearing_after": 322,
+            "bearing_before": 306,
+            "begin_shape_index": 495,
+            "cost": 8.767,
+            "end_shape_index": 499,
+            "instruction": "Take exit 19 toward Bremen-Horn-Lehe/Universit\u00e4t Lilienthal.",
+            "length": 0.167,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Bremen-Horn/Lehe"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "19"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Bremen-Horn-Lehe"
+                },
+                {
+                  "text": "Universit\u00e4t Lilienthal"
+                }
+              ]
+            },
+            "time": 7.178,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 19 toward Bremen-Horn-Lehe, Universit\u00e4t Lilienthal. Then Keep left toward Bremen-Universit\u00e4t.",
+            "verbal_transition_alert_instruction": "Take exit 19."
+          },
+          {
+            "bearing_after": 306,
+            "bearing_before": 309,
+            "begin_shape_index": 499,
+            "cost": 26.642,
+            "end_shape_index": 502,
+            "instruction": "Keep left toward Bremen-Universit\u00e4t/Industriegebiet Technologiepark.",
+            "length": 0.512,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Bremen-Universit\u00e4t"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Industriegebiet Technologiepark"
+                }
+              ]
+            },
+            "time": 21.974,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left toward Bremen-Universit\u00e4t, Industriegebiet Technologiepark.",
+            "verbal_transition_alert_instruction": "Keep left toward Bremen-Universit\u00e4t."
+          },
+          {
+            "bearing_after": 319,
+            "bearing_before": 306,
+            "begin_shape_index": 502,
+            "cost": 137.584,
+            "end_shape_index": 570,
+            "instruction": "Keep right to take Autobahnzubringer Universit\u00e4t toward Bremen-Universit\u00e4t/Industriegebiet Technologiepark.",
+            "length": 1.603,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Bremen-Universit\u00e4t"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Industriegebiet Technologiepark"
+                }
+              ]
+            },
+            "street_names": [
+              "Autobahnzubringer Universit\u00e4t"
+            ],
+            "time": 95.754,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take Autobahnzubringer Universit\u00e4t toward Bremen-Universit\u00e4t, Industriegebiet Technologiepark.",
+            "verbal_transition_alert_instruction": "Keep right to take Autobahnzubringer Universit\u00e4t."
+          },
+          {
+            "bearing_after": 300,
+            "bearing_before": 201,
+            "begin_shape_index": 570,
+            "cost": 219.369,
+            "end_shape_index": 630,
+            "instruction": "Turn right onto Universit\u00e4tsallee.",
+            "length": 2.395,
+            "street_names": [
+              "Universit\u00e4tsallee"
+            ],
+            "time": 189.99,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Universit\u00e4tsallee.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Universit\u00e4tsallee."
+          },
+          {
+            "bearing_after": 113,
+            "bearing_before": 203,
+            "begin_shape_index": 630,
+            "cost": 191.151,
+            "end_shape_index": 645,
+            "instruction": "Turn left onto Emmastra\u00dfe.",
+            "length": 0.432,
+            "street_names": [
+              "Emmastra\u00dfe"
+            ],
+            "time": 61.397,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Emmastra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Emmastra\u00dfe."
+          },
+          {
+            "bearing_after": 27,
+            "bearing_before": 107,
+            "begin_shape_index": 645,
+            "cost": 41.245,
+            "end_shape_index": 647,
+            "instruction": "Turn left onto Vogelsangstra\u00dfe.",
+            "length": 0.068,
+            "street_names": [
+              "Vogelsangstra\u00dfe"
+            ],
+            "time": 12.217,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 70 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Vogelsangstra\u00dfe. Then Turn left.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Vogelsangstra\u00dfe."
+          },
+          {
+            "bearing_after": 315,
+            "bearing_before": 43,
+            "begin_shape_index": 647,
+            "cost": 644.998,
+            "end_shape_index": 648,
+            "instruction": "Turn left.",
+            "length": 0.017,
+            "time": 9.104,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "verbal_pre_transition_instruction": "Turn left. Then You will arrive at your destination.",
+            "verbal_succinct_transition_instruction": "Turn left. Then You will arrive at your destination.",
+            "verbal_transition_alert_instruction": "Turn left."
+          },
+          {
+            "bearing_before": 315,
+            "begin_shape_index": 648,
+            "cost": 0.0,
+            "end_shape_index": 648,
+            "instruction": "You have arrived at your destination.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 4,
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination."
+          }
+        ],
+        "shape": "iykadBmfyuOmDrG_C{DcFoI}AiCgEwC{@{AmFcIeHuKcUk^_c@er@}Ra[oZsf@qMyRiD_FqEuGa@i@iByCkDsFmBuCy@qAiDsFcHcL_N_VuHcNkIcNgEeJmI}TmQck@yEoQyHoXiMwp@gDiUiJen@{DmXwDuXmDaYkGsh@wL_iAwBmR{B{XwC_b@eAuM]_GScDSoD]_G_@mGg@iIoCub@mA{\\eAwZwCwsAqB}rAmDeaD{Bo}BcAaf@cDcaAcFedAcE}k@w@wJuCc[mCkXeDgZiDiXcEkWiGs\\kJec@kLgd@mRik@cDaIaF_M{FaN_JcRkPsZgYqe@{^{d@uWqWuX}Su`@kWcQqIoPoHma@mNca@{JgVeF}M{Bqk@yH{KoAm`@_DwUiAmVs@oLSkYAw[Na_@t@qd@tBgwBxKeZzA}j@~@w_@l@od@Eae@_AyfAyIqxAaW}q@aSob@wOeWaKaC_AqGiCcc@kTsPqNus@af@i[}TmE}KiB_Hi@eE}@mN`@oGPqKCiKe@eKwAeQeCiOgDcMwEmKcj@op@sFuKwDyMeBqJmAgHqEoZaAkg@mAiq@GgD{BwmA_D_jC}AsgDWkqBDkqB@e[FwnCFchCFiyCP{jIFg~E@eyA@}mAYu{Am@{v@kAev@iBoo@}Bin@qC}m@aDqn@uFsx@iCc^mEuh@cGeo@{Igw@sPwqAgN{|@kNkw@ySadAkSg|@}Sky@qD}MqH{WoXs}@w|FysQyn@moBy\\ifAq`CyoHsScq@eMsd@eKw^mMud@oKka@oLwg@aXonA_Omt@kL{n@yRojAqHse@yKsv@kEg]qFgb@uK_bAkImx@gCkZ}@{K}Gox@sHqhAsBwZ{Eo|@wEigAuDamAaCgfAqBiyAYg\\S_aA?eZJyt@Zoh@h@_h@j@}c@lCmvAbA_\\fBwm@~@iWhCaj@pEqx@nE_x@|B_`@fFgm@`L{oAlLajAhFsg@|Fqa@tMybAzNaaA|Lsu@fMer@|Lcn@~Lwm@pMgn@fPmp@vQcs@lSur@vT{x@fWcv@rP}g@rZmy@h[ex@tUyj@`r@y~AjYgr@zXit@jTen@tRsm@zOsj@`O{i@|Ray@jWylAtAuGfCgNHe@`Gg\\`Kol@jC}QlEgW`Kkv@zNgpAbGuj@xFep@bFwr@`Ecm@bFgbA~Bur@fBcn@`Aec@bAg}@d@s{@Hkl@Uol@Scc@mAow@{Bqu@sB_t@qDuy@kDqq@uFaw@mGkw@aHwr@{Foj@uHeo@iPgkAiNcy@eXavAaFmVsQqv@cNei@kHgYePej@eNcd@_N_b@}I}UwIwUoHeSgFwMuf@gkAaIsQIQep@sxAuG{NwLeXuc@k`AwZwq@uRge@gd@efAcn@s{A_c@qiAuZex@gNi`@sd@gpAeVgs@kSim@aKmb@ePcq@gJ}^wRgr@{BcIkm@qrBe\\oiAiM_a@wE_PiDaMkQgn@kXgcA}AyW@_Mp@iKhBiJ`CaHnCsFpCoDxCsBhGaCrG[nF~@~EhCvEjE`E|HtBlIlAfMh@lL]lJqAtJyB~JaGpSgXdi@mWxe@}S|^aHbMyFnKaKfQ{k@neAmTr^qv@vtAme@||@sOl`@an@zcAmUh_@uUh`@kXpb@wVt]qX`^{PpRqRzSeSxRsRbQoUhRwL~ImQtMiQbLm`@dUgPfI_PjHmj@jS_c@vNcH~BawC|bAwl@zRsX`JiDfA_jAj_@eObFgMdE}YnKw`@dNgbAh\\{SdHwpBvp@i}@rZc}CpdAepBtp@ow@xW_[nLcZfNcm@z\\iVrOcUlPsUvQ_UzReSzRqRxRwRbU_RxTgRzVqPdVcWba@uUda@eUdc@}Spc@_Vli@{Y`u@kAlDmZ``A_Onh@oMxh@iM|i@}Kfi@eJ`g@kI~f@eQdpAqHbq@kGbq@iFhr@kEvq@_JhdBsIdnBaIx}Be@zQiDn~AsBdnAaArcAUda@Ix`@BxpAp@foAxCt`DbIzbI|Af_Bb@no@H~n@]jw@eAhv@qAvj@oB|i@wE`_AkFdw@_Ix}@eE~_@_Ef\\aFj^sCdSqFp_@kEjXeHh_@mMto@eJlb@kb@x~A{Xp{@yXzt@}P`a@{Xrm@iT|a@ue@d{@ebA|fBeXtc@ygAlqBc`@~r@kaAtdBw_BrtC{X`f@{vBhyDauAzcCq[jj@mSj]uSx[_TdYkUlZkPjRuPdRec@rb@sZlWw`@rZma@jW_^`Siw@p^qx@l`@cLhG{PjJeYnQsM`Jw_@fZyh@ff@gZt[{MdPaZb^wVp]s`@dn@md@ty@gb@z}@qYps@wFjNev@z{BqEdDaLh[oYbu@iMz\\g\\taAkfBtjFed@|sAmC|BqKjWuFpKkElGyGrEuHh@}GiA}EwD{EyGiFeKwEqNwB{JcBoMu@oMIsMb@sJvAuJfCiGlCoEnCqBhCgBdDo@~CIvE`AdGtDlEbDxHxBtf@td@d]d\\bSjRjVlUr_An~@|JfNdLfPlK`QhMbWnArCnGbP|Qjf@fBdF`@hAv@xBjA`D|B`Hd@`Bt@|B|GzUbLff@`Mjh@hVtgAdKla@|CfKjG`TlE`OzDnL~Nz`@hL|VfIdOvJ`ObNhQjCfD|PxOfAdAh@f@v@r@h@b@fBvB`DdBoC`L{FrW_a@dfB_Ih^m@pC}A|GcBxH{BxKyLtn@kG|]mGb^yAdJw@pFmAhIyDjWcL`v@oPbiAsEvZkPvhAmCnTWjCo@zHmA~Se@xQU~GK~LFfNx@vWx@dPz@vKdAnKlD`WxBhKpC`Ml@dCbAnDpC|KbFjNnFlMhMbS~IpLhIrIdLfJlcAbo@nCdBtnAfv@bn@r`@bLbHnv@pe@fgAxr@nFlD~DfC|SzMp`BhdA`EfCnGbEbElCd}@lk@nuAr~@|E~CxAqI~@yFdD{RdE{VfDgSfAoFRcApFaY`K{h@bMur@Jo@Fc@vEkc@bH{p@tLsiAqJwHkQy[wEfJ",
+        "summary": {
+          "cost": 2523.119,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 35.488,
+          "max_lat": 53.112147,
+          "max_lon": 8.986868,
+          "min_lat": 52.99242,
+          "min_lon": 8.762349,
+          "time": 1481.941
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 52.99247,
+        "lon": 8.762573,
+        "original_index": 0,
+        "side_of_street": "right",
+        "street": "Azaleenweg",
+        "type": "break"
+      },
+      {
+        "lat": 53.093819,
+        "lon": 8.839821,
+        "original_index": 1,
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 2523.119,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 35.488,
+      "max_lat": 53.112147,
+      "max_lon": 8.986868,
+      "min_lat": 52.99242,
+      "min_lon": 8.762349,
+      "time": 1481.941
+    },
+    "units": "kilometers"
+  }
+}

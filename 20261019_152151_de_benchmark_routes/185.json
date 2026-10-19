@@ -1,0 +1,462 @@
+{
+  "id": "185",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 113,
+            "begin_shape_index": 0,
+            "cost": 58.97,
+            "end_shape_index": 14,
+            "instruction": "Drive east on Font\u00e4nengasse.",
+            "length": 0.135,
+            "street_names": [
+              "Font\u00e4nengasse"
+            ],
+            "time": 16.292,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 1,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Drive east on Font\u00e4nengasse. Then, in 100 meters, Turn right onto Sch\u00fctzenbahn.",
+            "verbal_succinct_transition_instruction": "Drive east. Then, in 100 meters, Turn right onto Sch\u00fctzenbahn."
+          },
+          {
+            "bearing_after": 159,
+            "bearing_before": 98,
+            "begin_shape_index": 14,
+            "begin_street_names": [
+              "Sch\u00fctzenbahn",
+              "L 448"
+            ],
+            "cost": 251.246,
+            "end_shape_index": 88,
+            "instruction": "Turn right onto Sch\u00fctzenbahn/L 448.",
+            "length": 1.351,
+            "street_names": [
+              "L 448"
+            ],
+            "time": 98.364,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Sch\u00fctzenbahn, L 448.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Sch\u00fctzenbahn."
+          },
+          {
+            "bearing_after": 60,
+            "bearing_before": 147,
+            "begin_shape_index": 88,
+            "cost": 69.943,
+            "end_shape_index": 101,
+            "instruction": "Turn left onto Kronprinzenstra\u00dfe/L 451.",
+            "length": 0.151,
+            "street_names": [
+              "Kronprinzenstra\u00dfe",
+              "L 451"
+            ],
+            "time": 15.858,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Kronprinzenstra\u00dfe, L 451. Then Turn right onto Ruhrallee.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Ruhrallee.",
+            "verbal_transition_alert_instruction": "Turn left onto Kronprinzenstra\u00dfe."
+          },
+          {
+            "bearing_after": 121,
+            "bearing_before": 55,
+            "begin_shape_index": 101,
+            "cost": 644.617,
+            "end_shape_index": 287,
+            "instruction": "Turn right onto Ruhrallee.",
+            "length": 5.769,
+            "street_names": [
+              "Ruhrallee"
+            ],
+            "time": 390.126,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 6 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Ruhrallee.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Ruhrallee."
+          },
+          {
+            "bearing_after": 148,
+            "bearing_before": 153,
+            "begin_shape_index": 287,
+            "cost": 305.205,
+            "end_shape_index": 460,
+            "highway": true,
+            "instruction": "Continue on A 44.",
+            "length": 7.802,
+            "street_names": [
+              "A 44"
+            ],
+            "time": 278.101,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 8,
+            "verbal_post_transition_instruction": "Continue for 8 kilometers.",
+            "verbal_pre_transition_instruction": "Continue on A 44.",
+            "verbal_transition_alert_instruction": "Continue on A 44."
+          },
+          {
+            "bearing_after": 241,
+            "bearing_before": 230,
+            "begin_shape_index": 460,
+            "cost": 131.979,
+            "end_shape_index": 520,
+            "highway": true,
+            "instruction": "Keep right to take exit 37 onto A 535 toward Wuppertal/D\u00fcsseldorf/Velbert.",
+            "length": 2.416,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 535"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Dreieck Velbert-Nord"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "37"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Wuppertal"
+                },
+                {
+                  "text": "D\u00fcsseldorf"
+                },
+                {
+                  "text": "Velbert"
+                }
+              ]
+            },
+            "street_names": [
+              "A 535"
+            ],
+            "time": 82.867,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take exit 37 onto A 535 toward Wuppertal, D\u00fcsseldorf.",
+            "verbal_transition_alert_instruction": "Keep right to take exit 37."
+          },
+          {
+            "bearing_after": 143,
+            "bearing_before": 136,
+            "begin_shape_index": 520,
+            "cost": 6.047,
+            "end_shape_index": 531,
+            "instruction": "Take exit 2 toward Velbert.",
+            "length": 0.144,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Velbert"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "2"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Velbert"
+                }
+              ]
+            },
+            "time": 4.949,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 2 toward Velbert. Then Keep left toward Velbert.",
+            "verbal_transition_alert_instruction": "Take exit 2."
+          },
+          {
+            "bearing_after": 235,
+            "bearing_before": 233,
+            "begin_shape_index": 531,
+            "cost": 1.427,
+            "end_shape_index": 534,
+            "instruction": "Keep left toward Velbert.",
+            "length": 0.034,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Velbert"
+                }
+              ]
+            },
+            "time": 1.173,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep left toward Velbert. Then Enter the roundabout and take the 3rd exit onto Metallstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Keep left toward Velbert."
+          },
+          {
+            "bearing_after": 290,
+            "bearing_before": 243,
+            "begin_shape_index": 534,
+            "cost": 36.615,
+            "end_shape_index": 544,
+            "instruction": "Enter the roundabout and take the 3rd exit onto Metallstra\u00dfe.",
+            "length": 0.058,
+            "roundabout_exit_count": 3,
+            "time": 6.464,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 3rd exit onto Metallstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 3rd exit.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 3rd exit onto Metallstra\u00dfe."
+          },
+          {
+            "bearing_after": 155,
+            "bearing_before": 111,
+            "begin_shape_index": 544,
+            "cost": 22.075,
+            "end_shape_index": 553,
+            "instruction": "Exit the roundabout onto Metallstra\u00dfe.",
+            "length": 0.144,
+            "street_names": [
+              "Metallstra\u00dfe"
+            ],
+            "time": 10.58,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto Metallstra\u00dfe. Then, in 100 meters, Turn right onto Langenberger Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout. Then, in 100 meters, Turn right onto Langenberger Stra\u00dfe."
+          },
+          {
+            "bearing_after": 227,
+            "bearing_before": 127,
+            "begin_shape_index": 553,
+            "cost": 90.905,
+            "end_shape_index": 589,
+            "instruction": "Turn right onto Langenberger Stra\u00dfe/L 427.",
+            "length": 0.597,
+            "street_names": [
+              "Langenberger Stra\u00dfe",
+              "L 427"
+            ],
+            "time": 46.387,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 600 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Langenberger Stra\u00dfe, L 427.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Langenberger Stra\u00dfe."
+          },
+          {
+            "bearing_after": 335,
+            "bearing_before": 232,
+            "begin_shape_index": 589,
+            "cost": 102.79,
+            "end_shape_index": 623,
+            "instruction": "Turn right onto Friedrichstra\u00dfe.",
+            "length": 0.316,
+            "street_names": [
+              "Friedrichstra\u00dfe"
+            ],
+            "time": 40.741,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Friedrichstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Friedrichstra\u00dfe."
+          },
+          {
+            "bearing_after": 332,
+            "bearing_before": 333,
+            "begin_shape_index": 623,
+            "cost": 20.202,
+            "end_shape_index": 627,
+            "instruction": "Keep left to stay on Friedrichstra\u00dfe.",
+            "length": 0.05,
+            "street_names": [
+              "Friedrichstra\u00dfe"
+            ],
+            "time": 7.945,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 50 meters.",
+            "verbal_pre_transition_instruction": "Keep left to stay on Friedrichstra\u00dfe. Then Turn left onto Noldestra\u00dfe.",
+            "verbal_transition_alert_instruction": "Keep left to stay on Friedrichstra\u00dfe."
+          },
+          {
+            "bearing_after": 232,
+            "bearing_before": 300,
+            "begin_shape_index": 627,
+            "cost": 59.213,
+            "end_shape_index": 635,
+            "instruction": "Turn left onto Noldestra\u00dfe.",
+            "length": 0.198,
+            "street_names": [
+              "Noldestra\u00dfe"
+            ],
+            "time": 16.664,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Noldestra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Noldestra\u00dfe."
+          },
+          {
+            "bearing_after": 139,
+            "bearing_before": 234,
+            "begin_shape_index": 635,
+            "cost": 127.268,
+            "end_shape_index": 664,
+            "instruction": "Turn left onto Friedrich-Ebert-Stra\u00dfe/L 74.",
+            "length": 0.295,
+            "street_names": [
+              "Friedrich-Ebert-Stra\u00dfe",
+              "L 74"
+            ],
+            "time": 27.667,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Friedrich-Ebert-Stra\u00dfe, L 74.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Friedrich-Ebert-Stra\u00dfe."
+          },
+          {
+            "bearing_after": 190,
+            "bearing_before": 144,
+            "begin_shape_index": 664,
+            "cost": 13.791,
+            "end_shape_index": 672,
+            "instruction": "Turn right onto Mettmanner Stra\u00dfe.",
+            "length": 0.06,
+            "street_names": [
+              "Mettmanner Stra\u00dfe"
+            ],
+            "time": 4.538,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 60 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Mettmanner Stra\u00dfe. Then Turn right.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Mettmanner Stra\u00dfe."
+          },
+          {
+            "bearing_after": 288,
+            "bearing_before": 192,
+            "begin_shape_index": 672,
+            "cost": 630.368,
+            "end_shape_index": 675,
+            "instruction": "Turn right.",
+            "length": 0.014,
+            "rough": true,
+            "time": 12.857,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 10 meters.",
+            "verbal_pre_transition_instruction": "Turn right. Then Your destination will be on the right.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Your destination will be on the right.",
+            "verbal_transition_alert_instruction": "Turn right."
+          },
+          {
+            "bearing_before": 297,
+            "begin_shape_index": 675,
+            "cost": 0.0,
+            "end_shape_index": 675,
+            "instruction": "Your destination is on the right.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 5,
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right."
+          }
+        ],
+        "shape": "{{vcaBad`kLjAcG|@{G^{DZ{DTwDRcEHaC@u@LuIAoGk@}KPcXDiC\\sIzKwFdAc@hKeEjKmE~HoCrBs@pHaC|C}@bEoAjAe@lJkEhIuCbT_K|UqKrI}BfHqAjVdCx@HtDd@vKdChCh@zBd@zK`B|Jl@hJI`CG\\CrCElb@qBv@EbAG|TaBdBOp|@sKz]iE|Bm@hOkEpCeAzIiEvC}AtAy@b@Uv@cAp@aAdAsAlG{GfDeEzC}D~CkE|NiUjB{CjCaEzA{BdAuAnA}AzAoBhD{DtNaOVYzEmExBsBb`@c_@x\\w[l@k@`FiE`]o[xLmLnBkBlJuIzCiCt@k@nBaB|AyAhAmAoBgIoCiK[cAmAsD_A_C_AqB{@eAgAw@yA_AyCqIaEmLeJuXyDkLeA_Kw@eKIuD@cF@qBLqEVaFjAsNrGiXlAmE|DkM`@uAnk@omBZiAlAqE`@aB|CwPvCePhAoGdGgZh@iCj@yCf@mClb@a~BrBcJxBoI|D{LnEeLdFaK`GuJ|F_IxUyWnKqLl@s@bFgFxFuEr@k@vSmTnB}BpKqL`JiObIqSjMc_@tB}FxBqFlEuKbF{IfGwKrDiFlFwFrH}G|H}FjD}BvGaEnTeMpDcCnGmEnDoCbCsBbC}BbMyMbAmAlAaBz@qAn@mAn@mAnB_ExCqFfAsBnB}DvFgOnMua@fBmFdEsMjJaZdBsFhCcIdv@qbCd]yfAxBgHjCmIpOae@tGcSxAqE|FyQhE}MxVyw@xD{L|C_JrIsVhR{h@vUsp@fDkJvA}DfG}PvJ{XrRij@pLc]xTko@tZu{@lEoMjLs]zCaJ|BuGxM_`@rM{^~FoNpGaNzIkOhOaUhFsHpFaH`FqFnFqF~QyOr@k@zO}KfAu@fNoJpMwJlCuBpa@i[|NaEpCu@~Ni@lLZzOrDlGxAfHvAhHhBbF`ApEfApGbBra@bI`YvEj\\|@di@uA`\\cCj[cGzX_KdNyGhNkH|EeD|EcDrAw@dJiGbGkDhDgChb@eXbx@ug@tiAit@`DgCbEsDlJeJdFcGtAkBhCmDfLuRhVog@vg@_iAtIyTpByFbDwJlC}IjDuLnLua@|b@}|A~WeaA|GuT~HeTvJqTbMmUvM}UnNoTnPyUbP{RhOiQ`P}OxQePlNaL~Q_Nhc@{Y`dA}p@|`A{n@px@mh@hg@o`@f]_]nTmVf_@of@nZ}e@|L_TjJ{RbSkd@~Nw]zQ}g@|Vi|@dQot@hd@ioBfKe`@`Nyc@rMk`@jHsQ~EoLjJoRrHsM~Vy]fIwJ|G}GtDmD~SaQdYyP`RyIlLgEhUqInHuBnIuBhHeBf]{EvOq@zQ]~`@dBv~@rUty@b[vr@x\\bi@x[dVnQhLvIvWvWhRjWnc@xq@`Zt]zP|OdQpK|NhHrPxF`OvCpCd@xD\\fIt@vJ^vJI~EWhNeAtQ{DnPgF~IeEhGqDtPwKnPyLza@s\\bRyLtNuHfKwEdK_D`LaClFm@`Ga@bGKzFAzFTbI^jOlDbKdDzJpEnMzHlKvI`MxMhKzLrLzPjLzQ`\\|i@vSj\\pHzJjKhNfQrQlNxLlNlL`PxItItDtIdDxIpClJjClPbDbPnBtVfBlVv@zXh@t}Aj@xh@fCfTjCdStDpNlDtMxEtZhMnXhOnXhRb^l[zF|FxjAvzAva@pj@`a@dg@nYvZbZdW~TlOrTxL|XtL~ZhJfc@fHzWrB|W`@bW}@rU_ChXyD~UeFz{@uT|WgFpY{CbUD`RnBtMvCpSnHnQlLdPnMvPhRzNrTbOzZzJ~Y`DxMhDrNnFrW`EdWrH`o@pQxxBzGf|@|H~{@vH~t@vInu@~AvOvGfe@dF|ZdLdu@pQfaA~Ohx@nIh^tI~[zLra@~N|d@hOxf@jP`f@hU`q@~Ttl@zP~c@pPn`@vb@laA~GlPnb@jaAng@pkAvd@zeAfNf\\~Ij^xa@`dAlPfc@vOzc@hYfz@|Mpa@pLnYjIxN`GtItGxHnHrGrEnDtEhC`GhDlGzBrMdBvFv@`GXhLIjLqAbLiCtKmE`FeCzEiDpIoH`JmKlIoLhNsWfNoZfNsZrG_PzM_ZtL}UjMcSfW_d@tSkY~JsM|f@uo@xQ_YxQs]vz@iuBvIiShI}QxLqUfPgWzL_Qba@_h@~NaRxVi\\lNsSrI{MnMqUff@q~@lg@saAlKoSlN_XrYek@tYgi@bIwNvGsLtKgNtDqElFiFzDsC~EqAfFKdEx@nDzBpC`EhBbEzAbFhF~Oh@lCVrCs@lCO~CVbD|@dCxAxAjBV`Bg@pA_Bt@mCPcDnBwAzFwDtFqDb@g@zGoHtIkLhR{Yp@cAfC{GxCbGn@nAJRzJtRfKnSdAtBlAhCdMrWfIpPTb@jE`I`D~FzAtCr@tAdKxRvA|CdFbL`EzI|BpEhKjSjFfKxKhTfDtGhBpDdHbNhS~_@|F~JhD|GzCdG|@dB~ClGfGvKhJ|Pb@hAlCtGdAvCsFrDoBjByQpPyEhEiSzQ_HjGmF|EcJfI}DnD{AjAkA|@gEpDkAbAiAP{@n@yBjBUV{@xD[r@k@d@_CtBk@h@y@r@wBjBSPUROL]XcCnBy@T{@Pu@h@cClByGhFmG`FkJpH_AzBYzB`@dArVxp@nAjDzEvMz@bC`[n{@FRfAzCtFsI|DuGxE_Ir@mAbE_Hl@aApAwBzAeChAkBXe@t@mAhB}ClIgNjC{EzGgLpBQl@mAh@cA|AkC~@kEzAcDrAqCtD{HdGgMpCoBtJqOp@aAr@cAdC{C|B`@pAXbARpFzAvAb@t@b@fAlAlHbB_@xCUbBi@fB",
+        "summary": {
+          "cost": 2572.669,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 19.537,
+          "max_lat": 51.457997,
+          "max_lon": 7.085532,
+          "min_lat": 51.333239,
+          "min_lon": 7.012944,
+          "time": 1061.582
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.458004,
+        "lon": 7.012904,
+        "original_index": 0,
+        "type": "break"
+      },
+      {
+        "lat": 51.333333,
+        "lon": 7.05,
+        "original_index": 1,
+        "side_of_street": "right",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 2572.669,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 19.537,
+      "max_lat": 51.457997,
+      "max_lon": 7.085532,
+      "min_lat": 51.333239,
+      "min_lon": 7.012944,
+      "time": 1061.582
+    },
+    "units": "kilometers"
+  }
+}

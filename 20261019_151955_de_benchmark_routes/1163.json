@@ -1,0 +1,605 @@
+{
+  "id": "1163",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 71,
+            "begin_shape_index": 0,
+            "cost": 4.317,
+            "end_shape_index": 2,
+            "instruction": "Drive east on Marktstieg.",
+            "length": 0.032,
+            "street_names": [
+              "Marktstieg"
+            ],
+            "time": 3.981,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 1,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 30 meters.",
+            "verbal_pre_transition_instruction": "Drive east on Marktstieg. Then Turn right onto Viersener Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive east. Then Turn right onto Viersener Stra\u00dfe."
+          },
+          {
+            "bearing_after": 110,
+            "bearing_before": 56,
+            "begin_shape_index": 2,
+            "begin_street_names": [
+              "Viersener Stra\u00dfe",
+              "K 13"
+            ],
+            "cost": 75.716,
+            "end_shape_index": 39,
+            "instruction": "Turn right onto Viersener Stra\u00dfe/K 13. Continue on K 13.",
+            "length": 0.555,
+            "street_names": [
+              "K 13"
+            ],
+            "time": 49.028,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue on K 13 for 600 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Viersener Stra\u00dfe, K 13.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Viersener Stra\u00dfe."
+          },
+          {
+            "bearing_after": 321,
+            "bearing_before": 51,
+            "begin_shape_index": 39,
+            "begin_street_names": [
+              "Bismarckstra\u00dfe",
+              "L 116"
+            ],
+            "cost": 305.8,
+            "end_shape_index": 133,
+            "instruction": "Turn left toward A 52/Viersen/K.-Friedr.-Halle.",
+            "length": 3.049,
+            "sign": {},
+            "street_names": [
+              "L 116"
+            ],
+            "time": 212.097,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue on L 116 for 3 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left toward A 52, Viersen.",
+            "verbal_succinct_transition_instruction": "Turn left toward A 52, Viersen.",
+            "verbal_transition_alert_instruction": "Turn left toward A 52."
+          },
+          {
+            "bearing_after": 347,
+            "bearing_before": 336,
+            "begin_shape_index": 133,
+            "cost": 513.215,
+            "end_shape_index": 342,
+            "highway": true,
+            "instruction": "Take the A 52 ramp toward D\u00fcsseldorf.",
+            "length": 14.692,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 52"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "D\u00fcsseldorf"
+                }
+              ]
+            },
+            "street_names": [
+              "A 52"
+            ],
+            "time": 507.708,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 15 kilometers.",
+            "verbal_pre_transition_instruction": "Take the A 52 ramp toward D\u00fcsseldorf.",
+            "verbal_transition_alert_instruction": "Take the A 52 ramp."
+          },
+          {
+            "bearing_after": 120,
+            "bearing_before": 113,
+            "begin_shape_index": 342,
+            "cost": 8.057,
+            "end_shape_index": 346,
+            "instruction": "Keep right to take exit 13.",
+            "length": 0.235,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz Kaarst"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "13"
+                }
+              ]
+            },
+            "time": 8.068,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right to take exit 13. Then Keep right to take A 57.",
+            "verbal_transition_alert_instruction": "Keep right to take exit 13."
+          },
+          {
+            "bearing_after": 119,
+            "bearing_before": 115,
+            "begin_shape_index": 346,
+            "cost": 1180.39,
+            "end_shape_index": 742,
+            "highway": true,
+            "instruction": "Keep right to take A 57 toward K\u00f6ln.",
+            "length": 33.828,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 57"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "K\u00f6ln"
+                }
+              ]
+            },
+            "street_names": [
+              "A 57",
+              "E 31"
+            ],
+            "time": 1159.907,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 34 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 57 toward K\u00f6ln.",
+            "verbal_transition_alert_instruction": "Keep right to take A 57."
+          },
+          {
+            "bearing_after": 153,
+            "bearing_before": 141,
+            "begin_shape_index": 742,
+            "cost": 7.401,
+            "end_shape_index": 747,
+            "instruction": "Keep right to take exit 28 to stay on E 31 toward Koblenz.",
+            "length": 0.152,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 1"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz K\u00f6ln-Nord"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "28"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Koblenz"
+                },
+                {
+                  "text": "Longerich"
+                },
+                {
+                  "text": "Dortmund"
+                },
+                {
+                  "text": "Frankfurt am Main"
+                }
+              ]
+            },
+            "street_names": [
+              "E 31"
+            ],
+            "time": 6.9,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right to take exit 28 to stay on E 31 toward Koblenz. Then Keep right to take A 1.",
+            "verbal_transition_alert_instruction": "Keep right to stay on E 31."
+          },
+          {
+            "bearing_after": 149,
+            "bearing_before": 142,
+            "begin_shape_index": 747,
+            "cost": 366.141,
+            "end_shape_index": 850,
+            "highway": true,
+            "instruction": "Keep right to take A 1 toward Koblenz.",
+            "length": 9.209,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Koblenz"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 31"
+            ],
+            "time": 338.486,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 9 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 1 toward Koblenz.",
+            "verbal_transition_alert_instruction": "Keep right to take A 1."
+          },
+          {
+            "bearing_after": 206,
+            "bearing_before": 202,
+            "begin_shape_index": 850,
+            "cost": 3.722,
+            "end_shape_index": 852,
+            "instruction": "Take exit 104.",
+            "length": 0.094,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz K\u00f6ln-West"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "104"
+                }
+              ]
+            },
+            "time": 3.392,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 104. Then Keep left to take A 4.",
+            "verbal_transition_alert_instruction": "Take exit 104."
+          },
+          {
+            "bearing_after": 201,
+            "bearing_before": 205,
+            "begin_shape_index": 852,
+            "cost": 417.068,
+            "end_shape_index": 989,
+            "highway": true,
+            "instruction": "Keep left to take A 4 toward Olpe/K\u00f6ln/Bonn.",
+            "length": 10.232,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 4"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Olpe"
+                },
+                {
+                  "text": "K\u00f6ln/Bonn"
+                }
+              ]
+            },
+            "street_names": [
+              "A 4",
+              "E 40"
+            ],
+            "time": 384.492,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 10 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 4 toward Olpe, K\u00f6ln/Bonn.",
+            "verbal_transition_alert_instruction": "Keep left to take A 4."
+          },
+          {
+            "bearing_after": 86,
+            "bearing_before": 82,
+            "begin_shape_index": 989,
+            "cost": 5.429,
+            "end_shape_index": 993,
+            "instruction": "Take exit 12 onto A 555.",
+            "length": 0.181,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 555"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz K\u00f6ln-S\u00fcd"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "12"
+                }
+              ]
+            },
+            "time": 5.438,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 12 onto A 555. Then Keep right to take A 555.",
+            "verbal_transition_alert_instruction": "Take exit 12."
+          },
+          {
+            "bearing_after": 85,
+            "bearing_before": 79,
+            "begin_shape_index": 993,
+            "cost": 684.801,
+            "end_shape_index": 1139,
+            "highway": true,
+            "instruction": "Keep right to take A 555 toward Bonn/Rodenkirchen.",
+            "length": 18.392,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 555"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Bonn"
+                },
+                {
+                  "text": "Rodenkirchen"
+                }
+              ]
+            },
+            "street_names": [
+              "A 555"
+            ],
+            "time": 667.965,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 18 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 555 toward Bonn, Rodenkirchen.",
+            "verbal_transition_alert_instruction": "Keep right to take A 555."
+          },
+          {
+            "bearing_after": 105,
+            "bearing_before": 109,
+            "begin_shape_index": 1139,
+            "cost": 54.929,
+            "end_shape_index": 1175,
+            "highway": true,
+            "instruction": "Keep left to stay on A 555 toward Bonn-Zentrum.",
+            "length": 0.98,
+            "sign": {},
+            "street_names": [
+              "A 555"
+            ],
+            "time": 50.909,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Keep left to stay on A 555 toward Bonn-Zentrum.",
+            "verbal_transition_alert_instruction": "Keep left to stay on A 555."
+          },
+          {
+            "bearing_after": 206,
+            "bearing_before": 170,
+            "begin_shape_index": 1175,
+            "cost": 14.055,
+            "end_shape_index": 1186,
+            "instruction": "Enter Potsdamer Platz and take the 3rd exit toward Zentrum.",
+            "length": 0.116,
+            "roundabout_exit_count": 3,
+            "street_names": [
+              "Potsdamer Platz"
+            ],
+            "time": 8.836,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter Potsdamer Platz and take the 3rd exit toward Zentrum.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 3rd exit toward Zentrum.",
+            "verbal_transition_alert_instruction": "Enter Potsdamer Platz and take the 3rd exit toward Zentrum."
+          },
+          {
+            "bearing_after": 122,
+            "bearing_before": 86,
+            "begin_shape_index": 1186,
+            "begin_street_names": [
+              "Heinrich-B\u00f6ll-Ring",
+              "K 1"
+            ],
+            "cost": 157.804,
+            "end_shape_index": 1260,
+            "instruction": "Exit the roundabout toward Zentrum.",
+            "length": 1.434,
+            "sign": {},
+            "street_names": [
+              "K 1"
+            ],
+            "time": 108.017,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue on K 1 for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward Zentrum.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward Zentrum."
+          },
+          {
+            "bearing_after": 159,
+            "bearing_before": 97,
+            "begin_shape_index": 1260,
+            "cost": 6.605,
+            "end_shape_index": 1273,
+            "instruction": "Enter the roundabout and take the 2nd exit toward B 9/Koblenz/Beuel.",
+            "length": 0.044,
+            "roundabout_exit_count": 2,
+            "time": 5.387,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit toward B 9, Koblenz.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit toward B 9, Koblenz.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit toward B 9."
+          },
+          {
+            "bearing_after": 33,
+            "bearing_before": 4,
+            "begin_shape_index": 1273,
+            "cost": 117.941,
+            "end_shape_index": 1328,
+            "instruction": "Exit the roundabout toward B 9/Koblenz/Beuel.",
+            "length": 1.007,
+            "sign": {},
+            "street_names": [
+              "Am Alten Friedhof"
+            ],
+            "time": 72.923,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward B 9, Koblenz.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward B 9, Koblenz."
+          },
+          {
+            "bearing_after": 143,
+            "bearing_before": 91,
+            "begin_shape_index": 1328,
+            "cost": 26.208,
+            "end_shape_index": 1347,
+            "instruction": "Turn right onto Belderberg/B 9.",
+            "length": 0.212,
+            "street_names": [
+              "Belderberg",
+              "B 9"
+            ],
+            "time": 15.635,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Belderberg, B 9.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Belderberg."
+          },
+          {
+            "bearing_after": 243,
+            "bearing_before": 159,
+            "begin_shape_index": 1347,
+            "cost": 1318.615,
+            "end_shape_index": 1375,
+            "instruction": "Turn right onto Rathausgasse.",
+            "length": 0.448,
+            "street_names": [
+              "Rathausgasse"
+            ],
+            "time": 55.576,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Rathausgasse.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Rathausgasse."
+          },
+          {
+            "bearing_before": 240,
+            "begin_shape_index": 1375,
+            "cost": 0.0,
+            "end_shape_index": 1375,
+            "instruction": "Your destination is on the right.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 5,
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right."
+          }
+        ],
+        "shape": "qlus`BiwtgK}CqVm@mBdB}Jx@sL`@cQTqNN}YHiFFeGJaII{XDeME}HA}@QeFi@uFaBuG?_AWsMEkRUyKS{Dw@aEyAaEgE_LqAkDkBcFcC{GsKsYyC}HkJuV}AuAqCiBcEaE_JmPcIyUiGyOqAeD{DwJuBvCyAlBeb@vj@qXd_@k@v@qD~EuD`Fq@|@wS|XuLvOiKbN{ApBsBhCoCx@aB|@wCjBkGhGmR|Sy@p@uEtCuEdAiBRoA@iAEoEa@mI_AuI{@eG_@{LH_SdEeRfGiDj@wCZgBJaDC{Ei@{Dq@_AUaJeCaDo@mD]mD@sJ|@o^~K_hAn[iA\\oGhB{FbBuOnEy_Bvd@kElA}p@xU{OhFuOrEwLnCyp@`TmA`@qC|@mBl@gIbCop@vRg^jJe[vG_o@bKul@xDaGTeTb@cSVoPq@yLs@aLwAgX{Ei`@iNiK_FsUkNk`@aXcaA}t@wKwGoGsCmD{AeBu@qL_DoEwAsDs@gFiAiWy@o[mAwl@w@go@bHgj@vJmt@fWk]dReLhGyL~HyMnDgG~@aDVoEy@iDeDyBgFwEeIeJoXeDqG}C}D}CqCaDkAcDUkGVwKvBoItAqDN{Gq@gEwB{AmAyCsDuCwEsJyOiF}Q_Mwb@iIaXoIkWwKq[_JgWkFeNeKoWqRoe@qNo]uT}f@qb@o~@s|@_nBcZoq@{b@seAq^}_AwX}u@oIsUeRci@_h@g~Awh@gfBkXoaAif@ckBeSwy@gm@q|Bqv@upCit@udCgGqRgjAeoDasAkaEiHiUkZqaAwFoQcH}UyF_SuFsSqFySkFaT{F{VoFwVcEaSkEaUyFwZ_Gi\\yEcYgFg\\uD}WkEa\\uEo_@}C_YoCkXgCaXwC{]oBcWyCkb@kC{c@}Bqe@uAq[uAq`@gAyb@e@cVe@s\\Ya\\Qoj@B{`@Jg[VgW\\kW|Amx@~@}`@vBys@jB_c@fBs]fDsg@hDic@dDk_@tDy_@zFsh@nEk_@lFga@dF_`@zFia@nFe^pGwa@h]msB`H{_@pn@umDtGe_@jf@opCl`@_~BvL}u@t[esBfV_bBrPsoAtMsfAfLwdAjPqfBpIg|@`Ms_BpCu_@jIsuA~Duw@xAw[fAgUfDov@xC_~@bCy{@zCgyApConBxAqdBv@e_Bx@aqBHq_@t@coCnAwvCX}i@r@w{@|AuhA|B{jAvAii@fBkp@dEelA|C{t@bDsm@~Bcd@dMmsB|Oo{BbS_~BrSuiC`Hi_A|Hu}@`S_oCdJoxAnHquArEg`AhDw{@jCcq@`Ag\\bCmkArBusAx@}uATcyAi@gdAaA}~@aDueBwDcqAiKwfC}GalA}HkcAeMyvAiNoqAePksAgQsnAyc@koCiXu_Boe@qoCsc@ytC}]mnCcTosBqHo{@_Hi}@cG_~@kFi_AaG}nAwFmzAwDw{AyAmjAgAu}AKmyAh@eoAr@os@dBmiAlAem@~DmsAjFsrAdF{_AvAoWjB}Z~Ko~ArN}~AtLcjA|MmkAxTy_BbNq}@dPibArWmzA`Nii@|Hu^jNop@xQq_ArEaRrCoKbFqQxHiUzHiRvG}N`G_LnIsNnJsNdKsM`QwRtmAynAvUuVrJaIjKeG`JeD~KiBpHc@b^sAjUuAfd@wElNsG`cAuD`v@mF|Hm@ro@{Hfn@kJfs@qNfd@{Kpb@mL`_@gLfMcEf}@_]hKuErKuExb@cS|\\{Ptt@{a@`s@oc@hx@qh@fg@u[xx@gg@`hAkp@ppA}q@~sAqr@zaB_z@h|A{p@d{@i^zkDgxAnKkE`eAmc@~lB{z@dsAqo@~rAyq@fR_K`PsIvXeOxw@ib@pReKdLaGrtB}gAtb@_V~q@sb@jmAqz@loAedAnd@yb@r|AswAlf@ac@~~AwwA~aAq}@bUmSb_@s]zOaOpdBq_BlKwJ~WyVrRoSpPySfPoV~MkV~McZlM_]hLq^rJq^|Hm^hGm^zAoKzBkP`DsZdCmWrDoc@|H{_A|H}fAhDse@pJysAnZsaErG}~@tWerDtCma@vTizCf@qFt\\ouEhMshB~L{lBV}DvAkXfC}n@fBil@z@om@?cq@w@gw@gA_b@mBgb@wAkRgDcb@qAyLsD_\\sAmKcHkc@wC{OqDoR{Qc{@g@oCyAoHuMoo@_E{X{CqWuBoXaA{T_@qRKgR@aOXqNf@qQlAwRvAkQ|AgNjBsNnBoLzAmI|AiH|CcNpDaN|DeMxEgM~GgPxHkOp_@wo@hFeJxa@iu@tUmc@tIsQzIsSxMu[jEsKzOqd@pIcXjMwc@bFeStQmy@nJwf@lJsk@hT{|A`Hgn@~m@wyGzLokAdPiqAbFu[dC{NdByKtBoNrQeaAbPiy@fRyv@pRks@~Mie@lMoa@~M}_@dXit@|Zwt@z[_r@pUac@dWoc@r_@mm@ph@}s@vk@gr@va@gf@zr@uu@zlEwlE`GeG`SmSfwAqwAvR}RfaAicAxHkI|u@ox@vTsUdFkF~hAsqAfT_WptAa`BzKqNz]{c@pLaOvNkRjoAkeBzl@g|@b^si@bFcIx\\qi@t[{g@ti@u|@xm@ukAtl@qhA|r@muAz`AgsBb~@uuBbv@kiBbbAyfCl_AudCr~@abCp`@kcAlc@ciA|a@}bAfLwXrR_e@|x@_jBlk@glAnw@_zAdi@w~@|a@{q@dRcZjn@_}@ho@g{@zR_V|r@uy@~h@}k@~c@}c@~}@qz@pg@ob@~h@oa@zDyCxPqL`q@gd@bq@eb@dx@wc@xg@kWbUiKbe@{Rnm@iVd`Ai[jKsCfj@ePb_@mJpOeDp_@sIx\\sGp[mEhs@cJ~Z}Dhk@wEzk@sDfP{@bw@mBra@m@rh@CzdABbe@DdWVdmAf@tjALh{@o@ry@eBrn@qCrx@yF|v@oIxmAiRfEy@|Cm@|XoF|b@mJhmAy[fdAw]`i@}Sxh@}T~NqGb]aPji@_YnP{IjW_Ox^}Ub]sTv`@_Xpj@ab@lq@mj@fv@sq@xd@ud@bc@mc@fy@w{@jOkR~d@{g@|d@ok@pAoAzKqMx]yb@z[ca@zNmRve@}l@jIgKx@qA~f@cn@ff@qn@pTmX`gAivAbvBskCdiB{yB|q@cw@pu@yz@tiAqkA~_@a`@jb@m`@ru@mp@h`Agv@l~@_q@zaAco@xg@oZxi@eZb_Bgv@xn@yWrn@wUvVsItS_H|p@uRlvAk]~~AqZ`G_A||@sMtv@wJlXuCzz@qItzCwT`zCmQ`r@kDvyAuIpwAkJjwAwKnV{BtRgBf[iDhg@yF|d@_G|g@uHxg@_Izq@_Mbu@sPxh@oM~SeGbSyFff@yNdj@eRzi@iSnu@w[hx@e_@fj@yXxQaKvRaLrf@aZzk@e_@vq@oe@vc@e\\|b@o]|i@ce@ri@_f@jsAuuAvlA}qA~kAaxAt`AmrAtkDe}FvlBkkD|Use@bPw\\tkE{jIfQy\\l|CasFpiDg|FbdDghFdfAeaBh}@asAzK{OdpBwoCtbA}wAjM{Qn{@omAxsAajBzg@wt@``A{sAvIiGjMkOpFqHjPkSzRqWxO{NbHeHlGmFrIeGfKeFtNuC~Ms@zL`@tLx@nLdCxK~C~IhDvLhFhNlJvLrMtIxOfG~OzDlKnF|PzRvl@r|@jiEjYbtAjBbJ|B|KxBnKdq@n~CxfBbqIrxAfbHlArFfBhIdb@fmBhUx~@~Spy@~Wh~@`^|eAhb@hiA|f@fhAtExJvDfI`FhKb\\nm@va@js@ro@``AjXp^j^nb@pa@nd@f_@l_@`WnVhYjUld@|]dn@za@t`@lRds@h]bl@jUvG~BfQbGtFjBlVdHxa@xKhr@fMlK~AzInAjGz@|k@xF|i@|C~WbAzj@p@fj@Lfq@[ri@uAdm@iBtsAiG~v@iD`dB{HzyAsFnzAyCbyAw@bwAp@j|A`Ch}CbL|xA~Ip`BdK~w@zEtw@xD`zBxIjaBvCp_B`Bzm@@pC?nu@B|}Dp@d`CzFp|BfEjrDzIvjAl@ln@~AfYpC|XhEbd@rLj]tLtP|Hvd@hVfe@bWb^dWfOfKv\\fQ|JrH|JpHpNlJrKnGvErCfbA|j@h]xRtHlEhDvBfD`CfD~CtA`BxApBr@pAp@vAz@nBx@bCn@nCd@|C\\~CRvDBfDAzAEzAUdDa@hDm@zCy@zCaAdCmAbCwApB{A~A_BrAaBlAcBbAcB~@gBx@iBp@kBZqBJkBKoB[q@Uw@c@u@g@m@i@q@w@g@o@mAaC}@kCu@aDg@_D[mDMkDAoDFmDPkDl@yFv@wFvIcx@dPy}@pLcq@bMwp@nOwv@bSmfAjIy_@tLcj@jLai@bNci@z`@_aBba@c_Bdn@qwBb]mkAlV}u@lJqYpsB}fGntBqeGl}AcpEvwCcsIzN}a@`Qsf@xlBcrFzIcWnSkl@xqC}_IxIuVpOgc@reCemHr}@mkCt}BqwGxhAc}C|I}VbrBe|Frf@wuAjJcYbn@ejBbpA_pDniAqbDdeAkyCrUmp@zd@erAxaB{{EtJaYlPue@jQwg@rY_z@fPce@bf@iuAh|@}vCta@i{Afo@ikCno@{|Cr]erBtDiU`Fs[fCqQfb@ywChYudCdMuwAfKgyA`H{sAfDc~@nBqs@bAko@v@yr@j@o|@\\gUPuTBgWUad@_@_h@u@yn@iBs|@uAag@wAo`@mAqYw@mj@cDok@mEwr@kA}Qy@w_@c@eYc@aYoAux@GmQFqMVgMn@oLp@gK~@_JbAmHnAoHtB_JhCwJ~CiJlDkIrCeG`DoFhDsF`E_F~F_GpEyDbF_DtIwDtGwBnFwA|FqA`N_CdPgCvToCpFq@db@wHj_@mB~yAwHhgMko@j~AgExpAb@~`F|RncBpHdkD|NjsBxIn}Kpe@rYz@rpA|F~lBpJdERlFX|t@`C`sBjGp[tBdDRpMz@tnBxJv|@hIpjAdNv|Bn^h_@jG`_MrpBjd@dGxe@lHnq@bH`|@dEtj@Dj`@q@pj@eFbd@yHxj@{Ojg@oShV}K~_@eTp_@uXdo@ul@~n@}t@nn@o~@zm@qfAny@sbB`}G}{N~o@suAnPe^ziCwvFxMyWdnCo~FnhCitFxw@qbBd{@_~ArZsd@`_@yh@vc@ck@jL_O~T}WjUcVjYiXxQyOr`@w[|w@{l@bfM_dJ|vQ{rMbf@i[|PsKh~BgdB``CkdBdNgJ~cE}vC~SqNvfEe~C~iBkwAxz@ku@|}@k}@x~@w~@|mAguApz@mcAtQkU~LiOj{@amAbp@w~@rn@aaA`_@_m@jLeS~Zyj@drA{cCn`@kt@bf@wbAxn@wvAt_Aa}B`aAwlCtQgi@j~Bw}GlE_Nx[_cAfNmd@vMoe@fKcb@jFqUbRq~@nIee@~Hue@jN_`ApMy`Arm@soEzC_UpE}b@~F{b@xF}b@`G_c@~DeZpKmx@bCsVlD_XxImo@zIio@fJgo@nEsXnByLxBoLpH_^vGmY|H_ZdG_TvGeTfJcXpJmVdN}\\pOa[xGsLjGmIzGmJpMuS|N}V~EiInGsIpKkM`K}K~M}MlL_LdGsE|EwCvDwClEwCvB_ApCy@dBWbBFjCfClCfBpDt@rDNdFsAbBgApCyCbCqE`CgJv@oKKgHzAaI~A{CjD_DjE{@xUoGnQgAzEKxBLtBLzFb@xFb@lMhBdRnElR|CfNAjWzB|SK~Fo@~Dc@bEeA~YeIbPgFrF}BdFsChIkGbC{BrEaFrEmGrBoDpBoDhCiFxBmFfBeFbBkFpBuHjBmI`M_p@nAyGdAcG\\kBf@eCd@eCnBiKVoAzBaLbBsIzHk`@pDgSrKqu@r`@_xCx@sGrB_Pn@eGFkAHsAP_GT}Cz@uG`G_d@vFa`@dBwJpB_JjDgMbAwDbBaHvA{G`CcLvAiG~@{Ez@iF~@eF~@mHViDRiGb@Uv@y@h@oAXaBDoAAoAOoAYgAe@{@}@y@eAYgAHaAl@cEiDaCkD}GeMyAyGuNym@u@{CqBiIqFsT_AaEqOcp@e@qBaDcMkAqFqEkQeF}RuZurAiBkIyE_TyAsGo@eCQw@m@oCSw@U}@mDyLsDcMiF{RuAeHiA_H]sBm@kIo@{HeAcMw@wOg@sNC}QN_NP}IPoSf@sTLqVCkc@MgEGwA[cHWcIMsEMwPByWDgNBwINwb@BsL?cCB_GfHaJlCwCvLsLfC_GbCkBnEqDhCwBrAeATQrDmCb@[lD_CnAy@pD}BtCgB`Q_Kx@a@v@_@fEwB`BnHjGbYt@vC|E`P`DhIfDpGrKlTzCdIpE|L^lAt@nCxAbGlElMdB|Er@xBtClF|C`ErShXdBfCjUv\\jGtInDlFlD|GlCnIfAdEfChM~AvFJV",
+        "summary": {
+          "cost": 5268.223,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 94.897,
+          "max_lat": 51.242768,
+          "max_lon": 7.105041,
+          "min_lat": 50.733159,
+          "min_lon": 6.433669,
+          "time": 3664.754
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.195107,
+        "lon": 6.433664,
+        "original_index": 0,
+        "type": "break"
+      },
+      {
+        "lat": 50.733333,
+        "lon": 7.099999,
+        "original_index": 1,
+        "side_of_street": "right",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 5268.223,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 94.897,
+      "max_lat": 51.242768,
+      "max_lon": 7.105041,
+      "min_lat": 50.733159,
+      "min_lon": 6.433669,
+      "time": 3664.754
+    },
+    "units": "kilometers",
+    "warnings": [
+      {
+        "code": 401,
+        "text": "Routing failed on first pass, retrying with relaxed restrictions"
+      }
+    ]
+  }
+}

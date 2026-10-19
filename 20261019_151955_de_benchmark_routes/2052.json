@@ -1,0 +1,745 @@
+{
+  "id": "2052",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 344,
+            "begin_shape_index": 0,
+            "cost": 10.805,
+            "end_shape_index": 7,
+            "instruction": "Drive north on Ostwall.",
+            "length": 0.054,
+            "street_names": [
+              "Ostwall"
+            ],
+            "time": 9.83,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 2,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 60 meters.",
+            "verbal_pre_transition_instruction": "Drive north on Ostwall. Then Turn right onto Rheinstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive north. Then Turn right onto Rheinstra\u00dfe."
+          },
+          {
+            "bearing_after": 71,
+            "bearing_before": 344,
+            "begin_shape_index": 7,
+            "cost": 174.709,
+            "end_shape_index": 43,
+            "instruction": "Turn right onto Rheinstra\u00dfe.",
+            "length": 1.142,
+            "street_names": [
+              "Rheinstra\u00dfe"
+            ],
+            "time": 107.843,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn right onto Rheinstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Rheinstra\u00dfe."
+          },
+          {
+            "bearing_after": 143,
+            "bearing_before": 71,
+            "begin_shape_index": 43,
+            "cost": 248.443,
+            "end_shape_index": 118,
+            "instruction": "Turn right onto Spr\u00f6dentalstra\u00dfe.",
+            "length": 1.897,
+            "street_names": [
+              "Spr\u00f6dentalstra\u00dfe"
+            ],
+            "time": 144.056,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Spr\u00f6dentalstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Spr\u00f6dentalstra\u00dfe."
+          },
+          {
+            "bearing_after": 72,
+            "bearing_before": 162,
+            "begin_shape_index": 118,
+            "cost": 102.338,
+            "end_shape_index": 139,
+            "instruction": "Turn left onto Untergath.",
+            "length": 1.597,
+            "street_names": [
+              "Untergath"
+            ],
+            "time": 93.932,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Untergath.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Untergath."
+          },
+          {
+            "bearing_after": 73,
+            "bearing_before": 74,
+            "begin_shape_index": 139,
+            "cost": 44.628,
+            "end_shape_index": 152,
+            "instruction": "Stay straight to take the A 57 ramp.",
+            "length": 0.741,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 57"
+                }
+              ]
+            },
+            "time": 33.36,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 17,
+            "verbal_pre_transition_instruction": "Stay straight to take the A 57 ramp.",
+            "verbal_transition_alert_instruction": "Stay straight to take the A 57 ramp."
+          },
+          {
+            "bearing_after": 110,
+            "bearing_before": 103,
+            "begin_shape_index": 152,
+            "cost": 141.104,
+            "end_shape_index": 201,
+            "highway": true,
+            "instruction": "Keep right to take A 57 toward K\u00f6ln.",
+            "length": 3.479,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 57"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "K\u00f6ln"
+                }
+              ]
+            },
+            "street_names": [
+              "A 57",
+              "E 31"
+            ],
+            "time": 124.501,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 57 toward K\u00f6ln.",
+            "verbal_transition_alert_instruction": "Keep right to take A 57."
+          },
+          {
+            "bearing_after": 189,
+            "bearing_before": 190,
+            "begin_shape_index": 201,
+            "cost": 1399.194,
+            "end_shape_index": 676,
+            "highway": true,
+            "instruction": "Keep left to stay on A 57/E 31.",
+            "length": 40.813,
+            "street_names": [
+              "A 57",
+              "E 31"
+            ],
+            "time": 1399.501,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 41 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to stay on A 57, E 31.",
+            "verbal_transition_alert_instruction": "Keep left to stay on A 57."
+          },
+          {
+            "bearing_after": 153,
+            "bearing_before": 141,
+            "begin_shape_index": 676,
+            "cost": 7.401,
+            "end_shape_index": 681,
+            "instruction": "Keep right to take exit 28 to stay on E 31 toward Koblenz.",
+            "length": 0.152,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 1"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz K\u00f6ln-Nord"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "28"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Koblenz"
+                },
+                {
+                  "text": "Longerich"
+                },
+                {
+                  "text": "Dortmund"
+                },
+                {
+                  "text": "Frankfurt am Main"
+                }
+              ]
+            },
+            "street_names": [
+              "E 31"
+            ],
+            "time": 6.9,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right to take exit 28 to stay on E 31 toward Koblenz. Then Keep right to take A 1.",
+            "verbal_transition_alert_instruction": "Keep right to stay on E 31."
+          },
+          {
+            "bearing_after": 149,
+            "bearing_before": 142,
+            "begin_shape_index": 681,
+            "cost": 1026.494,
+            "end_shape_index": 1010,
+            "highway": true,
+            "instruction": "Keep right to take A 1 toward Koblenz.",
+            "length": 28.935,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Koblenz"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 31"
+            ],
+            "time": 1018.441,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 29 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 1 toward Koblenz.",
+            "verbal_transition_alert_instruction": "Keep right to take A 1."
+          },
+          {
+            "bearing_after": 139,
+            "bearing_before": 140,
+            "begin_shape_index": 1010,
+            "cost": 1201.814,
+            "end_shape_index": 1367,
+            "highway": true,
+            "instruction": "Keep left to take A 61/E 31 toward Koblenz/Weilerswist.",
+            "length": 40.474,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "A 61"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Koblenz"
+                },
+                {
+                  "text": "Weilerswist"
+                }
+              ]
+            },
+            "street_names": [
+              "A 61",
+              "E 31"
+            ],
+            "time": 1298.762,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 40 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 61, E 31 toward Koblenz, Weilerswist.",
+            "verbal_transition_alert_instruction": "Keep left to take A 61."
+          },
+          {
+            "bearing_after": 138,
+            "bearing_before": 138,
+            "begin_shape_index": 1367,
+            "cost": 474.047,
+            "end_shape_index": 1578,
+            "highway": true,
+            "instruction": "Keep left to stay on A 61/E 31 toward Niederzissen.",
+            "length": 18.72,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "text": "Niederzissen"
+                }
+              ]
+            },
+            "street_names": [
+              "A 61",
+              "E 31"
+            ],
+            "time": 518.567,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 19 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to stay on A 61, E 31 toward Niederzissen.",
+            "verbal_transition_alert_instruction": "Keep left to stay on A 61."
+          },
+          {
+            "bearing_after": 99,
+            "bearing_before": 100,
+            "begin_shape_index": 1578,
+            "cost": 427.899,
+            "end_shape_index": 1773,
+            "highway": true,
+            "instruction": "Keep left to stay on A 61/E 31 toward Kruft.",
+            "length": 16.346,
+            "sign": {},
+            "street_names": [
+              "A 61",
+              "E 31"
+            ],
+            "time": 452.854,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 16 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to stay on A 61, E 31 toward Kruft.",
+            "verbal_transition_alert_instruction": "Keep left to stay on A 61."
+          },
+          {
+            "bearing_after": 136,
+            "bearing_before": 128,
+            "begin_shape_index": 1773,
+            "cost": 6.435,
+            "end_shape_index": 1776,
+            "instruction": "Take exit 37 onto A 48 toward Frankfurt am Main/Koblenz.",
+            "length": 0.172,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 48"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz Koblenz"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "37"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Koblenz"
+                },
+                {
+                  "text": "Saarbr\u00fccken"
+                },
+                {
+                  "text": "Trier"
+                }
+              ]
+            },
+            "time": 6.97,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 37 onto A 48 toward Frankfurt am Main, Koblenz. Then Keep left to take A 48.",
+            "verbal_transition_alert_instruction": "Take exit 37."
+          },
+          {
+            "bearing_after": 131,
+            "bearing_before": 133,
+            "begin_shape_index": 1776,
+            "cost": 17.412,
+            "end_shape_index": 1782,
+            "instruction": "Keep left to take A 48 toward Frankfurt am Main/Koblenz.",
+            "length": 0.452,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 48"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Koblenz"
+                }
+              ]
+            },
+            "time": 18.312,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 48 toward Frankfurt am Main, Koblenz.",
+            "verbal_transition_alert_instruction": "Keep left to take A 48."
+          },
+          {
+            "bearing_after": 153,
+            "bearing_before": 134,
+            "begin_shape_index": 1782,
+            "cost": 16.651,
+            "end_shape_index": 1809,
+            "instruction": "Keep right to take A 48 toward Frankfurt am Main/Koblenz.",
+            "length": 0.425,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 48"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Koblenz"
+                }
+              ]
+            },
+            "time": 17.238,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 48 toward Frankfurt am Main, Koblenz.",
+            "verbal_transition_alert_instruction": "Keep right to take A 48."
+          },
+          {
+            "bearing_after": 43,
+            "bearing_before": 43,
+            "begin_shape_index": 1809,
+            "cost": 163.325,
+            "end_shape_index": 1885,
+            "highway": true,
+            "instruction": "Keep left to take A 48 toward Frankfurt am Main/Koblenz.",
+            "length": 5.354,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 48"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Koblenz"
+                }
+              ]
+            },
+            "street_names": [
+              "A 48",
+              "E 44"
+            ],
+            "time": 154.904,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 48 toward Frankfurt am Main, Koblenz.",
+            "verbal_transition_alert_instruction": "Keep left to take A 48."
+          },
+          {
+            "bearing_after": 37,
+            "bearing_before": 19,
+            "begin_shape_index": 1885,
+            "cost": 2.942,
+            "end_shape_index": 1888,
+            "instruction": "Take exit 10 onto B 9 toward Koblenz Nord/Koblenz Zentrum/Bonn/Andernach.",
+            "length": 0.109,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "B 9"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Koblenz-Nord"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "10"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Koblenz Nord"
+                },
+                {
+                  "text": "Koblenz Zentrum"
+                },
+                {
+                  "text": "Bonn"
+                },
+                {
+                  "text": "Andernach"
+                }
+              ]
+            },
+            "time": 3.041,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 10 onto B 9 toward Koblenz Nord, Koblenz Zentrum. Then Keep right to take B 9.",
+            "verbal_transition_alert_instruction": "Take exit 10."
+          },
+          {
+            "bearing_after": 35,
+            "bearing_before": 27,
+            "begin_shape_index": 1888,
+            "cost": 297.206,
+            "end_shape_index": 2028,
+            "instruction": "Keep right to take B 9 toward Koblenz-Nord/Koblenz-Zentrum.",
+            "length": 5.834,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "B 9"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Koblenz-Nord"
+                },
+                {
+                  "text": "Koblenz-Zentrum"
+                }
+              ]
+            },
+            "street_names": [
+              "B 9"
+            ],
+            "time": 254.743,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 6 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take B 9 toward Koblenz-Nord, Koblenz-Zentrum.",
+            "verbal_transition_alert_instruction": "Keep right to take B 9."
+          },
+          {
+            "bearing_after": 160,
+            "bearing_before": 162,
+            "begin_shape_index": 2028,
+            "cost": 71.35,
+            "end_shape_index": 2082,
+            "instruction": "Keep left toward Montabaur.",
+            "length": 0.685,
+            "sign": {},
+            "street_names": [
+              "Moselring"
+            ],
+            "time": 49.634,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 700 meters.",
+            "verbal_pre_transition_instruction": "Keep left toward Montabaur.",
+            "verbal_transition_alert_instruction": "Keep left toward Montabaur."
+          },
+          {
+            "bearing_after": 127,
+            "bearing_before": 108,
+            "begin_shape_index": 2082,
+            "cost": 14.266,
+            "end_shape_index": 2104,
+            "instruction": "Keep right toward Rizzastra\u00dfe.",
+            "length": 0.117,
+            "sign": {},
+            "time": 8.586,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Keep right toward Rizzastra\u00dfe. Then Turn left onto Rizzastra\u00dfe.",
+            "verbal_transition_alert_instruction": "Keep right toward Rizzastra\u00dfe."
+          },
+          {
+            "bearing_after": 74,
+            "bearing_before": 173,
+            "begin_shape_index": 2104,
+            "cost": 34.385,
+            "end_shape_index": 2114,
+            "instruction": "Turn left onto Rizzastra\u00dfe.",
+            "length": 0.074,
+            "street_names": [
+              "Rizzastra\u00dfe"
+            ],
+            "time": 11.593,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 70 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Rizzastra\u00dfe. Then Turn right onto Mainzer Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Mainzer Stra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn left onto Rizzastra\u00dfe."
+          },
+          {
+            "bearing_after": 194,
+            "bearing_before": 107,
+            "begin_shape_index": 2114,
+            "cost": 37.782,
+            "end_shape_index": 2130,
+            "instruction": "Turn right onto Mainzer Stra\u00dfe/K 3.",
+            "length": 0.233,
+            "street_names": [
+              "Mainzer Stra\u00dfe",
+              "K 3"
+            ],
+            "time": 18.737,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Mainzer Stra\u00dfe, K 3.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Mainzer Stra\u00dfe."
+          },
+          {
+            "bearing_after": 115,
+            "bearing_before": 194,
+            "begin_shape_index": 2130,
+            "cost": 66.629,
+            "end_shape_index": 2137,
+            "instruction": "Turn left onto Moltkestra\u00dfe.",
+            "length": 0.215,
+            "street_names": [
+              "Moltkestra\u00dfe"
+            ],
+            "time": 29.808,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Moltkestra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Moltkestra\u00dfe."
+          },
+          {
+            "bearing_before": 116,
+            "begin_shape_index": 2137,
+            "cost": 0.0,
+            "end_shape_index": 2137,
+            "instruction": "You have arrived at your destination.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 4,
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination."
+          }
+        ],
+        "shape": "gec|`ByhwoKmC`AsDvAwCfAoHpCkBl@YLSFQqAiAmIi@sDgRkqAsEk[}Hui@eLey@s@eFsAgJmMs}@}@qGw@yFM{@}@eH_AaHWkB_@}Co@{EwK_w@wPgmAqFu`@}BiO{WokByAkKoBaNw@uF_Iyj@M{@kBuMeEcZUaBeOweAgCwPwHkh@gH_h@mAqJNS`CoC~bBqkCjDqG|CkE~GiKnS{ZzD}F|RcZbZyc@`NwTfE{DzIqTzC_Fd@m@zBqC`@YbEuCrRiMbXiQfHmHpBoA~QcLlNoIjKoGh@]`Ai@LI~TkNfTqOxQiMzFwEtKmG~DmCnGwEfGuDbDqBr@a@nDsBtScLpKwItJkIrDwBdRkK~CgBxSkLxF_DtDsBfBaApI_FjMeHtEkC|I_FjQyJtKgGjScLtBiAtMoHxWaO|JyFTM~G{DxR{KpF}CjRsKxXyOhLuGfLsGlC{Ad_@wNjAo@pIiEjRuJjGcChEkBkA{IgA}I{RgcBkLo_Ag[owCwJubAuE_d@g@cEw@mJkHg{@oQ_pBkFih@}H}|@_AmQkAmQ{Ni}BcOuvB_Gw_A{r@}uGSwB{AkO}AkNgF}q@wDsi@sEo`AcC{x@u@sx@Qcc@N}o@dAg}@fAmc@tB_g@lEqv@rKawAhBqLnB}PjBcLnDuKzDiHzGmGl~@yf@rHwHzDaIfDgLjGmd@lHaXpF}JdHwHxL{Fpb@gJdrAoIjmA_IpyAkKfnAkJjt@aKnr@kKro@iM|m@wNp|Au^ruAi_@p~@cVr`Bed@flBum@ljEimAraA}WjReFtn@uMjd@_Ixc@mElViBta@eBbSc@hTCvRP`KNpMXfMf@pQfAzSxAxR|BxRzBfOtB|Ct@paB~Wd|@jOvdAnPrk@zJnnA`SlYzDrRhCbOlB`N|AdOfA`P|@xRn@xNThRXhT?dQm@xWcAzWaBrSiBxi@iHdZeGnSmExR}EbNoE`b@cObf@iSna@eSl[wRb\\_Tj`@wX|WqRv}CkcCde@u\\~s@ce@rn@u\\|j@}Urj@cRbj@}Mdo@cLdY_DvHy@`I}@do@gEzp@_CrvA_D|c@u@`t@{AjOYza@q@xg@kA|Xm@dj@iA||@i@bd@gAzXq@br@mBjhBcCp^o@fb@s@bYr@fYdBjOxAzN~ApRpCnS|DfTbF~f@`Nzl@rUtl@`Yxm@p\\zh@lZzhAfo@fdAni@lv@b]tVhJzf@fQzg@rPlg@hNtf@nLz_@tHv_@bHff@pHbh@`Gra@lDjg@~Cxb@jBxc@~@bUFls@C|[[zjAgCjeA}Cjt@uBfoA{DjoAmDxuCaHvs@kBbaAcCbpAuDpK[dpBoF`cAuD`v@mF|Hm@ro@{Hfn@kJfs@qNfd@{Kpb@mL`_@gLfMcEf}@_]hKuErKuExb@cS|\\{Ptt@{a@`s@oc@hx@qh@fg@u[xx@gg@`hAkp@ppA}q@~sAqr@zaB_z@h|A{p@d{@i^zkDgxAnKkE`eAmc@~lB{z@dsAqo@~rAyq@fR_K`PsIvXeOxw@ib@pReKdLaGrtB}gAtb@_V~q@sb@jmAqz@loAedAnd@yb@r|AswAlf@ac@~~AwwA~aAq}@bUmSb_@s]zOaOpdBq_BlKwJ~WyVrRoSpPySfPoV~MkV~McZlM_]hLq^rJq^|Hm^hGm^zAoKzBkP`DsZdCmWrDoc@|H{_A|H}fAhDse@pJysAnZsaErG}~@tWerDtCma@vTizCf@qFt\\ouEhMshB~L{lBV}DvAkXfC}n@fBil@z@om@?cq@w@gw@gA_b@mBgb@wAkRgDcb@qAyLsD_\\sAmKcHkc@wC{OqDoR{Qc{@g@oCyAoHuMoo@_E{X{CqWuBoXaA{T_@qRKgR@aOXqNf@qQlAwRvAkQ|AgNjBsNnBoLzAmI|AiH|CcNpDaN|DeMxEgM~GgPxHkOp_@wo@hFeJxa@iu@tUmc@tIsQzIsSxMu[jEsKzOqd@pIcXjMwc@bFeStQmy@nJwf@lJsk@hT{|A`Hgn@~m@wyGzLokAdPiqAbFu[dC{NdByKtBoNrQeaAbPiy@fRyv@pRks@~Mie@lMoa@~M}_@dXit@|Zwt@z[_r@pUac@dWoc@r_@mm@ph@}s@vk@gr@va@gf@zr@uu@zlEwlE`GeG`SmSfwAqwAvR}RfaAicAxHkI|u@ox@vTsUdFkF~hAsqAfT_WptAa`BzKqNz]{c@pLaOvNkRjoAkeBzl@g|@b^si@bFcIx\\qi@t[{g@ti@u|@xm@ukAtl@qhA|r@muAz`AgsBb~@uuBbv@kiBbbAyfCl_AudCr~@abCp`@kcAlc@ciA|a@}bAfLwXrR_e@|x@_jBlk@glAnw@_zAdi@w~@|a@{q@dRcZjn@_}@ho@g{@zR_V|r@uy@~h@}k@~c@}c@~}@qz@pg@ob@~h@oa@zDyCxPqL`q@gd@bq@eb@dx@wc@xg@kWbUiKbe@{Rnm@iVd`Ai[jKsCfj@ePb_@mJpOeDp_@sIx\\sGp[mEhs@cJ~Z}Dhk@wEzk@sDfP{@bw@mBra@m@rh@CzdABbe@DdWVdmAf@tjALh{@o@ry@eBrn@qCrx@yF|v@oIxmAiRfEy@|Cm@|XoF|b@mJhmAy[fdAw]`i@}Sxh@}T~NqGb]aPji@_YnP{IjW_Ox^}Ub]sTv`@_Xpj@ab@lq@mj@fv@sq@xd@ud@bc@mc@fy@w{@jOkR~d@{g@|d@ok@pAoAzKqMx]yb@z[ca@zNmRve@}l@jIgKx@qA~f@cn@ff@qn@pTmX`gAivAbvBskCdiB{yB|q@cw@pu@yz@tiAqkA~_@a`@jb@m`@ru@mp@h`Agv@l~@_q@zaAco@xg@oZxi@eZb_Bgv@xn@yWrn@wUvVsItS_H|p@uRlvAk]~~AqZ`G_A||@sMtv@wJlXuCzz@qItzCwT`zCmQ`r@kDvyAuIpwAkJjwAwKnV{BtRgBf[iDhg@yF|d@_G|g@uHxg@_Izq@_Mbu@sPxh@oM~SeGbSyFff@yNdj@eRzi@iSnu@w[hx@e_@fj@yXxQaKvRaLrf@aZzk@e_@vq@oe@vc@e\\|b@o]|i@ce@ri@_f@jsAuuAvlA}qA~kAaxAt`AmrAtkDe}FvlBkkD|Use@bPw\\tkE{jIfQy\\l|CasFpiDg|FbdDghFdfAeaBh}@asAzK{OdpBwoCtbA}wAjM{Qn{@omAxsAajBzg@wt@``A{sAvIiGjMkOpFqHjPkSzRqWxO{NbHeHlGmFrIeGfKeFtNuC~Ms@zL`@tLx@nLdCxK~C~IhDvLhFhNlJvLrMtIxOfG~OzDlKnF|PzRvl@r|@jiEjYbtAjBbJ|B|KxBnKdq@n~CxfBbqIrxAfbHlArFfBhIdb@fmBhUx~@~Spy@~Wh~@`^|eAhb@hiA|f@fhAtExJvDfI`FhKb\\nm@va@js@ro@``AjXp^j^nb@pa@nd@f_@l_@`WnVhYjUld@|]dn@za@t`@lRds@h]bl@jUvG~BfQbGtFjBlVdHxa@xKhr@fMlK~AzInAjGz@|k@xF|i@|C~WbAzj@p@fj@Lfq@[ri@uAdm@iBtsAiG~v@iD`dB{HzyAsFnzAyCbyAw@bwAp@j|A`Ch}CbL|xA~Ip`BdK~w@zEtw@xD`zBxIjaBvCp_B`Bzm@@pC?nu@B|}Dp@d`CzFp|BfEjrDzIvjAl@ln@~AfYpC|XhEbd@rLj]tLtP|Hvd@hVfe@bWfa@hQ~TnLftAtv@p_A~j@f]~RnGtDfUtKnw@bd@p[hQ~QtJlRzInRpHxU~H~SfGzOfD|OjCbLtAdS`BjS`AdTb@vQDfJMrc@YzOeBt\\oFhLmClf@yPxYqL`a@mSjn@w`@tm@w`@`F_DfSiMz@g@nOcKfVqMx`Amf@rs@yWxK_DrIeCva@kJzi@{H|]qC|Qy@jU[bXBrTd@dY~ApXhCl^xEja@tIb`@pKxY~Jh]fOx`@tSzVrOl]lUdx@vs@|b@je@|\\fc@fh@xw@lTz_@hb@l|@rXvq@z[~}@jZv~@dnB`qHzXxbAzDpMbx@zgCxrAzaDhIhRx_CzdFzq@|yApl@zvAvZt~@vSjq@fQ|l@f]|oA~Ovm@lJj\\ta@dwA|f@~bBlh@vzA|Qfg@dStf@dUhf@rUpe@zPpZvQfZdUz]|Uv\\xT~XlU~WrWxXbRnQjRxPvRxOdStOhQvLhQ~KdRvKrQlJxS~JfThJhVbJfQdGtX~HdUlGhSdErTvDrRbCfc@bEjRdArs@lAvQUtRa@~Qm@~QsAxR}AnSwBh`@cFxb@qIt\\}Gl\\kH`l@yNhr@sRlr@}RbsB_m@vx@sTh\\eI`\\uHn[gG~`@aHjjAgL`iAuGvo@}B~y@_@z[PnTOdcA|@zp@tBzfA`Fvx@hFlf@~F`k@pEjq@bItYzDd_AjNvqAhUl\\tG~iCnn@rFrA~JlCvhAn\\nt@tVf}Adl@te@~Qjr@t[`kAxj@pc@~U~q@zb@~V|Pvb@v[rd@n_@`b@v^na@~`@xp@fr@l_B~iBnjDj`EvBdC~b@pg@hdAxbAjf@hc@jh@rb@~e@v\\df@pZpr@n_@`t@hZxe@`Qpg@xNpi@pLhk@bK|r@hIhm@jDjn@zBxl@e@vv@}ApQmAluAsQbtAkZ~a@aN~_@eOtl@eWri@iWfPaK`l@}^|PcLbI{FtWcRxqAwcAf[_WpnAqbAtl@wd@zn@qe@n|@wo@baBshA`z@ij@j~AebApuEcvCbeAko@ndPi{J~q@{b@p_Fy{CxfCo|A`n@u_@jzCqlBfb@qY~a@e[n}@uu@lc@ca@fc@ic@py@y}@vd@mj@tk@wu@x\\ef@pf@cu@zRs[bRu[dk@adAzb@e{@`p@kxApWgl@rP{b@xO}c@hXyx@tb@srAp_@{rAnUi|@pX{iAbK{c@v\\saBxD{RhLin@fHyb@lWsbB|g@}gDhK}o@jLyo@`TwfArVaeAj]olAbZc|@rPuc@vTwh@|^}u@fb@ss@`]ck@lo@i|@fs@sw@l}Au|A~gBgcBtfD_|Ctm@kk@h}@gz@du@_t@pw@aw@tP_Qx[w[de@af@fW_XjWoXzgDkqDbpCcbDzeBysBn`BgmBpaA{iAldEe}Ed`AqhAtrAu|AzrAi}AttCsgDvqJu_L|qE}lFdIsI`_B{jBz_@{a@vk@{n@fvA}mAdAq@dPyL`ZyRl_@yUr]iRdl@}XxZ}LpS}Hjo@kS~r@sP`_AwQ|\\cGljR_gDfcA{R~p@iNdf@}K~_@gJbpA{\\~NgEfz@cWx~Aoi@dkBos@fe@cSlxAap@fvAus@tIkEfuAav@veByfA~w@}g@rr@}f@ryAqgA|fBkxA`dA}}@fd@ma@~k@}h@fPoNzPaOtUsRlhAk{@bf@{Zzg@mZjP}IrOgIri@oVl\\wN`^mMno@iTdb@}Kpe@}Ktu@sNlPiCdm@kI~eAwPxMwBlt@qKnaAaOv^qF|_@cGhnAqStg@}JtvA{]do@oR|n@{Vto@{Xrl@}Wfo@c]`[kRj{@{j@hu@_k@d_A_x@xj@_i@lk@}m@fj@cm@bj@os@po@c|@v_@oj@t]ok@hh@e}@pd@c|@t]{s@hIsP|p@_|Ann@k_Bda@imA~p@etBfiAgvDjOwh@~AoFlk@gmBnzAoaFla@qtApa@gtAtdAuiDpx@ehCvb@}hAxc@gfAfa@o~@bc@u`AxSwa@|Toa@zQg]hHgMvKeRfN_UbPeW`NuSzc@ap@j`@}h@fMoP~QoUnW}Z~T}VlRyStVeWrPaQ`J{IjYwWtTqR|ZuWbYiUrFkEpYoTzSyObg@s^hWyQzi@e`@vHcFpiBurAzxBefBpBkBrJsI~w@ku@|aAucApQyRbh@wl@v\\ab@l_@af@bKyMfc@cm@fe@er@~NuThLoQz\\si@`MuSd\\}j@f^cp@xb@}x@phByqDfBqD~\\{r@f}@yiBtlAsdCxBqErvBulEvwAa{CtEeKhr@{}AnEmKpx@mpBbNa^~Ns`@n]q`Api@o_Bd]sfA~l@}qBbn@wyBzPwn@vcEwrO~i@krBxUa~@dO_j@|Lyb@z_@myAfLgc@juB}}Hp|@{dDvv@muCnhAweEdd@}cBtRat@rOik@nt@ioC|oEgqPjMsf@jc@maBxp@udChC_Jh_C}yIvb@oeB~]q~Add@qyB``@c|BzVadBhTcgBrQ}jB`OskBzMe{B~Ig}BnEs{B|A{xBViuCsAeuCiJi_JUiS{GsdHmIkbJyBo|BcAwrASeZaAapAKef@E_i@`@akClAu`Av@ml@j@uRrAwi@|Bsm@hG_nAzLueBtFul@xFui@~Fqf@rGof@bHse@bHec@xLkq@|Lym@fOur@bLoe@vLqd@lQcn@`Rmm@|Omd@dOwa@vOma@nSef@vSqd@`KaThK{SvUic@xLeT|L{SzPeXjX}a@lY}`@nX}\\f[a_@lZa\\x[{Zf\\{Yj[}W|]qWt^uV|\\eSj_@uTt~@yc@nbAad@ziCyhAb}BooAtYaS|y@wo@jqAmjA~bEapE|Zy\\vbUytVzu@}x@`\\q^j]}`@fs@y}@xUe[n\\oe@rn@y~@lm@{aAl`@iq@fQo[jQo\\b`@ev@lO_[lOa\\rTye@xTsg@vPca@bPu`@la@ecAda@oaAbc@obAhd@iaA`l@shAzYqk@bL{SlXqe@rXce@nT}]bQqXlN{SjQ{WfEmGrj@aw@lWo]xXa^zf@om@ny@aaApy@g`Apo@au@rbA}lApgAcxAby@okAjn@abAz[_j@p^so@f^cq@`t@ywA~Yin@dXqn@bR_c@|Pcb@xQod@rJkVhR_g@lRah@|Vsr@``@ugAz^mfAjlAwmDvRuh@fm@ocB`o@_}AlTkf@jUgc@~Tua@rk@g_AlUo\\hVoZxb@ud@jc@{`@~a@yZxb@_Yl^gRh_@cPl^wLvb@qLva@aI~a@kFzi@aD||@i@ff@dCdd@pEbi@dJjk@lOt]vLvu@~]`j@l\\dg@v_@nn@|i@nlAbhAn`@b]ri@|^|U|Orb@vSfc@pPxc@lMfd@dJrd@~Fxd@tC|d@j@td@iBdd@}DhWeDhm@}Lr]cKh^kMn\\}Ox[}P~^uVnZoTtZiV`ZsWznBsoBbz@k|@zw@mz@xx@g{@v_AkbAhc@wf@hfAqgAxl@wj@|_Auw@v^aWpMmJxPcMxfAmk@vRkJtKsFd[_Of_@kN|l@mQxTuF~_@}It`@kIxe@uHbb@yDxh@}DxZmApb@u@ha@Br`@@lf@pBx^rBh_@lEjg@lFfg@tHzlAjXvoAn_@n_@hNr\\`K~d@lQ|s@d[rjAfi@dqA|n@hfAph@dtAhr@pmApl@bd@|Stl@jYrnAvj@tjA|e@n~@l[fk@zOdk@zN|y@~OpgAdOtT~Bbs@jBdfAdAfx@uDxk@uEp`AcOxt@wOtbAoZdvA}j@bvA}t@roC}dB~i@o]vhBwjAr^aV~]eTf`Akl@vd@}Wfd@eWbd@wUzd@mUt]gP~k@oVzk@kUnv@}Wjx@sVto@qQft@yQxbEu_Axq@kObw@iQrcBk`@lwAk^bmAm`@le@qQhZcMxZkN`ZsNxW{Mj_@{Sd]mSrn@ma@bQcMhb@qYlYgUxPiNfVcT|QyQ~QyQfKoLrLaMxWeYly@u{@zu@i~@vhAoeBbI{Lt`@et@zaBc_DtIsQ~Xcq@~Usk@`[i|@~_@wgA~e@}{AjTcu@xk@{_Cfs@anDnd@uoC|Koz@dUirBbH_s@dKgkA`Fuq@pDgg@vFuaAdFshA~DqnAjDa{ArAofAp@yw@N{n@Ug|Ao@i_AyBufAcEwwA}DodA_Dmq@aIwxAyFyz@gFiq@uPamB{Oa|AkQyvA_Tg{AwTgyAya@}_CmOiw@}[qaByS}_AoZyrAc[opA{XwgAoRct@mTgu@aYqdAa]}kA_[cdAiWq}@oJq\\aw@omC_t@kvCeRux@}ZuaBeUytA_Lm|@{Feg@oPyvBuCcm@}C{uAiBwfBnB}eBxGatBbLgeB`RyiB|R}dBd_@mkCb}@ivF|S_wAba@evC|I{q@nTstBlPsrBxHqbAtE}q@lGgbA|HytAhFqkAjH_zB`KsoD`MunDhFq~@jIqcAzLgeArPueAhPg}@`Rmu@x`@iqAzY}z@fi@ekAzc@wu@xh@au@hx@uaAbp@yr@|yCqaDbc@gi@da@il@z]{l@f\\uo@pVqj@jVao@tKi[|Rsk@nM}d@~Iyc@bKge@jMiq@dRcoApK{_AdHuy@~Dko@~D{aAfD}cAfCmgAzB}zAvCchB|A_~@nBmz@lCqt@dDgw@vE_w@nFwr@rHcv@~Hco@dJap@hJkj@fK}i@pKyf@|Oip@fNcg@bMsa@jNgb@vQsf@|Rcf@|Wel@fW{f@pYcg@zXuc@xZec@dZy_@`n@gv@h|AeeBj_@wc@~Xi]d^_e@t^mh@`[ye@bWec@nQq]hNyYnNg]bN}\\xJ_Y|N_d@|Ig[vJo]lJia@hLii@nJei@dJal@|Ggh@nGul@fEuf@xBoZ~Cui@lBma@lAga@v@kb@^}c@Pee@Sgi@s@uh@_B_m@eCgm@kDak@cFyp@wGip@eKe|@{M{_AqP}dAgqAusHeOsdAgMueAiKofAmIigAkG}gAoEkhAmCyhAmA_iAOciAp@aiApB{hAv@cU~Bmr@vFahAtHogApJyfAhP{wAvFwe@fLiv@fM}u@tNev@fO{s@`Qgt@nRir@nWy|@rTgp@nLq[ze@apAjJiUb]kz@~Xuf@lT_c@pR{_@dMeXn~@sqBnQw^lJ}RzEuKzv@myArQ{MxEuA~CUrEj@fDpAdDnCxBxCfBzDvAvEx@bFj@nH?pHk@hH{AnH{BjGkCdEuCdCuC|AiDn@cD@wDq@kDgAwRyMwKiRwZah@mGuK}DuGmKeQ}o@ghAaUq_@_tAm|B{LqS_IiMoJ{MaKmM_R{QwTu_@gQ{YcDuFw[{i@_]wk@a]wk@mYgg@qNiW}NiXsT}a@eZan@kYao@cUoi@wa@igAy^}fAeViw@{Qgq@iHiXuM}h@e`@_aBkOsp@_Oaq@wTuaAgu@weDeH_\\ey@ssDkj@cdCkt@yaDaRi}@aL{i@uYoyAqXezAsWi{AgWi|AwZgiBcMgt@mLap@kMoq@sLuk@yHm]gI_]qIi\\}I_\\aSkn@gLu[_Qwb@_R_a@mMoVyWkc@aTe[mSyW{PqR_VgVqSeQ}S_Pm^eVeYaOgVkL_]uLoQkGsSmGs\\wIkvAg]kz@yUqRuGeSwGa]}NuMcPyMaJoVcRk]o`@uIaN{HyOiEuJsFaOcIqX_CuKiDeQkCiPqCuVaB{S{@gP{Co_A{@s]S{M?}Mf@wMnA}KrBeIbCgHjDiJfC}Pv^q{@n[ys@|Zks@lNg[~Ukl@rWcq@vM{^xMw_@hPig@vHmV~Jq\\p`@ozAlYgnApj@amClEaUzWioAjJcd@|b@euBxO_w@~Hs_@~FqX~Oau@lx@k}Dl[m~ApMsn@fMip@nHo^nIqc@rU_kApe@i_ChJic@vIo`@`GaWvGmWl@qBpAmEjAuDb@uAhCwIxCiJfEsMvD}J~GeQfF{LdGkMjGaM|HuO`KwQjLcSz^ul@~GiLh]ok@|@{AjPwXpR{ZhNiSnGmHfIcKrHsHdHeHpNeL`PuJtMiFxHuC|HaBtMeBrJcAvJe@|]wAvYq@vHUnj@}AzSiArEIhMg@|Gs@~SkCvHuAbT{DhTyEjYiJpQqFzIyBjO_EzFcBfHyA|L_ChHsApCc@zDc@bEU~M{@rE_@lFSv\\kAv\\s@neBiAvt@[|nAuAxh@g@`I_@pfAu@nRGfOGzEGnGQhNs@dPs@hL[rr@oDbE[pIgA|Bk@pDgAnI}CbIeDzMyFbQoHfFaChHwDrEcCnBeBdCeCxAiB~C}FdByDpEsMt@eCvEuQjAsEz@gDl@aCbO}k@l@eBb@uATo@n@wA|AmDp@uAd@gAz@}BhAaD`A{CdCeIrAwEhAgEtAwFx@wC~B}Ih@oBtGmVhJc^|Ju`@XgAlA_FlAiFx@sDjIce@zDwT|Fo[~CcQl@eDZcBbE}TzAoIh@wC`@aCZmBTaBJcAHaAJ_BjAuARe@Ty@TgA~AkKNy@Rs@Te@Vc@`AiA^]l@Yb@K^E`@@`ARtU|GdCn@p@Hn@Av@UhAq@m@qFsBqRU}BKcBE}APiCRkBr@cFLoAl@gFvCx@fB\\bBXvARjANZ@f@Eh@OnCv@dHrB`@NbFxAh[fJvp@vSfCp@rBl@bAaFP}@jTugAr@oDd@}BvLyl@jI{`@",
+        "summary": {
+          "cost": 5987.27,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 168.026,
+          "level_changes": [
+            [
+              2032,
+              1.0
+            ]
+          ],
+          "max_lat": 51.337216,
+          "max_lon": 7.600053,
+          "min_lat": 50.350586,
+          "min_lon": 6.565824,
+          "time": 5782.126
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.333333,
+        "lon": 6.566666,
+        "original_index": 0,
+        "side_of_street": "right",
+        "type": "break"
+      },
+      {
+        "lat": 50.35,
+        "lon": 7.599999,
+        "original_index": 1,
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 5987.27,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 168.026,
+      "max_lat": 51.337216,
+      "max_lon": 7.600053,
+      "min_lat": 50.350586,
+      "min_lon": 6.565824,
+      "time": 5782.126
+    },
+    "units": "kilometers"
+  }
+}

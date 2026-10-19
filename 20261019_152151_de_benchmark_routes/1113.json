@@ -1,0 +1,707 @@
+{
+  "id": "1113",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 68,
+            "begin_shape_index": 0,
+            "cost": 176.222,
+            "end_shape_index": 41,
+            "instruction": "Drive east on Oeserstra\u00dfe.",
+            "length": 1.389,
+            "street_names": [
+              "Oeserstra\u00dfe"
+            ],
+            "time": 100.116,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 1,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Drive east on Oeserstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive east."
+          },
+          {
+            "bearing_after": 36,
+            "bearing_before": 98,
+            "begin_shape_index": 41,
+            "cost": 77.723,
+            "end_shape_index": 48,
+            "instruction": "Turn left onto Am R\u00f6merhof.",
+            "length": 0.43,
+            "street_names": [
+              "Am R\u00f6merhof"
+            ],
+            "time": 34.502,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Am R\u00f6merhof.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Am R\u00f6merhof."
+          },
+          {
+            "bearing_after": 22,
+            "bearing_before": 22,
+            "begin_shape_index": 48,
+            "cost": 54.686,
+            "end_shape_index": 96,
+            "instruction": "Stay straight to take the ramp.",
+            "length": 0.682,
+            "time": 38.118,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 17,
+            "verbal_pre_transition_instruction": "Stay straight to take the ramp.",
+            "verbal_transition_alert_instruction": "Stay straight to take the ramp."
+          },
+          {
+            "bearing_after": 255,
+            "bearing_before": 253,
+            "begin_shape_index": 96,
+            "cost": 8.228,
+            "end_shape_index": 102,
+            "instruction": "Keep right at the fork.",
+            "length": 0.159,
+            "time": 7.162,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right at the fork. Then Keep left to take A 648.",
+            "verbal_transition_alert_instruction": "Keep right at the fork."
+          },
+          {
+            "bearing_after": 277,
+            "bearing_before": 277,
+            "begin_shape_index": 102,
+            "cost": 30.761,
+            "end_shape_index": 126,
+            "instruction": "Keep left to take A 648 toward Basel/F. Kreuz.",
+            "length": 0.523,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "text": "Basel"
+                },
+                {
+                  "text": "F. Kreuz"
+                }
+              ]
+            },
+            "street_names": [
+              "A 648"
+            ],
+            "time": 23.603,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 648 toward Basel, F. Kreuz.",
+            "verbal_transition_alert_instruction": "Keep left to take A 648."
+          },
+          {
+            "bearing_after": 316,
+            "bearing_before": 297,
+            "begin_shape_index": 126,
+            "cost": 285.065,
+            "end_shape_index": 249,
+            "highway": true,
+            "instruction": "Keep right to take A 5.",
+            "length": 6.757,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 5"
+                }
+              ]
+            },
+            "street_names": [
+              "A 5",
+              "E 451"
+            ],
+            "time": 236.067,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 7 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 5.",
+            "verbal_transition_alert_instruction": "Keep right to take A 5."
+          },
+          {
+            "bearing_after": 219,
+            "bearing_before": 198,
+            "begin_shape_index": 249,
+            "cost": 8.346,
+            "end_shape_index": 254,
+            "instruction": "Take exit 22 onto A 3/B 43 toward M\u00fcnchen/K\u00f6ln/W\u00fcrzburg/Wiesbaden.",
+            "length": 0.256,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "A 3"
+                },
+                {
+                  "text": "B 43"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Frankfurter Kreuz"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "22"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "M\u00fcnchen"
+                },
+                {
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "text": "W\u00fcrzburg"
+                },
+                {
+                  "text": "Wiesbaden"
+                },
+                {
+                  "text": "Offenbach"
+                },
+                {
+                  "text": "Mainz"
+                },
+                {
+                  "text": "Frankfurt-S\u00fcd"
+                },
+                {
+                  "text": "Terminal 1+2"
+                }
+              ]
+            },
+            "time": 8.807,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 22 onto A 3, B 43 toward M\u00fcnchen, K\u00f6ln. Then Keep left at the fork.",
+            "verbal_transition_alert_instruction": "Take exit 22."
+          },
+          {
+            "bearing_after": 198,
+            "bearing_before": 200,
+            "begin_shape_index": 254,
+            "cost": 17.781,
+            "end_shape_index": 262,
+            "instruction": "Keep left at the fork.",
+            "length": 0.402,
+            "time": 17.219,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left at the fork.",
+            "verbal_transition_alert_instruction": "Keep left at the fork."
+          },
+          {
+            "bearing_after": 189,
+            "bearing_before": 198,
+            "begin_shape_index": 262,
+            "cost": 30.527,
+            "end_shape_index": 300,
+            "instruction": "Keep left to take A 3 toward M\u00fcnchen/W\u00fcrzburg/Offenbach.",
+            "length": 0.598,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "M\u00fcnchen"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "W\u00fcrzburg"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Offenbach"
+                },
+                {
+                  "text": "Frankfurt-S\u00fcd"
+                }
+              ]
+            },
+            "time": 26.959,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 3 toward M\u00fcnchen, W\u00fcrzburg.",
+            "verbal_transition_alert_instruction": "Keep left to take A 3."
+          },
+          {
+            "bearing_after": 203,
+            "bearing_before": 197,
+            "begin_shape_index": 300,
+            "cost": 49.196,
+            "end_shape_index": 342,
+            "instruction": "Keep right to take A 3 toward M\u00fcnchen/W\u00fcrzburg/Offenbach.",
+            "length": 0.56,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "M\u00fcnchen"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "W\u00fcrzburg"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Offenbach"
+                },
+                {
+                  "text": "F-S\u00fcd"
+                }
+              ]
+            },
+            "street_names": [
+              "A 3"
+            ],
+            "time": 43.891,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 3 toward M\u00fcnchen, W\u00fcrzburg.",
+            "verbal_transition_alert_instruction": "Keep right to take A 3."
+          },
+          {
+            "bearing_after": 94,
+            "bearing_before": 94,
+            "begin_shape_index": 342,
+            "cost": 292.224,
+            "end_shape_index": 430,
+            "highway": true,
+            "instruction": "Keep left to take A 3 toward M\u00fcnchen/W\u00fcrzburg/Offenbach.",
+            "length": 8.405,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "M\u00fcnchen"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "W\u00fcrzburg"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Offenbach"
+                },
+                {
+                  "text": "Frankfurt-S\u00fcd"
+                }
+              ]
+            },
+            "street_names": [
+              "A 3",
+              "E 42"
+            ],
+            "time": 289.619,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 8 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 3 toward M\u00fcnchen, W\u00fcrzburg.",
+            "verbal_transition_alert_instruction": "Keep left to take A 3."
+          },
+          {
+            "bearing_after": 93,
+            "bearing_before": 83,
+            "begin_shape_index": 430,
+            "cost": 4.042,
+            "end_shape_index": 434,
+            "instruction": "Take exit 52 onto A 661 toward Bad Homburg.",
+            "length": 0.131,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 661"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "B 3"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Offenbacher Kreuz"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "52"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Bad Homburg"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Frankfurt"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Kassel"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Offenbach"
+                },
+                {
+                  "text": "Darmstadt"
+                },
+                {
+                  "text": "Egelsbach"
+                },
+                {
+                  "text": "Dreieich"
+                },
+                {
+                  "text": "Neu-Isenburg"
+                }
+              ]
+            },
+            "time": 4.504,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 52 onto A 661 toward Bad Homburg. Then Keep left to take A 661.",
+            "verbal_transition_alert_instruction": "Take exit 52."
+          },
+          {
+            "bearing_after": 90,
+            "bearing_before": 91,
+            "begin_shape_index": 434,
+            "cost": 19.865,
+            "end_shape_index": 443,
+            "instruction": "Keep left to take A 661 toward Bad Homburg.",
+            "length": 0.421,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 661"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "B 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Bad Homburg"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Frankfurt"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Kassel"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Offenbach"
+                }
+              ]
+            },
+            "time": 17.984,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 661 toward Bad Homburg.",
+            "verbal_transition_alert_instruction": "Keep left to take A 661."
+          },
+          {
+            "bearing_after": 107,
+            "bearing_before": 94,
+            "begin_shape_index": 443,
+            "cost": 23.21,
+            "end_shape_index": 490,
+            "instruction": "Keep right to take A 661 toward Bad Homburg.",
+            "length": 0.489,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 661"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Bad Homburg"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Frankfurt"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Kassel"
+                },
+                {
+                  "text": "OF-Stadtmitte"
+                }
+              ]
+            },
+            "street_names": [
+              "A 661"
+            ],
+            "time": 20.263,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 661 toward Bad Homburg.",
+            "verbal_transition_alert_instruction": "Keep right to take A 661."
+          },
+          {
+            "bearing_after": 26,
+            "bearing_before": 22,
+            "begin_shape_index": 490,
+            "cost": 164.271,
+            "end_shape_index": 578,
+            "highway": true,
+            "instruction": "Keep left to take A 661 toward Bad Homburg.",
+            "length": 4.322,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 661"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Bad Homburg"
+                },
+                {
+                  "text": "Oberursel"
+                },
+                {
+                  "text": "Offenbach-Stadtmitte"
+                },
+                {
+                  "text": "Offenbach-Taunusring"
+                }
+              ]
+            },
+            "street_names": [
+              "A 661"
+            ],
+            "time": 140.794,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 661 toward Bad Homburg.",
+            "verbal_transition_alert_instruction": "Keep left to take A 661."
+          },
+          {
+            "bearing_after": 358,
+            "bearing_before": 349,
+            "begin_shape_index": 578,
+            "cost": 36.124,
+            "end_shape_index": 590,
+            "instruction": "Keep right to stay on A 661.",
+            "length": 0.479,
+            "street_names": [
+              "A 661"
+            ],
+            "time": 29.538,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to stay on A 661.",
+            "verbal_transition_alert_instruction": "Keep right to stay on A 661."
+          },
+          {
+            "bearing_after": 76,
+            "bearing_before": 27,
+            "begin_shape_index": 590,
+            "begin_street_names": [
+              "Strahlenbergerstra\u00dfe",
+              "B 43"
+            ],
+            "cost": 80.371,
+            "end_shape_index": 606,
+            "instruction": "Turn right onto Strahlenbergerstra\u00dfe/B 43. Continue on Strahlenbergerstra\u00dfe.",
+            "length": 0.298,
+            "street_names": [
+              "Strahlenbergerstra\u00dfe"
+            ],
+            "time": 21.785,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue on Strahlenbergerstra\u00dfe for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Strahlenbergerstra\u00dfe, B 43.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Strahlenbergerstra\u00dfe."
+          },
+          {
+            "bearing_after": 22,
+            "bearing_before": 59,
+            "begin_shape_index": 606,
+            "cost": 25.141,
+            "end_shape_index": 614,
+            "instruction": "Turn left to stay on Strahlenbergerstra\u00dfe.",
+            "length": 0.149,
+            "street_names": [
+              "Strahlenbergerstra\u00dfe"
+            ],
+            "time": 11.283,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn left to stay on Strahlenbergerstra\u00dfe. Then Turn right onto Bettinastra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Bettinastra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn left to stay on Strahlenbergerstra\u00dfe."
+          },
+          {
+            "bearing_after": 78,
+            "bearing_before": 345,
+            "begin_shape_index": 614,
+            "cost": 47.739,
+            "end_shape_index": 620,
+            "instruction": "Turn right onto Bettinastra\u00dfe.",
+            "length": 0.203,
+            "street_names": [
+              "Bettinastra\u00dfe"
+            ],
+            "time": 26.384,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Bettinastra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Bettinastra\u00dfe."
+          },
+          {
+            "bearing_after": 335,
+            "bearing_before": 77,
+            "begin_shape_index": 620,
+            "cost": 77.156,
+            "end_shape_index": 640,
+            "instruction": "Turn left onto Andr\u00e9stra\u00dfe.",
+            "length": 0.187,
+            "street_names": [
+              "Andr\u00e9stra\u00dfe"
+            ],
+            "time": 29.081,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Andr\u00e9stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Andr\u00e9stra\u00dfe."
+          },
+          {
+            "bearing_before": 63,
+            "begin_shape_index": 640,
+            "cost": 0.0,
+            "end_shape_index": 640,
+            "instruction": "Andr\u00e9stra\u00dfe is on the right.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 5,
+            "verbal_pre_transition_instruction": "Andr\u00e9stra\u00dfe is on the right.",
+            "verbal_transition_alert_instruction": "Andr\u00e9stra\u00dfe will be on the right."
+          }
+        ],
+        "shape": "ebkq~Ay~ekOgBuK{SqoAmBkLaFgZwc@}lCqUuqA_AiFgOm}@e`@iaCg@{CYgBKy@{DyUc@mCsBgNkAgMq@}DAGiDeSO}@c@eC_AwFoEiX_Juh@y@aF{Kms@uGwb@mKuo@{Gab@iG{_@O}@eM}n@{BgRi@cPHm^x@sZRiHBm@t@{THuB\\oI{rAi|Aaj@yo@eLwKcEmD}DwCqf@iXqK_GqFuCmCqByB_CeAkCg@kBg@mBa@}BWkBOcCO_DEcBQwOAkCFkBNgDVsBh@eCj@}At@uA|@mAbAgA~@{@lAk@~@UjAErAFtAPtA^fAv@v@r@f@r@f@z@d@rAh@zAb@pB\\vB\\rCT~CNrDLlDdBlh@^jr@~Axt@xEfv@hFvo@~Ejh@nEba@fMdfA~Cx[bCb\\lB`_@VnLOfPo@|N_ArXcA~LaAbPc@fQd@xJfAdIhBjInCpGhD`H`D`GhBlG|AxH`AnIXhQe@~Mo@hWg@bO_Cx^wB|XqCxVuCnUkGxb@gFpYwHz\\iExGoClFaDbE_EdD{DxB{EnAqEVaGUyFcBkEcCuEqE_EiGmDuHaC_IgByHqAcH}@uJc@kJCiJHqLp@uJ~AyKbBuI|CaJzCmGpDsFtMoNzHsHxC}B|WcN`v@gb@tN{IdUgMrb@aVnOqInQcK`T{LjPsJnQuJdPiJzrA}u@xWiNpWkOtd@gW|[}QpQcKv\\mRn`@eUbOoJzYoSbOcL~QgO`ZuVhq@wn@pj@ck@tg@gk@rp@ku@|{@igAtQqTdg@_o@dXy\\vn@ow@z^ac@fPeQ|_@c`@lc@u_@he@u]jOsLhXyQl[mRd[}Pxg@uUxXeM`Z{JfQsEhKyEng@{MlFgAn]eHhSoD|GiA|TeE`_@wEtkD{a@jt@}Jli@qFb\\wClSk@rQk@dd@aAfX{@n\\XjTd@pTp@d\\tBbMxAbO~@fPnBh^jFje@fJph@fN`r@hTnNtFvlAhe@`a@lPfa@hPfQdHx\\bNl^tNje@fRnm@fVtRtHzQrHh]fNvGtAfmAze@po@lWbdA|`@tkAze@btCviAvrAji@nx@zZfdA~a@vJpMdUjK`\\~M~h@tTr[|N`TvIvUdLzO|H`PnHr]hNfbA`_@zJxDjYhLxJxA|MjGjJbExDfCjDhDbDdEhIpMhEpGfCjDtCxD~BpCzBfCxA~AlB`BtCvBjDxBjDrBnBhAvCxAhDzA~E~AbDbAhFlArEp@nD\\bEXlGJnE?dD@xCC|B@xEC~EX`EVjPpB~DrAfq@rYx[rLnPnJlBzArBlCbCpDtAfD`AhEj@xC\\vCP|CFvB?|BGhCUpDg@pDk@vCgAjDcBbD_DtE_YbZcCdBqBz@qB^eA?oBK}@QeAYuAs@cBqAyAiBsAeBu@kBm@sBg@cCQmAKiAIkBAiEvAq~@t@g\\NoMnBeiA~@ki@`BqeAVgh@Fef@Zw^tBglAVcQ~BsvAhC{xA`CqvAl@mc@t@e_@x@ie@b@wV|Ba~AFa]oAsu@oAuv@?am@Wsn@_@}Y{@yc@yA{l@kB{e@_Cyo@oEyr@kEim@mEgg@sC_YaKk|@oIol@qEg[io@arDiIge@inAytG{`@gtBue@qdCys@qxDm`AqbFa}@uvEqMux@kLyx@eOojAoGei@sIa_AaCg\\_E{k@gHuxAqCaz@iBsy@kAc|@iAwlAs@mv@k@wq@yAasBYmd@kAmbECwJkBesMjAysS?{QK{rBCqXoA{aFIkc@aAicCkByrAaEwxAgE}z@{Ceo@sFi{@cGct@gJyaAyKijA}Va{BkO}pAyViuBwLofAmP_yAmNyyAiH_{@{Fsw@kBoY{B_`@cB_\\_By]_@iJu@qR_AoXp@in@S}QMuTH{YDcu@?mXCuhANyk@HeYZoa@RsSHyN|A}gAnBkOp@iJ`AqHpAwGtA_EbBqD`B}BhAoArBwArB_A`Ck@rAMhCG|ANhB`@~Ar@~@f@fBjArA`BxAlBzArC|@nCr@vCr@bEV~CZ`GCtEShE[vCg@fDcA~Dw@nB}@lB_AjBmAjBsB`BgBbA{Bn@qB\\kCOeDa@eEeAqE{@qKmE{e@aTqQeIyPaJ_@[iLcIuJyJ_ScW_SeXgKgM}EeFgFeFkJ_IuKaIeHgFwMwE}D}AoEmAqEmAaIeBiIgAcLqAiLeAiEe@kFu@sEg@wE{@eE}@yEsAuE{AqFsBqE_BeFyBgH_DuK{HyByAkL}Bqn@qh@ir@{i@cR_Oe{@wn@}y@ak@yu@mc@{k@aZam@cVsiAo^aR}Es^mHka@{F_d@sGqg@aF{c@sCwVoAikByGuz@{Ce`AsG_TyBeScCqc@yGgp@iMeo@mO}K}Cy_@oL{a@sNc_Ai]wj@wTwg@_RkL{Dah@{P{wA}^uNoC}WqDoV}CaQ}A_^qA_]g@oTMwRL}Rh@iO`AgYbCiY`DuYzEwGtAc_@xHgg@jNqY~HuL~Dep@xTmb@vMsf@|MoB`@uQb@sUhAeVv@oM\\ax@dDu]t@qR|@qf@rCgNrAcJiCqBwAgIiGmBwTsA__@wAy_@KaHY}RWeW]oa@a@_f@EsEKaKC}Ag@gJ_@}Bc@aBg@wAaA}@}A}@cB{@gAImADoH|Fya@vNmOxEyFfBwBg[eAkNkMebBgAoNm@uH]kEmXnQoC~AoAl@gAb@eAZ_AP}BReDFy@GqBK}Ck@iDuA_DwBcDwCgDeFaCuEk@eBy@gCyAaGOgA",
+        "summary": {
+          "cost": 1508.686,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 26.844,
+          "max_lat": 50.116485,
+          "max_lon": 8.745665,
+          "min_lat": 50.051482,
+          "min_lon": 8.588797,
+          "time": 1127.689
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 50.108471,
+        "lon": 8.588852,
+        "original_index": 0,
+        "street": "Oeserstra\u00dfe",
+        "type": "break"
+      },
+      {
+        "lat": 50.110229,
+        "lon": 8.74575,
+        "original_index": 1,
+        "side_of_street": "right",
+        "street": "Andr\u00e9stra\u00dfe",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 1508.686,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 26.844,
+      "max_lat": 50.116485,
+      "max_lon": 8.745665,
+      "min_lat": 50.051482,
+      "min_lon": 8.588797,
+      "time": 1127.689
+    },
+    "units": "kilometers"
+  }
+}

@@ -1,0 +1,769 @@
+{
+  "id": "704",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 277,
+            "begin_shape_index": 0,
+            "cost": 21.289,
+            "end_shape_index": 7,
+            "instruction": "Drive west on Domplatz.",
+            "length": 0.109,
+            "street_names": [
+              "Domplatz"
+            ],
+            "time": 13.12,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 2,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Drive west on Domplatz. Then, in 100 meters, Turn left onto Pferdegasse.",
+            "verbal_succinct_transition_instruction": "Drive west. Then, in 100 meters, Turn left onto Pferdegasse."
+          },
+          {
+            "bearing_after": 198,
+            "bearing_before": 266,
+            "begin_shape_index": 7,
+            "cost": 58.55,
+            "end_shape_index": 16,
+            "instruction": "Turn left onto Pferdegasse.",
+            "length": 0.15,
+            "street_names": [
+              "Pferdegasse"
+            ],
+            "time": 20.312,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Pferdegasse.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Pferdegasse."
+          },
+          {
+            "bearing_after": 295,
+            "bearing_before": 202,
+            "begin_shape_index": 16,
+            "cost": 66.783,
+            "end_shape_index": 39,
+            "instruction": "Turn right onto Johannisstra\u00dfe.",
+            "length": 0.222,
+            "street_names": [
+              "Johannisstra\u00dfe"
+            ],
+            "time": 23.208,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Johannisstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Johannisstra\u00dfe."
+          },
+          {
+            "bearing_after": 328,
+            "bearing_before": 301,
+            "begin_shape_index": 39,
+            "cost": 76.131,
+            "end_shape_index": 60,
+            "instruction": "Bear right onto Universit\u00e4tsstra\u00dfe.",
+            "length": 0.241,
+            "street_names": [
+              "Universit\u00e4tsstra\u00dfe"
+            ],
+            "time": 19.563,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Bear right onto Universit\u00e4tsstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Universit\u00e4tsstra\u00dfe."
+          },
+          {
+            "bearing_after": 171,
+            "bearing_before": 276,
+            "begin_shape_index": 60,
+            "cost": 761.607,
+            "end_shape_index": 262,
+            "highway": true,
+            "instruction": "Turn left onto Am Stadtgraben/K 6.",
+            "length": 6.8,
+            "street_names": [
+              "Am Stadtgraben",
+              "K 6"
+            ],
+            "time": 421.804,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 7 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Am Stadtgraben, K 6.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Am Stadtgraben."
+          },
+          {
+            "bearing_after": 276,
+            "bearing_before": 267,
+            "begin_shape_index": 262,
+            "cost": 5.464,
+            "end_shape_index": 266,
+            "instruction": "Take exit 2 onto A 1 toward K\u00f6ln/Dortmund.",
+            "length": 0.144,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 1"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz M\u00fcnster-S\u00fcd"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "2"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dortmund"
+                },
+                {
+                  "text": "Bremen"
+                },
+                {
+                  "text": "M\u00fcnster/Osnabr\u00fcck"
+                }
+              ]
+            },
+            "time": 5.837,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 2 onto A 1 toward K\u00f6ln, Dortmund. Then Keep left to take A 1.",
+            "verbal_transition_alert_instruction": "Take exit 2."
+          },
+          {
+            "bearing_after": 267,
+            "bearing_before": 270,
+            "begin_shape_index": 266,
+            "cost": 20.717,
+            "end_shape_index": 273,
+            "instruction": "Keep left to take A 1 toward K\u00f6ln/Dortmund.",
+            "length": 0.519,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "time": 21.022,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 1 toward K\u00f6ln, Dortmund.",
+            "verbal_transition_alert_instruction": "Keep left to take A 1."
+          },
+          {
+            "bearing_after": 274,
+            "bearing_before": 265,
+            "begin_shape_index": 273,
+            "cost": 18.153,
+            "end_shape_index": 310,
+            "instruction": "Keep right to take A 1 toward K\u00f6ln/Dortmund.",
+            "length": 0.448,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "time": 17.211,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 1 toward K\u00f6ln, Dortmund.",
+            "verbal_transition_alert_instruction": "Keep right to take A 1."
+          },
+          {
+            "bearing_after": 165,
+            "bearing_before": 163,
+            "begin_shape_index": 310,
+            "cost": 643.308,
+            "end_shape_index": 429,
+            "highway": true,
+            "instruction": "Keep left to take A 1 toward K\u00f6ln/Dortmund.",
+            "length": 19.698,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 37"
+            ],
+            "time": 675.556,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 20 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 1 toward K\u00f6ln, Dortmund.",
+            "verbal_transition_alert_instruction": "Keep left to take A 1."
+          },
+          {
+            "bearing_after": 166,
+            "bearing_before": 165,
+            "begin_shape_index": 429,
+            "cost": 189.856,
+            "end_shape_index": 455,
+            "highway": true,
+            "instruction": "Continue on A 1/E 37.",
+            "length": 6.276,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "A 1"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 37"
+            ],
+            "time": 208.77,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 8,
+            "verbal_post_transition_instruction": "Continue for 6 kilometers.",
+            "verbal_pre_transition_instruction": "Continue on A 1, E 37.",
+            "verbal_transition_alert_instruction": "Continue on A 1."
+          },
+          {
+            "bearing_after": 165,
+            "bearing_before": 157,
+            "begin_shape_index": 455,
+            "cost": 13.745,
+            "end_shape_index": 482,
+            "instruction": "Take exit 80 toward Werne/Selm.",
+            "length": 0.387,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Hamm-Bockum / Werne"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "80"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Werne"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Selm"
+                },
+                {
+                  "text": "Hamm-Bockum"
+                },
+                {
+                  "text": "Hamm-H\u00f6vel"
+                }
+              ]
+            },
+            "time": 12.253,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 80 toward Werne, Selm. Then, in 400 meters, Turn left onto Nordlippestra\u00dfe.",
+            "verbal_transition_alert_instruction": "Take exit 80."
+          },
+          {
+            "bearing_after": 239,
+            "bearing_before": 318,
+            "begin_shape_index": 482,
+            "cost": 120.071,
+            "end_shape_index": 507,
+            "instruction": "Turn left onto Nordlippestra\u00dfe/L 518.",
+            "length": 2.565,
+            "street_names": [
+              "Nordlippestra\u00dfe",
+              "L 518"
+            ],
+            "time": 107.227,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Nordlippestra\u00dfe, L 518.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Nordlippestra\u00dfe."
+          },
+          {
+            "bearing_after": 311,
+            "bearing_before": 272,
+            "begin_shape_index": 507,
+            "cost": 8.9,
+            "end_shape_index": 516,
+            "instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen/Selm/Wahrbrink/Nordlippepark.",
+            "length": 0.035,
+            "roundabout_exit_count": 2,
+            "time": 4.368,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen, Selm.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen, Selm.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen."
+          },
+          {
+            "bearing_after": 250,
+            "bearing_before": 224,
+            "begin_shape_index": 516,
+            "cost": 22.354,
+            "end_shape_index": 534,
+            "instruction": "Exit the roundabout toward L\u00fcnen/Selm/Wahrbrink/Nordlippepark.",
+            "length": 0.453,
+            "sign": {},
+            "street_names": [
+              "Nordlippestra\u00dfe",
+              "B 54"
+            ],
+            "time": 21.831,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward L\u00fcnen, Selm.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward L\u00fcnen, Selm."
+          },
+          {
+            "bearing_after": 318,
+            "bearing_before": 260,
+            "begin_shape_index": 534,
+            "cost": 4.609,
+            "end_shape_index": 542,
+            "instruction": "Enter the roundabout and take the 1st exit toward L\u00fcnen/Selm/Capelle/Wahrbrink.",
+            "length": 0.037,
+            "roundabout_exit_count": 1,
+            "time": 3.926,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 1st exit toward L\u00fcnen, Selm.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 1st exit toward L\u00fcnen, Selm.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 1st exit toward L\u00fcnen."
+          },
+          {
+            "bearing_after": 240,
+            "bearing_before": 229,
+            "begin_shape_index": 542,
+            "cost": 24.361,
+            "end_shape_index": 561,
+            "instruction": "Exit the roundabout toward L\u00fcnen/Selm/Capelle/Wahrbrink.",
+            "length": 0.414,
+            "sign": {},
+            "street_names": [
+              "Nordlippestra\u00dfe",
+              "B 54"
+            ],
+            "time": 20.502,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward L\u00fcnen, Selm.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward L\u00fcnen, Selm."
+          },
+          {
+            "bearing_after": 300,
+            "bearing_before": 264,
+            "begin_shape_index": 561,
+            "cost": 7.023,
+            "end_shape_index": 569,
+            "instruction": "Enter the roundabout and take the 2nd exit toward Selm/L\u00fcnen/Wahrbrink.",
+            "length": 0.041,
+            "roundabout_exit_count": 2,
+            "time": 5.956,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit toward Selm, L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit toward Selm, L\u00fcnen.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit toward Selm."
+          },
+          {
+            "bearing_after": 226,
+            "bearing_before": 203,
+            "begin_shape_index": 569,
+            "cost": 54.925,
+            "end_shape_index": 583,
+            "instruction": "Exit the roundabout toward Selm/L\u00fcnen/Wahrbrink.",
+            "length": 1.045,
+            "sign": {},
+            "street_names": [
+              "Nordlippering",
+              "B 54"
+            ],
+            "time": 53.798,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward Selm, L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward Selm, L\u00fcnen."
+          },
+          {
+            "bearing_after": 294,
+            "bearing_before": 239,
+            "begin_shape_index": 583,
+            "cost": 6.023,
+            "end_shape_index": 593,
+            "instruction": "Enter the roundabout and take the 2nd exit toward Selm/L\u00fcnen/Wahrbrink.",
+            "length": 0.054,
+            "roundabout_exit_count": 2,
+            "time": 5.888,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit toward Selm, L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit toward Selm, L\u00fcnen.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit toward Selm."
+          },
+          {
+            "bearing_after": 238,
+            "bearing_before": 186,
+            "begin_shape_index": 593,
+            "cost": 42.054,
+            "end_shape_index": 616,
+            "instruction": "Exit the roundabout toward Selm/L\u00fcnen/Wahrbrink.",
+            "length": 0.881,
+            "sign": {},
+            "street_names": [
+              "Nordlippering",
+              "B 54"
+            ],
+            "time": 45.537,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 900 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward Selm, L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward Selm, L\u00fcnen."
+          },
+          {
+            "bearing_after": 265,
+            "bearing_before": 206,
+            "begin_shape_index": 616,
+            "cost": 5.556,
+            "end_shape_index": 629,
+            "instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen/Wahrbrink.",
+            "length": 0.052,
+            "roundabout_exit_count": 2,
+            "time": 6.617,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen, Wahrbrink.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen, Wahrbrink.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen."
+          },
+          {
+            "bearing_after": 200,
+            "bearing_before": 147,
+            "begin_shape_index": 629,
+            "cost": 23.851,
+            "end_shape_index": 642,
+            "instruction": "Exit the roundabout toward L\u00fcnen/Wahrbrink.",
+            "length": 0.497,
+            "sign": {},
+            "street_names": [
+              "Nordlippering",
+              "B 54"
+            ],
+            "time": 25.866,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward L\u00fcnen, Wahrbrink.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward L\u00fcnen, Wahrbrink."
+          },
+          {
+            "bearing_after": 209,
+            "bearing_before": 155,
+            "begin_shape_index": 642,
+            "cost": 5.604,
+            "end_shape_index": 655,
+            "instruction": "Enter the roundabout and take the 2nd exit onto Nordlippering/B 54.",
+            "length": 0.054,
+            "roundabout_exit_count": 2,
+            "time": 7.989,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit onto Nordlippering, B 54.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit onto Nordlippering."
+          },
+          {
+            "bearing_after": 152,
+            "bearing_before": 98,
+            "begin_shape_index": 655,
+            "cost": 52.823,
+            "end_shape_index": 675,
+            "instruction": "Exit the roundabout onto Nordlippering/B 54.",
+            "length": 0.942,
+            "street_names": [
+              "Nordlippering",
+              "B 54"
+            ],
+            "time": 48.735,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 900 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto Nordlippering, B 54.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout."
+          },
+          {
+            "bearing_after": 212,
+            "bearing_before": 185,
+            "begin_shape_index": 675,
+            "cost": 7.023,
+            "end_shape_index": 686,
+            "instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen.",
+            "length": 0.041,
+            "roundabout_exit_count": 2,
+            "time": 5.411,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit toward L\u00fcnen."
+          },
+          {
+            "bearing_after": 167,
+            "bearing_before": 138,
+            "begin_shape_index": 686,
+            "cost": 55.351,
+            "end_shape_index": 716,
+            "instruction": "Exit the roundabout toward L\u00fcnen.",
+            "length": 1.228,
+            "sign": {},
+            "street_names": [
+              "Nordlippering",
+              "B 54"
+            ],
+            "time": 55.799,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward L\u00fcnen."
+          },
+          {
+            "bearing_after": 210,
+            "bearing_before": 155,
+            "begin_shape_index": 716,
+            "cost": 9.067,
+            "end_shape_index": 723,
+            "instruction": "Enter the roundabout and take the 1st exit toward Dortmund/L\u00fcnen.",
+            "length": 0.035,
+            "roundabout_exit_count": 1,
+            "time": 3.584,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 1st exit toward Dortmund, L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 1st exit toward Dortmund, L\u00fcnen.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 1st exit toward Dortmund."
+          },
+          {
+            "bearing_after": 215,
+            "bearing_before": 151,
+            "begin_shape_index": 723,
+            "begin_street_names": [
+              "L\u00fcnener Stra\u00dfe",
+              "B 54"
+            ],
+            "cost": 494.255,
+            "end_shape_index": 903,
+            "instruction": "Exit the roundabout toward Dortmund/L\u00fcnen.",
+            "length": 6.535,
+            "sign": {},
+            "street_names": [
+              "B 54"
+            ],
+            "time": 465.521,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue on B 54 for 7 kilometers.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward Dortmund, L\u00fcnen.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward Dortmund, L\u00fcnen."
+          },
+          {
+            "bearing_after": 328,
+            "bearing_before": 242,
+            "begin_shape_index": 903,
+            "cost": 141.815,
+            "end_shape_index": 941,
+            "instruction": "Turn right onto Kurt-Schumacher-Stra\u00dfe/B 236.",
+            "length": 0.753,
+            "street_names": [
+              "Kurt-Schumacher-Stra\u00dfe",
+              "B 236"
+            ],
+            "time": 54.369,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 800 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Kurt-Schumacher-Stra\u00dfe, B 236.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Kurt-Schumacher-Stra\u00dfe."
+          },
+          {
+            "bearing_after": 177,
+            "bearing_before": 254,
+            "begin_shape_index": 941,
+            "cost": 150.662,
+            "end_shape_index": 947,
+            "instruction": "Turn left onto Konrad-Adenauer-Stra\u00dfe.",
+            "length": 0.082,
+            "street_names": [
+              "Konrad-Adenauer-Stra\u00dfe"
+            ],
+            "time": 17.102,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Konrad-Adenauer-Stra\u00dfe. Then, in 80 meters, Your destination will be on the left.",
+            "verbal_succinct_transition_instruction": "Turn left. Then, in 80 meters, Your destination will be on the left.",
+            "verbal_transition_alert_instruction": "Turn left onto Konrad-Adenauer-Stra\u00dfe."
+          },
+          {
+            "bearing_before": 193,
+            "begin_shape_index": 947,
+            "cost": 0.0,
+            "end_shape_index": 947,
+            "instruction": "Your destination is on the left.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 6,
+            "verbal_pre_transition_instruction": "Your destination is on the left.",
+            "verbal_transition_alert_instruction": "Your destination will be on the left."
+          }
+        ],
+        "shape": "anobbB}zlpM_@vLa@zNI`FWzPIhV?`KR|GdCbAlDxAp@VbSrGbIlCfH~BbLrDpDdBtIbFg@zBaArFeA`Ju@~GUxCSvE?~GDpJX`IXpDRhBNrAxAlLf@~Cn@bFhDdc@NbHJtFGnFYjF]nCk@|ByAxE{AvByBhBkElBgFhBqDjB}BrB_CdDuAjCaCxG{BrHyA|GoAbGeAtFo@vEu@bGq@tGyA~Pe@rJg@jK_AbS]~LnCe@`Ek@pMmA`PiAnKw@tKq@nD_@hJuAnMaC|IcE|GgFxFoFrNqPnBiC`B{Bn@}@|OiTpEgGrIgLlBwBfEoD~DeCb@StE{BpEkBnE}AnDeA~Cs@lGsApHc@vCRvGlDr@Xx@XrFlBdGtBtAd@|DtA`D`AzClAzGnCdIpBtTnCzH{@nEyDjG_BbGgBhFwCvTyGbLeDhFy@vAEdEQlDzAnBLHAzGWbJM~IDnFR`E`@bJfAnC^nIrBdEpAhK`EjHpClIhEdNzIx@j@`HtEfChBrCjBz@n@|NbKrEfD~N|KrFzDj@b@rk@xc@bo@|f@rJxH`At@z@t@pAjApBvBvAtAhD~CjA|@`JfHtPfN`PlLpRxMvGjExDjCpUlQpY~T~SpPfCrB`GzE|R~OlA`A|CfC`LbJpWdSrJhGpZnUdn@bf@bHjFfPpMpL~IjDjCjHtFnXlT|YlUhUlQnVpRdUnQxb@h]xUbRzGnFbIrG~SbQ~J`Izb@z\\|WzZ|[jk@`Ytn@dJjR~CfG^r@xHxO~BzErHtOfKvRvGdMzP~ZrHhNrLzRjDxFtCtE|SrZrRrXhUdYpHhJrFjGhDdE~BhChOrPph@th@nk@`e@hMxJte@|^lUrPdZlSnXdQxWfPtPvJtk@p[jc@pUtKjFrp@|[jzCxuApc@xS|[lPdFjCrx@je@f\\vT|[bVn]`[r[l[t[j^`[v`@hQ`WlBpC`Tl\\vSt^~Rf_@pShc@tRdd@fUhm@lOxc@fZlcAlMzg@xLni@hKbh@bJrh@nH|e@|Gff@~Irv@lHxv@dGxs@j@|IvD`k@`Fp_ApDx~@lCxt@jBvv@|Av{@fAju@~@fs@jCjzCmAzd@g@n^[pb@ClYj@ne@JlPf@lj@pAdqAvFfpDz@na@bC|lA_@zU?fIM`IW~Ge@vGu@bFkAdFiAjD_BhDyBtCaCzBsBdAsBh@cBPoBH{BEaCq@oBeA}AeAoBuB{AcCqAuCqAaE{@iEg@}EYuEEkF\\kHn@eG|@mEfAcD~@iB~AqBzGuHje@uRf]eNjLsE~MsEtiCodAlScHd{@w_@j_@uPbQwLd[kVtXwL~FeCvnA{j@xyBmbA`aD}{AteB}|@dv@{^tHuDhoBcbAfuA}p@xfAyd@zcCobApWqJdPuFhSwHdhBwj@bgD}~@xLgDv~AwXfsBy]rs@kJdd@aGjb@sFtbB{Ofv@uGvt@gDxf@mB`n@wBx\\_AvuBaFrm@YhXOtNL~TPx{BxBhwAzDxqCvHzgCrA|`@RzkDoLp_A_Fjf@iCpnA_M|eBmRv_A_RdzAyYvbC_l@dq@mTvyBmu@jmCclArBcAxgCanAj|BcuAj`@{UzvA{dAblA{}@rd@u`@~y@yq@rtAaqAv]u]h{@q}@bj@cj@voAyxAdzBgyCdLkOnfAcxA`zMweSdrHkdK`wCasDbtBkkCh]c_@by@w_AttAg_Bpe@ii@~s@ox@~qAywAfkAinAlrDuiD|zBuhBtkBosA~y@ii@bv@{d@tw@yc@xm@m\\|t@k_@`k@uWl}@c`@v\\wN`aAs_@|U}Hr_Ag[v`AoYb_Ccn@vcEus@flAyOf~C{U|gDuNtcBuEnmBmF|j@oBp{BqNfrAyH`{@_EpcCeWzmCgZzgEwq@hmEc|@zcCem@~xDmfAhvCmaA~b@mMp`Ciw@zkBkl@l`Bud@bvAe]njCki@zfDyl@pzCka@teFmi@ddKsmAxtE_x@hyEc_AbrHopBtvDgkAnvC{gApzA{g@poEwfBb|CuvAxq@uZ|OwHb_Bkw@do@}[vn@w\\x`Aai@js@m`@xo@m_@jnA}t@pCaBjTeH`UgKxHcDdHsBhEy@|DW|DEjD`@hDdAxCvBfCdDdCzE|AfFx@hG\\pHAjHe@pGgA|GoBzFcEfJqEfEaMtLuDzAeIzEoBbD}BfDqChFtKja@tKpa@|ZlmAbNxh@bOnk@v{@beDp}@rdD~a@vuAhq@~sBjp@ljBbq@fgBzmCx|Gra@jiAj`@jkA`YdbAdXpfAhMdm@`Ht_@pIrg@rPbhAja@byC~B|TNzKn@jS[fJy@~@u@~Aa@pBOxBHtC`@bCXx@Zl@p@x@x@fFZvCPdMX~Ig@pm@\\lPn@`QnCf_@pDxWzEhW|FnVdR`y@`HzYpKtf@l@`Hp@fFx@bIH|GQX{@xBc@hDDvDb@hClAhC`Az@n@VzAbDjAdH~A~JlAx`@T~TIrXk@jVw@jVy@bWm@d[?b[`@vXZfK`@vJhAjQ`D|]fArOx@dHNbGk@xAU`BMbCNrDx@pCx@bBtAr@hBNzGvMxH`W`J`W~a@pdApUvu@tHhYdHnZbo@buCbb@tjB~b@|iBni@lxBvS|w@vFnSpA~Es@|@_AdC_@~C@fDb@|Cz@xBpAtA|Ah@~AGzAu@z_@fuAnQzl@l_@`pAbOze@nJ|VnJlTjPr[bTvZhVh\\xMlR~J|PtI~QvGpRtGfVtP|{@|C`O~CbKnGjNpEtGlDnEhCzBzEbDfD`CSnBAtBNpB^hBl@xAz@bAr@d@vARfAKbAg@z@aAn@wA`@gBnDdBrK|EvKrD`S|E`V`DnPv@lSMpU{AxUgD|YaKxXqMf^sS`[iTh@dBt@rA`Ax@fA^jABfAYbAw@v@mAj@cBZoBHwBIwBYqB|CgC~`@a\\~XyT~XeSn^}SlLsF~LyEbNcEnNkDpUoDjPoAnT_@f[x@jx@dFpIVv[UrYaCn_@eFhcAkMvOpAZdAt@xA`A~@jA`@h@Db@ChA[dA{@v@uAf@iBT}ArDcA`QsEzeA}Itu@wEdZaBxCO~i@gCv]_AlIW|GSp\\Qlt@pAtYfAtYlAdVe@hPmAvOcDfLwE|KiGjMsJlJiKlOmSbKcRfQu]bE{HfMuPfGgHlKqJrd@o[pDeCp@tBdAxApAr@vAJtA]lAeAz@gBnDhEvD`F`KhTtb@xbB`Trx@`@~AhCvJxSx|@pK|f@dH~ZvKxf@rLri@xKxg@zDbTlDhTdEhZtClZzBf[vApZt@rZBt@LpKBbCN~Nf@`e@b@dTfAlWlAnSxAvSpEnc@lIjt@fJlt@dCdTzCpU|Ivs@`Jft@~E|`@~D~[jw@pnG~ArMfMjdAlEn^zFfc@fF|ZxC~NrBnJfStx@hCtJ`FhSdJ~\\t^nqAtSfs@rKf]bErLrElLlElKrH~OdPv[fPjZJRnY`i@lZnd@vHvJpHzIlMlN~cBzcB|l@fm@~iCriC|DvDvHrHh_Az~@x`@p`@f]v]`KxK~BjCvElFpClEzDjH|ChGvEjLjDnKrA|EtCzMrCdNLt@|BlOtAzL~@fK~Etc@bC`RbEdXrF~XxD~O`GfTdLv]xPje@`FfMpC~GbEzIlA`CdCbFvIdOnJvNxC~DhGjI|BpC~GdIb[`_@fRlX|EhJlPt]tB|EpCxHb@pAhIdWnPll@bK`b@hC`NhElS~C|N|FrYpGd\\pApHbKlg@xHd`@pMln@xB~Kb@dCzBrKdO`u@hGtZtJ|e@x@|D|A~HnInb@jEzSdGr[jIpb@jC~MhIha@xH~^tIpa@nLrj@lGh[lGt[jA`GdFrV`FfVfIxb@jBzJv^hjBpIjb@jDrO~CxOdAnF~EhVHb@|Irc@pAvGpFtXJj@pXdsAjKth@vUhkAdFxWrB~JzB~Kl@|CJr@tIvc@fBbIdFzV~AjHzG|\\tAbH~@vE|@tEdAlGxGr\\hGtXu@rFYrB}AlIsMtM}IbLsGbMeDlIiAfE{BdI}BbLiAdJi@zDY`Cm@tGm@xG}@bKmBjUe@jLQjQTlQf@dLf@zKr@bJzAzMvAhJlCrN~Lrk@nF|WfBlJxAbJbAlG`FrZl@dLzClf@`BzUbD~]xBpSfItx@nFQ|Jj@z@ClBf@|@\\rRjF",
+        "summary": {
+          "cost": 3111.946,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 50.744,
+          "max_lat": 51.962151,
+          "max_lon": 7.667841,
+          "min_lat": 51.61668,
+          "min_lon": 7.51657,
+          "time": 2398.696
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.962355,
+        "lon": 7.625713,
+        "original_index": 0,
+        "side_of_street": "right",
+        "type": "break"
+      },
+      {
+        "lat": 51.616666,
+        "lon": 7.516666,
+        "original_index": 1,
+        "side_of_street": "left",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 3111.946,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 50.744,
+      "max_lat": 51.962151,
+      "max_lon": 7.667841,
+      "min_lat": 51.61668,
+      "min_lon": 7.51657,
+      "time": 2398.696
+    },
+    "units": "kilometers"
+  }
+}

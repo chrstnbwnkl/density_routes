@@ -1,0 +1,313 @@
+{
+  "id": "2327",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 158,
+            "begin_shape_index": 0,
+            "cost": 9.224,
+            "end_shape_index": 1,
+            "instruction": "Drive south.",
+            "length": 0.025,
+            "time": 9.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 1,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 30 meters.",
+            "verbal_pre_transition_instruction": "Drive south. Then Turn right onto Wernerstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive south. Then Turn right onto Wernerstra\u00dfe."
+          },
+          {
+            "bearing_after": 241,
+            "bearing_before": 158,
+            "begin_shape_index": 1,
+            "cost": 63.137,
+            "end_shape_index": 10,
+            "instruction": "Turn right onto Wernerstra\u00dfe.",
+            "length": 0.246,
+            "street_names": [
+              "Wernerstra\u00dfe"
+            ],
+            "time": 31.056,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Wernerstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Wernerstra\u00dfe."
+          },
+          {
+            "bearing_after": 339,
+            "bearing_before": 249,
+            "begin_shape_index": 10,
+            "cost": 109.372,
+            "end_shape_index": 84,
+            "instruction": "Turn right onto Schlagbaumer Stra\u00dfe/B 224.",
+            "length": 1.248,
+            "street_names": [
+              "Schlagbaumer Stra\u00dfe",
+              "B 224"
+            ],
+            "time": 94.635,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn right onto Schlagbaumer Stra\u00dfe, B 224.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Schlagbaumer Stra\u00dfe."
+          },
+          {
+            "bearing_after": 340,
+            "bearing_before": 335,
+            "begin_shape_index": 84,
+            "begin_street_names": [
+              "Schlagbaumer Stra\u00dfe",
+              "B 224"
+            ],
+            "cost": 143.351,
+            "end_shape_index": 198,
+            "instruction": "Keep right to stay on B 224.",
+            "length": 1.922,
+            "street_names": [
+              "B 224"
+            ],
+            "time": 145.412,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to stay on B 224.",
+            "verbal_transition_alert_instruction": "Keep right to stay on B 224."
+          },
+          {
+            "bearing_after": 270,
+            "bearing_before": 348,
+            "begin_shape_index": 198,
+            "begin_street_names": [
+              "Roggenkamp",
+              "L 357"
+            ],
+            "cost": 201.29,
+            "end_shape_index": 303,
+            "instruction": "Turn left onto Roggenkamp/L 357. Continue on L 357.",
+            "length": 2.552,
+            "street_names": [
+              "L 357"
+            ],
+            "time": 160.624,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue on L 357 for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Roggenkamp, L 357.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Roggenkamp."
+          },
+          {
+            "bearing_after": 187,
+            "bearing_before": 277,
+            "begin_shape_index": 303,
+            "cost": 552.537,
+            "end_shape_index": 501,
+            "highway": true,
+            "instruction": "Turn left to take the A 46 ramp toward D\u00fcsseldorf.",
+            "length": 16.051,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 46"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "D\u00fcsseldorf"
+                }
+              ]
+            },
+            "street_names": [
+              "A 46"
+            ],
+            "time": 509.036,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 19,
+            "verbal_post_transition_instruction": "Continue for 16 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left to take the A 46 ramp toward D\u00fcsseldorf.",
+            "verbal_transition_alert_instruction": "Turn left to take the A 46 ramp."
+          },
+          {
+            "bearing_after": 300,
+            "bearing_before": 277,
+            "begin_shape_index": 501,
+            "cost": 339.785,
+            "end_shape_index": 654,
+            "instruction": "Take exit 24 onto B 8 toward D\u00fcsseldorf-Zentrum/-Universit\u00e4t.",
+            "length": 3.684,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "B 8"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "D\u00fcsseldorf-Wersten (West)"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "24"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "D\u00fcsseldorf-Zentrum"
+                },
+                {
+                  "text": "-Universit\u00e4t"
+                }
+              ]
+            },
+            "street_names": [
+              "B 8"
+            ],
+            "time": 247.677,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Take exit 24 onto B 8 toward D\u00fcsseldorf-Zentrum, -Universit\u00e4t.",
+            "verbal_transition_alert_instruction": "Take exit 24."
+          },
+          {
+            "bearing_after": 271,
+            "bearing_before": 360,
+            "begin_shape_index": 654,
+            "cost": 87.11,
+            "end_shape_index": 680,
+            "instruction": "Turn left onto Herzogstra\u00dfe.",
+            "length": 0.418,
+            "street_names": [
+              "Herzogstra\u00dfe"
+            ],
+            "time": 35.542,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Herzogstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Herzogstra\u00dfe."
+          },
+          {
+            "bearing_after": 1,
+            "bearing_before": 268,
+            "begin_shape_index": 680,
+            "cost": 179.664,
+            "end_shape_index": 732,
+            "instruction": "Turn right onto Friedrichstra\u00dfe.",
+            "length": 1.098,
+            "street_names": [
+              "Friedrichstra\u00dfe"
+            ],
+            "time": 81.692,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn right onto Friedrichstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Friedrichstra\u00dfe."
+          },
+          {
+            "bearing_after": 91,
+            "bearing_before": 352,
+            "begin_shape_index": 732,
+            "cost": 14.313,
+            "end_shape_index": 735,
+            "instruction": "Turn right onto Theodor-K\u00f6rner-Stra\u00dfe.",
+            "length": 0.052,
+            "street_names": [
+              "Theodor-K\u00f6rner-Stra\u00dfe"
+            ],
+            "time": 7.005,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 50 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Theodor-K\u00f6rner-Stra\u00dfe. Then You will arrive at your destination.",
+            "verbal_succinct_transition_instruction": "Turn right. Then You will arrive at your destination.",
+            "verbal_transition_alert_instruction": "Turn right onto Theodor-K\u00f6rner-Stra\u00dfe."
+          },
+          {
+            "bearing_before": 90,
+            "begin_shape_index": 735,
+            "cost": 0.0,
+            "end_shape_index": 735,
+            "instruction": "You have arrived at your destination.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 4,
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination."
+          }
+        ],
+        "shape": "gf~r`BuzioLbLmGjDdN~D`PjEhRpBjJn@xCxMvv@xM|t@zBlNn@jEw\\`QuKzCiEtAy@VcGdBqEhAgAZqZvIcMpDcF`AuPrBoVdCaFf@kAJ_FZkO`A{CNqJ`A{BTyCXsE`@}Iv@_BNmCR{SbBqBTwJv@}Hf@yMrAyBf@oI|CiC~@{DxBqG|E_Ar@mHrF{ExDc@ZgHjFsMlJ{EpDkCpB{B`B_LhIoP|LeAv@eDhCuElD}AhAwKvHqBvA{CxByEzCiEvCeD`CyErDmCjBkBvAsFjEeBnAaChBaP|LiUvPsF|DkIfGuG`FyFlE}NtKgDx@{FtDmDlCsB|AoVbRgIvFqB`A_GjCyBNkCyAcGgDkDkBkGgDaNcIaK_G_DaByIuEcAg@sNgH}KmFaAg@cFiC{D{BmBiAyBoAiC{AeFwCgPkJcHyDaXuNqOeIgNsHsAs@iMgHiBk@sB_@iBQcCBqDX_D~@{DfA{CjBuAbAsAtAsA`Bu@hAiDdFsDpFm@|@_ApAuC~DeF|F}@|@wDvCaSnOoNtKqNfKqF~DaO~Jw^`XqA~@eCfBaRxMsAz@uEtDeK~HkDzBoHrEuHvDiJnDcEnAqDhAqJxCkGbBsBd@uC|@gNrEoQbGmBp@uKtCqFr@sEPax@LcFDsFIkGHuFQiEq@aBc@eIuC}DmCsDmB}DwAiCi@wBMeBAcBBkBTsBd@_Bd@qAb@sBjAqBxA}AzA}AdBkCvDmBjDyBtEwInT}AlE}ChJoK~YwCjHeKpWoy@xeBwPl^sEpEyGlDiErA}Dp@?rHA`AUtOYbHq@pHmArGaCfGkFtIoRtWoFjIwAzBsElHoFbKeKjU{R|i@{p@xkBwMl_@yHfU}CpKaBnG]pAoDxNkD`QmDlTiA`JiA~IkAvL{@hLu@~Mm@bN_@hPKfLEpI?~KVlOp@vTdAlVfDpf@xDjd@`@~G`@|IJxBx@lX\\h[O|\\sAdo@y@xXBpWDrBL`GVlIl@|Rn@tIxA|QzCdXfFj\\nId]`DtKx@|BpAfDz@|BhDpIr@zAzD`HxIxNbHbLlKdSjEfJ~HjS|JjYjuAl`E`EpMpMde@tElUtAxId@vCdCtT`AdN`AjO~@jOp@jYPnXChIYtIc@xIiAhMsAjOuDjUiEjRyBfIkBnG{GtQsJtRwF|JkX`c@}GjLcHzMaFnMuEvN_D|MmBhLwAhNgAdL}@tNS`GvFn@rJnB`IbB|GhCjGrEvEzEtDtHfD|LnAzLl@nMtBhd@\\h_@@rV@dNLfvA@fhA@lXHxx@Nv|AHx\\d@bu@\\t[bAdj@x@~V|@fX|D`y@vDnj@~F~t@dG|j@bLv~@|Klu@zHrj@rJ`h@bXp`BvIth@b]nrBvArIvCfQjBxKbGl^pYbdBhAzGve@xsC`SjoAbVb`BnXnjBbMj{@bW`dBbGdb@dDxV~BjQhGzi@rIxz@lFzn@jH~fAlDtp@zD`x@xG~cB~Atb@dCtk@lNvfDnGf}AjGdyAnOvpD~NbnDnO|uD|KljCpBle@fDpw@nDj}@z@tYjAhSpHvfBlD|q@|@pT~EfmA`Dfu@hCnl@zEpkAjIjoBvOtrDtN~hD~OhrD|Dlt@nEx|@nEhw@vHbnAjJppAfJdhAbKfiAjE`c@j`@~mDpPhuAzHnj@lGzf@zSh}AtKdy@vRjxAnOpmAhC`VxDn[~Gxp@tFrn@`Dl^|HfgAdIjzAt@nQnB~j@bF`bBhAhd@tIbnDpIvuDpJldDJlEbGb_ChBnq@pBbu@dGx{BbBvs@~G|iCdE|gBhCh{@zA~k@nGjdCbJjqDrIbiD~IbsDnJbqDrJvpDrEthBpCpfAhJbqDjK~mDnDf{ApCp}A~@zp@RlPXbVNlO|@~b@nA~qAl@rtALfz@L`|AIbgAUbdAeAvfByDpxDeB~lBy@t{@}C~nDuAvdAo@b|@GdTIvKyBh~CCnkBnAxlAt@vj@zCrxAjDzoAnDrsA`CxhAlArv@d@`g@@ph@?xMWhf@e@|i@y@hn@{BhuAg@bL}EruC{@zjAE~gEAbh@[hmB{@nmAmArw@sDloAwBde@_Els@uFxm@yFvm@_Et]kFd_@uN`{@ePf|@sPt_AoHvc@kKlq@aLbw@aIru@iFjk@aIloAwEvfA}C|z@iC`w@eCxGmAhIu@zHsA|NuE|\\mEx^_C~V}At^oAlb@uAdd@_C|c@cEpe@gFp`@oGpa@yL`j@{Phv@eGtVmLbc@eId[yCfMsD~O{FxU_G~UcDnNuFrWoHzXY|A}AjHiAjFwCnRsLvw@yFvb@cB`N_D`XeDjUyAdIqAfGeBtHsCpLsCdK_Shr@eNbf@mJzZgMf_@eYbx@yv@|xBeKfYuGhOgCfGmBzEoCfIwI~W}BlHyGbTyA`F_HxT_Lx]{Ld^gDnJyDdK}EbKkGvJeAdA_IdI{@v@yCfBuGzDaB`AiIhE}DjCeM~J_IfIuEbGoChEoDfFaSl\\eG`Lge@t{@gBxCcC~Di@`AsAfCk@fA{A`DuBbFwAtCwAnBiBtAqBv@cQzE{a@fIoFfAmJ`DcKrE_UnKkTjIcDlAiKtCwKrCmAVsDj@cEd@ySv@yb@v@s^z@}\\h@gCRaBPwEnAiDc@uE[sE?oICmRb@_w@]aJOmA?iHEc@AeAAeAAM?w@?mCCmFB{KGuAFqD`@cGL}CEsD]eCSyBMwBQ}DCkH@cFFsCJoFb@{CLs\\QqB?qDUeDK_QAyAAkFI}EG{ZN{DCas@YgACiHBCpEAhBErFCvF?zBEbQCx@AbPc@bt@IxIChMOt]?dHQbd@BnS?`F?hDy@dFW`GW|QQ`i@EzK?jKH~FDzBD~EcBAs`@c@qz@I_BGaBK_F]}AEkNW}[u@iPi@kGE}A@g@?iD@wDCwCGeCOw@CmCGyA?qBA}FGyJMqIMuC@_C@sCB}@AoQSoi@WyVGsGAwFCmFCiHEuo@[sSKoAAmEGeGKsk@u@y]]yDC}IJaNAqEFmIFaE@uA?mEF_AHeEl@FcX?wRA{@",
+        "summary": {
+          "cost": 1699.786,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 27.298,
+          "max_lat": 51.225552,
+          "max_lon": 7.083585,
+          "min_lat": 51.182085,
+          "min_lon": 6.776821,
+          "time": 1321.683
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.183333,
+        "lon": 7.083333,
+        "original_index": 0,
+        "type": "break"
+      },
+      {
+        "lat": 51.225544,
+        "lon": 6.777781,
+        "original_index": 1,
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 1699.786,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 27.298,
+      "max_lat": 51.225552,
+      "max_lon": 7.083585,
+      "min_lat": 51.182085,
+      "min_lon": 6.776821,
+      "time": 1321.683
+    },
+    "units": "kilometers"
+  }
+}

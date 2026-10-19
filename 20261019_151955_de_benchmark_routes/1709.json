@@ -1,0 +1,598 @@
+{
+  "id": "1709",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 89,
+            "begin_shape_index": 0,
+            "cost": 2.888,
+            "end_shape_index": 2,
+            "instruction": "Drive east on Spindelstra\u00dfe.",
+            "length": 0.022,
+            "street_names": [
+              "Spindelstra\u00dfe"
+            ],
+            "time": 2.693,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 3,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 20 meters.",
+            "verbal_pre_transition_instruction": "Drive east on Spindelstra\u00dfe. Then Turn right onto Kommenderiestra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive east. Then Turn right onto Kommenderiestra\u00dfe."
+          },
+          {
+            "bearing_after": 163,
+            "bearing_before": 89,
+            "begin_shape_index": 2,
+            "cost": 21.643,
+            "end_shape_index": 6,
+            "instruction": "Turn right onto Kommenderiestra\u00dfe/B 68.",
+            "length": 0.091,
+            "street_names": [
+              "Kommenderiestra\u00dfe",
+              "B 68"
+            ],
+            "time": 7.48,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 90 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Kommenderiestra\u00dfe, B 68. Then, in 90 meters, Turn left onto Rosenplatz.",
+            "verbal_succinct_transition_instruction": "Turn right. Then, in 90 meters, Turn left onto Rosenplatz.",
+            "verbal_transition_alert_instruction": "Turn right onto Kommenderiestra\u00dfe."
+          },
+          {
+            "bearing_after": 85,
+            "bearing_before": 156,
+            "begin_shape_index": 6,
+            "cost": 26.473,
+            "end_shape_index": 12,
+            "instruction": "Turn left onto Rosenplatz/B 68.",
+            "length": 0.218,
+            "street_names": [
+              "Rosenplatz",
+              "B 68"
+            ],
+            "time": 20.698,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Rosenplatz, B 68.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Rosenplatz."
+          },
+          {
+            "bearing_after": 155,
+            "bearing_before": 70,
+            "begin_shape_index": 12,
+            "cost": 179.74,
+            "end_shape_index": 110,
+            "instruction": "Turn right onto Iburger Stra\u00dfe/B 68.",
+            "length": 2.279,
+            "street_names": [
+              "Iburger Stra\u00dfe",
+              "B 68"
+            ],
+            "time": 178.366,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Iburger Stra\u00dfe, B 68.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Iburger Stra\u00dfe."
+          },
+          {
+            "bearing_after": 192,
+            "bearing_before": 186,
+            "begin_shape_index": 110,
+            "cost": 376.841,
+            "end_shape_index": 244,
+            "highway": true,
+            "instruction": "Take the A 30 ramp toward Amsterdam/Bremen/Dortmund.",
+            "length": 9.927,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 30"
+                },
+                {
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Amsterdam"
+                },
+                {
+                  "text": "Bremen"
+                },
+                {
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "street_names": [
+              "A 30",
+              "E 30"
+            ],
+            "time": 359.332,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 10 kilometers.",
+            "verbal_pre_transition_instruction": "Take the A 30 ramp toward Amsterdam, Bremen.",
+            "verbal_transition_alert_instruction": "Take the A 30 ramp."
+          },
+          {
+            "bearing_after": 282,
+            "bearing_before": 272,
+            "begin_shape_index": 244,
+            "cost": 7.928,
+            "end_shape_index": 248,
+            "instruction": "Take exit 14 onto A 1 toward Dortmund/M\u00fcnster.",
+            "length": 0.196,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 1"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz Lotte / Osnabr\u00fcck"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "14"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "M\u00fcnster"
+                },
+                {
+                  "text": "Bremen"
+                }
+              ]
+            },
+            "time": 7.941,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 14 onto A 1 toward Dortmund, M\u00fcnster. Then Keep left to take A 1.",
+            "verbal_transition_alert_instruction": "Take exit 14."
+          },
+          {
+            "bearing_after": 272,
+            "bearing_before": 271,
+            "begin_shape_index": 248,
+            "cost": 14.432,
+            "end_shape_index": 252,
+            "instruction": "Keep left to take A 1 toward Dortmund/M\u00fcnster.",
+            "length": 0.351,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "M\u00fcnster"
+                }
+              ]
+            },
+            "time": 14.275,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 1 toward Dortmund, M\u00fcnster.",
+            "verbal_transition_alert_instruction": "Keep left to take A 1."
+          },
+          {
+            "bearing_after": 273,
+            "bearing_before": 272,
+            "begin_shape_index": 252,
+            "cost": 17.942,
+            "end_shape_index": 282,
+            "instruction": "Keep right to take A 1 toward Dortmund/M\u00fcnster.",
+            "length": 0.441,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "M\u00fcnster"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "M\u00fcnster/Osnabr\u00fcck"
+                }
+              ]
+            },
+            "time": 17.857,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 1 toward Dortmund, M\u00fcnster.",
+            "verbal_transition_alert_instruction": "Keep right to take A 1."
+          },
+          {
+            "bearing_after": 204,
+            "bearing_before": 202,
+            "begin_shape_index": 282,
+            "cost": 1604.309,
+            "end_shape_index": 654,
+            "highway": true,
+            "instruction": "Keep left to take A 1 toward Dortmund/M\u00fcnster/M\u00fcnster/Osnabr\u00fcck.",
+            "length": 48.661,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "M\u00fcnster"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "M\u00fcnster/Osnabr\u00fcck"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 37"
+            ],
+            "time": 1671.332,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 49 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 1 toward Dortmund, M\u00fcnster.",
+            "verbal_transition_alert_instruction": "Keep left to take A 1."
+          },
+          {
+            "bearing_after": 171,
+            "bearing_before": 165,
+            "begin_shape_index": 654,
+            "cost": 7.328,
+            "end_shape_index": 658,
+            "instruction": "Take exit 78.",
+            "length": 0.225,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz M\u00fcnster-S\u00fcd"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "78"
+                }
+              ]
+            },
+            "time": 7.723,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 78. Then Keep right to take A 43.",
+            "verbal_transition_alert_instruction": "Take exit 78."
+          },
+          {
+            "bearing_after": 168,
+            "bearing_before": 164,
+            "begin_shape_index": 658,
+            "cost": 2073.769,
+            "end_shape_index": 1422,
+            "highway": true,
+            "instruction": "Keep right to take A 43 toward Recklinghausen/D\u00fclmen.",
+            "length": 61.89,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 43"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Recklinghausen"
+                },
+                {
+                  "text": "D\u00fclmen"
+                }
+              ]
+            },
+            "street_names": [
+              "A 43"
+            ],
+            "time": 2138.467,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 62 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 43 toward Recklinghausen, D\u00fclmen.",
+            "verbal_transition_alert_instruction": "Keep right to take A 43."
+          },
+          {
+            "bearing_after": 179,
+            "bearing_before": 166,
+            "begin_shape_index": 1422,
+            "cost": 46.659,
+            "end_shape_index": 1463,
+            "instruction": "Take exit 15 onto L 657.",
+            "length": 0.455,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "L 657"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Herne-Eickel"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "15"
+                }
+              ]
+            },
+            "time": 18.292,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 15 onto L 657.",
+            "verbal_transition_alert_instruction": "Take exit 15."
+          },
+          {
+            "bearing_after": 65,
+            "bearing_before": 158,
+            "begin_shape_index": 1463,
+            "cost": 35.192,
+            "end_shape_index": 1481,
+            "instruction": "Turn left onto Holsterhauser Stra\u00dfe/L 657.",
+            "length": 0.248,
+            "street_names": [
+              "Holsterhauser Stra\u00dfe",
+              "L 657"
+            ],
+            "time": 23.612,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Holsterhauser Stra\u00dfe, L 657.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Holsterhauser Stra\u00dfe."
+          },
+          {
+            "bearing_after": 120,
+            "bearing_before": 97,
+            "begin_shape_index": 1481,
+            "cost": 113.345,
+            "end_shape_index": 1513,
+            "highway": true,
+            "instruction": "Take the A 43 ramp toward M\u00fcnster/Recklinghausen.",
+            "length": 1.072,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 43"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "M\u00fcnster"
+                },
+                {
+                  "text": "Recklinghausen"
+                }
+              ]
+            },
+            "street_names": [
+              "A 43"
+            ],
+            "time": 63.706,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Take the A 43 ramp toward M\u00fcnster, Recklinghausen.",
+            "verbal_transition_alert_instruction": "Take the A 43 ramp."
+          },
+          {
+            "bearing_after": 341,
+            "bearing_before": 338,
+            "begin_shape_index": 1513,
+            "cost": 45.242,
+            "end_shape_index": 1519,
+            "instruction": "Take exit 14 onto A 42 toward Dortmund/Castrop-Rauxel.",
+            "length": 0.457,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 42"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz Herne"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "14"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Castrop-Rauxel"
+                },
+                {
+                  "text": "Duisburg"
+                },
+                {
+                  "text": "Gelsenkirchen"
+                }
+              ]
+            },
+            "time": 41.157,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 14 onto A 42 toward Dortmund, Castrop-Rauxel.",
+            "verbal_transition_alert_instruction": "Take exit 14."
+          },
+          {
+            "bearing_after": 337,
+            "bearing_before": 332,
+            "begin_shape_index": 1519,
+            "cost": 93.317,
+            "end_shape_index": 1552,
+            "highway": true,
+            "instruction": "Keep right to take A 42 toward Dortmund/Castrop-Rauxel.",
+            "length": 1.457,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 42"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Castrop-Rauxel"
+                }
+              ]
+            },
+            "street_names": [
+              "A 42"
+            ],
+            "time": 64.797,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 42 toward Dortmund, Castrop-Rauxel.",
+            "verbal_transition_alert_instruction": "Keep right to take A 42."
+          },
+          {
+            "bearing_before": 58,
+            "begin_shape_index": 1552,
+            "cost": 0.0,
+            "end_shape_index": 1552,
+            "instruction": "You have arrived at your destination.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 4,
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination."
+          }
+        ],
+        "shape": "icbubBetijNCcMAeEvN_GvF_CxOgHjG_EWaNf@m{A@uAHoRXsu@kByMxHiFr@e@|F{DlE_DnD_B~IoB~C}@dGwBfCy@xBeA|@g@jQgF`MoDxAc@rLaDlQoFtIcCbf@qPdk@iSjJgD|E_B~FmBtGcCf\\gKpVeHdGeBlFwAxt@}R|HuBpA[rFwAvI}Bj@OfJgCb\\yIlTeGbEkAbQsFzCsAnL}F|BiB`KgIxf@wa@`DeCfRgNjKuFlCsAhNmGzUuJva@uPfNwFlA_@lFqBpDiBtJ_GvAgA|BeBnEeDtF}FvE}ElAwAnSyVzHaKrEaG~Wm\\xC_EtJcMzAmBhCmCbEoDjC{BvHgExKwDvLuAhB?bJRtO|AbOlB~AR~B^rCd@|l@pJlVjDrFp@pBV`D`@hKOhEGzIObAAjHIbHUrYeAtd@gBlKFzLv@rNhAtNxAfd@pKnFbEjC~Gx@|NI|h@\\vNlArKnBvI`DxHjF~FlFfCrLpD~EvDrDnEnEzJpCxM`AdOrDvXpAxgAf@`b@hAzxAdA|bC`BjtE~@dfCdCnjHAlq@c@dyAi@jp@cApp@{BbeAsF~sAcEpu@gGly@oQ|cBcJlp@wJlp@{CrQmC|OqHta@mQ~y@aNnj@oCbL{d@z_Bka@vhA_q@p{Ao^hq@_[lh@iUr]wUj\\im@`v@q\\`_@c]p]kWhXqWvVag@nd@gm@vj@_i@hg@_ZvZi_@p_@c_@|`@qi@zm@_i@xo@mp@z{@ax@hhAcbAr|Ao^hm@e]|m@of@t}@kaAtqBsc@pcAqBrEwT`i@u^||@iJzUm\\v~@iZz{@}L|]sDnL_JlYkXz|@uWv}@sX`dAsPhr@sSv`AcP`{@eGl_@gMd|@iIlm@gEd`@gD|[eD|^sBbWkDrf@eAlOgC`b@}Crp@oB|i@eA~c@y@v_@c@`^a@n_@W~`AEhp@h@xpAlAxpAjBvqAzCxqBfD`aBjAxq@lEtpBvFhbCxHruCdBbq@nBrs@^pOxAnm@dB~p@fEppBrCzuA|Bn~AZ~YlD`xCZ|j@j@|fAT~sBa@niDAbOYvr@}A~uDEhKcDjhHKtVkChtEoB~eEcBxVa@pYg@nt@e@viAqAlgBmEruAYz`Aq@b`Ag@|b@[~LcB|IwAtFcChEqDhC_EnAiD`@kFUsCoAsEwDwAsBeA{AcBwEuAgFm@eFW}EAoGNcFb@sFbA_GzCgI~B}DpD_D|ByA~Dw@zC[jGHnUhGtl@t]x_C|zAdj@nWlc@jP|fBdhAd|GxhEjr@te@pIrFfeBbpAj~ApvA`l@bm@pqAfvAbmAr`Bjp@paAj|@lzAjr@lsAlL|Tnq@pwAlQt_@nf@boAhw@pvBls@x_C~N`j@~vAbpF~a@ldBts@ddC|Wxy@|vBjuFpJzRdlAp~Bll@vbAt_AlvAv~@xmA`UlWte@|k@f_AhbAns@ho@b|@br@|n@~d@xe@|ZhDvBjrE~hC|~@ri@vlAb{@ha@v[p[pW`|@jy@jm@ln@ff@ji@jf@jm@zi@|w@jt@|jAry@f{A|nA|hCvWjo@vb@niA~g@zyA|^jqAnZ~fA|Olo@je@fvBrY|{AhP``A~Q|qAbR|xAvWvgCzFhn@rIteAj^pzEjH`bAvVd`DpU|jCrZb|CzUpqBfJls@lC|SdM`_A|Fxb@d]b~Bn`@paChYx`Bn@rDbE`Urm@l~CvEdUr}@`~Dfl@t|B`YffAtMzc@zJt\\nI|WpNbc@ra@ppAjc@plApdAxiCxfAfgCjc@t|@dIxOvv@|yAdh@~~@hi@p}@b^nj@rOfXhz@tnA|[``@nq@h|@~{@bdAffB`lB|kB~jBnw@zx@hlAxpAb}D~gFzqBh_DdjAjrBhvAvpCtmBdfEnkIpdRdtA~yC`yB~aFd}@voBxgBztDxE|IfdC|tEdgCzcEtpDxgFjyD|vEt~AxfBpcEr~DbeA~`AvxAjmAthCjuBjnAtaAzk@hd@xo@zf@bmAf_A|OvLd|AlkA`hBzsAliB|tA~i@|a@~pA~dApdAdz@heDtqC|QhPdbJlsIt`@fa@~iEr~Evp@dw@hvCriDptCxzDrg@jw@tsAbtB~s@hfAlr@fjAvv@lrA|Tl_@b|@l}Ade@h}@frArfCdMhWpxAf|CxrA`vC|Sxf@hX`s@rOn^ngAlnCnIvT|aAthCdmB|tF~hApmDtrDfsLxnBt_G`i@nyAhQ~e@t\\b|@lZxu@fZbt@~W|o@f_@|{@db@f`Arz@ngB`z@hcBxE`JhFtJbu@pvA~xAzhCn\\|j@foAvoBx\\rg@zp@daAjbAttAlgAlwArd@bl@~Xp\\rWbZzgA~nAjqAbtAzrA`qAdjFpoE`_Azs@~nAj`AnMtJb{HdzFdLrI~XfSj|AfjAtpEtfDz@f@bZhUhq@te@xbAtt@`y@zl@psB|zAhoA~|@pMtInh@b_@fr@zd@fL|Hf~AtdAx|A~~@~rBtmAvFrCjlCxuA`@RrOnI~w@v_@z}DxhB`_Bnr@jm@xYfgAle@ht@|]`o@|ZjdBj{@piAfn@pb@xVfb@|Vn]lT|ZzRvZnS~`@pXlZjT`c@v[n\\hWt^hYbn@xg@r_@h\\xd@xa@jV~Tdd@|b@pg@lg@jc@fd@`a@~b@zh@nl@hV~XzV|Ynj@rq@r[fa@~b@bk@fd@bn@r`@tj@jRnXvIhMpf@xt@`Xta@lMtR|BpDpo@pbAtj@n{@dPrVrHfL`Ux\\rVr^r^fh@zP|U`Zba@fg@jp@|Yd_@pVtZdi@ho@xh@dm@~VvXxa@zc@pWfX|g@`h@~c@bc@xa@|_@~ThStClCpk@`g@rs@ll@bi@~a@fl@nc@dN`Kpx@fl@zd@f\\pw@nk@dnBtzAxoA|gAv\\vYzwA|vAndAdhAvm@fr@frB|`CzaBblBfRbSvw@jx@lp@ho@jeAx_Aj_Ajw@dG`Fv`A~t@be@z\\hkCfcBrb@fV`k@j[nk@jYnxA~q@dr@zYn~@b^x~@b\\ln@zRln@xQbq@jQlw@dR`u@lOdu@xMd^fGre@zGpi@jH`VtCf`ApJpS|AtR`BjRjAlStAbSbAv\\~Axy@nCnABdz@pAd]V`]@h]G~RU|oBkExw@uDtmCqTfmAuMldBuT|yCkc@rVoD`|AyTvwDer@rkBa]js@wMvzAaZrWuFr`@eIpwDgz@lx@wQtEiAl|@oT`zAk]xrBkh@pg@oMzt@{QjtDgfAfqA_b@lN}D~f@gOl`@kMvcBcj@hl@kRhaA}P|PsC|MoDjWcJpWkGdXwIzl@yRzj@sQhJaCxHaAfEc@nF[pGIjEBbH^`I~@pHbBvExAtErBhE~BfFdDrHpG~CjDrE|FvFtIfClErDlHfDdIpDdKjErNtChLrClMxCjPtBlMlBnNlChTdCzUfDf^xCh^`NzsAhEl_AhCvi@v@`P`Dtp@fHtrAnGzqAzI`nAlH`oApEvl@tPdzB|WpaDlQvnBjFfi@nCtXbKvaAt[vmCnRbxAtTfzAdBrKpHdd@zKjt@t\\~lB`YtyA`ZzwA|Ita@`d@ptBbe@|tBpe@ptBtNzo@nW`kAxPzw@vKxg@z\\~`BxRrbA|QjaA`DrPpVhsAvQvdAfc@ziC|PrfAdG`a@bH|d@`c@|xCbWxkB|ThgBnChUtOtqAhJ`z@fJt{@~QnmBtHt|@xGj{@Fx@zQvoCnEpbAfH~iB~Aze@dCpkAhA`w@n@`dA@rgAWbw@aBnuAsBn_AgCxz@sFttAcC`j@sC~g@oDxm@yDpm@wDrj@yDfh@_Ehi@_KjpAmXrbD_\\lwDcBtSgJvjAeIreAaGh{@sFp{@gIxwA_G`nA}EdkAiAx\\_Cvu@cCf~@oCdqAsCfoBmB`mBiCjqDMr[}@ruAeA`_BWjVW`XmAzrAwDv`CyA`z@uBd|@gEtyAeDh~@wDdz@sDby@mAxUeCxb@}I|wAkIxrA_Cx\\w@lK_KxnAga@tfFsIzmAwJzrAqIdqA}HnuAmFjkAwD``AyCh}@aBho@sAxs@q@f]YrW]rh@Ozg@C~n@X~h@f@zk@z@lh@lAhh@vAxd@fBrd@rDd{@rKzzArFnp@vEdf@`Gfi@vGbi@rK|w@tLlu@hHxa@fJpf@jJzd@tI~_@rLzg@hKla@fNng@tXl~@tPpg@vMl_@xNz_@b^p{@bQv`@d^xu@lc@p{@za@xu@xj@z`Aj[bh@dXtb@~lAxjB|mAvjBh_A`xAzd@tt@b[rg@~Zhh@`x@~vApc@zy@`d@~|@~MpYlD`HvLvVzr@r}A|O~^~Nv^vNb]z\\|z@z`@zeAl\\n~@~[`_An[~~@~\\tcAj\\dbAj}Br`Hn`AbuChSlm@lTnp@tZn_ArN|a@bp@doBlp@rpB~g@t}Ady@jcCdR`k@nWzv@pWfw@frEpbNrrErbNrJfZbj@xaBfk@xcBzvAlfEp\\t`A|\\b`AlSnj@|Npa@f_@x`Alo@v_Btp@~}A|`@d~@xn@xuAzqAdqCh{Ah`D~q@nyAv`@~{@vq@v~AtV~l@tVhn@n_@jbAz\\~~@h^bdAfTzp@lRpm@r\\bgAp[fhArDnNvDfNrNph@vN`j@`Pvo@hSvz@p\\bzA`ZhxAxHr_@|SjhApSjhA~UfwArCxQz`@|lCvOliA`R|vAlSz{AfVdjBpV~iB`Kjt@dKdt@lY~lB|Lru@nMpu@xMxt@hNht@|Nft@lOzs@zd@vpBpPpp@dPvp@`Qvn@|Qdo@vJz[~[~aA`Tjo@pTvn@hYxv@bc@|lAl\\ht@jh@fkA~^xw@x\\dq@xo@pmAjc@pv@rc@jt@|b@fq@za@xm@dR~Wrf@rp@ld@zk@ne@pk@v`@de@r`@zc@dcA|iAtbArjAl`@je@~_@ff@pu@nbAha@hk@ja@`m@``@bm@b`@`n@ve@~x@`LtRvTda@f]bo@n\\ro@lh@`fA`g@|fAzXfo@dXpo@fW|n@vVro@bZdx@rYdy@vXfy@dXjz@`Mn`@``@vqAnb@v{A`m@x{B|l@v|BhZjiAzt@|kCx[lfA~]jhAt\\nbAxYdy@rHxS~Wbs@r`@vbAb_@||@~Whm@xX`n@~a@z|@|d@j~@zn@~mAr[pk@dZjh@fR`[rZ`f@~\\nh@~\\|f@l\\~e@`f@ho@bh@lo@~TnXz]zb@d_@xb@zf@ri@ddAreAz`Aj}@hk@vf@vWpT|`Aju@zXzR~TdPlUlO|m@pa@|m@z^vm@h]h}@`e@zn@zYfb@~Qvb@jQfc@rPnc@xO~o@bTbeAnZbo@xOnn@nN|i@fL`aApPj~AzVnSzBbw@vJ~oAzMhMbBvuAvLbc@nDzgBlNhv@lFjv@hF`sCdR~ZbC~VjBt^bC`In@fjAlJhlBfQ~\\tDvj@~GbsAfP`g@tHdb@~Gxa@hHxh@lJlh@zKjtAz[znAf]l~@fZ~a@bOba@tOxbA`c@f`@`R~_@pR``Ath@t^lUb^jUd|@xn@ba@j[f_@f[zm@fj@~U`U|UjUtWvW|OfPpE`Fll@~n@xV~XbTpVb_@fc@f_@fd@xe@bl@fe@tl@`_@ve@bw@pcAlw@ncAbw@dcArw@dbAr{@`cAx]l`@f^t_@h[l[v[vZt^|[d_@d[vj@~a@zj@l_@pr@|`@ha@tSjoA|h@jd@|O|JtC~Y`JjZjHlZ|G|S|Ehf@`JzeBhQxyAxCxtAyBfn@kDfeAsKlg@uHxc@qHdEu@zRqDxiAgU|b@aJhMuCdqBs\\tt@qIhm@wFtm@uDhi@uBvq@e@xq@\\xg@vA|q@tDb^fDzn@xG|\\zEnm@bK~|@xQvVdGb{A``@fiAf[faD|y@~h@xKvlAdVly@tL|i@fFjaAjFn|ApBri@k@hi@oC`XoBb]gDbX_CjXqCjViE`aAuQpcAsW`zBgw@|lAol@|lAyo@ntB{nAbQoKjbBqbApl@e]jz@ob@`qA{n@pmA_i@vg@kPrv@kV|S{Dd|@mRnvAyO~v@eFjjAoB~kBnCrl@`Bp|@~Gh_AxElh@fEdfAdAtn@jAng@u@~ZmBvUsAtTmBpQqBjq@iKzj@eNtSqGtX}Jri@{UrTeLjXyOvKaHt]wVri@wc@vVaVlR{R|e@{i@pw@{cAdLaPtZyc@t_@_k@pLkQrP{V|[qe@dY}`@`KgNlU_[zTwX`RuTtUiWfVsVvVaVvSeR|XoUpSoOrUaQhUyN`[iR``@uSd_@qQ~c@iQta@gNf[_Jvg@oMrCu@tSkEzPyClUcDpZeD`c@cFr\\iApa@qAx`@@ta@|@db@pAl^jCvEb@fn@vHzTxD~^nHpy@zS~UlG`k@pQp\\rL`VzIda@|Ol]pNxh@`TrChAt_Aba@vc@fQvIxCjd@hQbl@~Rtc@jMl`@tJne@hLtj@vJbFv@dRxC`\\bGfYhDd]vDfb@vDh_@zBr^bBn\\hA~`@f@|G?neADxm@qCtRaA`XsAze@iDtl@gG`YmDp[eErhA_TvGaBlg@cMlMaDbi@gOfg@aQbYyJpq@aYvq@mZfTwKnd@iVro@a`@p{@wk@rYuRlUoQxd@w^vn@yi@nt@ms@lnAitAtPeSrw@waAfu@_cAd}@ehA~k@{s@|g@cn@zb@ee@|G{G`YgYxe@}d@vXwU`OeMt]sXrM{JrE_Dpy@uh@tYsPnTgMlIwEzb@kSxRuIld@iQ`MyEn^sLnXcJbG_Bzf@wMhp@uM|b@cGbKyAnk@aGbe@kEdUmBllBqL~j@yC`dByOpOqCh_AwNbuB}a@n}@aStaAwR`d@qJp{Ai[h`@eIfHoArhDwu@hZuF|\\sGxu@qP|m@uNpq@mNffAeU~GiBxPgD~}@cQv`BiR~PmA|L]vg@gCbiBqB|aAqBbd@{@j[_@bCEtl@{AdcA}El`@mCt_@{Cvf@_Ft]_GfKiBdu@gPt`AqWnF_B|rAy_@d_@yL~_A_Yvn@kPfe@iKjjAqTbjA}Pxh@wGfNsAjhC{\\d}AsWtHwAlr@eRfOyG`y@a[dX}K~q@q`@rp@id@zUyQdWiS~WqTtw@}x@rWeVdWqVj_AebAf_@}`@fWkUbWySl[yUbq@mb@hg@eUnb@oP|Q}DbN{DrFNx[{CvH?jCLhCTvCn@~C|@|BjAvBzAnBbBdBhBjClDhBbD`CpGxBzGxGpTtBjHjB`FvAzCzAfCdBxBdCrClC|BjClBhDvAbGbB|FrAzNpDlKxBnAXrAN|AJxABfA@hAElCg@lCo@zBs@v@YrDsBpEiCo@aD{@qF]mCWgCUcCM{BQwCGyCGgDAaDBwGLyGLiE\\wK^kKvDigAtAi`@h@sOzCsLfA{DjAoCjBiChC{BxEIlCFxk@~GbHvDtDjEfCfG~AjHVpIm@|HiAtFqAtDqBdE}EzC_FdB_a@f@aGjBaZf@wY`@eh@hD}k@jDyp@~Gwf@lHu]lHc^jIaz@j[uQ~HkZrPoO`H}e@n\\qm@~h@uMlMsoApnAoZnViXtPsDjAcIjBgEh@yK`@yKq@iVsE{SsH{KsFe_@cSgWqOkIkI}I_JoCuD{B{D{@qBq@_B}BsEmKq]gEcPsEcHqHwZeC{Jg\\{pA_c@abBmf@wkBek@uxBaG}T_a@c_B}Pym@gHmXyUy|@eLka@",
+        "summary": {
+          "cost": 4667.055,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 127.995,
+          "max_lat": 52.269389,
+          "max_lon": 8.062224,
+          "min_lat": 51.530719,
+          "min_lon": 7.147054,
+          "time": 4637.735
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 52.266666,
+        "lon": 8.05,
+        "original_index": 0,
+        "side_of_street": "left",
+        "type": "break"
+      },
+      {
+        "lat": 51.55,
+        "lon": 7.216666,
+        "original_index": 1,
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 4667.055,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 127.995,
+      "max_lat": 52.269389,
+      "max_lon": 8.062224,
+      "min_lat": 51.530719,
+      "min_lon": 7.147054,
+      "time": 4637.735
+    },
+    "units": "kilometers"
+  }
+}

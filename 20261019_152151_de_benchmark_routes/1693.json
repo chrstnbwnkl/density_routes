@@ -1,0 +1,466 @@
+{
+  "id": "1693",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 117,
+            "begin_shape_index": 0,
+            "cost": 14.868,
+            "end_shape_index": 3,
+            "instruction": "Drive southeast.",
+            "length": 0.014,
+            "rough": true,
+            "time": 10.115,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 3,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 10 meters.",
+            "verbal_pre_transition_instruction": "Drive southeast. Then Turn right onto Mettmanner Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive southeast. Then Turn right onto Mettmanner Stra\u00dfe."
+          },
+          {
+            "bearing_after": 192,
+            "bearing_before": 108,
+            "begin_shape_index": 3,
+            "cost": 78.203,
+            "end_shape_index": 11,
+            "instruction": "Turn right onto Mettmanner Stra\u00dfe.",
+            "length": 0.076,
+            "street_names": [
+              "Mettmanner Stra\u00dfe"
+            ],
+            "time": 8.924,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Mettmanner Stra\u00dfe. Then Turn left onto Rheinlandstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Rheinlandstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn right onto Mettmanner Stra\u00dfe."
+          },
+          {
+            "bearing_after": 85,
+            "bearing_before": 178,
+            "begin_shape_index": 11,
+            "cost": 206.749,
+            "end_shape_index": 72,
+            "instruction": "Turn left onto Rheinlandstra\u00dfe/L 426.",
+            "length": 0.839,
+            "street_names": [
+              "Rheinlandstra\u00dfe",
+              "L 426"
+            ],
+            "time": 66.773,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 800 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Rheinlandstra\u00dfe, L 426.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Rheinlandstra\u00dfe."
+          },
+          {
+            "bearing_after": 304,
+            "bearing_before": 45,
+            "begin_shape_index": 72,
+            "cost": 42.349,
+            "end_shape_index": 77,
+            "instruction": "Turn left toward A 535/A 44.",
+            "length": 0.106,
+            "sign": {},
+            "street_names": [
+              "Metallstra\u00dfe"
+            ],
+            "time": 14.098,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn left toward A 535, A 44. Then, in 100 meters, Take the A 535 ramp.",
+            "verbal_succinct_transition_instruction": "Turn left toward A 535, A 44. Then, in 100 meters, Take the A 535 ramp.",
+            "verbal_transition_alert_instruction": "Turn left toward A 535."
+          },
+          {
+            "bearing_after": 343,
+            "bearing_before": 326,
+            "begin_shape_index": 77,
+            "cost": 479.52,
+            "end_shape_index": 261,
+            "highway": true,
+            "instruction": "Take the A 535 ramp toward Wuppertal.",
+            "length": 11.012,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 535"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Wuppertal"
+                }
+              ]
+            },
+            "street_names": [
+              "A 535"
+            ],
+            "time": 395.857,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 11 kilometers.",
+            "verbal_pre_transition_instruction": "Take the A 535 ramp toward Wuppertal.",
+            "verbal_transition_alert_instruction": "Take the A 535 ramp."
+          },
+          {
+            "bearing_after": 180,
+            "bearing_before": 170,
+            "begin_shape_index": 261,
+            "cost": 5.889,
+            "end_shape_index": 264,
+            "instruction": "Keep right to take A 46 toward Dortmund.",
+            "length": 0.144,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 46"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                },
+                {
+                  "text": "D\u00fcsseldorf"
+                },
+                {
+                  "text": "Wuppertal"
+                }
+              ]
+            },
+            "time": 4.949,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right to take A 46 toward Dortmund. Then Keep right to take A 46.",
+            "verbal_transition_alert_instruction": "Keep right to take A 46."
+          },
+          {
+            "bearing_after": 175,
+            "bearing_before": 171,
+            "begin_shape_index": 264,
+            "cost": 695.284,
+            "end_shape_index": 658,
+            "highway": true,
+            "instruction": "Keep right to take A 46 toward Dortmund.",
+            "length": 15.127,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 46"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "street_names": [
+              "A 46"
+            ],
+            "time": 559.227,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 15 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 46 toward Dortmund.",
+            "verbal_transition_alert_instruction": "Keep right to take A 46."
+          },
+          {
+            "bearing_after": 80,
+            "bearing_before": 63,
+            "begin_shape_index": 658,
+            "cost": 7.394,
+            "end_shape_index": 665,
+            "instruction": "Take exit 38 onto A 43 toward Recklinghausen/Sprockh\u00f6vel.",
+            "length": 0.175,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 43"
+                },
+                {
+                  "text": "A 1"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz Wuppertal-Nord"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "38"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Recklinghausen"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Sprockh\u00f6vel"
+                },
+                {
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "text": "Schwelm"
+                }
+              ]
+            },
+            "time": 7.139,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 38 onto A 43 toward Recklinghausen, Sprockh\u00f6vel. Then Keep left to take A 43.",
+            "verbal_transition_alert_instruction": "Take exit 38."
+          },
+          {
+            "bearing_after": 62,
+            "bearing_before": 63,
+            "begin_shape_index": 665,
+            "cost": 30.936,
+            "end_shape_index": 680,
+            "instruction": "Keep left to take A 43 toward Recklinghausen/Sprockh\u00f6vel.",
+            "length": 0.461,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 43"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Recklinghausen"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Sprockh\u00f6vel"
+                }
+              ]
+            },
+            "time": 27.688,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 43 toward Recklinghausen, Sprockh\u00f6vel.",
+            "verbal_transition_alert_instruction": "Keep left to take A 43."
+          },
+          {
+            "bearing_after": 110,
+            "bearing_before": 93,
+            "begin_shape_index": 680,
+            "cost": 1081.55,
+            "end_shape_index": 1175,
+            "highway": true,
+            "instruction": "Keep right to take A 43 toward Recklinghausen/Sprockh\u00f6vel.",
+            "length": 29.392,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 43"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Recklinghausen"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Sprockh\u00f6vel"
+                }
+              ]
+            },
+            "street_names": [
+              "A 43"
+            ],
+            "time": 992.148,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 29 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 43 toward Recklinghausen, Sprockh\u00f6vel.",
+            "verbal_transition_alert_instruction": "Keep right to take A 43."
+          },
+          {
+            "bearing_after": 341,
+            "bearing_before": 338,
+            "begin_shape_index": 1175,
+            "cost": 50.384,
+            "end_shape_index": 1181,
+            "instruction": "Take exit 14 onto A 42 toward Dortmund/Castrop-Rauxel.",
+            "length": 0.457,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 42"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz Herne"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "14"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Castrop-Rauxel"
+                },
+                {
+                  "text": "Duisburg"
+                },
+                {
+                  "text": "Gelsenkirchen"
+                }
+              ]
+            },
+            "time": 41.157,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 14 onto A 42 toward Dortmund, Castrop-Rauxel.",
+            "verbal_transition_alert_instruction": "Take exit 14."
+          },
+          {
+            "bearing_after": 337,
+            "bearing_before": 332,
+            "begin_shape_index": 1181,
+            "cost": 115.811,
+            "end_shape_index": 1214,
+            "highway": true,
+            "instruction": "Keep right to take A 42 toward Dortmund/Castrop-Rauxel.",
+            "length": 1.457,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 42"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Castrop-Rauxel"
+                }
+              ]
+            },
+            "street_names": [
+              "A 42"
+            ],
+            "time": 64.797,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 42 toward Dortmund, Castrop-Rauxel.",
+            "verbal_transition_alert_instruction": "Keep right to take A 42."
+          },
+          {
+            "bearing_before": 58,
+            "begin_shape_index": 1214,
+            "cost": 0.0,
+            "end_shape_index": 1214,
+            "instruction": "You have arrived at your destination.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 4,
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination."
+          }
+        ],
+        "shape": "oic|`BcmhmLh@gBTcB^yCpAZ~DPnAFhPXb@@^?jEGlDKMwFKyBKmBa@}Ek@yE}@oEkAcEsAyDwAgDcB_DeBoDoDuF{DgE}AyAoFiFcHuHeCsCeCiD_GqJqCoEy@aBg@cAuCwE_FcFeAwCmCuGc@iAiJ}PgGwK_DmG}@eB{CeGiD}G}F_KiS_`@eHcNiBqDgDuGyKiTkFgKiKkS}BqEaE{IeFcLwA}CeKyRs@uA{AuCaD_GkEaIUc@gIqPeMsWmAiCeAuBgKoS{JuRKSo@oAyCcG}C{F{BdH}HdNwHxMwHpKqIlJiFvBiF`BoCOiC_AuAeBeEkHuE_S_DyMq@aG[kGEaEHiEZoFp@gFx@qDhAuC|BiE|AgCtAcJ`SsV`VeXvX_YxQgPtNmM`t@ok@zs@}j@byAejA|~@ct@`_@wYnXwRvEeDvFcEnKkFhHaDrNgFzHiCxKsCzH{AjRgDvc@aGdl@oEfl@wDrj@iFxp@iIxYkEp\\wFzs@qNnm@mPfq@iTlXgJdS{Hze@aRnp@qX`HuCnl@iX~_@sQtUuLxwAgt@vOcIrQeJvd@eSp_@cNr_@yKv[oHr[_Ev\\aCjDGvMSvIAbU^`ZzBbMrApTxDpL`CjRdFhMzDjM|E~^nPd^vRnNlJrXpRnX|Rd~@`t@~|@nr@ra@nZva@fYx`@rU`QxJbRnInShJrSbI~PrFrSbGtEdB`OzDjD~@nWdFhVfExOrBl[pDdPz@h\\~A~VRjf@[r_@gAlv@}Gzy@cPlg@yN|f@oQvPgHnu@_`@`VgNxPmK~l@}`@fkA_t@pMoHpHeEj_@sR|\\oNj_Aw\\hg@gM|e@{IxwAcSzwAqPvq@kMpn@{Nrd@{Lvc@wNr[aMnJuDp^_P~i@mXfNiHnUyL~Z_S`OoJzi@c`@z[yVl\\iWxb@k]b}AsoAfYyT``Act@ru@kg@fk@{\\vv@q`@jYcNdZiMr_@kOf`@kNbp@_Tdr@_Rv}@gRbb@kIdl@kJ`j@cIndAyPneAyPlc@iJhU{Epm@gP|`@_MhrCyfAz[uNlx@qa@p{Aiw@l`@sSzBiA|b@sUfl@cZ~D}Bd~CibBr\\cQ|\\ePn]gN`^iKfLmCfLcCfLuBjLkBjL}Ary@oJpsAuPvNmC`VDvQqAte@}Hj^mCfW{Alq@qA|m@wA|Pi@|KaAnBQzEo@xEoAhDcAdD}A|CsBvCkCnCaD|BgDrByDjBiE|AuErAcFt@oEh@wEZ}ENaF@aFKsF[oFk@iFy@aFgAwEsAiEuAgD}AyCeBmCkB}B{BwBaCeBgCoAkC}@mCi@oCQgK\\cUfDcHz@aMFgJg@eIsAoMsDuNqDoe@mYgMmAoOoNsYqZmHyKcH_IyMgPqM}PsLwPsLqQcEaH{O}XgJqRyQ{c@_JqXiI}ZiHc^oI_f@qI_l@kFy\\gEuVoDsQmEsRmDaNiCqIuC}IuFqOuJuTyKoT_RoY{ReU{IsIeJwH_wAcu@qc@eUkJ{EyKqGcLcHoLwGeLsHuXgTyNwNmJ{JgU}Y}PiVga@io@wa@{m@}KkOkLuN_LkMwKcLmMgLqMgKwVgRaf@}V_cAwe@eYgOwA}@eOuKaOuM{GcH{H}IcNcR{F}ImFcJmJeSwEaJyIcU}EuNqKc^kFoScFqTsHm`@kGy`@gE{\\}Cs]aCq[_B{[qAk\\aAo`@a@kZuAmp@qA_a@aAuSyA{SiDg^wBwQmCuPeDiTwEiV_J}\\{HgXuVwy@oPqk@iOqk@aFoT}Hac@}DyU_B_K_BkKyBoOqBuOoAmKeByPuCc]_Eig@{PgwB_Gyr@_G_o@yFmk@kG_k@aHij@cGmc@uFi_@wAaJkPybAuKom@sKam@iV}rAaYw}AwPmbAaV{~A}Gif@wFmb@gGqg@uHyn@_Jcy@iJk|@aYmqCue@myEkMipAuDu_@}Ii|@}J{`A}D{]cEm^uH}m@}Hmk@yFc`@iGa`@aBcJgFmWsFeWsI_]qFmR_GwQaG}PqG_QoAuC_GsMiGmM}Vcd@}PcXiQoWoe@yq@mUs^uMeTgPiZmPs\\}H_QsHqQsHeRkHiRgI}ToMk_@mVcw@gPej@aJ_[wIw[wZkeAgh@miBoKo_@gn@gxBgLga@mJo\\cjAc`EcJ_[aL__@aOac@aKyWgK{U}M}X}IePoJePsUu`@{q@w`Au^ui@w]ik@qHaNeFeKyKyUcHcPgH{Q_H_ScHiTuB{GmFqSqDqPaGqWeFsWoFm[yGmd@_Lqx@wRivAoCcTaIsl@qD_VgJ}q@{Es\\{Fg[qCmNuCkOaEoO}EyLoGwVaGiT{FsNaJ_T{EeJkIiO_JaOqF_IyHmKmI{JwEeFyFgGaLwJgO_PoJmH_LmJgDgCcMmHgEkCeVsNoQaLqQuLmLqJaKeIuEwDaEoEkKgMqJ}M}FuI{IaPcCqEwBoEqG_PyF}N}DwLsA_EoBwGmBoGgCkK_CuKuDgS}BiM{DcVgDsV{UajBeEaY{FiZmE{RuIc]aIgVcDyIeBsEwDsIcDcH_EaIeGiKaIyM{CgEaJqMwIgKsBwByKiKkF{EeFgEc^aWwMsIiPuKg\\cTqMsJ_NmKaKwIeGyFyGkGiI}HuHwI{GyHaHyI{MsRkIkMyGuKwMeUgPs[}No\\aGgOuFoOuKe[cI}WkFyRiHyY_GiY{CuOkCkO{BkMuByMiDwT{CcSiHyh@gSitAmG_c@wHue@qGu^qIkc@eIe_@mMii@sO_k@sKk^qP_h@kQyh@a`@kiAoSin@yPcj@cPgk@iOkl@}Qyx@eIeb@{Hyb@sKas@cG}b@uHkm@_Jqx@cIgv@yG{o@m\\{aDmWmeC{[k|C_Igq@mHek@cNu_AqK_p@mIke@iGg[oFaWh@aH{G}ZmFy[cDcQ_AwEaHq[qF{VyK{d@}Kuk@aJeo@sHgm@qFin@iBeTwBg\\aAyVc@uL_@yNSeNAoI@mJD{QNkI`BeNtAoHhAwEbBwEbBsCtCcD~BsAtC}@|C[zCJ|B^|BfAfBtAhBzBtAzBhAtBx@vB~@rCf@jCh@pEZlE?rEKvEc@nEk@zCoAnEsAdDwApCwAvBcBtBeBxAwPhL{UxCyJv@mLb@gUKyWwAiJqAqLoB}PyDs]cLmZuMcd@cWk[{Qoy@uf@k^{RyTiKaUoIgNoEgMuDkk@cOeg@cIc`@}DsVyAie@}A_QJ_h@hBa`@vDu_@fFu`@jIia@|Kuu@xYy{Aft@}h@`UsK`EiQvFc^`JcSrDm[zEg\\hC_m@vAaOSaI[g{@mFa[qE{Y}Fyd@iNg^{Lof@eU_r@}a@kp@gg@{UySaIcHmn@sl@iw@cu@ez@cv@m\\gXoi@__@c\\_SaiAci@_oAg`@_d@qI}ZiFed@gFql@wDu[y@oX?kk@lAc\\~BaVnCwfAtOa^rGqh@jJov@bMsp@hHiZzBcb@j@cr@g@cNo@{Ku@ed@{Eyv@}Mwp@cQ_j@aPeeBsf@_]yGkm@eIa^qCu\\yAaMAoIBwN?qx@lDcRbBiQdCyQnDkStE{WlHiLdDmRbHsRhHkK~E_LnFgRxJ{T~MiEnC{PfK}RvNaOjLcNbLsL~J{NnNoQ`PuQxQiOhOsPlQuUdWmIhJqEpFoz@xbAihBr|Bkf@hl@}MvPiNxPmWl[iOtQyQlTkVbYuFxGqWbXwS|SuR`RiXfVkSlPeSpOoXjRkG|D}OdJeYrO{XlMuUrJwUrIyUhH}UjGa]nH{U~D{XnD_YhCmPz@iRv@ga@d@kHAi\\g@yWoAwUgBsX{CqXyDm[qGmVeGa^eKqVgIeVyI}q@kXyg@aTkh@aTwUeJyUwIwTqHqRcGoRmF}LyCsG}Am_@wHma@eGqd@cEi^uBk[q@mWMg\\x@aGTiO^g_@fBi^fDe^tDsk@vH{a@pG_Fl@qj@fL{m@tM_p@~N_bBpb@}DbAy|@nU_`@lJ{g@jLwg@xJ{l@tKyl@jHiY|CmOlA{a@nBuUj@_VRgSJo[s@kc@eCqPgBmc@eFeWuE}\\kIwt@eTsNeEeMaFeMuF}b@sSs_@qT{VcPcs@gk@mt@}o@wb@se@kh@go@cOaS_OkSoh@wu@yg@cx@ir@sgAiXwc@_]qi@qCqEisAyxBizB{pDc|@svAa|@}uAgwEuvH{t@klAg]kk@qK}Pob@mq@qYwd@q[yh@_QmUaDqEmMyQaDuE{b@oi@y`@cf@gT_Xaf@gd@q[{XqXeUq\\kT_PwJwIoFiIcFgd@_U}V{J_YgK_VoHaYcHk]iHmQ}CuQ}Bsd@gEsQy@o[yAud@JoU\\kTjAkT~AuQjBkP`ByRdDeQjDs\\`H}TpGa\\rKeYrKm\\`Nyv@z^ww@va@{~@hf@}gA`k@oBbAyg@vUcr@zXoSzGcWpH{`@`JwPrDeSrDoj@vHizA|KmrA|B}rA|@g_@T{jAfBwq@rBeZxAym@jEa[tC}Z`E{[zF}]pHo{@xUyNtEcI|CuLzEeMvEyOrG_OxGgk@pYq\\jRor@nc@wUfPmUnPkk@ta@ceA~v@weAbx@ac@|[ab@rYos@|c@oxAdv@sh@fTq[~L{\\fJs]nJ_d@bIibCd]oe@fFoi@`F_j@|EefAzJ{Fh@wf@vFeVjDkKzA{h@~Iae@~Jmf@dNcd@`OoRjGiOvFyb@xRcZ~Oe]`Sse@j[gj@la@yQhOmSrQye@fd@kWxX}Yz\\iQfTiKxMwTjYoKdPmX|a@kf@~s@aYpd@mQd[kLjS_PlY_Sl_@yOr[sT|c@o]fv@kSzd@se@tiA{Mb]mPxc@gSdk@_Whu@w]tjAwMrc@yLpb@kR|r@iRdv@qMhl@u_@~bBaD|OuWfuAcb@daC{a@blC_S`vAeR|sAaZzxBipAl_Kgf@`{DoCbTkTjdBor@lrF}m@h}EmPrsAqQzrA{R~rAqKxn@oKjl@sJxd@_HrZ{FvUcG|UiElOiRzm@cGtPsRhg@iEvJyKfVyDnHeIzOaMrTcMdS{KhP}L|Pw[j`@mQvRqLhKuIlH_Bz@aLvJgU~OmIjFoOvIc^vQwQdJoRhIqL~EwQ~Hw|Ato@wZjNm`@zOoJhEy`@lP{SpIgo@bVod@|Oe`@xKiZvHc^bIuPbDuB^qWvE{QlCgIdA{KzA{NbBoXdCwSxAg\\nBgRx@uFP_u@hBk^Xy[Zs}@HaZf@wY`@eh@hD}k@jDyp@~Gwf@lHu]lHc^jIaz@j[uQ~HkZrPoO`H}e@n\\qm@~h@uMlMsoApnAoZnViXtPsDjAcIjBgEh@yK`@yKq@iVsE{SsH{KsFe_@cSgWqOkIkI}I_JoCuD{B{D{@qBq@_B}BsEmKq]gEcPsEcHqHwZeC{Jg\\{pA_c@abBmf@wkBek@uxBaG}T_a@c_B}Pym@gHmXyUy|@eLka@",
+        "summary": {
+          "cost": 2808.941,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 59.262,
+          "max_lat": 51.54998,
+          "max_lon": 7.294125,
+          "min_lat": 51.241648,
+          "min_lon": 7.049953,
+          "time": 2192.878
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.333333,
+        "lon": 7.05,
+        "original_index": 0,
+        "side_of_street": "left",
+        "type": "break"
+      },
+      {
+        "lat": 51.55,
+        "lon": 7.216666,
+        "original_index": 1,
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 2808.941,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 59.262,
+      "max_lat": 51.54998,
+      "max_lon": 7.294125,
+      "min_lat": 51.241648,
+      "min_lon": 7.049953,
+      "time": 2192.878
+    },
+    "units": "kilometers"
+  }
+}

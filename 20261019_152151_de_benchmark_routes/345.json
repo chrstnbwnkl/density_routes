@@ -1,0 +1,516 @@
+{
+  "id": "345",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 332,
+            "begin_shape_index": 0,
+            "cost": 48.372,
+            "end_shape_index": 14,
+            "instruction": "Drive northwest on Schusterstra\u00dfe.",
+            "length": 0.175,
+            "street_names": [
+              "Schusterstra\u00dfe"
+            ],
+            "time": 21.193,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 1,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Drive northwest on Schusterstra\u00dfe. Then Turn right onto Bauerngasse.",
+            "verbal_succinct_transition_instruction": "Drive northwest. Then Turn right onto Bauerngasse."
+          },
+          {
+            "bearing_after": 56,
+            "bearing_before": 330,
+            "begin_shape_index": 14,
+            "cost": 111.785,
+            "end_shape_index": 41,
+            "instruction": "Turn right onto Bauerngasse.",
+            "length": 0.28,
+            "street_names": [
+              "Bauerngasse"
+            ],
+            "time": 35.437,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Bauerngasse.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Bauerngasse."
+          },
+          {
+            "bearing_after": 156,
+            "bearing_before": 116,
+            "begin_shape_index": 41,
+            "begin_street_names": [
+              "Rheinstra\u00dfe",
+              "L 431"
+            ],
+            "cost": 616.201,
+            "end_shape_index": 222,
+            "instruction": "Bear right toward B 9/Worms/Volkspark.",
+            "length": 4.59,
+            "sign": {},
+            "street_names": [
+              "L 431"
+            ],
+            "time": 378.767,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
+            "verbal_pre_transition_instruction": "Bear right toward B 9, Worms.",
+            "verbal_succinct_transition_instruction": "Bear right toward B 9, Worms.",
+            "verbal_transition_alert_instruction": "Bear right toward B 9."
+          },
+          {
+            "bearing_after": 201,
+            "bearing_before": 195,
+            "begin_shape_index": 222,
+            "cost": 7.166,
+            "end_shape_index": 227,
+            "instruction": "Take the Mainz-Laubenheim ramp.",
+            "length": 0.13,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Mainz-Laubenheim"
+                }
+              ]
+            },
+            "time": 5.86,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take the Mainz-Laubenheim ramp. Then Keep left to take A 60.",
+            "verbal_transition_alert_instruction": "Take the Mainz-Laubenheim ramp."
+          },
+          {
+            "bearing_after": 184,
+            "bearing_before": 189,
+            "begin_shape_index": 227,
+            "cost": 15.131,
+            "end_shape_index": 237,
+            "instruction": "Keep left to take A 60 toward Frankfurt am Main/Darmstadt.",
+            "length": 0.21,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 60"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Darmstadt"
+                }
+              ]
+            },
+            "time": 9.543,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep left to take A 60 toward Frankfurt am Main, Darmstadt. Then Keep right to take A 60.",
+            "verbal_transition_alert_instruction": "Keep left to take A 60."
+          },
+          {
+            "bearing_after": 181,
+            "bearing_before": 166,
+            "begin_shape_index": 237,
+            "cost": 109.673,
+            "end_shape_index": 301,
+            "highway": true,
+            "instruction": "Keep right to take A 60 toward Frankfurt am Main/Darmstadt.",
+            "length": 1.904,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 60"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Darmstadt"
+                }
+              ]
+            },
+            "street_names": [
+              "A 60",
+              "E 42"
+            ],
+            "time": 69.47,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 60 toward Frankfurt am Main, Darmstadt.",
+            "verbal_transition_alert_instruction": "Keep right to take A 60."
+          },
+          {
+            "bearing_after": 51,
+            "bearing_before": 53,
+            "begin_shape_index": 301,
+            "cost": 336.158,
+            "end_shape_index": 433,
+            "highway": true,
+            "instruction": "Keep left to stay on A 60/E 42 toward Darmstadt.",
+            "length": 9.189,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "A 60"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Darmstadt"
+                },
+                {
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "text": "R\u00fcsselsheim"
+                }
+              ]
+            },
+            "street_names": [
+              "A 60",
+              "E 42"
+            ],
+            "time": 317.491,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 9 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to stay on A 60, E 42 toward Darmstadt.",
+            "verbal_transition_alert_instruction": "Keep left to stay on A 60."
+          },
+          {
+            "bearing_after": 98,
+            "bearing_before": 93,
+            "begin_shape_index": 433,
+            "cost": 539.792,
+            "end_shape_index": 611,
+            "highway": true,
+            "instruction": "Keep right to take exit 30 onto A 67 toward Darmstadt.",
+            "length": 16.041,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 67"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "R\u00fcsselsheimer Dreieck"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "30"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Darmstadt"
+                },
+                {
+                  "text": "Basel"
+                },
+                {
+                  "text": "Heidelberg"
+                },
+                {
+                  "text": "Stuttgart"
+                }
+              ]
+            },
+            "street_names": [
+              "A 67",
+              "E 35"
+            ],
+            "time": 556.271,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 16 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take exit 30 onto A 67 toward Darmstadt.",
+            "verbal_transition_alert_instruction": "Keep right to take exit 30."
+          },
+          {
+            "bearing_after": 144,
+            "bearing_before": 127,
+            "begin_shape_index": 611,
+            "cost": 171.771,
+            "end_shape_index": 720,
+            "highway": true,
+            "instruction": "Take exit 6 onto A 672 toward Darmstadt/Stadtmitte/Griesheim.",
+            "length": 3.516,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 672"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Griesheimer Dreieck"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "6"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Darmstadt"
+                },
+                {
+                  "text": "Stadtmitte"
+                },
+                {
+                  "text": "Griesheim"
+                }
+              ]
+            },
+            "street_names": [
+              "A 672"
+            ],
+            "time": 147.583,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Take exit 6 onto A 672 toward Darmstadt, Stadtmitte.",
+            "verbal_transition_alert_instruction": "Take exit 6."
+          },
+          {
+            "bearing_after": 168,
+            "bearing_before": 78,
+            "begin_shape_index": 720,
+            "cost": 79.148,
+            "end_shape_index": 764,
+            "instruction": "Turn right onto Deutsche-Telekom-Allee.",
+            "length": 0.784,
+            "street_names": [
+              "Deutsche-Telekom-Allee"
+            ],
+            "time": 56.777,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 800 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Deutsche-Telekom-Allee.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Deutsche-Telekom-Allee."
+          },
+          {
+            "bearing_after": 75,
+            "bearing_before": 166,
+            "begin_shape_index": 764,
+            "cost": 44.661,
+            "end_shape_index": 803,
+            "instruction": "Turn left onto Hilpertstra\u00dfe.",
+            "length": 0.41,
+            "street_names": [
+              "Hilpertstra\u00dfe"
+            ],
+            "time": 35.289,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Hilpertstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Hilpertstra\u00dfe."
+          },
+          {
+            "bearing_after": 343,
+            "bearing_before": 80,
+            "begin_shape_index": 803,
+            "cost": 99.052,
+            "end_shape_index": 844,
+            "instruction": "Turn left onto Haardtring.",
+            "length": 0.592,
+            "street_names": [
+              "Haardtring"
+            ],
+            "time": 49.028,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 600 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Haardtring.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Haardtring."
+          },
+          {
+            "bearing_after": 347,
+            "bearing_before": 15,
+            "begin_shape_index": 844,
+            "cost": 27.61,
+            "end_shape_index": 851,
+            "instruction": "Bear left onto Berliner Allee.",
+            "length": 0.194,
+            "street_names": [
+              "Berliner Allee"
+            ],
+            "time": 14.209,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 16,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Bear left onto Berliner Allee.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_transition_alert_instruction": "Bear left onto Berliner Allee."
+          },
+          {
+            "bearing_after": 12,
+            "bearing_before": 345,
+            "begin_shape_index": 851,
+            "cost": 4.939,
+            "end_shape_index": 860,
+            "instruction": "Bear right to stay on Berliner Allee.",
+            "length": 0.056,
+            "street_names": [
+              "Berliner Allee"
+            ],
+            "time": 4.119,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 60 meters.",
+            "verbal_pre_transition_instruction": "Bear right to stay on Berliner Allee. Then Bear right onto Rheinstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Bear right. Then Bear right onto Rheinstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Bear right to stay on Berliner Allee."
+          },
+          {
+            "bearing_after": 78,
+            "bearing_before": 49,
+            "begin_shape_index": 860,
+            "cost": 174.313,
+            "end_shape_index": 903,
+            "instruction": "Bear right onto Rheinstra\u00dfe/B 26.",
+            "length": 1.126,
+            "street_names": [
+              "Rheinstra\u00dfe",
+              "B 26"
+            ],
+            "time": 83.567,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Bear right onto Rheinstra\u00dfe, B 26.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Rheinstra\u00dfe."
+          },
+          {
+            "bearing_after": 168,
+            "bearing_before": 79,
+            "begin_shape_index": 903,
+            "cost": 73.792,
+            "end_shape_index": 915,
+            "instruction": "Turn right onto Grafenstra\u00dfe.",
+            "length": 0.217,
+            "street_names": [
+              "Grafenstra\u00dfe"
+            ],
+            "time": 28.23,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Grafenstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Grafenstra\u00dfe."
+          },
+          {
+            "bearing_before": 168,
+            "begin_shape_index": 915,
+            "cost": 0.0,
+            "end_shape_index": 915,
+            "instruction": "Your destination is on the right.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 5,
+            "verbal_pre_transition_instruction": "Your destination is on the right.",
+            "verbal_transition_alert_instruction": "Your destination will be on the right."
+          }
+        ],
+        "shape": "syxj~AavzwNcInGgC|A}Bt@gCj@mDr@sQjDkA^iAb@qBh@{FpDiIlGaD`DkBxAcHdGgBqFyDqLi@wBeAkDkA{BcA}AyEsEuBiBiC}BeC_CiBeCoCmFiAmDqB_JgGc[iDcQmBoJ}DuR_B}H}@oE]yCG}CF{BJ}@Ny@Lu@v@_DrRuLbC_BrA{@`HqE`EuCbBoAzBiBdM{JhB_Bv@o@h@c@pFuErBeBrOwI`OmIv@c@fJmF`CyAxAy@bEiCtA}@|DeCzQuLdEoCxAaAlLsGpMiFn^eSrC}AvIyEbIcE~CmBdC{AlRwKnf@sW``@sTr\\qS|A{@nCcBzDuB~M}HvEkCpEmCtDiCrCaCbCaCrNaLzAwAlH_HxHoHxDyDpO{NhLiLtD{CzA}AjAoA`JqJbDeGn@yAxEcGjAqA~M_PzJuK`FiFxPeQ~KuKtKeJt@q@hDoC`CsBvAmApC{BfBwArFwDpGkEhCkBtBgA`EiBt@m@r@_AjAgC`@kCJuAb@yK`Ai[j@qNhAmRhBeUj@_GpEw[dFuWvh@_cCnWqlAhGyY|EkU`Jm`@xF_Tt@sCxDeNv@gCdGwQrImXb_@mjAdTcq@zMq`@jM_]dOa^`[un@rFeKb[cl@vJ{QjGgMtB_EvGkMdOsXlO{ZtW{l@zJ{TdEiJ~KeY`IgRjGaL~@eBlD}FfGsNpEuMf`@{iAvEmNpJsVr@kBjGoPjEcJ`CgFr@{AjFyLXo@vFeM~AmDjAeCtI}RpS}`@jZki@dHiLlMmSxXyb@|Tu]r{@}rAfRuY|Vg`@fN_SlLwOjNwOtQgSpT{S~BqB~IkHtJyHj^sUhIsEbE}BvAw@~Au@~J}EdGuCdKyErJ}CfA[rFk@vY_EtFk@`G]fGU`BBxHJnFVhGt@nN|CjXpHnI~Bd^hJvDxA`LtF`R~GbJjC`LxBhMtBdNx@vGLxIJfHGjH[jHu@fIy@vHwAbVqFlJuC|GCfDR|B^zBf@vBt@jBdApAfAdAbA|@vAz@bBv@bCn@dC^xCPtCBtCG~CO|BYbCa@zBw@`Cu@vAaA|AaApAaAt@qAt@oAb@sAPaB@sAOiA[sAi@{A_AqAqAwAqBiBqCiBeEgCcIcG_Ti@gGaF}`@oAyJkFc]wCqR{Fi[qFoYmDeP{AcHgEaPcH}YoJy\\cG_TwKa[wImUsWgr@mKwWqQmc@anAivCqiAcoCyzAwpDuu@ogByRah@gKwWsIeU{\\o|@eiAkoCan@qdBiTgt@{Lwb@qHaZsG}XkEuTuDcU_DoUkCyUsBeV_BkVeAqVw@uV_@yVDyVLaX^_Xp@cYdAaYdAoPrAkP~AePjB_PlCcRzCyQlDoQ~B{JdMch@zJi]jKa[hI_UhIiTdK_VrT}e@tNqY`[uo@zOm[r[im@bPk\\lQwb@vOq_@fIaThI_UvHaUtHkU`IyWxHwXlHqX|GyXzGqYfGsY|Gy]rGk^dGy^xF{^zEq_@lF{^jUulBzb@ibEnMkzAvNkiBzKq~ArHikAtGqgAtKe{BdFmkAnEycBfDgjAbHakC|BcbBbBkwBb@{{@?i{B}@ylCcDkdDaC_mAiB}y@oBky@qAia@gHevBaJayB]mKaHs}AiHezAgL{hCyHyiBoHuxBeCcaA{Bu`A}B{rA}Ai{As@q~@[gxBFcy@dAymC|AknCzC{qE\\wzBLolA]m{A{@u{Ai@o^q@{k@mAqm@}Aw|@{Akp@g@aOmAw`@{Bus@aAcWyBym@gA{VwEibAkFkaAoBi]uBu]uFw~@qGofAsCmd@wEsx@}GcyAgDc|@mBgn@eAma@cAki@eAcv@m@ex@YocAFg_Ah@e_An@ar@`D}u@dE}u@hCge@|C}e@jDuc@hDq_@~Emd@vGcf@pBeOjFs]jEuVjFqWxF{VjFaT|FeTlGoS|GsSfIkT|IaT~IyRtIkQfKwQ~LeS|KsO|JaNdMqOpLaMvKmK|KwJvLkJpMkJnMgIvMqHnsBsdAxXcQjq@qZft@c\\nn@e\\pr@k_@daAql@v~BiwAjRsLxq@}b@`lAwt@dk@{[`jA{n@jVaMvYqN|k@oWjTcJhPaHxx@}Y`h@aP~}@mVvb@yId]yGjm@qJht@{IfSeBjZ_Cdt@sDzy@gBzf@i@n{@Mr`A@taAeAbs@iDxZ}Bni@qGt\\yE|c@aJrU{FjYwHtUyHpu@{Xbh@uUlNaHx]yRn[gRx_@wWz\\{Vr_@{[bZcXv`@ma@nL_Mld@wh@bXe]dL{ObMcQvOuUpRsZrPmYf_@qp@|Os[pRqa@bX_o@|a@igAfV}r@xDiL`Ryk@xPsk@~Oem@rTkx@`Qwo@fZwgAlr@qbCt]meAn_@{}@tVql@z`@uy@n]eo@n^km@zb@{o@pb@_l@tGyHh`@{c@be@cg@d[_[lIsHlb@}]lf@k^vUcO~m@g^ji@_X|q@aYvr@wUjy@eUxn@eO`vCas@rh@kPlj@cR`YoMzWmLn]sQrh@uZzh@{\\dh@mb@rk@qg@rSaRh^m^jYe\\nTwWp_@ih@f_@mj@ff@{x@nPwYbS}`@rVii@j\\}u@|Qwe@rW{s@bZi~@vh@kgB`sDodNz{@ccDlkAckEhc@uzAds@izBhf@gtAtl@s{Ar|@_sBbbAesBfv@oyAz`AyfBfv@qtAjjActBbyBmzDhhCiyEtbCyxExUae@n`EolI`tD}}H|HyPt|AghDbwAyiDhb@{eAtaAahC`Vco@`KyLrCuCdDmBlD_ArDQpDZlDhA`DvBpC~C~BbEfBbFlAxFp@jGRtGItGcAzKqBfMcFfNmHjJ}KjK_O`EsNZoI[oDi@{CiAaEqCcGgFiFwFmFmH}BgEmEwImGwQoHu[uGo^{Iu|@{BuRiEeg@mBcTwC_`@gB{Y{Bej@mA_k@i@o_@e@ws@Aeq@Pwr@p@gm@nAyi@fAca@xAq^dAiUjA}QnAuP~B_XfAyQnE}a@vF_e@xIkt@dDyQjOaoAlL_aAvGij@xFob@lD{UtBsMbBgKfEcUfFgVfF_U~GgYvKoa@rLib@xJe]p_@qmAjEqMrZm_ApP{l@hHk[~EsXxCaShBsTz@mU^kZAcUa@wQsAmSoBmReCeSoBaKaDuN}G}WgAsDeEsM{HiToLo]sGgSuFeSsE{Q}DyRuGeb@sCuSsBcScA{JcBmSoE_j@}IemA{OczBeDwd@sCs`@?_CFwARiA\\aAj@u@h@_@vA]hl@eNzA_@~@_@fAk@bAw@|BuA|@k@bAe@v_@gJxZaH|Bk@pEaAhBa@ta@wJhOiDjDm@|AIx@HbCNt@@~@IfAObe@aLpWcGxP}Dl@OtA[bKaCh@K~EkAz@Qrz@{R~HgBzD_AdRkEn@O~C_Ac@qEQiBSwBoBaTwBeUuCwXmAkL{@sIuD_[{BgQ{AqKgBsKm@gDcAuFe@uCkAsGyByLq@gDy@}CeAkDi@sAm@qAgDcGS[wAiBkCgEsByCaBwCaAmCy@kCi@cC]}B]sDiA}OE]GeAOkDIqBSqD{HpCgJbDkHhCkIbC_KjC}VnFgk@|LgRdEcGpAiC`@_D\\sCRyB@qB?cBI}@OiAc@yAu@{A{@qBwAiBqAgBwAiDyCkN_\\aGkN{Mw[_DyHkAuCaFgPoDmLk@kBu@gBq@kAs@eA{AuA_BoAoBoAsAu@oAk@kBi@oBWcEdAuCz@gI`CuSxFya@zKiG|AkSnGeFw@qBq@}@c@uBkAu@}@o@w@eAuBy@yBqA_DmCm`@kCo_@iCw`@GaAKyAmCu_@eEsj@K_Bm@oIaCi]}G_`AsAqRgK{xAg@aHaHi_AS}Cy@mM}AeOkD{\\aB}So@eKg@uQOuDQqEeDmf@OyBe@iF{@iIOcBkAmMKcAMsAaBwNmBoP{@_LqAcQs@sJwAuReEak@kD}d@gDod@oEgk@s@mLtBe@XGzA]bSkEbPmD~KcCl@MzCq@tFmAzRiEjAYrXkG",
+        "summary": {
+          "cost": 2459.571,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 39.42,
+          "max_lat": 50.003521,
+          "max_lon": 8.649697,
+          "min_lat": 49.862348,
+          "min_lon": 8.270849,
+          "time": 1812.843
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 50.000782,
+        "lon": 8.271767,
+        "original_index": 0,
+        "type": "break"
+      },
+      {
+        "lat": 49.870555,
+        "lon": 8.649444,
+        "original_index": 1,
+        "side_of_street": "right",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 2459.571,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 39.42,
+      "max_lat": 50.003521,
+      "max_lon": 8.649697,
+      "min_lat": 49.862348,
+      "min_lon": 8.270849,
+      "time": 1812.843
+    },
+    "units": "kilometers"
+  }
+}

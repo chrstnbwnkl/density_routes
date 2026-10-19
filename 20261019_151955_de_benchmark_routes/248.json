@@ -1,0 +1,490 @@
+{
+  "id": "248",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 72,
+            "begin_shape_index": 0,
+            "begin_street_names": [
+              "Berliner Stra\u00dfe",
+              "K 818"
+            ],
+            "cost": 309.702,
+            "end_shape_index": 102,
+            "instruction": "Drive east on Berliner Stra\u00dfe/K 818. Continue on K 818.",
+            "length": 1.605,
+            "street_names": [
+              "K 818"
+            ],
+            "time": 153.585,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 1,
+            "verbal_post_transition_instruction": "Continue on K 818 for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Drive east on Berliner Stra\u00dfe, K 818.",
+            "verbal_succinct_transition_instruction": "Drive east."
+          },
+          {
+            "bearing_after": 111,
+            "bearing_before": 94,
+            "begin_shape_index": 102,
+            "begin_street_names": [
+              "Hanauer Landstra\u00dfe",
+              "K 818"
+            ],
+            "cost": 40.272,
+            "end_shape_index": 127,
+            "instruction": "Keep right to take Hanauer Landstra\u00dfe.",
+            "length": 0.229,
+            "street_names": [
+              "Hanauer Landstra\u00dfe"
+            ],
+            "time": 20.636,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Keep right to take Hanauer Landstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Keep right to take Hanauer Landstra\u00dfe."
+          },
+          {
+            "bearing_after": 73,
+            "bearing_before": 158,
+            "begin_shape_index": 127,
+            "begin_street_names": [
+              "Hanauer Landstra\u00dfe",
+              "B 3"
+            ],
+            "cost": 632.61,
+            "end_shape_index": 371,
+            "instruction": "Turn left onto Hanauer Landstra\u00dfe/B 3.",
+            "length": 7.706,
+            "street_names": [
+              "Hanauer Landstra\u00dfe"
+            ],
+            "time": 522.878,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 8 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Hanauer Landstra\u00dfe, B 3.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Hanauer Landstra\u00dfe."
+          },
+          {
+            "bearing_after": 103,
+            "bearing_before": 106,
+            "begin_shape_index": 371,
+            "cost": 53.892,
+            "end_shape_index": 423,
+            "instruction": "Keep left to take B 8 toward A 66/Bischofsheim/West.",
+            "length": 0.972,
+            "sign": {},
+            "street_names": [
+              "B 8"
+            ],
+            "time": 43.707,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Keep left to take B 8 toward A 66, Bischofsheim.",
+            "verbal_transition_alert_instruction": "Keep left to take B 8."
+          },
+          {
+            "bearing_after": 22,
+            "bearing_before": 359,
+            "begin_shape_index": 423,
+            "cost": 153.259,
+            "end_shape_index": 513,
+            "highway": true,
+            "instruction": "Take the A 66 ramp.",
+            "length": 3.736,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 66"
+                }
+              ]
+            },
+            "street_names": [
+              "A 66"
+            ],
+            "time": 130.36,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Take the A 66 ramp.",
+            "verbal_transition_alert_instruction": "Take the A 66 ramp."
+          },
+          {
+            "bearing_after": 75,
+            "bearing_before": 80,
+            "begin_shape_index": 513,
+            "cost": 110.456,
+            "end_shape_index": 578,
+            "highway": true,
+            "instruction": "Keep left to stay on A 66 toward Hanau-Nord.",
+            "length": 3.473,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Hanau-Nord"
+                },
+                {
+                  "text": "Fulda"
+                },
+                {
+                  "text": "Gie\u00dfen"
+                },
+                {
+                  "text": "Aschaffenburg"
+                }
+              ]
+            },
+            "street_names": [
+              "A 66"
+            ],
+            "time": 119.1,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to stay on A 66 toward Hanau-Nord.",
+            "verbal_transition_alert_instruction": "Keep left to stay on A 66."
+          },
+          {
+            "bearing_after": 111,
+            "bearing_before": 98,
+            "begin_shape_index": 578,
+            "cost": 10.836,
+            "end_shape_index": 584,
+            "instruction": "Take exit 36 toward Hanau-Nord.",
+            "length": 0.282,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Hanau-Nord"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "36"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Hanau-Nord"
+                },
+                {
+                  "text": "Friedberg"
+                },
+                {
+                  "text": "Nidderau"
+                },
+                {
+                  "text": "Bruchk\u00f6bel"
+                }
+              ]
+            },
+            "street_names": [
+              "B 45"
+            ],
+            "time": 11.424,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 36 toward Hanau-Nord. Then Keep right to stay on B 45.",
+            "verbal_transition_alert_instruction": "Take exit 36."
+          },
+          {
+            "bearing_after": 104,
+            "bearing_before": 96,
+            "begin_shape_index": 584,
+            "cost": 33.823,
+            "end_shape_index": 624,
+            "instruction": "Keep right to stay on B 45 toward Hanau-Nord.",
+            "length": 0.568,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "B 45"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Hanau-Nord"
+                }
+              ]
+            },
+            "street_names": [
+              "B 45"
+            ],
+            "time": 25.018,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 600 meters.",
+            "verbal_pre_transition_instruction": "Keep right to stay on B 45 toward Hanau-Nord.",
+            "verbal_transition_alert_instruction": "Keep right to stay on B 45."
+          },
+          {
+            "bearing_after": 201,
+            "bearing_before": 184,
+            "begin_shape_index": 624,
+            "cost": 53.035,
+            "end_shape_index": 664,
+            "instruction": "Keep right to stay on B 45.",
+            "length": 0.666,
+            "street_names": [
+              "B 45"
+            ],
+            "time": 45.832,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 700 meters.",
+            "verbal_pre_transition_instruction": "Keep right to stay on B 45.",
+            "verbal_transition_alert_instruction": "Keep right to stay on B 45."
+          },
+          {
+            "bearing_after": 101,
+            "bearing_before": 165,
+            "begin_shape_index": 664,
+            "cost": 151.546,
+            "end_shape_index": 732,
+            "instruction": "Turn left onto Alter R\u00fcckinger Weg.",
+            "length": 1.347,
+            "street_names": [
+              "Alter R\u00fcckinger Weg"
+            ],
+            "time": 99.332,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Alter R\u00fcckinger Weg.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Alter R\u00fcckinger Weg."
+          },
+          {
+            "bearing_after": 264,
+            "bearing_before": 161,
+            "begin_shape_index": 732,
+            "cost": 16.694,
+            "end_shape_index": 739,
+            "instruction": "Turn right onto Lamboystra\u00dfe/L 3209.",
+            "length": 0.087,
+            "street_names": [
+              "Lamboystra\u00dfe",
+              "L 3209"
+            ],
+            "time": 10.085,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 90 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Lamboystra\u00dfe, L 3209. Then Turn left onto Nordstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Nordstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn right onto Lamboystra\u00dfe."
+          },
+          {
+            "bearing_after": 187,
+            "bearing_before": 267,
+            "begin_shape_index": 739,
+            "cost": 33.469,
+            "end_shape_index": 748,
+            "instruction": "Turn left onto Nordstra\u00dfe.",
+            "length": 0.192,
+            "street_names": [
+              "Nordstra\u00dfe"
+            ],
+            "time": 17.957,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Nordstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Nordstra\u00dfe."
+          },
+          {
+            "bearing_after": 230,
+            "bearing_before": 224,
+            "begin_shape_index": 748,
+            "cost": 3.514,
+            "end_shape_index": 760,
+            "instruction": "Enter the roundabout and take the 2nd exit onto Sandeldamm.",
+            "length": 0.03,
+            "roundabout_exit_count": 2,
+            "time": 7.064,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit onto Sandeldamm.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit onto Sandeldamm."
+          },
+          {
+            "bearing_after": 177,
+            "bearing_before": 92,
+            "begin_shape_index": 760,
+            "cost": 51.793,
+            "end_shape_index": 776,
+            "instruction": "Exit the roundabout onto Sandeldamm.",
+            "length": 0.405,
+            "street_names": [
+              "Sandeldamm"
+            ],
+            "time": 36.575,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto Sandeldamm.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout."
+          },
+          {
+            "bearing_after": 250,
+            "bearing_before": 165,
+            "begin_shape_index": 776,
+            "cost": 29.187,
+            "end_shape_index": 788,
+            "instruction": "Turn right onto M\u00fchlstra\u00dfe.",
+            "length": 0.156,
+            "street_names": [
+              "M\u00fchlstra\u00dfe"
+            ],
+            "time": 13.017,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto M\u00fchlstra\u00dfe. Then, in 200 meters, Turn left onto Hirschstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right. Then, in 200 meters, Turn left onto Hirschstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn right onto M\u00fchlstra\u00dfe."
+          },
+          {
+            "bearing_after": 180,
+            "bearing_before": 269,
+            "begin_shape_index": 788,
+            "cost": 14.593,
+            "end_shape_index": 790,
+            "instruction": "Turn left onto Hirschstra\u00dfe.",
+            "length": 0.078,
+            "street_names": [
+              "Hirschstra\u00dfe"
+            ],
+            "time": 14.635,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Hirschstra\u00dfe. Then Turn right onto Langstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Langstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn left onto Hirschstra\u00dfe."
+          },
+          {
+            "bearing_after": 270,
+            "bearing_before": 180,
+            "begin_shape_index": 790,
+            "cost": 652.052,
+            "end_shape_index": 794,
+            "has_time_restrictions": true,
+            "instruction": "Turn right onto Langstra\u00dfe.",
+            "length": 0.279,
+            "street_names": [
+              "Langstra\u00dfe"
+            ],
+            "time": 42.337,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Langstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Langstra\u00dfe."
+          },
+          {
+            "bearing_before": 271,
+            "begin_shape_index": 794,
+            "cost": 0.0,
+            "end_shape_index": 794,
+            "instruction": "Your destination is on the left.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 6,
+            "verbal_pre_transition_instruction": "Your destination is on the left.",
+            "verbal_transition_alert_instruction": "Your destination will be on the left."
+          }
+        ],
+        "shape": "ueqq~AqezpOcAeIoAcKqAeK_AgIw@yGqB_RcJcx@oEi`@kBoUUuCy@iLaAkQeC_VeBkUc@mQMsDSwFIwCo@wM]oIsAgk@kBo`@OiD]yJEwAEqBG_CCqCAg@KcIAoAg@{Mq@wQI}BGiRGyIN_HL{GCwCc@yg@QiUKwFUcEg@eFu@qFkA}GeBqJeEcSwKwd@s@oD]kCQsCQ_DCi@MgDSwFMwFG}BWwJ{Am^Y}Gs@iI_@sFw@yLKgBaA_VA{BC}@EcTLeSBaA`@yPbA{O`@aINoChBqYr@qKn@wKjAiRPaDNcCd@qKxE}kAv@oQxAs\\p@kRv@_XLiE`@qKb@wPV}Q?oHMsHGsDUiEyBqZ]qIKcEAwBAeBDeCBaBt@_F`@_Cb@uBn@{C^cBf@}A`@kAz@kBhAmBfAcBfAoApAsAxFqFnD}DvHeHzAwAnAaAdAo@tCoAhFuApDmA`YsIhA_@dBu@jEaC}CmX{@wKeA}Ow@}PEkAYyMIgFWcSGwECuE@yALsIp@ce@FyAFeAPyB`@qFVoEHqEP_R@mEB_D@_CAuHAwB?_C?qB`@qYXmVt@}l@?qOQaTUmUw@iQm@aGs@aGcB_KiFkTaGwWoEyRyH{\\q@{CuCqLeJu_@_Scy@wNkl@kQ}s@_Rwt@cFsTwJga@mGsW{AmG_B_HmBiIwBkJsM{j@}I}_@gCuKwPst@kGmXqLyf@cD_N}FqSsAqF{R_y@qSy{@sQut@oMik@_AcEk@iCoBeH{AeFoD}L}[_|@eE}KgIuTmJsV}EmNsCyJ}CaLqA}GgAmHcBuMoAiIcD_Qc@yAiB_FqA{CsA_C{AsBuA{AqDsDkHwGqGaHuDaFkD_G_CuFwEqLqIsUeUkn@yx@ycCoOif@wQyl@qe@m}AiPii@o@wBuD_Me@cB_CsH}CyJsLs`@yImXeF_P_GkReOyf@eCqIaAiDcJw[gB}FiB_G]kAcFkP_BoFoFoPkCuHoBiGsB_GgCeIqBcHcEeMaByFmKs^mo@a|BsFsS}XmdAa{@aaDyRou@_BgGwBiJwAgFuA}FoNul@mCoLaCkK}@oD}He^wPmt@}@{DyDuOaD}KiG{SwF}Q{EcRkMyj@eP{r@uF_VsAgFmBiHsC{K_CsIyAyEmi@_fBw@gCuA}Ea_BqdF_JgWiBgFgF_OgOkc@c@mA{DyHi@iAiBuCmDyFmDcIwCwGaI}NkAkB_BwBuWkl@kVsh@yCqGeFuJoIaPsEsKaFuJsC}EcIyMi\\ch@oJoOwF}JwHiOoFmLcGcN}FwNgEwKcH_SiGoR{EiPwDeNsD}NyC_MmPuu@gEaTaIub@{DwVuEm]oEq^yDc]aHqt@kAaLq@kHgBsP{J}w@m`@}~CuLq_AeAgKgAqLy@uIeA_Ou@mKk@wK[eHc@kMc@sQa@gSSuS?uRLuRPcPNeNb@_S~CmaAjDchArAc^pByb@vBe]`Co[tBqYpCm[vGsq@tOwzAhh@q~EvCuYpEgl@vCg`@nAaP\\{DxL_lAf@cFHaBByAEgAa@kEyCyCsAcAoBcAwAm@}Ak@eBo@gLyEeQ}LsDoCoEqEyFwGgFkHk@_A_DwEyCkFc[uj@aMmUkFqJaFeI{E{GuHwJuIoJ_FuE{FmFuF}DgEkCaK}FwIkDcFwAqGmBeD_AmGwAsGkA}H{@eJi@{IU}FOeEBmW`@{LPwKNuA@eIgEgBuAkAiAiBoCS]w@uBgD_j@aAmMqA{MkAoFgAkEeBkEwBqDyB_CuBeBuAm@yAs@cAU_AYaBScDQyCMcDOyB]yA]uAc@wA{@mBiAmBkBaB_CsAuBuAaCyAaE_Ksa@sFmk@iNspAq]yaD_A{Hsk@mmFan@mzFcX{cCcLgmAeFgm@}Eyr@aD}i@aBm`@gDiz@}Amn@wA{x@k@}r@Iow@\\o{@h@a`@v@k]fAa_@jA_YlAkYhAwT~Ai[|B_Z`Eej@`Egb@jEs_@rFsd@vR{wAzNyiAtNgpA~C{[rDc`@rDqf@zB{^d@aGvFclAxBcl@j@aOr@gZb@aTZ_Pp@y]LsOPyYLeUHa_@Aki@O{d@y@in@}@kf@qAgc@wBkg@oEwu@}AaOuC{]yC_^aEgb@kE}^aEyZ{Es[yEiZaHe`@aJia@}@sDoFqVoDqNuCkJ{FsScRcq@iFaOyNaa@qMi]oMoZeNwZ_MqWaS{_@soAsaC_Wqg@iV}g@qP}`@oPgb@kQae@eNs`@qNed@sOeh@mNuh@gMwg@eQqt@{M{q@_Iuc@uFg[mEaWgC_R}Fea@gE_Z_Jay@eIcy@iFmp@cEyl@aDaf@_Bo^oBib@mBwk@eAgl@{@}`@_@y^Qin@Bel@Tks@v@gr@rAer@vBsy@zDcdAdN{zCfOq{ClHu|ApCqn@rDa|@|Hwf@bBeUfBoVn@kLtBqr@zD_{AnEof@bAsIbB}IvAyF~AaFvAyD~DwHrCaErCoDxHsHvI}IfBgCfAyBlAyCbAuCx@aDv@oDl@sE`@mFZsHbCmt@RsD`@eEl@wD`A}DfAeCdAgBtAqBpAwA`B_B`I{F~Kb@~BMfLmCpIq@hHs@dIg@pFSvJA~R|@fIpEdE~AnLvAZ@vLXhEArCc@~EgArBPpK`@jENnBDfJN`HJ|VLtG@lB@zA@j@?lXXpZlAnAB`A@rILzFDhDBfMBhH?bGSzCi@f@IbDu@rEqAv_@eLbRwFdIcC`F{AxG{BlEuAbDcARQN]VkADsC?{BDgGD_N~BwNpSojApBgMrCkPh@yCb@_C|@sFhLmz@dE__@xDa^vCy_@pBa^f@yI`@cI|@iW^qKl@cQ\\iNPiMNca@DcM^}p@BaJ@{A@yA@}EBwHBaE@sDf@}uABwEF_On@}Ph@wF^iEl@uDr@_D|DwMn@yBlB_F~B{FlEwIhCkEvDqF|GmHtFgFzH}GtNuKj\\yT|F}DxHiEjGeD~BcAzGsC`Ag@jL_FnNcG`_@wOvCoA|BaAlEmBTnIDhBFdB@j@xAhg@FtGJlHrGv@|AR~c@lF`El@|UtCbQ`D`C^dBdAhAlBElAHjAZ`Af@n@h@Tj@?j@Sb@g@Zw@LaA@eAKaAlB_@`BA`GDf}@nJ~BZtw@hNpAVxCl@zAVzRxDfC\\zBDdDSbC_@rCo@ba@aMzAjKjB|KnCrNx@bEpAfGJd@dCrK`GbWt@pEL|CHdDBvNrf@?fCA?rrAKloA]nx@IxT",
+        "summary": {
+          "cost": 2350.741,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": true,
+          "has_toll": false,
+          "length": 21.812,
+          "level_changes": [
+            [
+              409,
+              1.0
+            ]
+          ],
+          "max_lat": 50.156135,
+          "max_lon": 8.924555,
+          "min_lat": 50.111228,
+          "min_lon": 8.681065,
+          "time": 1313.547
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 50.111591,
+        "lon": 8.681067,
+        "original_index": 0,
+        "type": "break"
+      },
+      {
+        "lat": 50.133333,
+        "lon": 8.916667,
+        "original_index": 1,
+        "side_of_street": "left",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 2350.741,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": true,
+      "has_toll": false,
+      "length": 21.812,
+      "max_lat": 50.156135,
+      "max_lon": 8.924555,
+      "min_lat": 50.111228,
+      "min_lon": 8.681065,
+      "time": 1313.547
+    },
+    "units": "kilometers"
+  }
+}

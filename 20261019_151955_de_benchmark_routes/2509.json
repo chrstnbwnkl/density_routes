@@ -1,0 +1,362 @@
+{
+  "id": "2509",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 20,
+            "begin_shape_index": 0,
+            "cost": 4.559,
+            "end_shape_index": 2,
+            "instruction": "Drive north on Oberste Gasse.",
+            "length": 0.033,
+            "street_names": [
+              "Oberste Gasse"
+            ],
+            "time": 4.075,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 3,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 30 meters.",
+            "verbal_pre_transition_instruction": "Drive north on Oberste Gasse. Then Turn right onto Martinsplatz.",
+            "verbal_succinct_transition_instruction": "Drive north. Then Turn right onto Martinsplatz."
+          },
+          {
+            "bearing_after": 104,
+            "bearing_before": 17,
+            "begin_shape_index": 2,
+            "cost": 22.4,
+            "end_shape_index": 5,
+            "instruction": "Turn right onto Martinsplatz.",
+            "length": 0.08,
+            "street_names": [
+              "Martinsplatz"
+            ],
+            "time": 11.413,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Martinsplatz. Then Turn left onto Mittelgasse.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Mittelgasse.",
+            "verbal_transition_alert_instruction": "Turn right onto Martinsplatz."
+          },
+          {
+            "bearing_after": 21,
+            "bearing_before": 104,
+            "begin_shape_index": 5,
+            "cost": 33.38,
+            "end_shape_index": 8,
+            "instruction": "Turn left onto Mittelgasse.",
+            "length": 0.088,
+            "street_names": [
+              "Mittelgasse"
+            ],
+            "time": 15.052,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 90 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Mittelgasse. Then Turn right onto Kurt-Schumacher-Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Kurt-Schumacher-Stra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn left onto Mittelgasse."
+          },
+          {
+            "bearing_after": 124,
+            "bearing_before": 21,
+            "begin_shape_index": 8,
+            "begin_street_names": [
+              "Kurt-Schumacher-Stra\u00dfe",
+              "L 3237"
+            ],
+            "cost": 184.002,
+            "end_shape_index": 48,
+            "instruction": "Turn right onto Kurt-Schumacher-Stra\u00dfe/L 3237. Continue on L 3237.",
+            "length": 1.015,
+            "street_names": [
+              "L 3237"
+            ],
+            "time": 110.568,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue on L 3237 for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn right onto Kurt-Schumacher-Stra\u00dfe, L 3237.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Kurt-Schumacher-Stra\u00dfe."
+          },
+          {
+            "bearing_after": 157,
+            "bearing_before": 152,
+            "begin_shape_index": 48,
+            "cost": 21.551,
+            "end_shape_index": 84,
+            "instruction": "Enter Platz der Deutschen Einheit and take the 3rd exit toward B 7/B 83/Warburg/Hofgeismar.",
+            "length": 0.185,
+            "roundabout_exit_count": 3,
+            "street_names": [
+              "Platz der Deutschen Einheit"
+            ],
+            "time": 13.819,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter Platz der Deutschen Einheit and take the 3rd exit toward B 7, Warburg.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 3rd exit toward B 7, Warburg.",
+            "verbal_transition_alert_instruction": "Enter Platz der Deutschen Einheit and take the 3rd exit toward B 7."
+          },
+          {
+            "bearing_after": 356,
+            "bearing_before": 346,
+            "begin_shape_index": 84,
+            "begin_street_names": [
+              "Dresdener Stra\u00dfe",
+              "B 7",
+              "B 83",
+              "L 3237"
+            ],
+            "cost": 257.458,
+            "end_shape_index": 184,
+            "instruction": "Exit the roundabout toward B 7/B 83/Warburg/Hofgeismar.",
+            "length": 3.571,
+            "sign": {},
+            "street_names": [
+              "Dresdener Stra\u00dfe"
+            ],
+            "time": 195.497,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue on Dresdener Stra\u00dfe for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward B 7, Warburg.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward B 7, Warburg."
+          },
+          {
+            "bearing_after": 104,
+            "bearing_before": 84,
+            "begin_shape_index": 184,
+            "cost": 16.581,
+            "end_shape_index": 218,
+            "instruction": "Take the A 7 ramp.",
+            "length": 0.403,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 7"
+                }
+              ]
+            },
+            "time": 14.492,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_pre_transition_instruction": "Take the A 7 ramp.",
+            "verbal_transition_alert_instruction": "Take the A 7 ramp."
+          },
+          {
+            "bearing_after": 358,
+            "bearing_before": 358,
+            "begin_shape_index": 218,
+            "cost": 1120.328,
+            "end_shape_index": 656,
+            "highway": true,
+            "instruction": "Keep left to take A 7 toward Hannover.",
+            "length": 38.235,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 7"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Hannover"
+                }
+              ]
+            },
+            "street_names": [
+              "A 7",
+              "E 45"
+            ],
+            "time": 1209.71,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 38 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 7 toward Hannover.",
+            "verbal_transition_alert_instruction": "Keep left to take A 7."
+          },
+          {
+            "bearing_after": 18,
+            "bearing_before": 1,
+            "begin_shape_index": 656,
+            "cost": 13.336,
+            "end_shape_index": 679,
+            "instruction": "Take exit 73 onto B 3 toward G\u00f6ttingen/Rosdorf.",
+            "length": 0.393,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "B 3"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "G\u00f6ttingen"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "73"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "G\u00f6ttingen"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Rosdorf"
+                },
+                {
+                  "text": "Dransfeld"
+                }
+              ]
+            },
+            "time": 13.575,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 73 onto B 3 toward G\u00f6ttingen, Rosdorf.",
+            "verbal_transition_alert_instruction": "Take exit 73."
+          },
+          {
+            "bearing_after": 12,
+            "bearing_before": 2,
+            "begin_shape_index": 679,
+            "cost": 364.166,
+            "end_shape_index": 855,
+            "instruction": "Keep right to take B 3 toward G\u00f6ttingen/Rosdorf.",
+            "length": 3.807,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "B 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "G\u00f6ttingen"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Rosdorf"
+                }
+              ]
+            },
+            "street_names": [
+              "B 3"
+            ],
+            "time": 292.919,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take B 3 toward G\u00f6ttingen, Rosdorf.",
+            "verbal_transition_alert_instruction": "Keep right to take B 3."
+          },
+          {
+            "bearing_after": 65,
+            "bearing_before": 104,
+            "begin_shape_index": 855,
+            "cost": 28.184,
+            "end_shape_index": 870,
+            "instruction": "Bear left onto Papendiek.",
+            "length": 0.133,
+            "street_names": [
+              "Papendiek"
+            ],
+            "time": 16.504,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 16,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Bear left onto Papendiek.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_transition_alert_instruction": "Bear left onto Papendiek."
+          },
+          {
+            "bearing_before": 8,
+            "begin_shape_index": 870,
+            "cost": 0.0,
+            "end_shape_index": 870,
+            "instruction": "You have arrived at your destination.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 4,
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination."
+          }
+        ],
+        "shape": "}tb{`BsmzbQiKkFmDsAx@sJlDea@tBqV_UeLwR{JkCsAvNyd@bPya@~b@adApA_DhG}LdJmQl@sA|@mBrCgGrDaIxAeD~IqSdJoUpAcD|Qmc@nHmQzF_NhLeX`CqF~EaLfH_NfK_PjN_Px@_AdCcCrN_Np@m@nK_KtCmCfBgBzVwVfLkL|Vm[zMyQbEmFxWiZvLmM~CqChC}BhG{E|Am@xA{@tAiApA}AhAyAbAkB|@uBt@_Ct@aD^wB\\wCPcBHyBBcB?eDI_DS{C[sCe@sCm@gCu@_C{@wBcAmBu@mAuB{B[W[W_Ag@mB}@aAWyA]cAOgB?mBPaCf@_Cz@sJj@oA^cDXiCCsBUkBi@gB{@_B}@oGuFeDkE{LuQcNaUcMiWwBqEoAeDyJmZeC_LgCkKkDqTaAyIkE{h@k@aIc@uG}@{Na@cHi@wF}A}O{@cFsBqL_CyKqDaPcHeZyGi\\sF{]qAgMcAmMs@sMa@wMSyMC{LJyLVwLf@uL`GymAhAi[bAyj@`B}yBTyQp@aZpA_a@pBwa@tDim@xDkf@xFao@vEwc@`Ew]`Hmk@zCaU|Hel@rBoNbIuj@ZwBvCgRrK{l@jFa\\n[kaBnQu|@l@{Czo@osClTa}@xCeM|CwLpb@aeB|`@}aBbF_UzEcVjDsP|Fu]tCwQZqB~AmM|@uGdIax@jBiX`B}W`Bid@d@}P\\}PXyYLoUJai@_@czA_AeoBcBioBi@m^m@m[OcJ_Bs~@{A{v@c@}Nz@yL\\aCj@}Bp@oBbAaBbAkAhA{@hAc@hFy@nVeBjGWfBFhBTtAh@nAnAbAzAz@lBh@|BZdCH`CCbCQbCWxBi@tBo@dBeAtAuA`AuCz@_L~CeIrA_IpA{QtBiWrA_`@v@qXl@aNe@cNy@kMwA}c@}GyOqBoj@aJoFt@_i@cRc`AaZwaFqfBsc@uOeY_M}VoM_`@aXe]kZsSoToQqTmSaY{Um]o~BawDqeV}u`@m|AahC{{BitD}qBwdDuoBmcDy{@awAkK{Pgs@}jAoMiSuM{RmReXwRqWcSwViSmVuXmZuQkRwi@_i@mq@oq@qkD}jD_dAacAg\\u[}uCatC}KyKuPoPamDkjDaxBsyBaa@_a@yZ{^oSyW_SqZ}Um_@e\\mn@kXsn@{Tcn@ySiq@mSgx@wFeW{jG{xXgk@ygCwTgbAob@olBkL_i@k`@ueBuuAghG_Laf@mHeZwHyYcIsYmIgYwI{XaJsXcJ_XsJoWaK{VkKcVyKoUgL{TuLeT_MsSkM}R}HaLcIwK_GuHaGoHwOsQaPyPkP_PuPgO_QiNyOmLaPsKgP}JmPeJqs@_^gtI{hEyDmB{aG{wCsFoCgfB{|@uu@sa@mYcO{OwIuOoJoOeKgO}KaOqL{OeNsO}NkOqOaOkPuNeQkN}QmJ_NgJkNaJ{NwIgOeL{RyKoSmKaT_KuTuJeUsGoPmGwPcGaQoHmTeHyTmImY_I}YqHkZ{EsSoE}SeEeTyDmTsEqYcE{YqDgZ}CoZmCuZ{B_[iBc[uAi[cAm[k@uY[wYIwYDyYTwYd@uYv@sYdAqYtAmX`BkXrBeX~B}WpCyW|CqWlDiWxDaWzFu_@fM{y@lJuo@pD}X`DeYrCkYdCqYrBkYfBmYvAsYhAwYz@yYj@{YZ}YH}YG}YU}Ya@_Vo@}Uy@{UgAyUqAuU{Bi[iCqZ{CiZmDaZ}DwYoEmYmFuYuEkU_FcUmFyTwFoTaGeT}GiTgH}SyIwUgJcUwJoTcK{Sko@wkA_JsQsIaRiIsR}HcSiHcS}GqSqG}Sin@quB_EgNkEaO{Oyi@sa@yvAu[sgAu|Ba|HaZcdA{I{[wHa[gGsWeHc\\mHa_@_Jaf@yEeYsEmY{DgXqFqa@_F{a@kEeb@{Dob@gDsb@kCw`@}B}`@iBaa@{Aea@iAga@w@ka@g@ma@Wma@Eoa@Jma@Zma@j@ma@|@ia@t@c]pTuxHrDm|@`D}s@hCqc@xCmc@fDic@vDac@fE{b@tEub@bFkb@rFeb@rGmd@dHcd@tHwc@dImc@vI_c@dJsb@tJgb@fX}eA|]olAhvAkjEhUyr@vC}ItcGi|Qv^{hAlOee@zZmbAdJm[~Iu[tI{[lIe\\dIm\\|Hs\\dHk[rGy[`Gg\\pFq\\~E}\\jEg[xDq[fD{[tCc\\`Ci\\nBi\\pAgYdAmYr@cWd@_]PuZBoYIoYYmYi@mYu@kYeAiYsAcY{B}\\mCw\\_Dm\\}BaTgC}SgAyIkAwImAwHoAuHkCwOqCsO{C}O_D{O{Jmd@_WkdAwXmiAmNuk@iIy\\og@qtBiz@csDek@ybCw_AkcEcj@ilCcbAueFupCyxMaHk\\eb@{oBemB}dJeZosAaNwj@sNki@wMkc@kQoj@qPof@{Pof@cQwd@aRme@_dAiaCi}AuoDo{AwmD_~AqmDoPs\\{P_\\iQi[uQsZaR{YoReYuRiXaSoWkSyVwS_VaTgUkToTuTuS}T{RgU_RoUgQkP{Lqb@aYyb@yVec@wTwc@yRad@uPeo@}Rs`HwjBivEgmAuwAq`@ei@uOmg@wPoUgIiU{IcT_J}SsJyQuIqQmJmQeKwWcPcRmLqSgNcOwKaOeLgSoP_SgQwR_Ry_Ck`CcIcI}q@cr@iXaXkoJelJo~Bm}BeDmDgScSeyA_yAqmAugAiNqKsWgSiG_EyNgKkY{Pe\\qReh@eWoWuKim@wV}YyKyVgIklAu]g}@yS_~D{r@m_@aHex\\ifFe|Ba]a{Cwd@_bBgWwiDqg@u`AqNkfC}]iw@mL}_@}Emd@iF{jAkL_PcAsiBsIsOY_bDiG_xHsJym@w@iOS}LO}_CcBwUa@{_FeGqMOyuE_G}oE{Fwk@u@sbAkA}QOeFGoOOe`@mPwB{AeD}BiC{BcCsCiCiDcC}DwBeEeCsFgIoS_C}EaCeE{BkCmCcC_D_CqDwAqCkAaDu@iH{@aEG}Xo@g]FoKWaC]_Cm@}B}@{BkAwByA_CkCmBeCg@eC_ByHoB}J{BuLq@kDkFcXaC_MiF}W}Ney@iR}bAiFqX{Iqd@wEuW[gBsB_LcBmJ_CuMuCaP}CaQkEiVsPo}@{S}hAaEyT_EqT{D{SyKak@{BiLyEiV}E{VgAsFkFiX_GqZ{EkWiCkNY}AY{AiBgJg@cC_N}r@eH}^iDiQcB{KuBkNkNws@[{AqBmMuBcNoAkGkI_b@kBuHmFqSoCkNsHg`@cGe[{@kEoEoUqEuUcJie@kFoXY{AcAgFiGq[eAmFsDcRyOmx@a@uBcCeMoDePoQs}@yHc]{Ga\\w[acBcHu^_BaIWqAyAaI{CyOmC{E}Lkp@}CgPc@{BqJyf@c@uByF{Y{EyU[{AWuAgFgc@UqBaAiKgA}L{CyYqCi[_B}YW_Fy@}RGeB[kJQiJUcN]aVOqKMuNMoQQgUIsP@yCReN`@cMv@aVhC}z@L}Dn@gNvA{N|AsLd@eDvF}ZlFySR}@xCaMnDeOvC}Ld@sBzAuGxAmGh@_CvD}PlBkR~VahApBcKrDaUjBoMlBiNlBiIxEqSbE_RhCyL`CaL`AyCxEwNdCeIrDsNzDgPt@aDp@qClFeU`@sBPgBt@mFtAaJfBkP\\gEv@uOJsBHqBfAsZ^yRV{If@kT@WHeEBg@P}GD}AJeBLiBZwCLcA@o@?u@Gy@Kq@o@{Bi@}A{HaQeBmDiA}@gA[eF_Ao@M_BWcDi@kGcAmNkB",
+        "summary": {
+          "cost": 2065.949,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 47.944,
+          "max_lat": 51.535387,
+          "max_lon": 9.931623,
+          "min_lat": 51.307261,
+          "min_lon": 9.500394,
+          "time": 1897.628
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.316666,
+        "lon": 9.5,
+        "original_index": 0,
+        "side_of_street": "left",
+        "type": "break"
+      },
+      {
+        "lat": 51.533394,
+        "lon": 9.931608,
+        "original_index": 1,
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 2065.949,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 47.944,
+      "max_lat": 51.535387,
+      "max_lon": 9.931623,
+      "min_lat": 51.307261,
+      "min_lon": 9.500394,
+      "time": 1897.628
+    },
+    "units": "kilometers"
+  }
+}

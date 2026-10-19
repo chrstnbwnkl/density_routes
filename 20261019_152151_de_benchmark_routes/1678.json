@@ -1,0 +1,767 @@
+{
+  "id": "1678",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 237,
+            "begin_shape_index": 0,
+            "cost": 2.783,
+            "end_shape_index": 4,
+            "instruction": "Drive southwest on Am Kanal.",
+            "length": 0.031,
+            "street_names": [
+              "Am Kanal"
+            ],
+            "time": 2.313,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 2,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 30 meters.",
+            "verbal_pre_transition_instruction": "Drive southwest on Am Kanal. Then Make a left U-turn at Burgstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive southwest. Then Make a left U-turn at Burgstra\u00dfe."
+          },
+          {
+            "bearing_after": 58,
+            "bearing_before": 252,
+            "begin_shape_index": 4,
+            "cost": 196.672,
+            "end_shape_index": 30,
+            "instruction": "Make a left U-turn at Burgstra\u00dfe to stay on Am Kanal.",
+            "length": 0.532,
+            "street_names": [
+              "Am Kanal"
+            ],
+            "time": 50.568,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 13,
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Make a left U-turn at Burgstra\u00dfe to stay on Am Kanal.",
+            "verbal_succinct_transition_instruction": "Make a left U-turn.",
+            "verbal_transition_alert_instruction": "Make a left U-turn at Burgstra\u00dfe."
+          },
+          {
+            "bearing_after": 132,
+            "bearing_before": 30,
+            "begin_shape_index": 30,
+            "cost": 82.679,
+            "end_shape_index": 48,
+            "instruction": "Turn right toward Berlin/Brandenburg/Babelsberg.",
+            "length": 1.028,
+            "sign": {},
+            "street_names": [
+              "B 1",
+              "Nuthestra\u00dfe"
+            ],
+            "time": 54.264,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn right toward Berlin, Brandenburg.",
+            "verbal_succinct_transition_instruction": "Turn right toward Berlin, Brandenburg.",
+            "verbal_transition_alert_instruction": "Turn right toward Berlin."
+          },
+          {
+            "bearing_after": 135,
+            "bearing_before": 133,
+            "begin_shape_index": 48,
+            "begin_street_names": [
+              "L 40",
+              "Nuthestra\u00dfe"
+            ],
+            "cost": 666.71,
+            "end_shape_index": 268,
+            "instruction": "Continue on L 40.",
+            "length": 16.174,
+            "street_names": [
+              "L 40"
+            ],
+            "time": 613.948,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 8,
+            "verbal_post_transition_instruction": "Continue for 16 kilometers.",
+            "verbal_pre_transition_instruction": "Continue on L 40.",
+            "verbal_transition_alert_instruction": "Continue on L 40."
+          },
+          {
+            "bearing_after": 139,
+            "bearing_before": 135,
+            "begin_shape_index": 268,
+            "cost": 145.713,
+            "end_shape_index": 337,
+            "instruction": "Keep right to take B 101 toward A 10/Luckenwalde/BER.",
+            "length": 4.028,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "B 101"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "A 10"
+                },
+                {
+                  "text": "Luckenwalde"
+                },
+                {
+                  "text": "BER"
+                }
+              ]
+            },
+            "street_names": [
+              "B 101"
+            ],
+            "time": 131.891,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take B 101 toward A 10, Luckenwalde.",
+            "verbal_transition_alert_instruction": "Keep right to take B 101."
+          },
+          {
+            "bearing_after": 188,
+            "bearing_before": 178,
+            "begin_shape_index": 337,
+            "cost": 8.078,
+            "end_shape_index": 341,
+            "instruction": "Take the A 10 ramp toward Frankfurt (Oder)/Dresden.",
+            "length": 0.166,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 10"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Ludwigsfelde-Ost"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Frankfurt (Oder)"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dresden"
+                },
+                {
+                  "text": "Magdeburg"
+                },
+                {
+                  "text": "Leipzig"
+                }
+              ]
+            },
+            "street_names": [
+              "B 101"
+            ],
+            "time": 7.529,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take the A 10 ramp toward Frankfurt (Oder), Dresden. Then Keep left to take A 10.",
+            "verbal_transition_alert_instruction": "Take the A 10 ramp."
+          },
+          {
+            "bearing_after": 177,
+            "bearing_before": 178,
+            "begin_shape_index": 341,
+            "cost": 28.67,
+            "end_shape_index": 347,
+            "instruction": "Keep left to take A 10 toward Frankfurt (Oder)/Dresden.",
+            "length": 0.487,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 10"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Frankfurt (Oder)"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dresden"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "BER"
+                }
+              ]
+            },
+            "street_names": [
+              "B 101"
+            ],
+            "time": 25.226,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 10 toward Frankfurt (Oder), Dresden.",
+            "verbal_transition_alert_instruction": "Keep left to take A 10."
+          },
+          {
+            "bearing_after": 195,
+            "bearing_before": 182,
+            "begin_shape_index": 347,
+            "cost": 35.731,
+            "end_shape_index": 388,
+            "instruction": "Keep right to take A 10 toward Frankfurt (Oder)/BER/Dresden.",
+            "length": 0.527,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 10"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Frankfurt (Oder)"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "BER"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Dresden"
+                }
+              ]
+            },
+            "time": 31.676,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 10 toward Frankfurt (Oder), BER.",
+            "verbal_transition_alert_instruction": "Keep right to take A 10."
+          },
+          {
+            "bearing_after": 101,
+            "bearing_before": 101,
+            "begin_shape_index": 388,
+            "cost": 562.107,
+            "end_shape_index": 534,
+            "highway": true,
+            "instruction": "Keep left to take A 10 toward Frankfurt (Oder)/BER/Dresden.",
+            "length": 17.59,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 10"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Frankfurt (Oder)"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "BER"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Dresden"
+                },
+                {
+                  "text": "Genshagen"
+                }
+              ]
+            },
+            "street_names": [
+              "A 10",
+              "E 30",
+              "E 55"
+            ],
+            "time": 599.624,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 18 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 10 toward Frankfurt (Oder), BER.",
+            "verbal_transition_alert_instruction": "Keep left to take A 10."
+          },
+          {
+            "bearing_after": 101,
+            "bearing_before": 86,
+            "begin_shape_index": 534,
+            "cost": 11.318,
+            "end_shape_index": 544,
+            "instruction": "Take exit 11 onto A 13 toward Dresden/Cottbus.",
+            "length": 0.381,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 13"
+                },
+                {
+                  "text": "A 113"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Sch\u00f6nefelder Kreuz"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "11"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dresden"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Cottbus"
+                },
+                {
+                  "text": "Berlin-Zentrum"
+                },
+                {
+                  "text": "BER"
+                }
+              ]
+            },
+            "street_names": [
+              "E 55"
+            ],
+            "time": 12.954,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 11 onto A 13 toward Dresden, Cottbus.",
+            "verbal_transition_alert_instruction": "Take exit 11."
+          },
+          {
+            "bearing_after": 94,
+            "bearing_before": 86,
+            "begin_shape_index": 544,
+            "cost": 2112.256,
+            "end_shape_index": 967,
+            "highway": true,
+            "instruction": "Keep right to take A 13 toward Dresden/Cottbus.",
+            "length": 62.237,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 13"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Dresden"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Cottbus"
+                }
+              ]
+            },
+            "street_names": [
+              "A 13",
+              "E 36",
+              "E 55"
+            ],
+            "time": 2271.816,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 62 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 13 toward Dresden, Cottbus.",
+            "verbal_transition_alert_instruction": "Keep right to take A 13."
+          },
+          {
+            "bearing_after": 121,
+            "bearing_before": 121,
+            "begin_shape_index": 967,
+            "cost": 388.863,
+            "end_shape_index": 1044,
+            "highway": true,
+            "instruction": "Keep left to take A 15/E 36 toward Forst/Cottbus/Boblitz.",
+            "length": 12.214,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "text": "Forst"
+                },
+                {
+                  "text": "Cottbus"
+                },
+                {
+                  "text": "Boblitz"
+                }
+              ]
+            },
+            "street_names": [
+              "A 15",
+              "E 36"
+            ],
+            "time": 415.182,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 12 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 15, E 36 toward Forst, Cottbus.",
+            "verbal_transition_alert_instruction": "Keep left to take A 15."
+          },
+          {
+            "bearing_after": 160,
+            "bearing_before": 148,
+            "begin_shape_index": 1044,
+            "cost": 17.491,
+            "end_shape_index": 1058,
+            "instruction": "Take exit 3 toward Vetschau/Burg.",
+            "length": 0.425,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Vetschau"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Vetschau"
+                },
+                {
+                  "text": "Burg"
+                }
+              ]
+            },
+            "time": 14.68,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 3 toward Vetschau, Burg.",
+            "verbal_transition_alert_instruction": "Take exit 3."
+          },
+          {
+            "bearing_after": 66,
+            "bearing_before": 163,
+            "begin_shape_index": 1058,
+            "cost": 65.347,
+            "end_shape_index": 1066,
+            "instruction": "Turn left toward Burg/Slawenburg Raddusch.",
+            "length": 0.182,
+            "sign": {},
+            "street_names": [
+              "Calauer Stra\u00dfe",
+              "L 54"
+            ],
+            "time": 19.673,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left toward Burg, Slawenburg Raddusch.",
+            "verbal_succinct_transition_instruction": "Turn left toward Burg, Slawenburg Raddusch.",
+            "verbal_transition_alert_instruction": "Turn left toward Burg."
+          },
+          {
+            "bearing_after": 138,
+            "bearing_before": 112,
+            "begin_shape_index": 1066,
+            "cost": 7.771,
+            "end_shape_index": 1069,
+            "instruction": "Enter the roundabout and take the 1st exit toward Cottbus/Burg.",
+            "length": 0.017,
+            "roundabout_exit_count": 1,
+            "time": 1.266,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 1st exit toward Cottbus, Burg.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 1st exit toward Cottbus, Burg.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 1st exit toward Cottbus."
+          },
+          {
+            "bearing_after": 157,
+            "bearing_before": 138,
+            "begin_shape_index": 1069,
+            "cost": 689.441,
+            "end_shape_index": 1259,
+            "instruction": "Exit the roundabout toward Cottbus/Burg.",
+            "length": 13.213,
+            "sign": {},
+            "street_names": [
+              "L 49"
+            ],
+            "time": 629.166,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 13 kilometers.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward Cottbus, Burg.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward Cottbus, Burg."
+          },
+          {
+            "bearing_after": 33,
+            "bearing_before": 93,
+            "begin_shape_index": 1259,
+            "cost": 132.354,
+            "end_shape_index": 1289,
+            "instruction": "Turn left toward Fehrow/Gulben.",
+            "length": 1.162,
+            "sign": {},
+            "street_names": [
+              "Bahnhofstra\u00dfe",
+              "L 50"
+            ],
+            "time": 96.223,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn left toward Fehrow, Gulben.",
+            "verbal_succinct_transition_instruction": "Turn left toward Fehrow, Gulben.",
+            "verbal_transition_alert_instruction": "Turn left toward Fehrow."
+          },
+          {
+            "bearing_after": 77,
+            "bearing_before": 358,
+            "begin_shape_index": 1289,
+            "cost": 101.814,
+            "end_shape_index": 1313,
+            "instruction": "Turn right toward Cottbus.",
+            "length": 1.293,
+            "sign": {},
+            "street_names": [
+              "Str\u00f6bitzer Stra\u00dfe"
+            ],
+            "time": 93.098,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right toward Cottbus.",
+            "verbal_succinct_transition_instruction": "Turn right toward Cottbus.",
+            "verbal_transition_alert_instruction": "Turn right toward Cottbus."
+          },
+          {
+            "bearing_after": 154,
+            "bearing_before": 67,
+            "begin_shape_index": 1313,
+            "begin_street_names": [
+              "Fichtestra\u00dfe",
+              "K 7130"
+            ],
+            "cost": 293.072,
+            "end_shape_index": 1370,
+            "instruction": "Turn right toward Cottbus.",
+            "length": 3.306,
+            "sign": {},
+            "street_names": [
+              "Fichtestra\u00dfe"
+            ],
+            "time": 240.083,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right toward Cottbus.",
+            "verbal_succinct_transition_instruction": "Turn right toward Cottbus.",
+            "verbal_transition_alert_instruction": "Turn right toward Cottbus."
+          },
+          {
+            "bearing_after": 128,
+            "bearing_before": 81,
+            "begin_shape_index": 1370,
+            "cost": 17.157,
+            "end_shape_index": 1386,
+            "instruction": "Enter the roundabout and take the 3rd exit toward Burg/Spreewald.",
+            "length": 0.068,
+            "roundabout_exit_count": 3,
+            "time": 8.775,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 3rd exit toward Burg/Spreewald.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 3rd exit toward Burg/Spreewald.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 3rd exit toward Burg/Spreewald."
+          },
+          {
+            "bearing_after": 359,
+            "bearing_before": 311,
+            "begin_shape_index": 1386,
+            "cost": 48.862,
+            "end_shape_index": 1394,
+            "instruction": "Exit the roundabout toward Burg/Spreewald.",
+            "length": 0.548,
+            "sign": {},
+            "street_names": [
+              "Pappelallee"
+            ],
+            "time": 34.654,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward Burg/Spreewald.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward Burg/Spreewald."
+          },
+          {
+            "bearing_after": 69,
+            "bearing_before": 359,
+            "begin_shape_index": 1394,
+            "cost": 10.034,
+            "end_shape_index": 1403,
+            "instruction": "Enter the roundabout and take the 1st exit toward Messe/Universit\u00e4t.",
+            "length": 0.042,
+            "roundabout_exit_count": 1,
+            "time": 3.212,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 1st exit toward Messe, Universit\u00e4t.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 1st exit toward Messe, Universit\u00e4t.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 1st exit toward Messe."
+          },
+          {
+            "bearing_after": 65,
+            "bearing_before": 353,
+            "begin_shape_index": 1403,
+            "cost": 175.343,
+            "end_shape_index": 1441,
+            "instruction": "Exit the roundabout toward Messe/Universit\u00e4t.",
+            "length": 1.546,
+            "sign": {},
+            "street_names": [
+              "Nordring"
+            ],
+            "time": 106.556,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Exit the roundabout toward Messe, Universit\u00e4t.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout toward Messe, Universit\u00e4t."
+          },
+          {
+            "bearing_after": 182,
+            "bearing_before": 94,
+            "begin_shape_index": 1441,
+            "cost": 119.243,
+            "end_shape_index": 1467,
+            "instruction": "Turn right onto Karlstra\u00dfe.",
+            "length": 0.581,
+            "street_names": [
+              "Karlstra\u00dfe"
+            ],
+            "time": 45.853,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 600 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Karlstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Karlstra\u00dfe."
+          },
+          {
+            "bearing_after": 292,
+            "bearing_before": 204,
+            "begin_shape_index": 1467,
+            "cost": 1113.581,
+            "end_shape_index": 1475,
+            "instruction": "Turn right.",
+            "length": 0.041,
+            "time": 46.594,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "verbal_pre_transition_instruction": "Turn right.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right."
+          },
+          {
+            "bearing_before": 274,
+            "begin_shape_index": 1475,
+            "cost": 0.0,
+            "end_shape_index": 1475,
+            "instruction": "You have arrived at your destination.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 4,
+            "verbal_pre_transition_instruction": "You have arrived at your destination.",
+            "verbal_transition_alert_instruction": "You will arrive at your destination."
+          }
+        ],
+        "shape": "wcd}bBckn|WpB`FfBnILpA^dDzAuAV[XWdBgBu@eDcDsKmGoNgFkHcIcIaZiZuH}HyCaDsNeO_w@my@iDaEaDuE{C}EiImIwHeIc]k^u@w@_AcA_AaAaMgLaB{A{ByBiA_Fc@uDQqDC{E\\yGx@cHpXwm@tEmK|d@wfAfKmXdgAwoClv@smBrb@geApf@qlAzMa^tMk]bVkm@jMaXbFqKbU_\\hOuOlPgNlP_LxMwGjQqFb^}EpFWhe@uAdiAsChh@iCnUsAbSuBvWsE`VyH`\\{NdNmHhQmMxJiIpHgHxN_PxFkHpJmMhLiQvI}NhIeO~GaOdOi^dL}\\jc@uyAdZwfAjJ_\\lm@gdBrL_[pO}^`Pw]bo@}yAbl@gtAvgCuaGdwDivIllAcpClc@ocAl~@sxBpIgSlM_^bRet@xIe\\~Ia`@rHk^hJsl@pl@o_E~QyvAnMesAbEefAjBmz@n@}o@Dit@wAshDMgj@Kyg@c@ajBO{SeAwcGYy`BVqn@f@eZtA}g@nAke@v@_YbAau@\\ch@AqQKwi@Ugz@}AaaBgAuiAiA_sB_A}eBGqjAY}]o@aj@_AiZgB_^qEsp@kHeo@uMa}@oJsd@yHc\\wIo[}o@wtBg\\edA}FoSsIm_@_Igb@wC_SiHeo@}C}i@kB{g@]se@\\{i@zE}z@~Heu@rJkj@hNon@hLe^~Puc@hQie@te@gkAtSel@~V_t@tXk{@lTwz@jQay@vU_qAbQwqAhBiNtG_n@tEwe@lDci@vI{oAvEakAjBsbAn@sm@o@y~Ag@wd@cPqkHwAyr@eGcfCwBm|@wBokDf@_vArCusAhCsv@lBea@rEuz@~J}vAzKqlAdF{c@rGai@rIsm@hJul@xPu`AdO_u@hMak@xOco@xNei@nOqh@hNmc@`Skk@lO}a@zw@ysBhMk]rNcc@zKa_@rLyd@dJoa@tGm\\bGq]xH}g@nFic@rF_i@rj@{bG~d@_`FbSc{BfJs_AzB}Vn[_iDvcAowKtw@wfI~JolAbIkmAnFasAhD}sAl^wgN`LkjEbDq}ApH_hC~Eq{@nIoiAvDga@vEqd@tLc|@jIgg@fJef@xJod@bLqc@bMse@xOeg@pQ}g@xK_YdLsXhTae@rYaj@lOkWdXma@pUa[jZg^`UyUjLyJfIsGnLgIlX{O|IuD|I}ClUkGrVgClUy@fNGjEb@nOg@zEu@|IyBlIuD~DaC`HqEdMsLrHaKbGmJfIuOrHsLxCsE`AgApA_A`B}@nBy@dBc@vASbBIfBBtAJrARvPtD`KhCrHdDbk@nNrRxC~]lIp^lIbj@pJvVpFnp@fOrn@rLfy@jJ|[tC~[pBj]~A|\\|@jt@PzhDuCva@_@fSo@zRgAtIm@jHo@fHu@lJkAfIgAzHmAjI{AvHwArJuBbYsFjcBsl@nj@sUl~Bm{@bgAe_@ho@iQvSeFvTyEdm@wInTcDtWcDpZsCfXgBbXoAp|AeGjCM~oCwJdDKzGUnZcAxJ[tDMnqCgHfi@cBrqBoGfTq@f_@w@jLbBlG`@tNn@bw@}A`eAeEjo@uBp^g@ny@s@~k@`@zRZbLxDnBr@jBjA~A~A|@hAV\\x@pAxArC`AbCnAlEx@tEj@`F\\xFDvEMlH_@bGu@|FmBxG_CbG{CvE_CvByBvA{B~@oBl@iCViCCeC[eCs@cCqAgB{AiB}BcBgCgB{DmAuDcAgEm@gEk@kGSeGH}HnC{r@tN_gC~Dwr@vFw`AdAuQpBuo@x@c_@PeNjByrB]gi@WmJO_KMcL@mL]}a@oBoK~AyqBn@ymA`@gw@hAeo@pWi{HpIeiCvN{bEjKm|Cf`@apLdCs`AnAsdAp@u|@IobAu@eeAwBobAyCy}@cE{`A_LmzB_]mvGyAm]g{@onPoGssA_B{i@}A{i@cAax@q@}l@Ekr@jDupNMk~ClAqyI|@_gGP_aAn@caArAs`AvAcp@lCy`AtYwhKjBsr@^kMvE}_BxEicBjEm_B`D_iAjHkjCbFeyB|BizArA}pA~@qaBhAmsCjBseFjHm`SPmWx@gyBJ{a@zA{mEFy`AMeqAeAyrCCgUOu^I_KcDyxIyAs`E{A_uDa@c`@q@oh@oBw{@gAu_@iCcp@mCmj@mE_u@uEeo@oFao@eFii@iOesAgUulBqF{c@}D_\\}Qm|Am`@qbDuVksB{SyeBmC}TiH{l@eYs`CsYiaCgs@i_Gu~@cxHihBgeOup@}rFul@s_F{MqhAcC}SgMydAq]qtCokAswJsHcn@iV_rBuIes@uKo}@eKy}@wEwc@cG_o@cCoYcBgTiCi_@yBm_@gBi`@_B}^cAyYo@kU{@w_@_Akp@c@ep@RagA^}f@dAyq@nL{`FhYgmL|Aoo@PeH|IqmF~@chAx@iiANeiAC{xAiB{eBq@a`A{@e_Ac@}d@aGciGyAyiA|Cai@PgSbAk`@`@oIh@wJ|GqgAtBga@~Aug@Vgf@u@ch@\\wWb@q\\pAs`@bDc_@rEo\\`Hi[jIgXxFyNfHoOzH}LpNcR|NaN~KgHfM_G|K{DfNkBpEwAzBiCvnC_KtdBoGzqA_Gr`AcInh@aFrnAsIhcMgc@`jA_GvYwBh}@kMlk@uLnv@qTlNeE|N}Ex\\mNhh@iVnS}KbJmFdeAal@fpB}hAb}HqjE~`F_qCfj@mZxk@}[zHgEvEeCdx@ud@ht@u`@njCq{A`nDcmBl~EsoCpgCgzApeBw}@`p@m^jcA}h@zpAus@zuBolAlQuJ|aEq|BdhCqwAbLeGjr@ga@tlDanB|l@k\\hjG{iDto@c^f_Bgv@rMsGd[wLbb@sL~z@sRzj@uKfeAaQlxNecCnqOgjC|z@wTtdAg^np@cZ|v@kc@jw@ij@`e@k_@leBi`BpQiP~rF{eF|p@el@thBw~AbyAikAzz@um@tpAax@lmBujApjCk`BjyAc}@pz@sb@~m@kVvm@oSxu@wRzg@uIzi@cH`h@_E|h@cCz~CkK~mAsEhg@_Dre@aFlw@uMtu@iRrz@aXh|@w^h{@cf@xz@gi@b|D_hCjpF_sDdw@}q@ft@ms@deAyqApg@kt@jf@ux@lr@irA~i@klAlz@_kBl{@amB|{@qnBxd@s`AbVue@de@}x@he@mu@jW_]|QqVbMgPlMoNzGyIdk@_m@~d@cc@rtAgjAfTaQhOiMbjAi~@|_@g[vXsSdY{Qb^wQlIqEp_@kSzPiIr[wMzj@{RpRkHfn@aQtUoEbGiAtj@yHlh@uEtx@cGfdEqMroAeDxg@o@lt@l@fgGj^d^xBprS`oAxjD~S~{CrQhmBzLvw@~C|r@d@nLEvlAPtcCTpaLj@`eDAhl@sA~`@eB|`@{AfmCwMpwTuhAdh[m}Alq@oD~gA{Jd{BkWh|Ci_@tuB{VxfAqMh}Gex@hqB{SnnA{O~uBqVhtDef@bx@eJxv@aM~[kI~iAy]xm@aWl_@eQbc@aVr_Agp@b_Awt@|gDybD`}OemOf`Ao~@daA__ArwBssBxsWy|VjhAefAtj@_l@nHiIll@ct@`kAqbBhd@iw@t}@ekB|uBa}Frs@snBpb@gnAfd@olAf`AqjCv}E_{MvzA}cE~a@kdAnd@wbA~g@o`Abh@_z@ve@et@~[_d@xi@mo@tk@am@nc@{`@za@c]t_@sXv_@sUtUwNtVgMhp@g[hcAad@lzAmo@xXqLze@_Tpf@gTdc@aRhyBs`Afh@{VbUuL|TeMrn@k`@pjAm~@fhA}hA|qAu`B|bAisAju@obAtyJ{oMtuCmxD~U_\\xf@ku@|d@uv@bf@k}@bk@mpAzZgw@zbB_sE|^gcAxm@qaBva@}`Av_@sy@|Ps[jYwg@|d@gu@jNcUlOqSjf@op@t\\y_@lU{VzZgYxZuXn`@c\\dz@}k@fjAwo@nz@e^vGyBf_AaZpc@wJlVqElKyApHaBd`@{Era@eDpTqAfP{@hWg@|XSzTRpMRpLRp]`Bzb@nC`ZlCb_@hFzkDls@rMvCdqCbk@hgArUlIjBr{EpcAdSpC~SzCzf@bFbm@hD~Zz@l[Lvw@{Av[{At[yB`h@_Gbh@qIzb@kJxb@mLpi@eQdTgI~S}I|j@mWtr@{`@zj@e`@dj@sb@|\\wZp\\w[pa@yb@jh@eo@lScXzR}XpwBwiDbkNucU|eCabEvfCscEbv@gsA~wHg}NvIqQ`eEycIxLyUpaAmlBf[sl@~Tc`@zHmMlXgc@z}@axApd@ut@nf@iv@r[oh@x]ei@jOcVfHaMfW_a@noAmqBrc@qv@`M_VnQu^jP_^|^m|@|c@cmAf_@ilAb^ulAf[_lAlz@gaDfSww@fIi[bJs_@lCkL~m@{qChHa\\hh@isCrOiaAjNk|@tVe`B`n@{tEbKwu@t[edCjF_a@to@}~EbD{WjUwfBlfAsiIl{BkvPnwC}xTp\\s|Bb]usBdf@{}BzDyPfJe_@fSew@li@}fB~ImXx^ieAxd@ekAro@awAps@{vA|z@auAfg@au@vh@wr@pp@wv@bi@gk@xd@mc@pz@cs@j|@ko@te@oY~kB_bAbiLc|FfT_M~nBiaAb|@ec@zzA}t@r\\qTxRoPhU{P`IwHd^}^|SkWf]}f@vo@__Ah~@{rAlQsWrk@uz@~e@{r@xRe\\lLyTp\\ws@lQed@nPyh@lRcq@|V}~@xTkz@t\\woA|Ryt@baAaqDlC{J|cBytGrTsy@tZ{iAtc@}aBdOun@|Nyu@`Kmp@hDyWdD}Y|Eki@nD}h@tCsn@dBso@f@w^t_@gwZdAuc@pBef@lJelArE{c@jFkc@~Eq[xFw[xFc[~G{[vKqd@dNyg@vt@k`C`O{d@bSeq@jLae@|Tm_AtPex@vTmmAjFq[`Lyq@ncBqaK|g@}~Cn|@ukFbi@ubD`mAqlHtCkQpQehA~Fk^xF}\\v^ixBhfB{hKxIcd@dMkm@~Lig@hO{l@xOkk@lVax@nWov@n_@eaAha@u_A`sEqhJhE{IdxAyvCpxAqrCvyGyyLpDuG|gFslJ||FikKzwHsfNdD}F~sBswD`pHkzMdkAmmB`~@gpA`aA{lAdf@ih@lp@or@fuAivAhMqG|R}L~H{BzHPpGdAfQ~FtK`BrFOvFyApGeEhpAaqA~GcD~DmAnCwAkCqN_Z{_B_AaNGuBp@uIJoBH_Ct@{B|AgAjAqBv@oChDsBbGeC~BQvHmEnKsIrK{K`IoH|OiObJsHjE{DjGyFrFsFrNuQjNeR~LyQjOcVhPgX|Pa\\fOaZf\\}s@bEeKpNu_@lHmTjFaP|AaEj@yBl@wBfAcE~CiKbGyRpD}LnG}S|a@gxAx[{hAjl@wtBtoAmpE`nAyrEbjBw_HfK{`@zOyk@`X{cAbCuI`Sct@lHcXle@egBlZikArS}bAbLsw@dGqu@rCw{@h@}r@_Acl@yEc~@mJwnAaGyp@qDq`@gEoj@gAiSkAoSgB{a@w@ub@Skq@^wi@|Bcs@bByVdH{{@xJku@|Hyd@dJsd@|vBseKvj@woCtc@oxBjEyVnAaKzAmO`@_HV}E`@qIX}KPcME{Tk@cw@AwPRkRZyKf@{LbAiOpAsMjBuNxB{MtCsNrJaa@fCoKzSe{@zGwXzE{RtBsIfBmH|gCmlKji@ayBnSu}@`Ro}@rPs`AhQosAfRqnBhAkL|E}e@~Y_aDtc@wzExEyg@vC}[~QkqB|k@cnG~E_p@lLiqA|H{w@xBuT|Eqh@l[oiD`dA}{KfWapCvc@u}Ev_@}bElBoQpCwXpBaQxKi|@fFyc@v@sFZaDNsA~@sHnW{rBvAgLtHom@ro@whFPgBdv@wmGbX}sB~Km|@rDe\\dD_\\hBeXdAwXfAk^AcATuLRgNXc^tDo}CDkE`@wUnC}tBpDqvCPeNzJcqHNgLDgCx@sq@`Cmi@l@{MlEss@xAw_@b@cLb@kZD_qAc@ukAkBywFW_hAE_MEmSEehCl@cmB@_Df@qh@v@ogAV}[r@ex@VwRd@ku@LgRPmWz@_lAt@}aA`@}h@`BoiBPwQP}b@Zas@XkVyD_EyAyAwX}Z{d@mk@ue@cy@kVab@iIuKep@yn@kFuFuByB}f@gTqz@m_@kh@oUoS}JiCoA{CcBmb@kTcViMQKyZeP{@e@}As@iDm@eA?cG?wCTam@rEqXfBgUzAsBO@uC_@yF_EqRoxAubHeiAmyEyA_GaGaUoHiWiBmEcCgFiEgH{`Bc_CyFqH}S}a@_C_H{GeSgBiHmCkLq@wCcEeWgImf@gF}ZcEmV_AqFrB{AtSyOdMqJ~PcMzXuXlFkH~CwGrFcPxDyOdDqRnAqL|@uRVgWVqUn@my@x@ouAB}Cb@ct@^odA^{l@n@geAJiWDcYs@aqAmBwaBkHa`Hi@su@a@}c@[y_@s@sx@u@ar@e@cb@sBskBy@e_Am@}s@yEilEW{Ra@}a@gBgpA{BwmBcCssBaAcdAaCwaBU_SaA}w@oAafA_@{RmBaWGw@kGsu@aLwsAaCuY}Dme@iDma@{Dce@gFon@UiFrAs@|@sAr@iCNuA@oBQyBg@oBq@mAk@i@o@]cBMyAh@kAvAw@`COxAGpAsBBqKD_RD_RAaRKglDvBkDByv@ZUmCo@qC}@eByAwAiAa@oAGy@LmAj@}@~@{A_IqAgFcDiRiRepBkCuXuAwQeBe[sBe`@uB}i@}Asl@oEspBcDmfBkAe\\aF{dCyAex@VoOi@oQoBoa@GeI]eUC{a@@kDL_LFkL@eBEsj@QkFEuDTaa@Laf@L{UHeMRgOfAa]vBeiCp@wdANwK@m@tGPzGBtELnN^p_@~@fOb@nwAdDhQb@rP`@vCF`DF|Ej@rAr@`DhBlAr@h@XfGfDfAn@fJzF\\TvK|G^VbHjErBpA|PpKdHpEG^_@|BWxAIXMz@kAxGG|CObJ",
+        "summary": {
+          "cost": 7033.103,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 137.824,
+          "max_lat": 52.402287,
+          "max_lon": 14.335047,
+          "min_lat": 51.749849,
+          "min_lon": 13.065517,
+          "time": 5556.834
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 52.398857,
+        "lon": 13.065662,
+        "original_index": 0,
+        "side_of_street": "right",
+        "type": "break"
+      },
+      {
+        "lat": 51.766666,
+        "lon": 14.333333,
+        "original_index": 1,
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 7033.103,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 137.824,
+      "max_lat": 52.402287,
+      "max_lon": 14.335047,
+      "min_lat": 51.749849,
+      "min_lon": 13.065517,
+      "time": 5556.834
+    },
+    "units": "kilometers"
+  }
+}

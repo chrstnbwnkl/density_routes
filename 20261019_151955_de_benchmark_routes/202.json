@@ -1,0 +1,705 @@
+{
+  "id": "202",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 13,
+            "begin_shape_index": 0,
+            "cost": 98.268,
+            "end_shape_index": 42,
+            "instruction": "Drive north on Hirschenstra\u00dfe.",
+            "length": 0.517,
+            "street_names": [
+              "Hirschenstra\u00dfe"
+            ],
+            "time": 52.386,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 2,
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Drive north on Hirschenstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive north."
+          },
+          {
+            "bearing_after": 79,
+            "bearing_before": 317,
+            "begin_shape_index": 42,
+            "cost": 43.986,
+            "end_shape_index": 72,
+            "instruction": "Turn right onto Erlanger Stra\u00dfe/St 2242.",
+            "length": 0.547,
+            "street_names": [
+              "Erlanger Stra\u00dfe",
+              "St 2242"
+            ],
+            "time": 41.33,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Erlanger Stra\u00dfe, St 2242.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Erlanger Stra\u00dfe."
+          },
+          {
+            "bearing_after": 80,
+            "bearing_before": 77,
+            "begin_shape_index": 72,
+            "cost": 75.83,
+            "end_shape_index": 97,
+            "instruction": "Bear right onto Poppenreuther Stra\u00dfe.",
+            "length": 0.567,
+            "street_names": [
+              "Poppenreuther Stra\u00dfe"
+            ],
+            "time": 48.891,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 600 meters.",
+            "verbal_pre_transition_instruction": "Bear right onto Poppenreuther Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Poppenreuther Stra\u00dfe."
+          },
+          {
+            "bearing_after": 337,
+            "bearing_before": 74,
+            "begin_shape_index": 97,
+            "cost": 362.122,
+            "end_shape_index": 172,
+            "highway": true,
+            "instruction": "Turn left to take the A 73 ramp.",
+            "length": 8.241,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 73"
+                }
+              ]
+            },
+            "street_names": [
+              "A 73",
+              "Frankenschnellweg"
+            ],
+            "time": 325.347,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 19,
+            "verbal_post_transition_instruction": "Continue for 8 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left to take the A 73 ramp.",
+            "verbal_transition_alert_instruction": "Turn left to take the A 73 ramp."
+          },
+          {
+            "bearing_after": 4,
+            "bearing_before": 356,
+            "begin_shape_index": 172,
+            "cost": 6.949,
+            "end_shape_index": 174,
+            "instruction": "Keep right to take exit 34 onto A 3 toward W\u00fcrzburg.",
+            "length": 0.197,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 3"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz F\u00fcrth/Erlangen"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "34"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "W\u00fcrzburg"
+                },
+                {
+                  "text": "Regensburg"
+                },
+                {
+                  "text": "N\u00fcrnberg"
+                },
+                {
+                  "text": "Berlin"
+                },
+                {
+                  "text": "M\u00fcnchen"
+                }
+              ]
+            },
+            "time": 7.139,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right to take exit 34 onto A 3 toward W\u00fcrzburg. Then Keep left to take A 3.",
+            "verbal_transition_alert_instruction": "Keep right to take exit 34."
+          },
+          {
+            "bearing_after": 354,
+            "bearing_before": 358,
+            "begin_shape_index": 174,
+            "cost": 18.624,
+            "end_shape_index": 182,
+            "instruction": "Keep left to take A 3 toward W\u00fcrzburg.",
+            "length": 0.509,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "W\u00fcrzburg"
+                }
+              ]
+            },
+            "time": 18.361,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 3 toward W\u00fcrzburg.",
+            "verbal_transition_alert_instruction": "Keep left to take A 3."
+          },
+          {
+            "bearing_after": 12,
+            "bearing_before": 356,
+            "begin_shape_index": 182,
+            "cost": 22.17,
+            "end_shape_index": 219,
+            "instruction": "Keep right to take A 3 toward W\u00fcrzburg.",
+            "length": 0.519,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "W\u00fcrzburg"
+                }
+              ]
+            },
+            "time": 21.636,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 3 toward W\u00fcrzburg.",
+            "verbal_transition_alert_instruction": "Keep right to take A 3."
+          },
+          {
+            "bearing_after": 278,
+            "bearing_before": 280,
+            "begin_shape_index": 219,
+            "cost": 2478.688,
+            "end_shape_index": 1177,
+            "highway": true,
+            "instruction": "Keep left to take A 3 toward W\u00fcrzburg.",
+            "length": 78.731,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "W\u00fcrzburg"
+                }
+              ]
+            },
+            "street_names": [
+              "A 3",
+              "E 45"
+            ],
+            "time": 2702.031,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 79 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 3 toward W\u00fcrzburg.",
+            "verbal_transition_alert_instruction": "Keep left to take A 3."
+          },
+          {
+            "bearing_after": 255,
+            "bearing_before": 250,
+            "begin_shape_index": 1177,
+            "cost": 12.289,
+            "end_shape_index": 1185,
+            "instruction": "Take exit 73/72 onto B 8 toward Rottendorf/W\u00fcrzburg-Ost/Dettelbach-West.",
+            "length": 0.394,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "B 8"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "A 7"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz Biebelried"
+                },
+                {
+                  "text": "Rottendorf"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "73"
+                },
+                {
+                  "text": "72"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Rottendorf"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "W\u00fcrzburg-Ost"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dettelbach-West"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Biebelried"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Ulm"
+                },
+                {
+                  "text": "Rothenburg"
+                },
+                {
+                  "text": "Hannover"
+                },
+                {
+                  "text": "Kassel"
+                },
+                {
+                  "text": "Schweinfurt"
+                }
+              ]
+            },
+            "street_names": [
+              "E 45"
+            ],
+            "time": 13.518,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 73, 72 onto B 8 toward Rottendorf, W\u00fcrzburg-Ost.",
+            "verbal_transition_alert_instruction": "Take exit 73, 72."
+          },
+          {
+            "bearing_after": 243,
+            "bearing_before": 247,
+            "begin_shape_index": 1185,
+            "cost": 20.479,
+            "end_shape_index": 1195,
+            "instruction": "Keep left to take B 8 toward Rottendorf/W\u00fcrzburg-Ost/Dettelbach-West.",
+            "length": 0.629,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "B 8"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "A 7"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Rottendorf"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "W\u00fcrzburg-Ost"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dettelbach-West"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Biebelried"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Ulm"
+                },
+                {
+                  "text": "Rothenburg ob der Tauber"
+                }
+              ]
+            },
+            "street_names": [
+              "E 43"
+            ],
+            "time": 21.632,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take B 8 toward Rottendorf, W\u00fcrzburg-Ost.",
+            "verbal_transition_alert_instruction": "Keep left to take B 8."
+          },
+          {
+            "bearing_after": 243,
+            "bearing_before": 243,
+            "begin_shape_index": 1195,
+            "cost": 51.718,
+            "end_shape_index": 1213,
+            "instruction": "Keep left to take B 8 toward Rottendorf/W\u00fcrzburg-Ost/Dettelbach-West.",
+            "length": 1.615,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "B 8"
+                },
+                {
+                  "text": "A 3"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "Rottendorf"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "W\u00fcrzburg-Ost"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Dettelbach-West"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Biebelried"
+                },
+                {
+                  "text": "Frankfurt am Main"
+                },
+                {
+                  "text": "W\u00fcrzburg"
+                }
+              ]
+            },
+            "street_names": [
+              "E 43"
+            ],
+            "time": 55.399,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take B 8 toward Rottendorf, W\u00fcrzburg-Ost.",
+            "verbal_transition_alert_instruction": "Keep left to take B 8."
+          },
+          {
+            "bearing_after": 249,
+            "bearing_before": 230,
+            "begin_shape_index": 1213,
+            "cost": 353.376,
+            "end_shape_index": 1405,
+            "instruction": "Keep right to take B 8 toward Rottendorf/W\u00fcrzburg-Ost/Dettelbach-West.",
+            "length": 9.017,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "B 8"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Rottendorf"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "W\u00fcrzburg-Ost"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Dettelbach-West"
+                },
+                {
+                  "text": "Autohof"
+                }
+              ]
+            },
+            "street_names": [
+              "B 8"
+            ],
+            "time": 344.183,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 9 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take B 8 toward Rottendorf, W\u00fcrzburg-Ost.",
+            "verbal_transition_alert_instruction": "Keep right to take B 8."
+          },
+          {
+            "bearing_after": 299,
+            "bearing_before": 295,
+            "begin_shape_index": 1405,
+            "cost": 11.508,
+            "end_shape_index": 1408,
+            "instruction": "Keep left to stay on B 8.",
+            "length": 0.065,
+            "street_names": [
+              "B 8"
+            ],
+            "time": 4.784,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 70 meters.",
+            "verbal_pre_transition_instruction": "Keep left to stay on B 8. Then Turn left onto Schweinfurter Stra\u00dfe.",
+            "verbal_transition_alert_instruction": "Keep left to stay on B 8."
+          },
+          {
+            "bearing_after": 219,
+            "bearing_before": 295,
+            "begin_shape_index": 1408,
+            "cost": 38.989,
+            "end_shape_index": 1416,
+            "instruction": "Turn left onto Schweinfurter Stra\u00dfe/B 8.",
+            "length": 0.203,
+            "street_names": [
+              "Schweinfurter Stra\u00dfe",
+              "B 8"
+            ],
+            "time": 18.044,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Schweinfurter Stra\u00dfe, B 8.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Schweinfurter Stra\u00dfe."
+          },
+          {
+            "bearing_after": 234,
+            "bearing_before": 231,
+            "begin_shape_index": 1416,
+            "cost": 185.88,
+            "end_shape_index": 1468,
+            "instruction": "Take the B 19 exit on the left.",
+            "length": 1.731,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "B 19"
+                }
+              ]
+            },
+            "street_names": [
+              "B 19"
+            ],
+            "time": 126.778,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 21,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Take the B 19 exit on the left.",
+            "verbal_transition_alert_instruction": "Take the B 19 exit on the left."
+          },
+          {
+            "bearing_after": 247,
+            "bearing_before": 226,
+            "begin_shape_index": 1468,
+            "cost": 12.085,
+            "end_shape_index": 1477,
+            "instruction": "Bear right.",
+            "length": 0.187,
+            "time": 10.777,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Bear right. Then Turn right onto Sieboldstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Bear right. Then Turn right onto Sieboldstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Bear right."
+          },
+          {
+            "bearing_after": 306,
+            "bearing_before": 224,
+            "begin_shape_index": 1477,
+            "cost": 47.979,
+            "end_shape_index": 1487,
+            "instruction": "Turn right onto Sieboldstra\u00dfe.",
+            "length": 0.259,
+            "street_names": [
+              "Sieboldstra\u00dfe"
+            ],
+            "time": 24.137,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Sieboldstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Sieboldstra\u00dfe."
+          },
+          {
+            "bearing_after": 258,
+            "bearing_before": 292,
+            "begin_shape_index": 1487,
+            "cost": 23.891,
+            "end_shape_index": 1494,
+            "instruction": "Bear left onto Friedrich-Ebert-Ring.",
+            "length": 0.111,
+            "street_names": [
+              "Friedrich-Ebert-Ring"
+            ],
+            "time": 10.324,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 16,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Bear left onto Friedrich-Ebert-Ring. Then Turn right onto Marianne-Rein-Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Bear left. Then Turn right onto Marianne-Rein-Stra\u00dfe.",
+            "verbal_transition_alert_instruction": "Bear left onto Friedrich-Ebert-Ring."
+          },
+          {
+            "bearing_after": 302,
+            "bearing_before": 248,
+            "begin_shape_index": 1494,
+            "cost": 18.484,
+            "end_shape_index": 1499,
+            "instruction": "Turn right onto Marianne-Rein-Stra\u00dfe.",
+            "length": 0.085,
+            "street_names": [
+              "Marianne-Rein-Stra\u00dfe"
+            ],
+            "time": 6.429,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 90 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Marianne-Rein-Stra\u00dfe. Then Turn left onto Sanderring.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Sanderring.",
+            "verbal_transition_alert_instruction": "Turn right onto Marianne-Rein-Stra\u00dfe."
+          },
+          {
+            "bearing_after": 240,
+            "bearing_before": 330,
+            "begin_shape_index": 1499,
+            "cost": 30.413,
+            "end_shape_index": 1502,
+            "instruction": "Turn left onto Sanderring.",
+            "length": 0.082,
+            "street_names": [
+              "Sanderring"
+            ],
+            "time": 11.621,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Sanderring. Then, in 80 meters, Your destination will be on the left.",
+            "verbal_succinct_transition_instruction": "Turn left. Then, in 80 meters, Your destination will be on the left.",
+            "verbal_transition_alert_instruction": "Turn left onto Sanderring."
+          },
+          {
+            "bearing_before": 237,
+            "begin_shape_index": 1502,
+            "cost": 0.0,
+            "end_shape_index": 1502,
+            "instruction": "Your destination is on the left.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 6,
+            "verbal_pre_transition_instruction": "Your destination is on the left.",
+            "verbal_transition_alert_instruction": "Your destination will be on the left."
+          }
+        ],
+        "shape": "ovwj}A_ut}S}HsBqNsEiDiA_C{@}CoA{AeAiFiHoJgQ}MqVw@yAeD_JyA_B}DqGgA}AyCgEcF{FqCkCsBuAaFoCsAu@mAy@_BuAkAkAmBuCiCyDeBgC{DyGyDmG{LwSsDwEwFuE}CcBkBq@kDQsCHuDp@wCrAgCtBiCbCyEtGmAfB}FnJ{ABqA^oAVgAAsAWk@_@w@}@wAcEEo@Ci@cA_[i@s^Um^?_SJkVd@{j@Ta_@LiWCg\\MeK]kI}ByWw@oIiAeLaCcVsAoNmBsSQuBkAeMwAoQuBg_@GaA}AsS]sEUsDsAuTkKo{As@sIoEmi@MqAc@qGwAsOaFcg@qBwSuAsOeAyQo@{LaAw_@u@kQk@uJGw@eA_McAcJYcCiAcK{KxGmElCeDlB{@f@aXpPk[zP_p@bZiu@fXcXfNeBf@etAha@{uAza@ejFn|Am{Azb@iJtCuBp@cSvGyAb@c|@|Wml@pQmy@|Uev@bUiFrAsT~FaBd@spBxk@awAva@ax@|UozCn~@igAn\\qnCdw@ij@jPsjB`j@{l@xOqq@fOyn@tM{W`F_w@|Lub@dGe|@nJsG`@kaAtGuaAzDgw@l@obAp@icAeAu\\_@{tAqBiSSefB}C_lBsBe]u@gZe@}Xm@kFKiXFiuD_HavAwA_dByCkyAkBi|A}BcsDmGawB{C_bBkCmHIqIKegCkDmvBwBmNMwtAjAuiBnGqo@`DcaAxFiVvAekA`Gq_@qBomAbCqXxBwrAjHi_AlE{Kf@qT`Acc@dCoUtAiQ`AmFwAqDs@sCiAmBuAcB}AkBqCaBcDsAsDcAcEs@oE[qEGwEHuEZqEf@uDt@mD~@aDlAuC~ByDp]md@~DaD`EyAxDe@zBBbDp@nClAdF~E~AhCtAdDx@pCx@hEh@rGLtEIrEoB|YOjNsJtcByDp`A}@~g@?vp@A|a@o@lsBv@~\\?bs@GjdAA|qAf@lMn@vK?h@Mj~@Ej\\OfqAEbz@y@|lEo@lwAqAr_B{@neA}ApqAaDniB_D|tAyF~~AeGnsAaF|_As@jLWjFcCr]sD~g@kD|b@}OdeB}Izy@kG~h@eHdj@qJnq@cJzm@wPlbAeQd~@qHb`@qQ~y@oKde@{FpUcEdQyIb]iFhSe^xoAsInXgIlWcLz]wQnh@oY`w@mSzh@g[`u@sDtIqCzGaYlp@y]xr@a_@ls@wn@jhAwVxa@kYfd@}`@~l@q`@`j@on@by@}]zb@cObQ}`@|c@cDhDag@fh@ik@`j@ac@l`@ul@`g@ut@fk@}`@pXcdApp@uv@xb@s}@dd@wg@lTcWlKkd@hQcUzHcx@`Wo`@zK{VlGw\\dIsUxEo[lGob@nHmYhE_]vEcj@xFk_@bD}Kx@eRnAyS`AwRd@mMLmMBq[~@kUPa^TkQ@wYY{LM}g@kA{WcAai@}Cep@gF_h@cF_~@qJch@cG{o@{HufAmLgi@iGq]kDih@sFye@wD{YwB{ZaBaTmAgT{@oY_AuZe@o^Wod@Iee@r@aYrA{`@dBm[vB_TnBsb@tEwQrBsRhCgQhCa]|FeXfF{XjGsUpFio@`QoWjIw^|Lga@|M{X`IgOtF{VvLm_@tQiDjByg@dYwL`HmT~M}PxLyc@dWuRbLckAlo@sYjNe[`PoVjLybAfd@ycAra@ge@rPgsAhb@w`@vJym@lNo`@zHyH|Ae\\|Gi_BbYoUhEowA`X_aAhQe~@bUmbAfVaR|EosAz^ebAn^igAfe@g}@td@mv@`b@qfAbq@y`Aro@i|@br@woAbgAmg@le@kx@pw@ok@`n@sUdXilBb~BmuAzeBgw@nbAooBfzBskBhjBigCfuBa|BbgBs^n\\ifBj_Bmq@|q@w_AleAou@h~@_u@`bAqu@rgAeu@bkAmt@foAwl@dfA{t@vtAulBrlDaw@xxAsm@jgA}|@nyA{i@f{@wp@dcA}_@bh@_QzUsa@|i@cb@di@ufAzqAcjA|pA_}@|~@g~@j{@wfAt`A}gAj~@kt@vi@_}@vp@uk@h]st@ne@{|@vg@_~@`f@u}@pe@y_@hQw_@vPqa@|Pqg@hSelAje@oxCdkAmbAda@wkAzd@yzApl@_v@vYkhAxd@yOxH_KnEyS|Iav@b_@al@h[yStKal@j\\iN|Iak@p^snAxz@aW|Qs|@rq@uWrTw\\nY}EdEoFhEuBnBud@vb@gs@pp@eh@bi@}r@ru@q_@~b@qHtIwLhNww@~aAep@vz@ev@tfAac@fo@iHdL}h@dz@yp@zgAuc@hx@s]xo@qs@zuA_x@vaB}b@p~@qTdf@ia@f|@wUlg@g^tv@om@znAwVtg@{[rm@}CxFa{@l}Aat@jmA_KxPcn@|_AqpAjjBcBdC{PxUkVb]w[hb@uk@hx@a^jh@mQnXsb@|n@wWnb@ap@teAkb@nv@i`@js@mUze@yTfg@ePv_@oOb`@iGdO}Tln@kTdo@gKr\\kUxv@iJ`\\eIdZ}Qbv@oLng@yGj[oCbMyUpnAkKbn@uHvf@mHpf@}G`g@aHti@iHfp@wG~n@qMryAsEbl@kDbh@kKlfB_Ej~@{C|w@Y|GmIxeDe@~]c@|YSxR_Bp`CKzYKdVId}@Nlz@Ltm@f@|oAvBlaCnAh`AtC~fB`@`UrDz|A`JpyC`Bdd@vIbyBhI~jBpGhpA~FfeAjFv~@VhD`AfPfFf{@nGf_A`IlkAbI~jAjJbqAjBvX~O~pBtNdhBjM|yAhLhrAbGxr@fLzpA`NlzAbUffC`KxgA~B|XfUzeC`Il|@|Hl{@pHp{@jFbm@lLrvA~LlzA~AfUlMxcBxDjj@zE~r@pH|kAfCja@zDzq@tAfWzGrqAlGzwArF~wAvDliA|E`dBtG~}Ct@hd@`@rZxAzyAZx]f@fg@Tte@T~dALpoACbpAa@huAq@rlAoBhqBsBjpBmAp~@sAhdA_@jUGjFkAt_AsBvcBe@le@gA~{@_BpeBa@fq@YbmAOpg@ArfAZdwA`@lgBfAjiAh@ph@nA~y@dBnnAbA~k@~@vq@d@f[jE|sBdF`xCj@|m@\\rjAI|b@u@hnAcAnm@cFnuAuChj@}Cvi@iGvz@kHn~@sFre@gFxd@eIjm@uLpv@sPraAaT~`AeUr`AyOtj@{Ovi@gM~^}`@jiAmXxo@}Px`@qOl\\q\\|r@_b@ny@ePh^md@~|@kWrh@e[|r@_Zhs@_Zhx@_^lhAkM|b@yK~_@oOtj@yK~b@_Kde@qJ|e@wPf_AgN`aAyM~iAaIlx@{Hd|@iHteAyHpiAyFn{@aC|\\qCf`@aKpwA_JteAkJx}@_Kby@cIvl@mG`a@yLhs@cKjk@iIp`@mJbb@kSl{@kSfs@ar@lcCeElM{JtZo^taAyShk@ks@pdBoc@zgAqRhc@ue@|fA{y@~jBgf@~kA{k@hsA{lCtgGwP``@kD~Hs_@l{@gv@lgB{aAjcCa_@jhAa[t`As^|{Aq[j`BkIrd@_EzTqMf|@wO|pAoLznAcKtvA}Chm@_Dxy@sC`iAeAjp@_@zz@ZddAlAroAvI`xDfCds@lG~bBzIvtBtKjfCnGlzAdHn|BdCfvA`@n}@`@xw@K|[]xiAqDjdByG|xAcIpjAaD|]wPz`B_Tr`BsKbs@_Gvc@aGje@eSf_BeF|`@_OzjAka@ptDa@rDoBjS{SxaCkAjNmA|NkL`aBaKjbB}IvcBwC`q@qB~f@{@tTmClx@uBbt@cCvaAgBbcAsA`|@qB`eBc@r_@_C~hD}BliD}@frA_BtuAiDh|BqDtrB{ClqAShI{@n]{D~iAiOtfDqIzyA_Gt_AaDfh@mJbtAwPnrBkOr}AuCpZeJh_AcIzx@eSboBuTdtB_RbeB}BhSgPb_ByMzsAsDd_@mPddBqNf|AeDj^sGls@}KrtAsIrpAuIhmAyDnp@{AjXsFfbAqIdmBcFrgAgE|cAoFr{AgDjbAaBtj@{ClcAoExyAuEb{AoDvmAmDhiAc@dM}Avc@aE|fAoGvpAiFhz@mEzk@}Eri@yCx[yI`x@uFtb@aP|hAwMnv@}Nvu@cSb~@sU|}@_HpVcGlTiRbm@qXry@oVtp@gRde@}Rtg@mYlr@qS|e@sS`f@oh@nmAkrAh|CgUhi@{Mh[{GxOc\\fv@a[zs@cWhl@gWxl@uQhb@gRhc@cSve@qQpb@_Or^}g@prAw^ndAwXtz@cQjk@qEdPeH~V_Mdg@{Sl`AkRp`AcP~aAuW~nBqFdf@{C`]}Fxp@iDld@aArN{ApYoDzq@cEbiAyBf}@y@dz@B|aAHdq@lAjhAbC~{@lEf`A|Dnw@fIxiA`Iz}@zJt}@nLz}@~I`n@nJxk@vLvq@jLhm@nK`h@fErS|Tx`AlTz}@`Q|s@`Qzr@ri@nlBtSjt@t}@jbDji@rpBvObm@lj@fvBlEnRzTh`A|T|aArYztArHr`@bQ~}@bZrdBhPzeArNxbAvNtjAnAbKrM`hAjM`oAnId~@jItcAbJjpAdEhr@fBt]|HdzAhH~pBtBp|@rBbeA|ApiAj@|r@h@bnAItpC{AfjBs@lh@iAvbAqEhvBuBnaAqCxaAkAtb@aEtrAwGxvB}ExfBoKfvDk@nRkDj~A{A`m@yEznCiBbxCCzK?nVE~aBDz^b@no@d@fh@v@jr@zAp_A~Axk@bAd^PxFdEvnA|IpxBxP`nDv@rMlFj~@xF|lAvBtd@`Cxg@hE`iAlA|^zBvy@`Al^j@p]N|Pb@~i@r@v{@`@t}@e@h}A_BrtAuBls@cE||A}Cls@_Ehw@eIrqAqLj{AoI`z@gFzj@wLldAqObkAoRdpA{X~~AuLxl@uMjo@yNtp@eQxt@{Phr@ab@~`ByF|SuSxv@qRrs@ca@x|AiSvv@yLbg@yLvh@{VhiAiGp[gUzkAwXr~A_RrpAuMjdAeM`kAmHjx@aFfi@eF|o@uHflAyF~bAkEbeAcBvh@q@bZkCziAoAju@a@nj@_@`y@?j{@Dxz@fApv@Rd_@`@pUzAjv@dDxbAnEldAvCxk@hDrm@jExt@~Gn`AjMh~Ar]deE|PtxBr@bKh@nHpJzqAdAtQ|IpyAxHxuAnH|_BdBdo@zCtv@xB`s@jG|dC`Ah_@p@dUbAdw@|A`mAh@r{@`AtvAR`|BUncBUdh@U|Ym@niAgBltDm@jdAuA`{AeAtrAiEpvDuD``Cm@j^iFrdDmEhpBk@dVcB~h@cFbkBKlDoEfbBqLtpCiFxjA{Ez{A_Nz}BiLj}A}Ddh@uFxo@oP`iByH~u@qLviAeSxdBgKfv@aMt}@wPllAcGpa@o_@~{Bil@rcDoUhqAmw@hcE}d@~fCm]nxBcPniAoPlxAgO``BwGv~@qFfhA{HpyCI`f@s@liA|@pjApBbhA~JbgCtH~kAlCn\\lHfq@fNzpAbCvTrLhcAfLfeApTlgB~Pf}AvH|t@pArM~Dba@~J`hAbE~d@xKxyAfO~_CtCbj@zCdk@dCfh@fC`j@vB`o@bBbi@jDhoArClpAzArz@|@rz@~A~}Ad@lr@R~j@Ej~A]x{AcBhyD{BbtDo@~y@i@`pBIhwDLrw@hAptAlBrrBzJlzDhDjeA|B~k@NfDpAj]nFljAvGdhAhVxjDrKpnAxIfbAfLbiAlL`fA`Fpc@tFjd@xGhh@hDfWrL~|@dc@d|C|Ght@hJ`{@xOrvA`G`f@lF`^jFbZlDbSfAhGfGrX|UhiAfLde@`HnZzEtS|VhkAbFbWfMll@~ZlwApVdeA`K`c@vk@l`CnT|}@ni@vrBbLfa@tPxk@dQdn@pOfh@lGrSvTxs@|Ozf@xw@x`Cv_@pfA~u@nrBrk@vxAfHlQj_@x}@t^bz@xCrQ|@|Ma@~HgAlIsBxGsBjHsChH{AnHaAfIAhP`Cv|@d@nKxAlLnAzJ`DhMjCbLn@vJMzKeBzLqHvXcUrc@iPvXqObWeLdQsRfYgUt[wKbPid@hq@aK`Qw[pj@m\\~p@aHhPuC~G}LbZkNf_@oN~a@mu@v}B_Tdo@qZfx@g]`w@}Tha@aRzXqOdRuPfRiRjQmp@ni@cLzJsSrQwEpEgIvI{MfO{FhH_RpY{M|UmL|VgLjX}DxK}DvLyIxY}Hl[kGr[qFp\\kEx[mDr^_C`]gBz`@o@zZ[j[JhgBc@pf@y@pXeClf@oDxc@eF`b@_Hfb@{Kdj@oNln@{N~n@qOnx@yI~k@qFlb@aDx[kIfcAwCvd@kBdb@{Bpu@g@nScBjaAy@~l@U`q@Bxj@f@pe@lAlg@xB|l@pCli@lExp@dNnaBxCra@fC|f@fAlh@^h^Wpi@o@j`@wBzf@sBx^_Ix}@{TxgB}PdiAk`@vdCqAzH{EhZyj@lcDsN~s@uFrWiZloA}G~VaPxl@e_@lkAc]~|@iHdR{Rbe@qRlb@uJrSyZvm@ie@|{@_JlOgFlJoSv]{aApaBwhAlkBaPhXkXbe@kWde@oTjf@yP|d@eGxQaGbSsFdSiHnYyHb]wIxe@aFhZmFr`@eFhd@iDd_@gDld@oCnb@eApNwGv_AkCtXcIzt@gFt^{Fj]oMhp@oSz{@aPdt@qF~VwFlYeEvUwDrVoCdTiCrUwBtVwAfW}@jSU`T]jXAlWTx^r@d_@~CfaAhCvp@hB|n@h@b`@HxTWhb@m@tWw@nTw@bPqEvk@kDn[gBzMyA|JkL|r@iOl{@}E`YgOb{@mGh^iHp`@gFv[iIhg@eD~OcFpRsAbFkFpW~MvQ|RtW~P~XnAlCbDhHbGdMnE~JdF~LdFhNdDdJbF|PdI~\\hWjkAbPbp@pFvShNt\\fHjYnGbUxGpTlAnC|DbKnEhKtI|P|HpMlIlKnFfGxFpFvCzBjKvH`DfBtCxA|C`A~JjEnJ|Cxc@nLxGbBpQxE~CdAbExArHbDtHlEtHxEzQlL`F~C|EdD`ZzQrJnHjLvKhP~PhWz[jG`Hz[z[ljA~gA|`@`i@nZje@vEdHhBzCd_@`r@tWbg@`O`Y`C~M~@zClAzC`EzHfZpi@jInNvIxMfBrCzCdFeH|R{AlGiB~FoE`O{ApMwL|l@{AtH{EtXgC|NkIdf@|@vLhBdWx@vFhBnGvBvF`IzPl@pDkAxD_FxHwCxC_ShSkB~AfA|DfFdPnNdd@",
+        "summary": {
+          "cost": 3913.738,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 104.215,
+          "max_lat": 49.801217,
+          "max_lon": 11.005796,
+          "min_lat": 49.475959,
+          "min_lon": 9.935933,
+          "time": 3864.756
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 49.475932,
+        "lon": 10.988559,
+        "original_index": 0,
+        "side_of_street": "right",
+        "type": "break"
+      },
+      {
+        "lat": 49.787777,
+        "lon": 9.936111,
+        "original_index": 1,
+        "side_of_street": "left",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 3913.738,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 104.215,
+      "max_lat": 49.801217,
+      "max_lon": 11.005796,
+      "min_lat": 49.475959,
+      "min_lon": 9.935933,
+      "time": 3864.756
+    },
+    "units": "kilometers"
+  }
+}

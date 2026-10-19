@@ -1,0 +1,487 @@
+{
+  "id": "704",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 277,
+            "begin_shape_index": 0,
+            "cost": 18.03,
+            "end_shape_index": 7,
+            "instruction": "Drive west on Domplatz.",
+            "length": 0.109,
+            "street_names": [
+              "Domplatz"
+            ],
+            "time": 13.12,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 2,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Drive west on Domplatz. Then, in 100 meters, Turn left onto Pferdegasse.",
+            "verbal_succinct_transition_instruction": "Drive west. Then, in 100 meters, Turn left onto Pferdegasse."
+          },
+          {
+            "bearing_after": 198,
+            "bearing_before": 266,
+            "begin_shape_index": 7,
+            "cost": 45.049,
+            "end_shape_index": 16,
+            "instruction": "Turn left onto Pferdegasse.",
+            "length": 0.15,
+            "street_names": [
+              "Pferdegasse"
+            ],
+            "time": 20.312,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Pferdegasse.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Pferdegasse."
+          },
+          {
+            "bearing_after": 295,
+            "bearing_before": 202,
+            "begin_shape_index": 16,
+            "cost": 51.195,
+            "end_shape_index": 39,
+            "instruction": "Turn right onto Johannisstra\u00dfe.",
+            "length": 0.222,
+            "street_names": [
+              "Johannisstra\u00dfe"
+            ],
+            "time": 23.208,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Johannisstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Johannisstra\u00dfe."
+          },
+          {
+            "bearing_after": 328,
+            "bearing_before": 301,
+            "begin_shape_index": 39,
+            "cost": 51.162,
+            "end_shape_index": 60,
+            "instruction": "Bear right onto Universit\u00e4tsstra\u00dfe.",
+            "length": 0.241,
+            "street_names": [
+              "Universit\u00e4tsstra\u00dfe"
+            ],
+            "time": 19.563,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Bear right onto Universit\u00e4tsstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Universit\u00e4tsstra\u00dfe."
+          },
+          {
+            "bearing_after": 171,
+            "bearing_before": 276,
+            "begin_shape_index": 60,
+            "cost": 567.22,
+            "end_shape_index": 262,
+            "highway": true,
+            "instruction": "Turn left onto Am Stadtgraben/K 6.",
+            "length": 6.8,
+            "street_names": [
+              "Am Stadtgraben",
+              "K 6"
+            ],
+            "time": 421.804,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 7 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Am Stadtgraben, K 6.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Am Stadtgraben."
+          },
+          {
+            "bearing_after": 276,
+            "bearing_before": 267,
+            "begin_shape_index": 262,
+            "cost": 5.533,
+            "end_shape_index": 266,
+            "instruction": "Take exit 2 onto A 1 toward K\u00f6ln/Dortmund.",
+            "length": 0.144,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 1"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Kreuz M\u00fcnster-S\u00fcd"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "2"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dortmund"
+                },
+                {
+                  "text": "Bremen"
+                },
+                {
+                  "text": "M\u00fcnster/Osnabr\u00fcck"
+                }
+              ]
+            },
+            "time": 5.837,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 2 onto A 1 toward K\u00f6ln, Dortmund. Then Keep left to take A 1.",
+            "verbal_transition_alert_instruction": "Take exit 2."
+          },
+          {
+            "bearing_after": 267,
+            "bearing_before": 270,
+            "begin_shape_index": 266,
+            "cost": 20.443,
+            "end_shape_index": 273,
+            "instruction": "Keep left to take A 1 toward K\u00f6ln/Dortmund.",
+            "length": 0.519,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 4,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 3,
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "time": 21.022,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 1 toward K\u00f6ln, Dortmund.",
+            "verbal_transition_alert_instruction": "Keep left to take A 1."
+          },
+          {
+            "bearing_after": 274,
+            "bearing_before": 265,
+            "begin_shape_index": 273,
+            "cost": 17.069,
+            "end_shape_index": 310,
+            "instruction": "Keep right to take A 1 toward K\u00f6ln/Dortmund.",
+            "length": 0.448,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "time": 17.211,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_pre_transition_instruction": "Keep right to take A 1 toward K\u00f6ln, Dortmund.",
+            "verbal_transition_alert_instruction": "Keep right to take A 1."
+          },
+          {
+            "bearing_after": 165,
+            "bearing_before": 163,
+            "begin_shape_index": 310,
+            "cost": 639.399,
+            "end_shape_index": 429,
+            "highway": true,
+            "instruction": "Keep left to take A 1 toward K\u00f6ln/Dortmund.",
+            "length": 19.698,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 1"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Dortmund"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 37"
+            ],
+            "time": 675.556,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 20 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 1 toward K\u00f6ln, Dortmund.",
+            "verbal_transition_alert_instruction": "Keep left to take A 1."
+          },
+          {
+            "bearing_after": 166,
+            "bearing_before": 165,
+            "begin_shape_index": 429,
+            "cost": 314.845,
+            "end_shape_index": 493,
+            "highway": true,
+            "instruction": "Continue on A 1/E 37.",
+            "length": 10.873,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "A 1"
+                }
+              ]
+            },
+            "street_names": [
+              "A 1",
+              "E 37"
+            ],
+            "time": 336.113,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 8,
+            "verbal_post_transition_instruction": "Continue for 11 kilometers.",
+            "verbal_pre_transition_instruction": "Continue on A 1, E 37.",
+            "verbal_transition_alert_instruction": "Continue on A 1."
+          },
+          {
+            "bearing_after": 185,
+            "bearing_before": 177,
+            "begin_shape_index": 493,
+            "cost": 12.002,
+            "end_shape_index": 517,
+            "instruction": "Take exit 81 toward Hamm/Bergkamen/L\u00fcnen.",
+            "length": 0.412,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Hamm / Bergkamen"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "81"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Hamm"
+                },
+                {
+                  "text": "Bergkamen"
+                },
+                {
+                  "text": "L\u00fcnen"
+                }
+              ]
+            },
+            "time": 14.663,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 81 toward Hamm, Bergkamen.",
+            "verbal_transition_alert_instruction": "Take exit 81."
+          },
+          {
+            "bearing_after": 251,
+            "bearing_before": 160,
+            "begin_shape_index": 517,
+            "begin_street_names": [
+              "Dortmunder Stra\u00dfe",
+              "L 736"
+            ],
+            "cost": 540.589,
+            "end_shape_index": 715,
+            "instruction": "Turn right onto Dortmunder Stra\u00dfe/L 736. Continue on L 736.",
+            "length": 10.527,
+            "street_names": [
+              "L 736"
+            ],
+            "time": 499.166,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue on L 736 for 11 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Dortmunder Stra\u00dfe, L 736.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Dortmunder Stra\u00dfe."
+          },
+          {
+            "bearing_after": 263,
+            "bearing_before": 176,
+            "begin_shape_index": 715,
+            "cost": 126.486,
+            "end_shape_index": 778,
+            "instruction": "Turn right toward Dortmund/L\u00fcnen-Zentrum.",
+            "length": 1.837,
+            "sign": {},
+            "street_names": [
+              "Kamener Stra\u00dfe",
+              "L 654"
+            ],
+            "time": 103.888,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right toward Dortmund, L\u00fcnen-Zentrum.",
+            "verbal_succinct_transition_instruction": "Turn right toward Dortmund, L\u00fcnen-Zentrum.",
+            "verbal_transition_alert_instruction": "Turn right toward Dortmund."
+          },
+          {
+            "bearing_after": 11,
+            "bearing_before": 270,
+            "begin_shape_index": 778,
+            "begin_street_names": [
+              "Kurt-Schumacher-Stra\u00dfe",
+              "B 54",
+              "B 236"
+            ],
+            "cost": 178.808,
+            "end_shape_index": 852,
+            "instruction": "Turn right toward Coesfeld/Selm/Nord/Ost.",
+            "length": 1.712,
+            "sign": {},
+            "street_names": [
+              "Kurt-Schumacher-Stra\u00dfe"
+            ],
+            "time": 127.221,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right toward Coesfeld, Selm.",
+            "verbal_succinct_transition_instruction": "Turn right toward Coesfeld, Selm.",
+            "verbal_transition_alert_instruction": "Turn right toward Coesfeld."
+          },
+          {
+            "bearing_after": 177,
+            "bearing_before": 254,
+            "begin_shape_index": 852,
+            "cost": 110.855,
+            "end_shape_index": 858,
+            "instruction": "Turn left onto Konrad-Adenauer-Stra\u00dfe.",
+            "length": 0.082,
+            "street_names": [
+              "Konrad-Adenauer-Stra\u00dfe"
+            ],
+            "time": 15.341,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Konrad-Adenauer-Stra\u00dfe. Then, in 80 meters, Your destination will be on the left.",
+            "verbal_succinct_transition_instruction": "Turn left. Then, in 80 meters, Your destination will be on the left.",
+            "verbal_transition_alert_instruction": "Turn left onto Konrad-Adenauer-Stra\u00dfe."
+          },
+          {
+            "bearing_before": 193,
+            "begin_shape_index": 858,
+            "cost": 0.0,
+            "end_shape_index": 858,
+            "instruction": "Your destination is on the left.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 6,
+            "verbal_pre_transition_instruction": "Your destination is on the left.",
+            "verbal_transition_alert_instruction": "Your destination will be on the left."
+          }
+        ],
+        "shape": "anobbB}zlpM_@vLa@zNI`FWzPIhV?`KR|GdCbAlDxAp@VbSrGbIlCfH~BbLrDpDdBtIbFg@zBaArFeA`Ju@~GUxCSvE?~GDpJX`IXpDRhBNrAxAlLf@~Cn@bFhDdc@NbHJtFGnFYjF]nCk@|ByAxE{AvByBhBkElBgFhBqDjB}BrB_CdDuAjCaCxG{BrHyA|GoAbGeAtFo@vEu@bGq@tGyA~Pe@rJg@jK_AbS]~LnCe@`Ek@pMmA`PiAnKw@tKq@nD_@hJuAnMaC|IcE|GgFxFoFrNqPnBiC`B{Bn@}@|OiTpEgGrIgLlBwBfEoD~DeCb@StE{BpEkBnE}AnDeA~Cs@lGsApHc@vCRvGlDr@Xx@XrFlBdGtBtAd@|DtA`D`AzClAzGnCdIpBtTnCzH{@nEyDjG_BbGgBhFwCvTyGbLeDhFy@vAEdEQlDzAnBLHAzGWbJM~IDnFR`E`@bJfAnC^nIrBdEpAhK`EjHpClIhEdNzIx@j@`HtEfChBrCjBz@n@|NbKrEfD~N|KrFzDj@b@rk@xc@bo@|f@rJxH`At@z@t@pAjApBvBvAtAhD~CjA|@`JfHtPfN`PlLpRxMvGjExDjCpUlQpY~T~SpPfCrB`GzE|R~OlA`A|CfC`LbJpWdSrJhGpZnUdn@bf@bHjFfPpMpL~IjDjCjHtFnXlT|YlUhUlQnVpRdUnQxb@h]xUbRzGnFbIrG~SbQ~J`Izb@z\\|WzZ|[jk@`Ytn@dJjR~CfG^r@xHxO~BzErHtOfKvRvGdMzP~ZrHhNrLzRjDxFtCtE|SrZrRrXhUdYpHhJrFjGhDdE~BhChOrPph@th@nk@`e@hMxJte@|^lUrPdZlSnXdQxWfPtPvJtk@p[jc@pUtKjFrp@|[jzCxuApc@xS|[lPdFjCrx@je@f\\vT|[bVn]`[r[l[t[j^`[v`@hQ`WlBpC`Tl\\vSt^~Rf_@pShc@tRdd@fUhm@lOxc@fZlcAlMzg@xLni@hKbh@bJrh@nH|e@|Gff@~Irv@lHxv@dGxs@j@|IvD`k@`Fp_ApDx~@lCxt@jBvv@|Av{@fAju@~@fs@jCjzCmAzd@g@n^[pb@ClYj@ne@JlPf@lj@pAdqAvFfpDz@na@bC|lA_@zU?fIM`IW~Ge@vGu@bFkAdFiAjD_BhDyBtCaCzBsBdAsBh@cBPoBH{BEaCq@oBeA}AeAoBuB{AcCqAuCqAaE{@iEg@}EYuEEkF\\kHn@eG|@mEfAcD~@iB~AqBzGuHje@uRf]eNjLsE~MsEtiCodAlScHd{@w_@j_@uPbQwLd[kVtXwL~FeCvnA{j@xyBmbA`aD}{AteB}|@dv@{^tHuDhoBcbAfuA}p@xfAyd@zcCobApWqJdPuFhSwHdhBwj@bgD}~@xLgDv~AwXfsBy]rs@kJdd@aGjb@sFtbB{Ofv@uGvt@gDxf@mB`n@wBx\\_AvuBaFrm@YhXOtNL~TPx{BxBhwAzDxqCvHzgCrA|`@RzkDoLp_A_Fjf@iCpnA_M|eBmRv_A_RdzAyYvbC_l@dq@mTvyBmu@jmCclArBcAxgCanAj|BcuAj`@{UzvA{dAblA{}@rd@u`@~y@yq@rtAaqAv]u]h{@q}@bj@cj@voAyxAdzBgyCdLkOnfAcxA`zMweSdrHkdK`wCasDbtBkkCh]c_@by@w_AttAg_Bpe@ii@~s@ox@~qAywAfkAinAlrDuiD|zBuhBtkBosA~y@ii@bv@{d@tw@yc@xm@m\\|t@k_@`k@uWl}@c`@v\\wN`aAs_@|U}Hr_Ag[v`AoYb_Ccn@vcEus@flAyOf~C{U|gDuNtcBuEnmBmF|j@oBp{BqNfrAyH`{@_EpcCeWzmCgZzgEwq@hmEc|@zcCem@~xDmfAhvCmaA~b@mMp`Ciw@zkBkl@l`Bud@bvAe]njCki@zfDyl@pzCka@teFmi@ddKsmAxtE_x@hyEc_AbrHopBtvDgkAnvC{gApzA{g@poEwfBb|CuvAxq@uZ|OwHb_Bkw@do@}[vn@w\\x`Aai@js@m`@xo@m_@jnA}t@pCaBzRmLb`CgzArgAit@dMeIl^{UdxBkxAv|B{xAxd@iXlg@uYboAir@xbAug@hdBsx@la@yPj`@aQhcA}a@nqCaaAb[oJfqBuk@pZ}J~xAy^lxAe[di@_L|dBaY`q@sJdFm@zCa@~{AqRj`AoK~Iw@vf@wDj_@}Cxp@kEreA_GpfEoNbs@oBj`AwCxK]vmBoG~SfBnIr@nIlAvF|@fFpBvGxDnEbDrDtDtErHnFbIzG`MjElGjFfF|GxDvIxBzEXxEG~AY|Bk@fEyBtOuIjNeHvJuE`FcCx@fGzD|YjA~Iv@`G|Jf~@bE`j@rCj_@hFjt@fE~t@bAzTlAtZDfAf@dM`@~KHjBp@fRl@pSTfNt@d]v@hk@RpXLfTBzW?rSCxMk@tdB_CzcGi@zvBp@~gAhBpeAj@tTrDzmAdKz|AdUppBbCzQhBfMnGlb@|Gjc@pBvMx@vEtEdXxqAtwGdBtIvDnR|TdhAjFxYjH|[bC~N`BzJzAnH|G`XZfBtA|HlBbLhNrs@xCzSfJlo@fCxOzD`Yj@lEp@bGJt@bBlNfC|Sj@rFbDhZ|Dh]jPtpArDxSxEtRfDhKzC`LfOf`@nDvFtXhc@nUx`@xCfFfHhKfF~H`DhFbD`FrCtEvFxJvGfMtMtZzKj]tGjUbIj_@nGl^xQxgAxbAxeGhj@r~Cl_@tcCnK~q@tIvt@lCbYxCl_@hDhz@hB`_ApBnqApApg@dA~]jBxj@hD`k@xDlk@`Gfn@tKjy@vJbo@hJ`f@bNtn@nh@~xBnf@lzBhUbqAbLj{@hDpYzGlv@nEns@rGdhAvGr{AtBhh@|Bfh@|Evp@fDf^~Dh]hEr[nHvd@zI~b@dG`V|GzWdFnQnGdRtG~Q~JdWlSrf@jRbb@t\\rr@pYdn@x[vt@hKhXxKjYzNhc@`Nhc@vZjgAdIh]jH`[hDjOjNhm@`AjEtDbPpGzYtEbT~VljA~M`o@dNbl@jObl@zOti@nKb\\nBbGxSzk@pd@nhAfUld@tTha@~Ybg@|Tj\\rOvTf^nf@|K|NvOlRp`@ve@xbA|jApdCfwCxuAdjBjL`QpGnJzi@|x@xOnVhI`O`Ph[jr@bpAdErInAhCvc@j`AlZ|w@jfAdwCbHbSfdAxkDpEhO~DrOpmArtEnAzDzAhDvBvBvB`B~B~@bDx@~FVdFE`EUpClz@v@vOlA`PbDrXzCfT~ExYpDrQ|If_@jE`Q`BvG`Qtr@nPhq@fNzi@`C`JlGxUvBfIxBzInIb]pK~b@tHn\\lJbc@nHz`@hGf`@bFj`@xD``@|B~]\\|LN~LA~OQjLo@x]o@pMw@tKgBrNkC~QcCzM}GlYoC|JwRxt@}ChOmCnPuB`SyAjTq@dUOfSZbQbAtTVxEfDdd@pNzmB|AdVThFb@|J`@dNP|HV~SF|FFv]?lA?bCC~XoApVEj{@cD~LmC`FmC|CmDzCk_@uHme@qAoIQaNQkAAuIKcTUgLK}Xg@wd@q@cP[kNkAeZyCgi@iHyLkBqa@oFyGgAeScEqGqAaLoA}Gu@_BQaEK_EVaId@qE^qM`C{@XqC~@gCz@}HtDyLvHoA|@aFdDaIhFsMtM}IbLsGbMeDlIiAfE{BdI}BbLiAdJi@zDY`Cm@tGm@xG}@bKmBjUe@jLQjQTlQf@dLf@zKr@bJzAzMvAhJlCrN~Lrk@nF|WfBlJxAbJbAlG`FrZl@dLzClf@`BzUbD~]xBpSfItx@nFQ|Jj@z@ClBf@|@\\rRjF",
+        "summary": {
+          "cost": 2698.693,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 53.776,
+          "max_lat": 51.962151,
+          "max_lon": 7.68303,
+          "min_lat": 51.608466,
+          "min_lon": 7.51657,
+          "time": 2314.031
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 51.962355,
+        "lon": 7.625713,
+        "original_index": 0,
+        "side_of_street": "right",
+        "type": "break"
+      },
+      {
+        "lat": 51.616666,
+        "lon": 7.516666,
+        "original_index": 1,
+        "side_of_street": "left",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 2698.693,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 53.776,
+      "max_lat": 51.962151,
+      "max_lon": 7.68303,
+      "min_lat": 51.608466,
+      "min_lon": 7.51657,
+      "time": 2314.031
+    },
+    "units": "kilometers"
+  }
+}

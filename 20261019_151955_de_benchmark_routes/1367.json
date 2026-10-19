@@ -1,0 +1,339 @@
+{
+  "id": "1367",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 82,
+            "begin_shape_index": 0,
+            "cost": 0.945,
+            "end_shape_index": 1,
+            "instruction": "Drive east on Eduard-R\u00fcppell-Stra\u00dfe.",
+            "length": 0.007,
+            "street_names": [
+              "Eduard-R\u00fcppell-Stra\u00dfe"
+            ],
+            "time": 0.84,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 1,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+            "verbal_pre_transition_instruction": "Drive east on Eduard-R\u00fcppell-Stra\u00dfe. Then Turn right onto Bertramstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Drive east. Then Turn right onto Bertramstra\u00dfe."
+          },
+          {
+            "bearing_after": 174,
+            "bearing_before": 82,
+            "begin_shape_index": 1,
+            "cost": 88.583,
+            "end_shape_index": 24,
+            "instruction": "Turn right onto Bertramstra\u00dfe.",
+            "length": 0.589,
+            "street_names": [
+              "Bertramstra\u00dfe"
+            ],
+            "time": 54.92,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 600 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Bertramstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Bertramstra\u00dfe."
+          },
+          {
+            "bearing_after": 261,
+            "bearing_before": 221,
+            "begin_shape_index": 24,
+            "begin_street_names": [
+              "Adickesallee",
+              "B 8"
+            ],
+            "cost": 144.698,
+            "end_shape_index": 68,
+            "instruction": "Bear right onto Adickesallee/B 8. Continue on B 8.",
+            "length": 1.032,
+            "street_names": [
+              "B 8"
+            ],
+            "time": 73.659,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue on B 8 for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Bear right onto Adickesallee, B 8.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Adickesallee."
+          },
+          {
+            "bearing_after": 276,
+            "bearing_before": 276,
+            "begin_shape_index": 68,
+            "cost": 199.414,
+            "end_shape_index": 140,
+            "highway": true,
+            "instruction": "Bear left onto A 66.",
+            "length": 4.775,
+            "street_names": [
+              "A 66"
+            ],
+            "time": 175.618,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 16,
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
+            "verbal_pre_transition_instruction": "Bear left onto A 66.",
+            "verbal_succinct_transition_instruction": "Bear left.",
+            "verbal_transition_alert_instruction": "Bear left onto A 66."
+          },
+          {
+            "bearing_after": 296,
+            "bearing_before": 289,
+            "begin_shape_index": 140,
+            "cost": 9.036,
+            "end_shape_index": 146,
+            "instruction": "Keep right to take exit 19.",
+            "length": 0.251,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Nordwestkreuz Frankfurt"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "19"
+                }
+              ]
+            },
+            "time": 8.617,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right to take exit 19. Then Keep left to take A 5.",
+            "verbal_transition_alert_instruction": "Keep right to take exit 19."
+          },
+          {
+            "bearing_after": 284,
+            "bearing_before": 287,
+            "begin_shape_index": 146,
+            "cost": 8.653,
+            "end_shape_index": 154,
+            "instruction": "Keep left to take A 5 toward Basel.",
+            "length": 0.222,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 5"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Basel"
+                },
+                {
+                  "text": "Steinbach"
+                },
+                {
+                  "text": "Eschborn"
+                },
+                {
+                  "text": "Frankfuter Kreuz"
+                }
+              ]
+            },
+            "time": 8.263,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep left to take A 5 toward Basel. Then Keep right to take A 5.",
+            "verbal_transition_alert_instruction": "Keep left to take A 5."
+          },
+          {
+            "bearing_after": 281,
+            "bearing_before": 274,
+            "begin_shape_index": 154,
+            "cost": 289.837,
+            "end_shape_index": 307,
+            "highway": true,
+            "instruction": "Keep right to take A 5 toward Basel.",
+            "length": 7.138,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 5"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Basel"
+                },
+                {
+                  "text": "Frankfurter Kreuz"
+                }
+              ]
+            },
+            "street_names": [
+              "A 5",
+              "E 451"
+            ],
+            "time": 248.43,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 7 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take A 5 toward Basel.",
+            "verbal_transition_alert_instruction": "Keep right to take A 5."
+          },
+          {
+            "bearing_after": 213,
+            "bearing_before": 198,
+            "begin_shape_index": 307,
+            "cost": 24.081,
+            "end_shape_index": 323,
+            "instruction": "Take exit 21 toward Frankfurt-Niederrad/Uniklinik.",
+            "length": 0.31,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Frankfurt-Niederrad"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "21"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Frankfurt-Niederrad"
+                },
+                {
+                  "text": "Uniklinik"
+                }
+              ]
+            },
+            "time": 13.024,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Take exit 21 toward Frankfurt-Niederrad, Uniklinik. Then Turn left onto Stra\u00dfburger Stra\u00dfe.",
+            "verbal_transition_alert_instruction": "Take exit 21."
+          },
+          {
+            "bearing_after": 91,
+            "bearing_before": 156,
+            "begin_shape_index": 323,
+            "cost": 214.371,
+            "end_shape_index": 422,
+            "instruction": "Turn left onto Stra\u00dfburger Stra\u00dfe.",
+            "length": 2.342,
+            "street_names": [
+              "Stra\u00dfburger Stra\u00dfe"
+            ],
+            "time": 173.053,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Stra\u00dfburger Stra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Stra\u00dfburger Stra\u00dfe."
+          },
+          {
+            "bearing_after": 158,
+            "bearing_before": 52,
+            "begin_shape_index": 422,
+            "cost": 18.704,
+            "end_shape_index": 432,
+            "instruction": "Turn right onto Gerauer Stra\u00dfe.",
+            "length": 0.084,
+            "street_names": [
+              "Gerauer Stra\u00dfe"
+            ],
+            "time": 14.254,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 90 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Gerauer Stra\u00dfe. Then, in 90 meters, Gerauer Stra\u00dfe will be on the left.",
+            "verbal_succinct_transition_instruction": "Turn right. Then, in 90 meters, Gerauer Stra\u00dfe will be on the left.",
+            "verbal_transition_alert_instruction": "Turn right onto Gerauer Stra\u00dfe."
+          },
+          {
+            "bearing_before": 159,
+            "begin_shape_index": 432,
+            "cost": 0.0,
+            "end_shape_index": 432,
+            "instruction": "Gerauer Stra\u00dfe is on the left.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 6,
+            "verbal_pre_transition_instruction": "Gerauer Stra\u00dfe is on the left.",
+            "verbal_transition_alert_instruction": "Gerauer Stra\u00dfe will be on the left."
+          }
+        ],
+        "shape": "akcs~AgzmpOQmEfEa@j\\cDvV{BjEe@vp@cIfDsA~C_B`KuFhFuCxHiD|Cw@jq@{PrEcAdXgGlEcA~m@yNxIsBzBCrAPd@Fr@d@d@n@fCtD~@|Q~@hOdAdOxExq@l@xInElp@hBhXr@n]PxIFvCDdCDxAFpDLxJFfEFpDL`Jb@`a@JpJ@hEDfs@ZtPV`WFlOHfT@`B@pC@bA@xDBpHBrDBrFNla@FjODzH^v_A^z_AT`m@Xz{@?zVk@jZo@p`@S~IG~Bu@vV}A`c@qDjy@eFfqAu@tO{AhYuCvo@aB`\\gHvtAqE~mA[hIiE~jA_FvrAeGhwAaIpdBkM`fC{AfZsHnmB{E|_AqIpaBi}@xxMc[taFsFpeAkBt_@aCfv@{Abm@m@p]_@dx@Vp|@VxXd@tXp@tX~@pXjApXzA~XhB|XvBvXdCrXpClXnCnXxFx^hD`R|Fl[pGj[nP`t@tdBrkHdEzT|DhU|DzVfDhWrCpWzBzWjBdWvAhWdAnWp@rW\\rWT`\\G`\\c@`\\}@z[yAv[uBn[sDr_@oDl\\_Irm@wJlp@m_@zbCoU~_ByDnX_Ipm@mOtgAwGzZwUnxAoDbVaDnUgDbXiBnOyAjPkBdScBxVcApRsAhX{@pU]fMmAfp@gAtQeDz`@w@nE_AnDsAvD_BfDiBvCsBbCeBpAmB~@qBf@sBTsBA}BYyBq@sBkAmBaBeBuByAiCqCaI}Ica@_BkGk@aGAqEh@kH|@kDpByCdC}BnDm@hJTpJjCvM`FjUxHt]vJhVr@`Oy@nKpCre@nIzMjBnIz@`K`Alc@nElZbAj[R`WYtQmAl[qB`a@gD`I{@n]yFrCk@~Dw@rBc@nRqC`XeHvXgJhVwIpc@oRrVuLpg@sXlQyJ`[oQhXoOzRaLlr@a`@r_Aoi@b]kSbb@_U`\\}Qde@gXjRqKbb@aUvI}GzZmQjb@sU`[}Pzu@oc@rq@g_@xC}B|WcN`v@gb@tN{IdUgMrb@aVnOqInQcK`T{LjPsJnQuJdPiJzrA}u@xWiNpWkOtd@gW|[}QpQcKv\\mRn`@eUbOoJzYoSbOcL~QgO`ZuVhq@wn@pj@ck@tg@gk@rp@ku@|{@igAtQqTdg@_o@dXy\\vn@ow@z^ac@fPeQ|_@c`@lc@u_@he@u]jOsLhXyQl[mRd[}Pxg@uUxXeM`Z{JfQsEhKyEng@{MlFgAn]eHhSoD|GiA|TeE`_@wEtkD{a@jt@}Jli@qFb\\wClSk@rQk@dd@aAfX{@n\\XjTd@pTp@d\\tBbMxAbO~@fPnBh^jFje@fJph@fN`r@hTnNtFzR`SfKvFvKzG~LlI|HjE`TvNdNnIpUbMjPhJbAh@h@XZJv@HjAMrAm@jAs@DuNHek@TeaAB{c@Cea@OcOg@eQmAoT}@kL}@uJwCwSuCeOkDyMkDcLoa@olAwCsJaEcOoBuNmByJsAwJeAcI}@wJu@yJe@qMO}I_@oUE{A@aB?uECqGGmGMaTO}KE}JUs^[kg@CaEG_LYmu@KgNUsd@?qAEsGCcGGgKkA}wAW{i@eAomA_By[uAmLyA{J_A}EoCkNqBmHwAaEs@iBcCcFqDkHwGsKgC_DiGaHcKgJ_DcCoEaE{i@sc@{FwFyDmEqCaDkDuFeBeDgAeCgB_F_DuJ_AcDi@iBy@gDoAcFkBoHeC{JG[[mAwA{F}AyFc@eBiOkk@cMmf@o@cCy@cDuAoF}Tm}@oBwHad@qdByJa_@sF{QmEaMyAwD{]_}@{@yBqB_FbDeBr@_@VMXM`HcD`Bq@`EmBzDiB`Ag@fIeE",
+        "summary": {
+          "cost": 998.325,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 16.752,
+          "max_lat": 50.13729,
+          "max_lon": 8.676385,
+          "min_lat": 50.076387,
+          "min_lon": 8.589233,
+          "time": 770.682
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 50.137306,
+        "lon": 8.674683,
+        "original_index": 0,
+        "street": "Eduard-R\u00fcppell-Stra\u00dfe",
+        "type": "break"
+      },
+      {
+        "lat": 50.08292,
+        "lon": 8.645157,
+        "original_index": 1,
+        "side_of_street": "left",
+        "street": "Gerauer Stra\u00dfe",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 998.325,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 16.752,
+      "max_lat": 50.13729,
+      "max_lon": 8.676385,
+      "min_lat": 50.076387,
+      "min_lon": 8.589233,
+      "time": 770.682
+    },
+    "units": "kilometers"
+  }
+}

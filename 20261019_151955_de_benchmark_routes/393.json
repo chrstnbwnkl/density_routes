@@ -1,0 +1,384 @@
+{
+  "id": "393",
+  "trip": {
+    "language": "en-US",
+    "legs": [
+      {
+        "maneuvers": [
+          {
+            "bearing_after": 2,
+            "begin_shape_index": 0,
+            "cost": 38.829,
+            "end_shape_index": 8,
+            "instruction": "Drive north on Auf dem Berlich.",
+            "length": 0.096,
+            "street_names": [
+              "Auf dem Berlich"
+            ],
+            "time": 11.679,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 3,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Drive north on Auf dem Berlich. Then Turn right onto Burgmauer.",
+            "verbal_succinct_transition_instruction": "Drive north. Then Turn right onto Burgmauer."
+          },
+          {
+            "bearing_after": 85,
+            "bearing_before": 2,
+            "begin_shape_index": 8,
+            "cost": 49.875,
+            "end_shape_index": 23,
+            "instruction": "Turn right onto Burgmauer.",
+            "length": 0.314,
+            "street_names": [
+              "Burgmauer"
+            ],
+            "time": 24.135,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Burgmauer.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Burgmauer."
+          },
+          {
+            "bearing_after": 169,
+            "bearing_before": 84,
+            "begin_shape_index": 23,
+            "cost": 207.184,
+            "end_shape_index": 102,
+            "instruction": "Turn right toward WDR.",
+            "length": 1.459,
+            "sign": {},
+            "street_names": [
+              "Tunisstra\u00dfe"
+            ],
+            "time": 104.754,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right toward WDR.",
+            "verbal_succinct_transition_instruction": "Turn right toward WDR.",
+            "verbal_transition_alert_instruction": "Turn right toward WDR."
+          },
+          {
+            "bearing_after": 178,
+            "bearing_before": 161,
+            "begin_shape_index": 102,
+            "cost": 204.011,
+            "end_shape_index": 167,
+            "instruction": "Take the B 55 exit.",
+            "length": 2.111,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "B 55"
+                }
+              ]
+            },
+            "street_names": [
+              "B 55"
+            ],
+            "time": 152.147,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Take the B 55 exit.",
+            "verbal_transition_alert_instruction": "Take the B 55 exit."
+          },
+          {
+            "bearing_after": 95,
+            "bearing_before": 93,
+            "begin_shape_index": 167,
+            "cost": 46.055,
+            "end_shape_index": 179,
+            "instruction": "Take the ramp toward Porz/Vingst.",
+            "length": 0.555,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "text": "Porz"
+                },
+                {
+                  "text": "Vingst"
+                }
+              ]
+            },
+            "street_names": [
+              "\u00d6stliche Zubringerstra\u00dfe"
+            ],
+            "time": 39.974,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 18,
+            "verbal_pre_transition_instruction": "Take the ramp toward Porz, Vingst.",
+            "verbal_transition_alert_instruction": "Take the ramp toward Porz."
+          },
+          {
+            "bearing_after": 122,
+            "bearing_before": 123,
+            "begin_shape_index": 179,
+            "cost": 423.966,
+            "end_shape_index": 326,
+            "highway": true,
+            "instruction": "Keep left to take L 124/\u00d6stliche Zubringerstra\u00dfe.",
+            "length": 9.041,
+            "street_names": [
+              "L 124",
+              "\u00d6stliche Zubringerstra\u00dfe"
+            ],
+            "time": 353.959,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 9 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take L 124, \u00d6stliche Zubringerstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Keep left to take L 124."
+          },
+          {
+            "bearing_after": 182,
+            "bearing_before": 165,
+            "begin_shape_index": 326,
+            "cost": 4.169,
+            "end_shape_index": 331,
+            "instruction": "Keep right to take exit 34 toward K\u00f6ln-Bonn/K\u00f6ln-Porz/K\u00f6ln-Urbach.",
+            "length": 0.113,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Flughafen"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "34"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "K\u00f6ln-Bonn"
+                },
+                {
+                  "text": "K\u00f6ln-Porz"
+                },
+                {
+                  "text": "K\u00f6ln-Urbach"
+                }
+              ]
+            },
+            "time": 4.089,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Keep right to take exit 34 toward K\u00f6ln-Bonn, K\u00f6ln-Porz. Then Keep right to take L 84.",
+            "verbal_transition_alert_instruction": "Keep right to take exit 34."
+          },
+          {
+            "bearing_after": 178,
+            "bearing_before": 170,
+            "begin_shape_index": 331,
+            "cost": 69.576,
+            "end_shape_index": 399,
+            "highway": true,
+            "instruction": "Keep right to take L 84 toward Porz/Urbach.",
+            "length": 1.034,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "text": "Porz"
+                },
+                {
+                  "text": "Urbach"
+                }
+              ]
+            },
+            "street_names": [
+              "L 84"
+            ],
+            "time": 51.008,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Keep right to take L 84 toward Porz, Urbach.",
+            "verbal_transition_alert_instruction": "Keep right to take L 84."
+          },
+          {
+            "bearing_after": 169,
+            "bearing_before": 257,
+            "begin_shape_index": 399,
+            "cost": 50.374,
+            "end_shape_index": 414,
+            "instruction": "Turn left onto Frankfurter Stra\u00dfe/B 8.",
+            "length": 0.445,
+            "street_names": [
+              "Frankfurter Stra\u00dfe",
+              "B 8"
+            ],
+            "time": 31.814,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Frankfurter Stra\u00dfe, B 8.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Frankfurter Stra\u00dfe."
+          },
+          {
+            "bearing_after": 263,
+            "bearing_before": 174,
+            "begin_shape_index": 414,
+            "cost": 22.095,
+            "end_shape_index": 428,
+            "instruction": "Turn right toward Porz-Zentrum.",
+            "length": 0.189,
+            "sign": {},
+            "street_names": [
+              "Kaiserstra\u00dfe",
+              "L 99"
+            ],
+            "time": 13.278,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn right toward Porz-Zentrum.",
+            "verbal_succinct_transition_instruction": "Turn right toward Porz-Zentrum.",
+            "verbal_transition_alert_instruction": "Turn right toward Porz-Zentrum."
+          },
+          {
+            "bearing_after": 179,
+            "bearing_before": 248,
+            "begin_shape_index": 428,
+            "cost": 37.9,
+            "end_shape_index": 434,
+            "instruction": "Turn left onto Elsdorfer Stra\u00dfe.",
+            "length": 0.1,
+            "street_names": [
+              "Elsdorfer Stra\u00dfe"
+            ],
+            "time": 14.548,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Elsdorfer Stra\u00dfe. Then, in 100 meters, Turn right onto Lichpfad.",
+            "verbal_succinct_transition_instruction": "Turn left. Then, in 100 meters, Turn right onto Lichpfad.",
+            "verbal_transition_alert_instruction": "Turn left onto Elsdorfer Stra\u00dfe."
+          },
+          {
+            "bearing_after": 272,
+            "bearing_before": 180,
+            "begin_shape_index": 434,
+            "cost": 18.524,
+            "end_shape_index": 435,
+            "instruction": "Turn right onto Lichpfad.",
+            "length": 0.074,
+            "street_names": [
+              "Lichpfad"
+            ],
+            "time": 11.194,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 70 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Lichpfad. Then Turn left to stay on Lichpfad.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Turn left to stay on Lichpfad.",
+            "verbal_transition_alert_instruction": "Turn right onto Lichpfad."
+          },
+          {
+            "bearing_after": 181,
+            "bearing_before": 272,
+            "begin_shape_index": 435,
+            "cost": 13.786,
+            "end_shape_index": 437,
+            "instruction": "Turn left to stay on Lichpfad.",
+            "length": 0.026,
+            "street_names": [
+              "Lichpfad"
+            ],
+            "time": 8.532,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 30 meters.",
+            "verbal_pre_transition_instruction": "Turn left to stay on Lichpfad. Then Lichpfad will be on the left.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Lichpfad will be on the left.",
+            "verbal_transition_alert_instruction": "Turn left to stay on Lichpfad."
+          },
+          {
+            "bearing_before": 181,
+            "begin_shape_index": 437,
+            "cost": 0.0,
+            "end_shape_index": 437,
+            "instruction": "Lichpfad is on the left.",
+            "length": 0.0,
+            "time": 0.0,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 6,
+            "verbal_pre_transition_instruction": "Lichpfad is on the left.",
+            "verbal_transition_alert_instruction": "Lichpfad will be on the left."
+          }
+        ],
+        "shape": "agcd`Bc}`gLcDGkGIuPSeDCcHGmACs@AaDGImHk@yNsBy[uA}\\uBoa@aAoVYcJQiD_@qJs@iQKwBQyEuAg_@u@iTu@kWxBiJr@qCr@eCt@qB|EcHnEkApGcAzPeBvI}@hAOhHaA~@ShDg@~JwFnTqBzE]dHLnGObEXbIl@dOdBlH`BbE~@|B`@tFzAjA`@tNbEtDbAvMpDhB\\zJfBrEb@|J\\vKPtFF~Bs@pFg@fGMxCI`Dc@rHoAfQgFxHsCrG_C~FgBrEy@z@OxEi@|CE|W]lPQ~Lk@pKm@tH{@jEh@fI}A|A[d@IjDu@tEcAt[qHjBc@bQ_HrV_J`HmDtAq@tDuBhGeDdEiCbOcJfHiEdFqCre@_WtUqL~SaLlZiNlJsE`OeHfDyAnCEbFRbA^lAp@dAjAfAjAdBrCtBnHXnE?lDg@jJqAbGmBvCwArAiDpAmDj@{CH}Bs@{AaAwAkBqAgC}@kDe@eE_@_JB_Y\\_J\\kO?oUa@kJ_AuMmI{`@yEgU}G{^gGea@oAkIgC{UgEse@qBs_@eMshBi@{I{Nq{Bst@gjLmLogBaC}_@e@qHuCcc@}AiYUgKMiJJ_Jd@kIfAoJ~@_GzDwRrO}m@dRuu@vHsZbFeVpF{[rA_KhC}RfEug@jBuXr@u`@n@qi@l@q[NiJl@k\\nAwd@nDkn@tCeXdDsVlJce@lPkm@`Li_@tPeg@vb@uvAdt@cfCzIka@|Q}l@fXg|@|Uot@d`@gpAtIiZxD{MdIm`@zGq_@nKku@tH{u@fAyMxBu[rAwZ^sNt@gf@Xwi@]yo@gAcb@gBmc@{GysAwFcfA{C_y@c@kRUgVEeU?cQb@g_@xAi]fBeX`De[lCcTdDsShEoS~EqTtFaThJcYlFsO|GkQrRge@`P_\\ne@udAvQcc@|FmNtGwQdJgYvHi\\pFoUjEuTrJkq@nDe[pRmvB`Es`@tHsm@vEyWfDkQtGaY~Km_@jGgR`LcXbMeYjU}`@tOkSbPiRnJiJlJ{IdJsGxJyGnP_Ktb@sQzf@mPhc@uPjY_OfRaOrUwTxLuO~MaRhOeX`R}a@pH{S~F}R|DyLpFiRdQ{n@hNih@pOwi@`]onAr[mhAlb@i~Atr@seCfbAqpDbMag@fLig@rKeh@rHod@vEk\\lDqWrFmi@`CeXvBqZfCua@lAwZvAg`@dBcy@|@{`AlAewAbAmnAbBwqChAccAvBqkCRmWtDeaCpCe_AvA{^hCqh@dFyp@pGoo@tGig@zWg{A~XisAzLed@nKm]rIoXlKgZdJmVzXis@vX}o@nq@o|AtnAsrCnPi_@xm@ivA~kAumCdmBwkEtUmc@n`AajBhh@wy@hn@sz@vi@}l@vh@yh@fe@{`@df@g]|j@}^lq@y]xKmFnc@gSvy@kXlN\\tN_CtJyAvF{@lKkBrHGdJm@lDE`F?jCHtCThBVdCd@pBf@rBv@rAl@~Ax@pAz@`Ax@jAbAxAxArA`BtAlBhAdBhAxBnAnC|@vBhAbDrAvD|AdEjAlCzAbDz@zAt@jAz@fAdAjApAjAlA|@fAn@xAr@`Bh@lB^rBZpDn@bCp@vAh@rAt@bBlAlAlAt@dA~@zA|@rB|@xBp@hCd@bDXrCLjB|@hPWdu@Kvf@?~LFlLV~sAE~ZGjQStx@A|K_@|uBIbkA]hq@h@xOXpDd@dDtFiAd]cHtT_Eds@eJnLmBjUmFxl@{PhEmB|G{CjB{@dEkB`IoD|D{@dAUjF]lCtCrApA|@`Bj@fAd@nAZt@pApEd@~M~@~RvB|QnAdLxAxJlFv\\tCtQzCEnDEzOUnEEzDG`O?i@t`A~CBpHJ",
+        "summary": {
+          "cost": 1186.349,
+          "has_ferry": false,
+          "has_highway": true,
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "length": 15.56,
+          "max_lat": 50.941303,
+          "max_lon": 7.092912,
+          "min_lat": 50.88008,
+          "min_lon": 6.947809,
+          "time": 821.116
+        }
+      }
+    ],
+    "locations": [
+      {
+        "lat": 50.940041,
+        "lon": 6.947453,
+        "original_index": 0,
+        "side_of_street": "left",
+        "street": "Auf dem Berlich",
+        "type": "break"
+      },
+      {
+        "lat": 50.880077,
+        "lon": 7.079117,
+        "original_index": 1,
+        "side_of_street": "left",
+        "street": "Lichpfad",
+        "type": "break"
+      }
+    ],
+    "status": 0,
+    "status_message": "Found route between points",
+    "summary": {
+      "cost": 1186.349,
+      "has_ferry": false,
+      "has_highway": true,
+      "has_time_restrictions": false,
+      "has_toll": false,
+      "length": 15.56,
+      "max_lat": 50.941303,
+      "max_lon": 7.092912,
+      "min_lat": 50.88008,
+      "min_lon": 6.947809,
+      "time": 821.116
+    },
+    "units": "kilometers"
+  }
+}
