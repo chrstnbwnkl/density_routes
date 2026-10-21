@@ -8,7 +8,7 @@
           {
             "bearing_after": 311,
             "begin_shape_index": 0,
-            "cost": 8.1,
+            "cost": 7.108,
             "end_shape_index": 2,
             "instruction": "Drive northwest.",
             "length": 0.018,
@@ -25,7 +25,7 @@
             "bearing_after": 38,
             "bearing_before": 309,
             "begin_shape_index": 2,
-            "cost": 65.606,
+            "cost": 44.942,
             "end_shape_index": 8,
             "instruction": "Turn right onto Kunzweg.",
             "length": 0.198,
@@ -45,7 +45,7 @@
             "bearing_after": 311,
             "bearing_before": 50,
             "begin_shape_index": 8,
-            "cost": 42.568,
+            "cost": 26.933,
             "end_shape_index": 13,
             "instruction": "Turn left onto Peslm\u00fcllerstra\u00dfe.",
             "length": 0.077,
@@ -66,7 +66,7 @@
             "bearing_after": 71,
             "bearing_before": 340,
             "begin_shape_index": 13,
-            "cost": 103.931,
+            "cost": 76.367,
             "end_shape_index": 26,
             "instruction": "Turn right onto Paosostra\u00dfe.",
             "length": 0.423,
@@ -86,7 +86,7 @@
             "bearing_after": 349,
             "bearing_before": 76,
             "begin_shape_index": 26,
-            "cost": 97.924,
+            "cost": 64.475,
             "end_shape_index": 32,
             "instruction": "Turn left onto Otilostra\u00dfe.",
             "length": 0.275,
@@ -106,7 +106,7 @@
             "bearing_after": 79,
             "bearing_before": 347,
             "begin_shape_index": 32,
-            "cost": 63.178,
+            "cost": 45.018,
             "end_shape_index": 43,
             "instruction": "Turn right onto Bodenseestra\u00dfe/B 2.",
             "length": 0.362,
@@ -127,239 +127,269 @@
             "bearing_after": 21,
             "bearing_before": 79,
             "begin_shape_index": 43,
-            "cost": 80.476,
-            "end_shape_index": 67,
-            "instruction": "Turn left toward Zentrum/Messe/ICM/Pasing Arcaden/S-Bahn Pasing.",
-            "length": 0.466,
-            "sign": {},
-            "street_names": [
+            "begin_street_names": [
               "Lortzingstra\u00dfe",
               "B 2"
             ],
-            "time": 34.991,
+            "cost": 180.172,
+            "end_shape_index": 117,
+            "instruction": "Turn left toward Zentrum/Messe/ICM/Pasing Arcaden/S-Bahn Pasing.",
+            "length": 1.798,
+            "sign": {},
+            "street_names": [
+              "B 2"
+            ],
+            "time": 131.013,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
-            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_post_transition_instruction": "Continue on B 2 for 2 kilometers.",
             "verbal_pre_transition_instruction": "Turn left toward Zentrum, Messe/ICM.",
             "verbal_succinct_transition_instruction": "Turn left toward Zentrum, Messe/ICM.",
             "verbal_transition_alert_instruction": "Turn left toward Zentrum."
           },
           {
-            "bearing_after": 0,
-            "bearing_before": 50,
-            "begin_shape_index": 67,
-            "cost": 85.652,
-            "end_shape_index": 76,
-            "instruction": "Turn left onto Lortzingstra\u00dfe/St 2063.",
-            "length": 0.196,
-            "street_names": [
-              "Lortzingstra\u00dfe",
-              "St 2063"
+            "bearing_after": 175,
+            "bearing_before": 180,
+            "begin_shape_index": 117,
+            "begin_street_names": [
+              "Josef-Felder-Stra\u00dfe",
+              "B 2"
             ],
-            "time": 20.719,
+            "cost": 226.587,
+            "end_shape_index": 210,
+            "instruction": "Keep left to stay on B 2.",
+            "length": 2.595,
+            "street_names": [
+              "B 2"
+            ],
+            "time": 180.197,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to stay on B 2.",
+            "verbal_transition_alert_instruction": "Keep left to stay on B 2."
+          },
+          {
+            "bearing_after": 97,
+            "bearing_before": 96,
+            "begin_shape_index": 210,
+            "begin_street_names": [
+              "Landsberger Stra\u00dfe",
+              "B 2"
+            ],
+            "cost": 347.512,
+            "end_shape_index": 307,
+            "instruction": "Keep left to take Landsberger Stra\u00dfe.",
+            "length": 3.411,
+            "street_names": [
+              "Landsberger Stra\u00dfe"
+            ],
+            "time": 239.522,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take Landsberger Stra\u00dfe.",
+            "verbal_transition_alert_instruction": "Keep left to take Landsberger Stra\u00dfe."
+          },
+          {
+            "bearing_after": 90,
+            "bearing_before": 184,
+            "begin_shape_index": 307,
+            "cost": 198.573,
+            "end_shape_index": 358,
+            "instruction": "Turn left toward Zentrum.",
+            "length": 1.172,
+            "sign": {},
+            "street_names": [
+              "Schwanthalerstra\u00dfe"
+            ],
+            "time": 119.328,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
-            "verbal_post_transition_instruction": "Continue for 200 meters.",
-            "verbal_pre_transition_instruction": "Turn left onto Lortzingstra\u00dfe, St 2063.",
-            "verbal_succinct_transition_instruction": "Turn left.",
-            "verbal_transition_alert_instruction": "Turn left onto Lortzingstra\u00dfe."
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn left toward Zentrum.",
+            "verbal_succinct_transition_instruction": "Turn left toward Zentrum.",
+            "verbal_transition_alert_instruction": "Turn left toward Zentrum."
           },
           {
-            "bearing_after": 21,
-            "bearing_before": 17,
-            "begin_shape_index": 76,
-            "begin_street_names": [
-              "Pippinger Stra\u00dfe",
-              "St 2063"
-            ],
-            "cost": 202.575,
-            "end_shape_index": 139,
-            "instruction": "Bear right toward A 8/A 9/Stuttgart/N\u00fcrnberg.",
-            "length": 1.484,
-            "sign": {},
+            "bearing_after": 5,
+            "bearing_before": 49,
+            "begin_shape_index": 358,
+            "cost": 23.281,
+            "end_shape_index": 363,
+            "instruction": "Bear left onto Sonnenstra\u00dfe.",
+            "length": 0.151,
             "street_names": [
-              "Pippinger Stra\u00dfe"
+              "Sonnenstra\u00dfe"
             ],
-            "time": 138.844,
+            "time": 11.356,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 16,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Bear left onto Sonnenstra\u00dfe. Then, in 200 meters, Bear right onto Karlsplatz (Stachus).",
+            "verbal_succinct_transition_instruction": "Bear left. Then, in 200 meters, Bear right onto Karlsplatz (Stachus).",
+            "verbal_transition_alert_instruction": "Bear left onto Sonnenstra\u00dfe."
+          },
+          {
+            "bearing_after": 8,
+            "bearing_before": 5,
+            "begin_shape_index": 363,
+            "cost": 18.979,
+            "end_shape_index": 379,
+            "instruction": "Bear right onto Karlsplatz (Stachus).",
+            "length": 0.159,
+            "street_names": [
+              "Karlsplatz (Stachus)"
+            ],
+            "time": 11.511,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 9,
-            "verbal_post_transition_instruction": "Continue on Pippinger Stra\u00dfe for 1.5 kilometers.",
-            "verbal_pre_transition_instruction": "Bear right toward A 8, Stuttgart.",
-            "verbal_succinct_transition_instruction": "Bear right toward A 8, Stuttgart.",
-            "verbal_transition_alert_instruction": "Bear right toward A 8."
-          },
-          {
-            "bearing_after": 111,
-            "bearing_before": 40,
-            "begin_shape_index": 139,
-            "cost": 369.758,
-            "end_shape_index": 286,
-            "instruction": "Turn right toward Zentrum.",
-            "length": 3.791,
-            "sign": {},
-            "street_names": [
-              "Verdistra\u00dfe"
-            ],
-            "time": 276.551,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
-            "verbal_pre_transition_instruction": "Turn right toward Zentrum.",
-            "verbal_succinct_transition_instruction": "Turn right toward Zentrum.",
-            "verbal_transition_alert_instruction": "Turn right toward Zentrum."
-          },
-          {
-            "bearing_after": 24,
-            "bearing_before": 113,
-            "begin_shape_index": 286,
-            "cost": 957.247,
-            "end_shape_index": 538,
-            "instruction": "Turn left onto Wintrichring.",
-            "length": 10.509,
-            "street_names": [
-              "Wintrichring"
-            ],
-            "time": 654.183,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 15,
-            "verbal_post_transition_instruction": "Continue for 11 kilometers.",
-            "verbal_pre_transition_instruction": "Turn left onto Wintrichring.",
-            "verbal_succinct_transition_instruction": "Turn left.",
-            "verbal_transition_alert_instruction": "Turn left onto Wintrichring."
-          },
-          {
-            "bearing_after": 137,
-            "bearing_before": 125,
-            "begin_shape_index": 538,
-            "cost": 19.668,
-            "end_shape_index": 547,
-            "instruction": "Take the exit.",
-            "length": 0.223,
-            "street_names": [
-              "Isarring"
-            ],
-            "time": 16.083,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 20,
-            "verbal_pre_transition_instruction": "Take the exit.",
-            "verbal_transition_alert_instruction": "Take the exit."
-          },
-          {
-            "bearing_after": 235,
-            "bearing_before": 146,
-            "begin_shape_index": 547,
-            "cost": 127.762,
-            "end_shape_index": 576,
-            "instruction": "Turn right onto B\u00fclowstra\u00dfe.",
-            "length": 0.482,
-            "street_names": [
-              "B\u00fclowstra\u00dfe"
-            ],
-            "time": 38.755,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue for 500 meters.",
-            "verbal_pre_transition_instruction": "Turn right onto B\u00fclowstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto B\u00fclowstra\u00dfe."
-          },
-          {
-            "bearing_after": 213,
-            "bearing_before": 267,
-            "begin_shape_index": 576,
-            "cost": 70.832,
-            "end_shape_index": 584,
-            "instruction": "Turn left onto Oberf\u00f6hringer Stra\u00dfe.",
-            "length": 0.154,
-            "street_names": [
-              "Oberf\u00f6hringer Stra\u00dfe"
-            ],
-            "time": 12.166,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 15,
             "verbal_multi_cue": true,
             "verbal_post_transition_instruction": "Continue for 200 meters.",
-            "verbal_pre_transition_instruction": "Turn left onto Oberf\u00f6hringer Stra\u00dfe. Then, in 200 meters, Turn left onto Pixisstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn left. Then, in 200 meters, Turn left onto Pixisstra\u00dfe.",
-            "verbal_transition_alert_instruction": "Turn left onto Oberf\u00f6hringer Stra\u00dfe."
+            "verbal_pre_transition_instruction": "Bear right onto Karlsplatz (Stachus). Then Bear right onto Lenbachplatz.",
+            "verbal_succinct_transition_instruction": "Bear right. Then Bear right onto Lenbachplatz.",
+            "verbal_transition_alert_instruction": "Bear right onto Karlsplatz (Stachus)."
           },
           {
-            "bearing_after": 119,
-            "bearing_before": 210,
-            "begin_shape_index": 584,
-            "cost": 47.673,
-            "end_shape_index": 589,
-            "instruction": "Turn left onto Pixisstra\u00dfe.",
-            "length": 0.087,
+            "bearing_after": 85,
+            "bearing_before": 43,
+            "begin_shape_index": 379,
+            "cost": 205.016,
+            "end_shape_index": 467,
+            "instruction": "Bear right onto Lenbachplatz.",
+            "length": 1.555,
             "street_names": [
-              "Pixisstra\u00dfe"
+              "Lenbachplatz"
             ],
-            "time": 11.672,
+            "time": 113.698,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Bear right onto Lenbachplatz.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Lenbachplatz."
+          },
+          {
+            "bearing_after": 114,
+            "bearing_before": 112,
+            "begin_shape_index": 467,
+            "cost": 135.515,
+            "end_shape_index": 502,
+            "instruction": "Keep left to take Altstadtringtunnel.",
+            "length": 0.986,
+            "street_names": [
+              "Altstadtringtunnel"
+            ],
+            "time": 75.178,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Keep left to take Altstadtringtunnel.",
+            "verbal_transition_alert_instruction": "Keep left to take Altstadtringtunnel."
+          },
+          {
+            "bearing_after": 138,
+            "bearing_before": 107,
+            "begin_shape_index": 502,
+            "cost": 144.746,
+            "end_shape_index": 561,
+            "instruction": "Bear right onto Prinzregentenstra\u00dfe.",
+            "length": 1.021,
+            "street_names": [
+              "Prinzregentenstra\u00dfe"
+            ],
+            "time": 99.863,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Bear right onto Prinzregentenstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Prinzregentenstra\u00dfe."
+          },
+          {
+            "bearing_after": 16,
+            "bearing_before": 112,
+            "begin_shape_index": 561,
+            "cost": 83.678,
+            "end_shape_index": 588,
+            "instruction": "Turn left onto Possartstra\u00dfe.",
+            "length": 0.545,
+            "street_names": [
+              "Possartstra\u00dfe"
+            ],
+            "time": 44.168,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
-            "verbal_multi_cue": true,
-            "verbal_post_transition_instruction": "Continue for 90 meters.",
-            "verbal_pre_transition_instruction": "Turn left onto Pixisstra\u00dfe. Then Turn right onto Scheinerstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Scheinerstra\u00dfe.",
-            "verbal_transition_alert_instruction": "Turn left onto Pixisstra\u00dfe."
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Possartstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Possartstra\u00dfe."
           },
           {
-            "bearing_after": 194,
-            "bearing_before": 117,
-            "begin_shape_index": 589,
-            "cost": 67.291,
+            "bearing_after": 38,
+            "bearing_before": 0,
+            "begin_shape_index": 588,
+            "cost": 65.47,
             "end_shape_index": 601,
-            "instruction": "Turn right onto Scheinerstra\u00dfe.",
-            "length": 0.309,
+            "instruction": "Bear right onto Galileiplatz.",
+            "length": 0.262,
             "street_names": [
-              "Scheinerstra\u00dfe"
+              "Galileiplatz"
             ],
-            "time": 23.405,
+            "time": 19.093,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 10,
+            "type": 9,
             "verbal_post_transition_instruction": "Continue for 300 meters.",
-            "verbal_pre_transition_instruction": "Turn right onto Scheinerstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto Scheinerstra\u00dfe."
+            "verbal_pre_transition_instruction": "Bear right onto Galileiplatz.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Galileiplatz."
           },
           {
-            "bearing_before": 191,
+            "bearing_before": 12,
             "begin_shape_index": 601,
             "cost": 0.0,
             "end_shape_index": 601,
-            "instruction": "Scheinerstra\u00dfe is on the right.",
+            "instruction": "Scheinerstra\u00dfe is on the left.",
             "length": 0.0,
             "time": 0.0,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 5,
-            "verbal_pre_transition_instruction": "Scheinerstra\u00dfe is on the right.",
-            "verbal_transition_alert_instruction": "Scheinerstra\u00dfe will be on the right."
+            "type": 6,
+            "verbal_pre_transition_instruction": "Scheinerstra\u00dfe is on the left.",
+            "verbal_transition_alert_instruction": "Scheinerstra\u00dfe will be on the left."
           }
         ],
-        "shape": "y}gyzAollyTiD`Hm@tAaNuPmU{XqMyPsL{ScN{Xs@{AyAzCiShb@aBt@MFmBz@mAuIqDyXoPooAgFe`@uQkvAyAaLy@mGgAkI}@{Gs@yGoAiK}C}VyA{O_Cd@UD{gAnT{{@rRcGrAiCl@uFcx@kEcm@sBqYgAeO{@{LgEmj@yAqSoCy_@mBgYS}Cg@aIiEqBeB{@mE}CoF_CcPgJoKyGmAuEcWsO}BsAsBkAqZ{SeBkAmMyIqDcCs@g@kQ{Ku@g@iT_O{L}IeKgIwAqA_FiG{FcKmBaFqFFoE?yDDeCMqCYsGqAwBw@_HgC{v@kYeJiE_EmA{FcAmF{@aEC{C{@mD]iEQQAmDKiWYeDSaF]qIkB{HmDmI{E}E}CeD_AoDo@mFk@sNe@ea@HqPqBmUqCeJo@kCScBK_E[eQmAsTc@_i@|FcED_ZImKWuN}@uLmBeIy@{KEeLrBcs@~Xmq@~Zgd@xYmb@~^kEbDaFlByEfA}FJaFYsLmByQcG}OkIaI{DcI}DiBaA_Bq@aHiCmEmAiOyCcCm@i@OmHmJsA_BeCeDjAcHxCeS|AcKhBuPrCmMbBoJfAiJt@gJXmIAqEAkAEaBeAuTeAiVa@kPc@sg@EwFA{FGcSEya@@sU?cY?aE@qO?_P@{K?aB?eHBeq@@{[GibAAuFPii@B{S?iJ@iC?kDAwE?eD?cB?YAoME_Y@uC?w@?gq@Xaa@Xu`@XuZn@gf@DwA\\oQr@o_@PeJRwKrAme@HcDx@mXbBal@|CeaA\\iLt@_UD}ATgHd@kNVaIHyBnC}y@^yL`@wLrAi`@`@aNb@{MPyFPcG\\_M~@m`@n@kb@?WT}Zv@ykAz@e|@T_OvA{k@`Dey@~Ban@XiL@yAF}G@wPOwHSmH_AgTyAaPi@cGyC{T}CaPqKyf@Mg@kAqFiDwOoG_WgB{G]kAeKk_@}HyWcCiN_JcZaBmFqC{JyAqHu@{Fi@aIWoHFaR?qFXgQBwBPcLh@uXx@_XpAk`@RsFt@yPbCie@pCgd@pR_yCxF_aAzCel@dAaSzC}k@dB_]`AgRLgCXqFXyFTcFhAyTXeHbF}~@pB}^bDm^|C}WdFoYzFqZZeBrB}KyBaFi@aAy@yAoBiA{C}AePaKgFwEgVyOkQqL_YeRkt@cf@wc@{YuLkH_KgG_Aq@{@m@}AkAuB{AwDoBu@a@aQ}IeNeF}cAoZqToGaCaAeBaA{AaAmD}BkEwBiCw@yEw@iEc@qNoAoBYcc@_Ko_@mK}NkHiMsJwPcQ_OkUaH{PwDqJgEoPkGeZmE}X}Ny_AwC}QeMax@wRaoA_Kcr@{Gmg@oCqPyCcPaGqVyGcUiCiIoAkDoJsU{AqDsGeOqGeNwI}QqAyC{BaFeB_E_@}@sCcHwBaGqCyIyAoFwAqF{ByJmAuGg@oC{@kGqAkJuBoU_AyNa@qJMcDYcPS_\\DqVB}RFqZDgs@?_LD{g@DaD@cn@@{DD{LL{Kr@ofBD{j@@wMm@kd@I}N]{]Zcv@^q}@D{GJwa@BkL?{C@{I@eA?qF?sW?}hB`Ac_Dx@}aE`AqTb@ieB^{}AFkVr@opChAwfFLmUu@gU`AqaEl@s_An@{sAhBcfBj@o|@f@mpAeBmv@wDyb@yJkl@mKml@qgAwhGcDiS_CyUmBcWkCya@}@qR_@gUG{UAkXHy[ZaXr@oZ~Do{@vK_tClBog@fB{f@|@}e@Ruf@Qyh@Ucu@_BkyCGck@p@sVrAmVzCk_@rEe_@bEsVhE{RtKqb@vI_[hLab@zG_UjKy\\~Pii@pUcr@dYaz@lEkMdDsPpMm]|Tqj@tQwc@jQsb@nVwm@vEmL`k@suAxHyPzFaKrBaD|AmBxCeDpC}BvDmCnEyBnDuAzFyAhDWdDW|D?~CPjFj@lHrB|QzI~O~Jb]lS`ZbR~NnIhCdBdDtBb`Azk@fhAdr@tN~I`m@|]vr@vVb]jElZw@xG{@jEw@`KiCfLiFrJ_GnPaNjJaJzJoNxMgUrU}g@f]_w@f_@ev@tO_YhRmYbHwIxG_I|NwN~AyAdTiP~b@iZ~J}GxScQ`JoIfGwGtEwFnCqDbEaG~CcFhHgMrGcNxHmR|FaQnCwIpAeEdCiIje@}}AnQil@pGySjCyIvSor@nJ{ZpHwVbQyk@zIkXlHkTrOcc@bPic@dIgMnJoRnKqUfKeSpWme@lGgKdA{AjAwAnAeAhB`Fh`@r|@f@jAhD~HfBzEnC|IzAlFhDnLdDzLlL|f@fE~UjFnYzAlKdBrL~AxLj@~Dt@jF~@xIJzAX`DTnDNzCb@pJRdHLtL@~B?|A@vBJ|HbD~Cx@v@rCjC|BxBfh@b[fATvATjN`LLa@v@}C~C_MbMmh@f@uBvA^xDdA~VvBhVb@vGZ~CT`F`@vFPvh@^xDd@~]vF~HbB",
+        "shape": "y}gyzAollyTiD`Hm@tAaNuPmU{XqMyPsL{ScN{Xs@{AyAzCiShb@aBt@MFmBz@mAuIqDyXoPooAgFe`@uQkvAyAaLy@mGgAkI}@{Gs@yGoAiK}C}VyA{O_Cd@UD{gAnT{{@rRcGrAiCl@uFcx@kEcm@sBqYgAeO{@{LgEmj@yAqSoCy_@mBgYS}Cg@aIiEqBeB{@mE}CoF_CcPgJoKyGmAuEcWsO}BsAsBkAqZ{SeBkAmMyIqDcCs@g@kQ{Ku@g@iT_O{L}IeKgIwAqA_FiG{FcKmBaF{BqK{BiKuA_Lo@iLDaJReIr@yItC}PvFeTvPqn@rBwHvBoIdMgg@|Peu@bDoP`Owu@`I_a@rH{`@nPs~@nKoi@pLwh@hB_IxAgGPq@pH{ZtPos@nG{YdGoZbUwkA~EgYhHsb@tBsMj@mD|@uFnDcUvFo_@hAaFvAwD|A{CpAgBz@_AjAaAv@g@hAg@p@S`AUjAObBIrAE|MD|Ii@hBUxBaDrEcGHoCL{EFmFAkCKiGKmIQgN\\}b@@kFLoYd@{]p@{o@r@ur@VmVH{IFkG\\y[JgJ`@gb@TsUPeQH}H?AFuFBuBXkYJ_JHuMFsDXuY~@my@d@wh@XqMFgCHuCHkCLmEHeDT_I|B}o@Dy@n@kO`Cwk@jCen@`@oIxIujBf@{KpDyz@tDi}@p@aO\\sHDw@HcBLmCJoBz@yOjDiw@rDcw@fFueAH_BXcG^cIfJkpBxFeoAHgBVcHb@iJ~Gi{AbDwx@nBoQrCgd@lBuXf@oHvF}s@f@iGPeC|@cNbBmWTwDTmDb@_ItAiTZkGZ_H`@{Tp@q]|Act@p@{[l@}SpBam@~@ki@n@}KbM{tBbL_qBzD_q@J}A^uGd@mIxGqkA|GslAzOomCpH}i@bC{YZuDn@sGf@sFFuABe@^}EfAoRr@}MjA_U|@{OrB{_@hF_bA|Ea|@t@sNViFxAsVxAg[FcBJaCj@}Nb@cMrAu`@bAo`@`B_d@tHktBTyIp@gWzBky@l@mW\\qOFqBJeFHsD\\cQv@c`@pDooAfA__@xAy^n@}OP_EXuHlAk]AaICgKbBcbB`DmzA@a@DoBZsKF_BpBqr@nBav@z@i]|AwY~@ya@DiBLgHp@{_@|BacAhHa`DnAue@fAgXFeBl@eIn@oGhDgb@xJ_zAl@uHT}BR}AZkAZy@h@{@d@m@dA{@x@a@x@Wv@MbAGp\\d@hX`@zCFxET?iD@aC?mE?_FFc[Da]@_GDc`@P}e@HeVBuIHyRBoIBiH@yEFa_@BgWL{s@FoY@qLFaLBsGFkMD}KNgY@}ABiI`@co@Via@^evAXa}@RkzANwp@@oK@sH?}K@kV?wI@cKG_Ho@wKQ{BKeAOqAU}AcAyDa@{@c@q@_@c@YUc@SkPaA_CW{j@sGiIcAoGe@yFm@qDg@oAUuBk@iAe@{@c@qCeB_CeBeHqGq@k@o@{@_KoNwCeEwGcJmC}De@u@mEyKiB_FeAkDcAmDaBcG?{BCmCOoDOuC[mC]_C[iBcAwEeJm_@kE_Qw@}CmA{E]}Aq@oCi@oBiAiE]sAg@iBkAqEc@{AuC_LsBcIeA{Ee@yBqLyj@uJqd@e@wBs@eDgB{IeAmFcFaWy@aEaGuZ_CuL{A_I_AiDeAiCgAkBiF{F_GgEoBm@q[mJ_Cq@kAa@eH_C{HaC}EsAkFwAwGU_SsHiNyFeYsL{I{DqT}OCCWSWSe@i@cBeCS[s@sAg@qAw@iCc@iB[kBQ{AUyCCeDGgMi@g]k@e]GeEIoHIiIIcK?sEFgGHeGV_H`@eFvN}gAtZc_Czb@ocCx[k~AhG}g@hGai@pAgLlA{LxCi[hBuRP}DXgHXiBlAmKtAsLDa@bE{]v@mGNoAD[tA}L`Gqc@fCaTzIwt@zOkuAf@kEb@gD^}DhIql@z@cHpCqU|BeODa@hFwe@~@kIjAcJdA_JpIgs@vBgDtAkBdCgBxC}@jEh@b_@xMrD^zC_@fE_CjBeCjAqCt@yC^uCHcGEyGiAyG{A}C_BeCaGyCqYwMgAaA}@sAm@uAa@wA_@{BQeBCeCP_FtH_p@dCwSP_AFeA@e@Am@IyHMoRdKw{@f@wEFe@Fg@LgAZcCfDyXbI_q@xGgi@dJet@~Du`@vBwSbDq[v@qIfC{KtCuc@r@sLjC{g@b@oGJsAPuAZuBn@qD}DqCw@a@oBe@_B?qDEcQSwi@m@yBCeBAeBCcd@[kTQmFEkBAuBAaECeBAin@KeBDgGFgPN}FFiGFqIH}JJ_GBsGCuC}BaAmAm@qAqAqCsCcHkF_KwBmBoB}@uBo@{p@mOaLoCaLoC}VmF",
         "summary": {
-          "cost": 2410.248,
+          "cost": 1894.378,
           "has_ferry": false,
           "has_highway": false,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 19.055,
-          "max_lat": 48.177946,
-          "max_lon": 11.613868,
-          "min_lat": 48.14078,
+          "length": 15.01,
+          "level_changes": [
+            [
+              72,
+              1.0
+            ]
+          ],
+          "max_lat": 48.150748,
+          "max_lon": 11.607832,
+          "min_lat": 48.137392,
           "min_lon": 11.442715,
-          "time": 1394.601
+          "time": 1212.16
         }
       }
     ],
@@ -376,7 +406,7 @@
         "lat": 48.146618,
         "lon": 11.607372,
         "original_index": 1,
-        "side_of_street": "right",
+        "side_of_street": "left",
         "street": "Scheinerstra\u00dfe",
         "type": "break"
       }
@@ -384,17 +414,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 2410.248,
+      "cost": 1894.378,
       "has_ferry": false,
       "has_highway": false,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 19.055,
-      "max_lat": 48.177946,
-      "max_lon": 11.613868,
-      "min_lat": 48.14078,
+      "length": 15.01,
+      "max_lat": 48.150748,
+      "max_lon": 11.607832,
+      "min_lat": 48.137392,
       "min_lon": 11.442715,
-      "time": 1394.601
+      "time": 1212.16
     },
     "units": "kilometers"
   }

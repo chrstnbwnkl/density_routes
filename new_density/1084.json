@@ -8,7 +8,7 @@
           {
             "bearing_after": 91,
             "begin_shape_index": 0,
-            "cost": 90.02,
+            "cost": 63.56,
             "end_shape_index": 18,
             "instruction": "Drive east on Homberger Stra\u00dfe/K 15.",
             "length": 0.538,
@@ -32,7 +32,7 @@
               "R\u00f6merstra\u00dfe",
               "L 237"
             ],
-            "cost": 183.934,
+            "cost": 134.011,
             "end_shape_index": 76,
             "instruction": "Turn right onto R\u00f6merstra\u00dfe/L 237. Continue on L 237.",
             "length": 1.475,
@@ -52,11 +52,11 @@
             "bearing_after": 155,
             "bearing_before": 127,
             "begin_shape_index": 76,
-            "cost": 178.238,
-            "end_shape_index": 126,
+            "cost": 154.831,
+            "end_shape_index": 132,
             "highway": true,
             "instruction": "Take the A 40 ramp.",
-            "length": 3.941,
+            "length": 4.401,
             "sign": {
               "exit_branch_elements": [
                 {
@@ -69,7 +69,7 @@
               "A 40",
               "E 34"
             ],
-            "time": 125.211,
+            "time": 137.703,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 18,
@@ -78,24 +78,21 @@
             "verbal_transition_alert_instruction": "Take the A 40 ramp."
           },
           {
-            "bearing_after": 288,
-            "bearing_before": 274,
-            "begin_shape_index": 126,
-            "cost": 2.578,
-            "end_shape_index": 128,
-            "instruction": "Take exit 8 onto A 57 toward Nijmegen.",
-            "length": 0.092,
+            "bearing_after": 275,
+            "bearing_before": 270,
+            "begin_shape_index": 132,
+            "cost": 13.706,
+            "end_shape_index": 142,
+            "instruction": "Take exit 8 onto A 57 toward K\u00f6ln/Krefeld.",
+            "length": 0.448,
             "sign": {
               "exit_branch_elements": [
                 {
-                  "consecutive_count": 1,
+                  "consecutive_count": 3,
                   "text": "A 57"
                 }
               ],
               "exit_name_elements": [
-                {
-                  "text": "Moers"
-                },
                 {
                   "text": "Kreuz Moers"
                 }
@@ -107,95 +104,34 @@
               ],
               "exit_toward_elements": [
                 {
-                  "consecutive_count": 1,
-                  "text": "Nijmegen"
-                },
-                {
-                  "text": "Moers"
-                }
-              ]
-            },
-            "time": 2.778,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 20,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Take exit 8 onto A 57 toward Nijmegen. Then Keep left to take A 57.",
-            "verbal_transition_alert_instruction": "Take exit 8."
-          },
-          {
-            "bearing_after": 274,
-            "bearing_before": 278,
-            "begin_shape_index": 128,
-            "cost": 13.59,
-            "end_shape_index": 136,
-            "instruction": "Keep left to take A 57 toward Nijmegen.",
-            "length": 0.443,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "A 57"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "Nijmegen"
-                }
-              ]
-            },
-            "time": 13.336,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 24,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Keep left to take A 57 toward Nijmegen. Then Keep left toward K\u00f6ln.",
-            "verbal_transition_alert_instruction": "Keep left to take A 57."
-          },
-          {
-            "bearing_after": 268,
-            "bearing_before": 269,
-            "begin_shape_index": 136,
-            "cost": 14.203,
-            "end_shape_index": 144,
-            "instruction": "Keep left toward K\u00f6ln/Krefeld.",
-            "length": 0.375,
-            "sign": {
-              "exit_toward_elements": [
-                {
                   "consecutive_count": 2,
                   "text": "K\u00f6ln"
                 },
                 {
                   "consecutive_count": 2,
                   "text": "Krefeld"
-                },
-                {
-                  "text": "Venlo"
                 }
               ]
             },
-            "time": 11.303,
+            "time": 13.496,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 24,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Keep left toward K\u00f6ln, Krefeld. Then Keep right to take A 57.",
-            "verbal_transition_alert_instruction": "Keep left toward K\u00f6ln."
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 8 onto A 57 toward K\u00f6ln, Krefeld.",
+            "verbal_transition_alert_instruction": "Take exit 8."
           },
           {
             "bearing_after": 274,
             "bearing_before": 265,
-            "begin_shape_index": 144,
-            "cost": 18.708,
-            "end_shape_index": 166,
+            "begin_shape_index": 142,
+            "cost": 16.364,
+            "end_shape_index": 164,
             "instruction": "Keep right to take A 57 toward K\u00f6ln/Krefeld.",
             "length": 0.424,
             "sign": {
               "exit_branch_elements": [
                 {
-                  "consecutive_count": 2,
+                  "consecutive_count": 3,
                   "text": "A 57"
                 }
               ],
@@ -220,9 +156,9 @@
           {
             "bearing_after": 171,
             "bearing_before": 172,
-            "begin_shape_index": 166,
-            "cost": 651.712,
-            "end_shape_index": 335,
+            "begin_shape_index": 164,
+            "cost": 535.784,
+            "end_shape_index": 333,
             "highway": true,
             "instruction": "Keep left to take A 57 toward K\u00f6ln/Krefeld.",
             "length": 16.068,
@@ -248,7 +184,7 @@
               "A 57",
               "E 31"
             ],
-            "time": 591.608,
+            "time": 552.17,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 24,
@@ -259,9 +195,9 @@
           {
             "bearing_after": 189,
             "bearing_before": 190,
-            "begin_shape_index": 335,
-            "cost": 440.992,
-            "end_shape_index": 474,
+            "begin_shape_index": 333,
+            "cost": 372.392,
+            "end_shape_index": 472,
             "highway": true,
             "instruction": "Keep left to stay on A 57/E 31.",
             "length": 11.532,
@@ -269,7 +205,7 @@
               "A 57",
               "E 31"
             ],
-            "time": 412.307,
+            "time": 395.579,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 24,
@@ -280,9 +216,9 @@
           {
             "bearing_after": 174,
             "bearing_before": 159,
-            "begin_shape_index": 474,
-            "cost": 11.761,
-            "end_shape_index": 495,
+            "begin_shape_index": 472,
+            "cost": 9.966,
+            "end_shape_index": 493,
             "instruction": "Take exit 19 toward Neuss.",
             "length": 0.306,
             "sign": {
@@ -317,9 +253,9 @@
           {
             "bearing_after": 15,
             "bearing_before": 0,
-            "begin_shape_index": 495,
-            "cost": 471.607,
-            "end_shape_index": 625,
+            "begin_shape_index": 493,
+            "cost": 323.147,
+            "end_shape_index": 623,
             "instruction": "Keep right to take Rheydter Stra\u00dfe/L 381 toward Neuss.",
             "length": 2.243,
             "sign": {
@@ -345,9 +281,9 @@
           {
             "bearing_after": 41,
             "bearing_before": 133,
-            "begin_shape_index": 625,
-            "cost": 42.422,
-            "end_shape_index": 626,
+            "begin_shape_index": 623,
+            "cost": 29.281,
+            "end_shape_index": 624,
             "instruction": "Turn left onto Gartenstra\u00dfe.",
             "length": 0.076,
             "street_names": [
@@ -366,9 +302,9 @@
           {
             "bearing_after": 296,
             "bearing_before": 41,
-            "begin_shape_index": 626,
-            "cost": 53.509,
-            "end_shape_index": 630,
+            "begin_shape_index": 624,
+            "cost": 35.51,
+            "end_shape_index": 628,
             "instruction": "Turn left onto B\u00fcttger Stra\u00dfe.",
             "length": 0.08,
             "street_names": [
@@ -387,9 +323,9 @@
           {
             "bearing_after": 25,
             "bearing_before": 290,
-            "begin_shape_index": 630,
-            "cost": 34.379,
-            "end_shape_index": 633,
+            "begin_shape_index": 628,
+            "cost": 23.924,
+            "end_shape_index": 631,
             "instruction": "Turn right onto Schwannstra\u00dfe.",
             "length": 0.057,
             "street_names": [
@@ -408,9 +344,9 @@
           {
             "bearing_after": 282,
             "bearing_before": 25,
-            "begin_shape_index": 633,
-            "cost": 1127.767,
-            "end_shape_index": 637,
+            "begin_shape_index": 631,
+            "cost": 1110.975,
+            "end_shape_index": 635,
             "instruction": "Turn left.",
             "length": 0.026,
             "time": 42.968,
@@ -425,9 +361,9 @@
           },
           {
             "bearing_before": 302,
-            "begin_shape_index": 637,
+            "begin_shape_index": 635,
             "cost": 0.0,
-            "end_shape_index": 637,
+            "end_shape_index": 635,
             "instruction": "Your destination is on the right.",
             "length": 0.0,
             "time": 0.0,
@@ -438,19 +374,19 @@
             "verbal_transition_alert_instruction": "Your destination will be on the right."
           }
         ],
-        "shape": "afgcaBki{tKF_[BeLBuJHeZBmJJ{f@Hia@Jw]@yD?mB^qfBZog@~@md@AuRE{Q?g_@?{Q?cFzDwAbBm@vFuBjAa@~DwAdDmA`IuCdReHl]qMvi@iSxKgE|f@aRdE{A`LeEpt@oXdUwJlKcE~G}C|Ao@lEeBbAc@~B{@fC{@dA_@nIwClQ}F|HaDr@_@nCaBdEsCvA}@pIqGtAoAfNqMtPyQjKoMhMsSxJeGdCaFbCiFxOq_@lJaX|A}ElAcEjG{TxFiVbF}VxCmRpCgSlGsf@~Eyb@fFkb@tBgOlC{QdIad@xGaXbFsNdVwp@pGuCbL{NhHqF~GsD|DiB~GoArMKxCJlGt@bCdAlLzEtFtExFnGtLzPbGtNzEnObDbNfCrO|A`OhCjd@RzMhBvs@bEls@xEthDjGv`EhBf{AlCzcCtAlrBrAhoC`Dz{CbCdtAvEroCbE|eBtDbqAfGppBxJzzCbHdcDbD|xBdBboCt@btCa@baCWv`@u@~mAiCflBeCfzAyBxaAuAhk@k@bTmEvjByCpkB_Ej\\oCnr@y@fd@u@rn@g@|zAIdaBKj`@Rdj@B`_@BnMr@bbAd@bk@l@fMr@|dAVvl@b@|T`Bj}@RjJYzQYjTgBfNmClKiEnHgFpEaGtA_GGqF_CeEoDoDyFeCsIsAuIK}IXaJbA{GbBmG|DiIdEsD|D{AhZmHnn@iIhWkErJeBdHeBpIyB|QyBlRyDheBgHrj@uB|xA_Dt|@qDzx@cD`qBgGx}DgLnl@cBpLa@rqAqCb{Aq@nKGtd@@|y@b@laAtBjvAjEfdA`Ff|B|Jh`CtLfJb@hNr@hl@`DbhFxV~nCrM`iC~Kbo@~BloAbDnbAfA|sAeB~Tg@~{@}Cfl@cFx~@eKju@aOba@yJ~NwEvn@aSbp@wWdn@e[xf@gYtFkDft@eh@brAoiA`e@kg@~d@}i@hd@om@`c@mo@ncAagBxaAwkBx~@weBn_@oo@da@wn@f^qg@x^yf@nx@g`Apd@if@~z@mw@`n@ah@ph@q^r~@mm@`h@{XrU}K~S}J|a@uPxd@}Prl@}Qhc@iLxa@mJhd@gIzL{B`s@mJflAgK~pAkHng@aB|FYtcAmEnPy@dP_@neAiCbgAqA`SC~s@Oxl@@rcBxA|NR|kAbDjXfAvNh@dw@rDbr@dFxWfBr`BxM`bA`L|sAvPtOzBd|Br\\z}AvU~K`BrB\\zj@`Djh@lDrw@|C~U@va@Nha@g@j|@cDb]gCtu@yHzg@gIxUkEhVqExPsD`c@eMvh@_Pnb@aNlw@qZb|@{]f`@uOtnB_x@bt@}Xxr@cWvToHdy@gWbMoD~h@gNn}@cTv{@wPza@eG`eAkNbn@kFdrAoIjmA_IpyAkKfnAkJjt@aKnr@kKro@iM|m@wNp|Au^ruAi_@p~@cVr`Bed@flBum@ljEimAraA}WjReFtn@uMjd@_Ixc@mElViBta@eBbSc@hTCvRP`KNpMXfMf@pQfAzSxAxR|BxRzBfOtB|Ct@paB~Wd|@jOvdAnPrk@zJnnA`SlYzDrRhCbOlB`N|AdOfA`P|@xRn@xNThRXhT?dQm@xWcAzWaBrSiBxi@iHdZeGnSmExR}EbNoE`b@cObf@iSna@eSl[wRb\\_Tj`@wX|WqRv}CkcCde@u\\~s@ce@rn@u\\|j@}Urj@cRbj@}Mdo@cLdY_DvHy@`I}@do@gEzp@_CrvA_D|c@u@`t@{AjOYza@q@xg@kA|Xm@dj@iA||@i@bd@gAzXq@br@mBjhBcCp^o@fb@s@bYr@fYdBjOxAzN~ApRpCnS|DfTbF~f@`Nzl@rUtl@`Yxm@p\\zh@lZzhAfo@fdAni@lv@b]tVhJzf@fQzg@rPlg@hNtf@nLz_@tHv_@bHff@pHbh@`Gra@lDjg@~Cxb@jBxc@~@bUFls@C|[[zjAgCjeA}Cjt@uBfoA{DjoAmDxuCaHvs@kBbaAcCbpAuDpK[dpBoF`cAuD`v@mF|Hm@ro@{Hfn@kJfs@qNfd@{Kpb@mL`_@gLfMcEf}@_]hKuErKuExb@cS|\\{Ptt@{a@`s@oc@hx@qh@fg@u[xx@gg@`hAkp@ppA}q@~sAqr@zaB_z@h|A{p@d{@i^zkDgxAnKkE`eAmc@~lB{z@dsAqo@~rAyq@fR_K`PsIvXeOxw@ib@pReKdLaGjMoAvIoEvDiAlDW~CP|D`AjDfBxD~DbClElB~FxAlHj@zHAxHi@hHkA`HeCxGmDbFeFlEaGxB{H^aZAwHyBgCmA}BkBaBaCeA_C}@qDw@mGFuRLw^?}a@Kgk@K{JMeJk@cZmAwa@iBwi@g@sVSqS?aPJw[FsET}I\\iItAmSjDm\\|Ki{@`CmS`BgRx@qRNwSc@wTkAwRuBgWsBkRgB{N_D{VcHwd@_Go]gBkKiAeGwAmHS}@w@qDcD{OmBsI{ByJuCuKc@yAeJe^uDeUs@sF]sCYuCo@{GOcBc@eGa@gGcEaq@iBsZaB_Ze@{NOoG{@id@aAch@C{IBgX?oHQsKm@_I]kDe@yCw@wEOs@uBeJ{BeKWsAu@_Hu@uKi@sGk@eEcAiFiBiH_B_GiBwFeBaEeB{DsBkDcFuHaCwDwBmDaCoFwAcFeAkE_B{IqAaKOqBSqEImJOkXI}OK{MSkK_@kIWaEo@{LeAsMYeD{AqPuFam@s@}G{AaLw@{GwCaWKaD@kBHuA^}Bv@aD`@kDxCcI|D{K`IaTb@iA~BuGpBwFrC{HlCoH`Syi@lCuFj@iAo_@kk@eHp]gDjPyAnHg@~EuXcRc@YsA}@UfFUhBeBzGa@bA",
+        "shape": "afgcaBki{tKF_[BeLBuJHeZBmJJ{f@Hia@Jw]@yD?mB^qfBZog@~@md@AuRE{Q?g_@?{Q?cFzDwAbBm@vFuBjAa@~DwAdDmA`IuCdReHl]qMvi@iSxKgE|f@aRdE{A`LeEpt@oXdUwJlKcE~G}C|Ao@lEeBbAc@~B{@fC{@dA_@nIwClQ}F|HaDr@_@nCaBdEsCvA}@pIqGtAoAfNqMtPyQjKoMhMsSxJeGdCaFbCiFxOq_@lJaX|A}ElAcEjG{TxFiVbF}VxCmRpCgSlGsf@~Eyb@fFkb@tBgOlC{QdIad@xGaXbFsNdVwp@pGuCbL{NhHqF~GsD|DiB~GoArMKxCJlGt@bCdAlLzEtFtExFnGtLzPbGtNzEnObDbNfCrO|A`OhCjd@RzMhBvs@bEls@xEthDjGv`EhBf{AlCzcCtAlrBrAhoC`Dz{CbCdtAvEroCbE|eBtDbqAfGppBxJzzCbHdcDbD|xBdBboCt@btCa@baCWv`@u@~mAiCflBeCfzAyBxaAuAhk@k@bTmEvjByCpkB}Ab~@c@|aAw@tnAUbfAGt]HndBc@zRg@~^}@tpACxh@@`Or@|dAVvl@b@|T`Bj}@RjJYzQYjTgBfNmClKiEnHgFpEaGtA_GGqF_CeEoDoDyFeCsIsAuIK}IXaJbA{GbBmG|DiIdEsD|D{AhZmHnn@iIhWkErJeBdHeBpIyB|QyBlRyDheBgHrj@uB|xA_Dt|@qDzx@cD`qBgGx}DgLnl@cBpLa@rqAqCb{Aq@nKGtd@@|y@b@laAtBjvAjEfdA`Ff|B|Jh`CtLfJb@hNr@hl@`DbhFxV~nCrM`iC~Kbo@~BloAbDnbAfA|sAeB~Tg@~{@}Cfl@cFx~@eKju@aOba@yJ~NwEvn@aSbp@wWdn@e[xf@gYtFkDft@eh@brAoiA`e@kg@~d@}i@hd@om@`c@mo@ncAagBxaAwkBx~@weBn_@oo@da@wn@f^qg@x^yf@nx@g`Apd@if@~z@mw@`n@ah@ph@q^r~@mm@`h@{XrU}K~S}J|a@uPxd@}Prl@}Qhc@iLxa@mJhd@gIzL{B`s@mJflAgK~pAkHng@aB|FYtcAmEnPy@dP_@neAiCbgAqA`SC~s@Oxl@@rcBxA|NR|kAbDjXfAvNh@dw@rDbr@dFxWfBr`BxM`bA`L|sAvPtOzBd|Br\\z}AvU~K`BrB\\zj@`Djh@lDrw@|C~U@va@Nha@g@j|@cDb]gCtu@yHzg@gIxUkEhVqExPsD`c@eMvh@_Pnb@aNlw@qZb|@{]f`@uOtnB_x@bt@}Xxr@cWvToHdy@gWbMoD~h@gNn}@cTv{@wPza@eG`eAkNbn@kFdrAoIjmA_IpyAkKfnAkJjt@aKnr@kKro@iM|m@wNp|Au^ruAi_@p~@cVr`Bed@flBum@ljEimAraA}WjReFtn@uMjd@_Ixc@mElViBta@eBbSc@hTCvRP`KNpMXfMf@pQfAzSxAxR|BxRzBfOtB|Ct@paB~Wd|@jOvdAnPrk@zJnnA`SlYzDrRhCbOlB`N|AdOfA`P|@xRn@xNThRXhT?dQm@xWcAzWaBrSiBxi@iHdZeGnSmExR}EbNoE`b@cObf@iSna@eSl[wRb\\_Tj`@wX|WqRv}CkcCde@u\\~s@ce@rn@u\\|j@}Urj@cRbj@}Mdo@cLdY_DvHy@`I}@do@gEzp@_CrvA_D|c@u@`t@{AjOYza@q@xg@kA|Xm@dj@iA||@i@bd@gAzXq@br@mBjhBcCp^o@fb@s@bYr@fYdBjOxAzN~ApRpCnS|DfTbF~f@`Nzl@rUtl@`Yxm@p\\zh@lZzhAfo@fdAni@lv@b]tVhJzf@fQzg@rPlg@hNtf@nLz_@tHv_@bHff@pHbh@`Gra@lDjg@~Cxb@jBxc@~@bUFls@C|[[zjAgCjeA}Cjt@uBfoA{DjoAmDxuCaHvs@kBbaAcCbpAuDpK[dpBoF`cAuD`v@mF|Hm@ro@{Hfn@kJfs@qNfd@{Kpb@mL`_@gLfMcEf}@_]hKuErKuExb@cS|\\{Ptt@{a@`s@oc@hx@qh@fg@u[xx@gg@`hAkp@ppA}q@~sAqr@zaB_z@h|A{p@d{@i^zkDgxAnKkE`eAmc@~lB{z@dsAqo@~rAyq@fR_K`PsIvXeOxw@ib@pReKdLaGjMoAvIoEvDiAlDW~CP|D`AjDfBxD~DbClElB~FxAlHj@zHAxHi@hHkA`HeCxGmDbFeFlEaGxB{H^aZAwHyBgCmA}BkBaBaCeA_C}@qDw@mGFuRLw^?}a@Kgk@K{JMeJk@cZmAwa@iBwi@g@sVSqS?aPJw[FsET}I\\iItAmSjDm\\|Ki{@`CmS`BgRx@qRNwSc@wTkAwRuBgWsBkRgB{N_D{VcHwd@_Go]gBkKiAeGwAmHS}@w@qDcD{OmBsI{ByJuCuKc@yAeJe^uDeUs@sF]sCYuCo@{GOcBc@eGa@gGcEaq@iBsZaB_Ze@{NOoG{@id@aAch@C{IBgX?oHQsKm@_I]kDe@yCw@wEOs@uBeJ{BeKWsAu@_Hu@uKi@sGk@eEcAiFiBiH_B_GiBwFeBaEeB{DsBkDcFuHaCwDwBmDaCoFwAcFeAkE_B{IqAaKOqBSqEImJOkXI}OK{MSkK_@kIWaEo@{LeAsMYeD{AqPuFam@s@}G{AaLw@{GwCaWKaD@kBHuA^}Bv@aD`@kDxCcI|D{K`IaTb@iA~BuGpBwFrC{HlCoH`Syi@lCuFj@iAo_@kk@eHp]gDjPyAnHg@~EuXcRc@YsA}@UfFUhBeBzGa@bA",
         "summary": {
-          "cost": 3335.425,
+          "cost": 2823.456,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 37.677,
+          "length": 37.674,
           "max_lat": 51.449969,
           "max_lon": 6.684298,
           "min_lat": 51.195187,
           "min_lon": 6.602317,
-          "time": 1619.686
+          "time": 1562.089
         }
       }
     ],
@@ -472,17 +408,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 3335.425,
+      "cost": 2823.456,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 37.677,
+      "length": 37.674,
       "max_lat": 51.449969,
       "max_lon": 6.684298,
       "min_lat": 51.195187,
       "min_lon": 6.602317,
-      "time": 1619.686
+      "time": 1562.089
     },
     "units": "kilometers"
   }
