@@ -8,7 +8,7 @@
           {
             "bearing_after": 215,
             "begin_shape_index": 0,
-            "cost": 31.76,
+            "cost": 52.01,
             "end_shape_index": 12,
             "instruction": "Drive southwest on Br\u00fcgmannstra\u00dfe.",
             "length": 0.145,
@@ -28,7 +28,7 @@
             "bearing_after": 247,
             "bearing_before": 166,
             "begin_shape_index": 12,
-            "cost": 26.191,
+            "cost": 51.39,
             "end_shape_index": 22,
             "instruction": "Turn right onto Geschwister-Scholl-Stra\u00dfe.",
             "length": 0.085,
@@ -53,7 +53,7 @@
               "Schwanenwall",
               "B 54"
             ],
-            "cost": 109.992,
+            "cost": 149.592,
             "end_shape_index": 95,
             "instruction": "Turn left onto Schwanenwall/B 54. Continue on B 54.",
             "length": 0.981,
@@ -73,7 +73,7 @@
             "bearing_after": 185,
             "bearing_before": 263,
             "begin_shape_index": 95,
-            "cost": 138.74,
+            "cost": 157.79,
             "end_shape_index": 171,
             "instruction": "Turn left onto Ruhrallee/B 54.",
             "length": 1.181,
@@ -94,7 +94,7 @@
             "bearing_after": 265,
             "bearing_before": 165,
             "begin_shape_index": 171,
-            "cost": 235.827,
+            "cost": 238.753,
             "end_shape_index": 281,
             "highway": true,
             "instruction": "Turn right onto Rheinlanddamm/B 1.",
@@ -118,11 +118,12 @@
             "begin_shape_index": 281,
             "cost": 13.288,
             "end_shape_index": 294,
-            "instruction": "Take exit 42 onto A 45 toward Frankfurt a.M./Oberhausen/DO-Hafen/-Dorstfeld.",
+            "instruction": "Take exit 42 onto A 45 toward Frankfurt a.M./Oberhausen/DO-Hafen.",
             "length": 0.346,
             "sign": {
               "exit_branch_elements": [
                 {
+                  "consecutive_count": 1,
                   "text": "A 45"
                 }
               ],
@@ -138,12 +139,15 @@
               ],
               "exit_toward_elements": [
                 {
+                  "consecutive_count": 1,
                   "text": "Frankfurt a.M."
                 },
                 {
+                  "consecutive_count": 1,
                   "text": "Oberhausen"
                 },
                 {
+                  "consecutive_count": 1,
                   "text": "DO-Hafen"
                 },
                 {
@@ -159,102 +163,226 @@
             "verbal_transition_alert_instruction": "Take exit 42."
           },
           {
-            "bearing_after": 296,
+            "bearing_after": 280,
             "bearing_before": 280,
             "begin_shape_index": 294,
-            "cost": 7.087,
-            "end_shape_index": 309,
-            "instruction": "Keep right toward DO-Dorstfeld.",
-            "length": 0.163,
+            "cost": 27.786,
+            "end_shape_index": 302,
+            "instruction": "Keep left to take A 45 toward Frankfurt a.M./Oberhausen/DO-Hafen.",
+            "length": 0.717,
             "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "A 45"
+                }
+              ],
               "exit_toward_elements": [
                 {
-                  "text": "DO-Dorstfeld"
+                  "consecutive_count": 1,
+                  "text": "Frankfurt a.M."
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Oberhausen"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "DO-Hafen"
                 }
               ]
             },
-            "time": 8.649,
+            "time": 25.874,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 45 toward Frankfurt a.M., Oberhausen.",
+            "verbal_transition_alert_instruction": "Keep left to take A 45."
+          },
+          {
+            "bearing_after": 277,
+            "bearing_before": 282,
+            "begin_shape_index": 302,
+            "cost": 15.931,
+            "end_shape_index": 309,
+            "instruction": "Keep left to take A 40 toward A 45/Essen.",
+            "length": 0.391,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "text": "A 40"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "A 45"
+                },
+                {
+                  "text": "Essen"
+                }
+              ]
+            },
+            "time": 14.13,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take A 40 toward A 45, Essen.",
+            "verbal_transition_alert_instruction": "Keep left to take A 40."
+          },
+          {
+            "bearing_after": 282,
+            "bearing_before": 276,
+            "begin_shape_index": 309,
+            "cost": 23.19,
+            "end_shape_index": 354,
+            "instruction": "Keep right to take A 45 toward Frankfurt a.M..",
+            "length": 0.486,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 45"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Frankfurt a.M."
+                }
+              ]
+            },
+            "time": 20.854,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 23,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Keep right toward DO-Dorstfeld. Then Turn right onto Planetenfeldstra\u00dfe.",
-            "verbal_transition_alert_instruction": "Keep right toward DO-Dorstfeld."
+            "verbal_pre_transition_instruction": "Keep right to take A 45 toward Frankfurt a.M..",
+            "verbal_transition_alert_instruction": "Keep right to take A 45."
           },
           {
-            "bearing_after": 158,
-            "bearing_before": 78,
-            "begin_shape_index": 309,
-            "begin_street_names": [
-              "Planetenfeldstra\u00dfe",
-              "L 609"
-            ],
-            "cost": 142.956,
-            "end_shape_index": 382,
-            "instruction": "Turn right onto Planetenfeldstra\u00dfe/L 609. Continue on L 609.",
-            "length": 1.232,
+            "bearing_after": 175,
+            "bearing_before": 180,
+            "begin_shape_index": 354,
+            "cost": 95.443,
+            "end_shape_index": 398,
+            "highway": true,
+            "instruction": "Keep left to take A 45 toward Frankfurt a.M..",
+            "length": 2.036,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 45"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Frankfurt a.M."
+                },
+                {
+                  "text": "Witten"
+                }
+              ]
+            },
             "street_names": [
-              "L 609"
+              "A 45",
+              "E 41"
             ],
-            "time": 102.544,
+            "time": 73.102,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue on L 609 for 1 kilometer.",
-            "verbal_pre_transition_instruction": "Turn right onto Planetenfeldstra\u00dfe, L 609.",
-            "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto Planetenfeldstra\u00dfe."
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 45 toward Frankfurt a.M..",
+            "verbal_transition_alert_instruction": "Keep left to take A 45."
           },
           {
-            "bearing_after": 229,
-            "bearing_before": 149,
-            "begin_shape_index": 382,
-            "cost": 52.807,
-            "end_shape_index": 401,
-            "instruction": "Turn right toward A 45/Witten.",
-            "length": 0.476,
-            "sign": {},
+            "bearing_after": 188,
+            "bearing_before": 173,
+            "begin_shape_index": 398,
+            "cost": 15.464,
+            "end_shape_index": 433,
+            "instruction": "Take exit 6 toward Dortmund-Eichlinghofen/Universit\u00e4t/Witten-Stockum.",
+            "length": 0.373,
+            "sign": {
+              "exit_name_elements": [
+                {
+                  "text": "Dortmund-Eichlinghofen"
+                }
+              ],
+              "exit_number_elements": [
+                {
+                  "text": "6"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Dortmund-Eichlinghofen"
+                },
+                {
+                  "text": "Universit\u00e4t"
+                },
+                {
+                  "text": "Witten-Stockum"
+                }
+              ]
+            },
+            "time": 15.128,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take exit 6 toward Dortmund-Eichlinghofen, Universit\u00e4t.",
+            "verbal_transition_alert_instruction": "Take exit 6."
+          },
+          {
+            "bearing_after": 60,
+            "bearing_before": 40,
+            "begin_shape_index": 433,
+            "cost": 57.92,
+            "end_shape_index": 449,
+            "instruction": "Bear right onto Universit\u00e4tsstra\u00dfe/L 523.",
+            "length": 0.634,
             "street_names": [
               "Universit\u00e4tsstra\u00dfe",
-              "L 609"
+              "L 523"
             ],
-            "time": 35.742,
+            "time": 32.693,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue for 500 meters.",
-            "verbal_pre_transition_instruction": "Turn right toward A 45, Witten.",
-            "verbal_succinct_transition_instruction": "Turn right toward A 45, Witten.",
-            "verbal_transition_alert_instruction": "Turn right toward A 45."
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 600 meters.",
+            "verbal_pre_transition_instruction": "Bear right onto Universit\u00e4tsstra\u00dfe, L 523.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Universit\u00e4tsstra\u00dfe."
           },
           {
             "bearing_after": 98,
-            "bearing_before": 219,
-            "begin_shape_index": 401,
-            "cost": 33.809,
-            "end_shape_index": 408,
-            "instruction": "Turn left toward Dortmund Hombruch/Eichlinghofen/Uni Campus-S\u00fcd.",
-            "length": 0.221,
+            "bearing_before": 48,
+            "begin_shape_index": 449,
+            "cost": 19.843,
+            "end_shape_index": 462,
+            "instruction": "Turn right toward Dortmund Hombruch/Eichlinghofen/Uni Campus-S\u00fcd.",
+            "length": 0.253,
             "sign": {},
             "street_names": [
               "Stockumer Stra\u00dfe",
               "L 523"
             ],
-            "time": 23.175,
+            "time": 16.982,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 15,
-            "verbal_post_transition_instruction": "Continue for 200 meters.",
-            "verbal_pre_transition_instruction": "Turn left toward Dortmund Hombruch, Eichlinghofen.",
-            "verbal_succinct_transition_instruction": "Turn left toward Dortmund Hombruch, Eichlinghofen.",
-            "verbal_transition_alert_instruction": "Turn left toward Dortmund Hombruch."
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right toward Dortmund Hombruch, Eichlinghofen.",
+            "verbal_succinct_transition_instruction": "Turn right toward Dortmund Hombruch, Eichlinghofen.",
+            "verbal_transition_alert_instruction": "Turn right toward Dortmund Hombruch."
           },
           {
             "bearing_after": 18,
             "bearing_before": 100,
-            "begin_shape_index": 408,
-            "cost": 34.013,
-            "end_shape_index": 425,
+            "begin_shape_index": 462,
+            "cost": 38.363,
+            "end_shape_index": 479,
             "instruction": "Turn left onto Zum Nubbental.",
             "length": 0.117,
             "street_names": [
@@ -272,9 +400,9 @@
           {
             "bearing_after": 102,
             "bearing_before": 9,
-            "begin_shape_index": 425,
-            "cost": 614.061,
-            "end_shape_index": 426,
+            "begin_shape_index": 479,
+            "cost": 614.961,
+            "end_shape_index": 480,
             "instruction": "Turn right.",
             "length": 0.016,
             "time": 8.228,
@@ -289,9 +417,9 @@
           },
           {
             "bearing_before": 102,
-            "begin_shape_index": 426,
+            "begin_shape_index": 480,
             "cost": 0.0,
-            "end_shape_index": 426,
+            "end_shape_index": 480,
             "instruction": "You have arrived at your destination.",
             "length": 0.0,
             "time": 0.0,
@@ -302,19 +430,19 @@
             "verbal_transition_alert_instruction": "You will arrive at your destination."
           }
         ],
-        "shape": "wylgaBkp`gM`InJnL`Pb@n@nBxC`GbIZd@tCvAfDZtKsBtCi@lB_@`Bu@?nD^zC`CnFhCnC|AdB|@n@lAt@fGlDvCrBdFa@lCgO|EiX`D}PfAcF|@mDlAwDfCcHrCeG~CuFhBcCzAiB~BoBpB_BbEiC|F}CxGqCxBi@rD{@`Da@fAKv@CpHHjCFxDD~@BpYz@tEHdA@bCDrA@`A?hDEzDEpKF`S`A~VlAbS`Az@DrDPrDNzALzGtAbEhBxDtC`EjEbDxEdLlPjVl]~AzBT\\pPhVj@z@bDzEvIdMzEpIdEpJjDhKfDzKtFzQ~DrNZjAVfAbB~JnA~GlBxMXfC@Fd@xEJrA?zBF|BL`ETlGfJ`B~BPv@DbNv@vELL@lUn@bEJnClApGM`BC`K[zFEfBAtA@pEVtJhBnSlFxHzApFt@hHRtFEtAGbDSfD_@d@OtKyC|@WxMsD~@UtGiBdPmE`GQr@CnDK|BIrAb@vCz@bDfAjCjBfFnDFFnKlJx`@z\\rJjH|JvHpHpChHfA|Gn@zJOdAEl@A~AE`AMxDk@tCg@~@QpOoCfZiFzCm@bDo@fIaB|WaFh@KdAStCi@jDs@jDu@dASZIr[eHdQkE|C}@lNeE|OiFfRcGbBd@nAVf@Pf@PfBx@|@nA\\j@j@rA`@zAZ~BTtCb@hNh@zOPbBXfBj@nBz@~Bz@fAdAfAdAv@z@j@tBvAv@r@v@`AbApA`ApAl@jAj@jAn@~Ap@hBh@jBd@~BR~AJdBLpDp@p\\f@tT`At]hAv_@jGjpBp@tUb@jNxAfd@bC|v@bEzeB^hRbHbfDrG`cDbA`h@d@zTxAjs@t@|`@p@t[nCpn@h@tSfApg@HxFjAti@jBbr@dAfd@JnGTbON`OJ|NHnTBj_@?h_@?~NG~NCfOUb_@m@dy@_Apx@y@jt@sC|fCcJ|hHsAjjAqAzgAoA~pAKdJQpTE~EGnTAvp@Jh_@H`ONdMF|Dd@r\\r@d]bA`_@bC`r@tBlf@jA`TtFp~@rFjy@nNntBrTt`DlLvdBdCd^n`@r|F|Exs@zJfyAtBv^dBp^pAb_@|@~^b@`]NtXKhX{ClOU`Mc@rQc@pNk@pPq@zO{@~OyEtv@{@hMy@tHwDxl@yAfVmCxg@yApI}@hD_AlDaAlCgA~AwBpBaC\\iC_@oBo@uByB{@uAeA{D_@kEeAks@k@aIdGeDfNgJpFsD`_@{N`MsC|QsBz[mBjDcCrCItDm@|@A`WGH?nNh@lF@bc@VjIFbIBjEDrHLpAAxA@rB@hB@Z?nKF`H@h@Bj@?bEDjZZhCBt@?fGDlB@xB@dCBbEBnLH^@^?~NJZ?`@@dQJ`E@vA@`LJvKHjGDvFHzOBhJDpIE~LMfB?bEBdJRnDDdHBvRNnC@vCGrG[zGs@fEi@hF{@~GcBbFgB|GyCdK_GfLaJ`LwKjIeFvBSfBPfCjAvBbA~Vxj@xNbZXf@hKlQdO`WrYh`@pQfTpKxLjIpJpSfVxDpDtItI~DzEpBrCh@aLl@wNlB}c@dDm}@`AaRfCke@d@iIyAo@aAe@_Ei@uBGs@By@DoBRoB\\yDt@gEn@aAL{ARyA@eAKaF}@uHuA_AO~@sM",
+        "shape": "wylgaBkp`gM`InJnL`Pb@n@nBxC`GbIZd@tCvAfDZtKsBtCi@lB_@`Bu@?nD^zC`CnFhCnC|AdB|@n@lAt@fGlDvCrBdFa@lCgO|EiX`D}PfAcF|@mDlAwDfCcHrCeG~CuFhBcCzAiB~BoBpB_BbEiC|F}CxGqCxBi@rD{@`Da@fAKv@CpHHjCFxDD~@BpYz@tEHdA@bCDrA@`A?hDEzDEpKF`S`A~VlAbS`Az@DrDPrDNzALzGtAbEhBxDtC`EjEbDxEdLlPjVl]~AzBT\\pPhVj@z@bDzEvIdMzEpIdEpJjDhKfDzKtFzQ~DrNZjAVfAbB~JnA~GlBxMXfC@Fd@xEJrA?zBF|BL`ETlGfJ`B~BPv@DbNv@vELL@lUn@bEJnClApGM`BC`K[zFEfBAtA@pEVtJhBnSlFxHzApFt@hHRtFEtAGbDSfD_@d@OtKyC|@WxMsD~@UtGiBdPmE`GQr@CnDK|BIrAb@vCz@bDfAjCjBfFnDFFnKlJx`@z\\rJjH|JvHpHpChHfA|Gn@zJOdAEl@A~AE`AMxDk@tCg@~@QpOoCfZiFzCm@bDo@fIaB|WaFh@KdAStCi@jDs@jDu@dASZIr[eHdQkE|C}@lNeE|OiFfRcGbBd@nAVf@Pf@PfBx@|@nA\\j@j@rA`@zAZ~BTtCb@hNh@zOPbBXfBj@nBz@~Bz@fAdAfAdAv@z@j@tBvAv@r@v@`AbApA`ApAl@jAj@jAn@~Ap@hBh@jBd@~BR~AJdBLpDp@p\\f@tT`At]hAv_@jGjpBp@tUb@jNxAfd@bC|v@bEzeB^hRbHbfDrG`cDbA`h@d@zTxAjs@t@|`@p@t[nCpn@h@tSfApg@HxFjAti@jBbr@dAfd@JnGTbON`OJ|NHnTBj_@?h_@?~NG~NCfOUb_@m@dy@_Apx@y@jt@sC|fCcJ|hHsAjjAqAzgAoA~pAKdJQpTE~EGnTAvp@Jh_@H`ONdMF|Dd@r\\r@d]bA`_@bC`r@tBlf@jA`TtFp~@rFjy@nNntBrTt`DlLvdBdCd^n`@r|F|Exs@zJfyAtBv^dBp^pAb_@|@~^b@`]NtXKhX{ClOU`Mc@rQc@pNk@pPq@zO{@~OyEtv@{@hMy@tHwDxl@yAfVmCxg@aEvv@uIfkAyGriAoDvj@mH~hA_MxnBoLxqB{IdtAOfJ_L~tBuG`lA{@fGsBnf@wChz@kAxa@q@dIS~EW~Dg@rF_@dDe@fDu@xDcAnEcAfDmBvEwBpDwCdDqCtBmDvAuBf@wDVyDQuCo@_CcA}B_BwBkBuBmC_CcE_BkEcAiDkAmGu@aH[uHJyIXsFn@sFfAeGvBwGtBiElCwDjCgCnBkAnBy@tCo@xCc@tDMjGa@~SFjJBl[EfIw@j]gA~g@qDpc@mGtEs@tQgDfWmFdAa@n`@}OxCoApWwGxJeC~XkIlWoIvM_FlUaJvTiJlRwIb]}PzZuPrQkKb{@mh@ld@}Xnd@eXtNiIrVwMt_@mRbUyJpIoDjM}ExRcHdSmGjTaGxNgDlNsCb`@{G|WaDhX}BjTcBhUsAzu@wCh]gAbx@qFnd@wFbNhBf_@{HfDm@jDS~DUbFMxDLdDb@bCfAxBzAzBdCtBnDdBdFnAxGh@jGHdEG~CIzBS`C{@jGu@|CiAxC}@dBaA~AkBnBcDpDoE|DsCfCyCnBqFnBcC@uBUcCiAcCwCmDaG}VmbAuKmb@oFmScPml@s@uCg@iBaGsVqPyq@gf@}lB}Mgg@}BiLsAyFqGwRmDmKiFeM{JiTsAoF{C}IsByH}AaHqAaGm@wDi@uGQgKAuNdDm}@`AaRfCke@d@iIyAo@aAe@_Ei@uBGs@By@DoBRoB\\yDt@gEn@aAL{ARyA@eAKaF}@uHuA_AO~@sM",
         "summary": {
-          "cost": 1440.538,
+          "cost": 1571.732,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 9.41,
+          "length": 12.208,
           "max_lat": 51.51838,
           "max_lon": 7.472796,
-          "min_lat": 51.482262,
-          "min_lon": 7.398578,
-          "time": 640.713
+          "min_lat": 51.478173,
+          "min_lon": 7.383023,
+          "time": 669.368
         }
       }
     ],
@@ -337,17 +465,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 1440.538,
+      "cost": 1571.732,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 9.41,
+      "length": 12.208,
       "max_lat": 51.51838,
       "max_lon": 7.472796,
-      "min_lat": 51.482262,
-      "min_lon": 7.398578,
-      "time": 640.713
+      "min_lat": 51.478173,
+      "min_lon": 7.383023,
+      "time": 669.368
     },
     "units": "kilometers"
   }

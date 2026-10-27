@@ -8,52 +8,154 @@
           {
             "bearing_after": 45,
             "begin_shape_index": 0,
-            "cost": 61.466,
-            "end_shape_index": 11,
+            "cost": 8.241,
+            "end_shape_index": 2,
             "instruction": "Drive northeast on Raboisen.",
-            "length": 0.492,
+            "length": 0.081,
             "street_names": [
               "Raboisen"
             ],
-            "time": 35.496,
+            "time": 5.839,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 1,
             "verbal_multi_cue": true,
-            "verbal_post_transition_instruction": "Continue for 500 meters.",
-            "verbal_pre_transition_instruction": "Drive northeast on Raboisen. Then, in 500 meters, Turn right onto Glockengie\u00dferwall.",
-            "verbal_succinct_transition_instruction": "Drive northeast. Then, in 500 meters, Turn right onto Glockengie\u00dferwall."
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Drive northeast on Raboisen. Then Turn left onto Alstertor.",
+            "verbal_succinct_transition_instruction": "Drive northeast. Then Turn left onto Alstertor."
           },
           {
-            "bearing_after": 137,
-            "bearing_before": 50,
-            "begin_shape_index": 11,
-            "begin_street_names": [
-              "Glockengie\u00dferwall",
-              "Ring 1"
-            ],
-            "cost": 141.046,
-            "end_shape_index": 74,
-            "instruction": "Turn right onto Glockengie\u00dferwall/Ring 1.",
-            "length": 1.017,
+            "bearing_after": 315,
+            "bearing_before": 46,
+            "begin_shape_index": 2,
+            "cost": 32.891,
+            "end_shape_index": 9,
+            "instruction": "Turn left onto Alstertor.",
+            "length": 0.131,
             "street_names": [
-              "Ring 1"
+              "Alstertor"
             ],
-            "time": 77.626,
+            "time": 19.103,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Alstertor. Then Turn right onto Ballindamm.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Ballindamm.",
+            "verbal_transition_alert_instruction": "Turn left onto Alstertor."
+          },
+          {
+            "bearing_after": 45,
+            "bearing_before": 312,
+            "begin_shape_index": 9,
+            "cost": 49.263,
+            "end_shape_index": 18,
+            "instruction": "Turn right onto Ballindamm.",
+            "length": 0.368,
+            "street_names": [
+              "Ballindamm"
+            ],
+            "time": 28.968,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
-            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
-            "verbal_pre_transition_instruction": "Turn right onto Glockengie\u00dferwall, Ring 1.",
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Ballindamm.",
             "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Ballindamm."
+          },
+          {
+            "bearing_after": 58,
+            "bearing_before": 39,
+            "begin_shape_index": 18,
+            "cost": 2.282,
+            "end_shape_index": 19,
+            "instruction": "Keep right to stay on Ballindamm.",
+            "length": 0.004,
+            "street_names": [
+              "Ballindamm"
+            ],
+            "time": 0.311,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+            "verbal_pre_transition_instruction": "Keep right to stay on Ballindamm. Then Turn right onto Glockengie\u00dferwall.",
+            "verbal_transition_alert_instruction": "Keep right to stay on Ballindamm."
+          },
+          {
+            "bearing_after": 132,
+            "bearing_before": 58,
+            "begin_shape_index": 19,
+            "cost": 16.401,
+            "end_shape_index": 28,
+            "instruction": "Turn right onto Glockengie\u00dferwall/Ring 1.",
+            "length": 0.105,
+            "street_names": [
+              "Glockengie\u00dferwall",
+              "Ring 1"
+            ],
+            "time": 7.123,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Glockengie\u00dferwall, Ring 1. Then Keep left to stay on Ring 1.",
+            "verbal_succinct_transition_instruction": "Turn right. Then Keep left to stay on Ring 1.",
             "verbal_transition_alert_instruction": "Turn right onto Glockengie\u00dferwall."
+          },
+          {
+            "bearing_after": 117,
+            "bearing_before": 131,
+            "begin_shape_index": 28,
+            "begin_street_names": [
+              "Wallringtunnel",
+              "Ring 1"
+            ],
+            "cost": 65.867,
+            "end_shape_index": 67,
+            "instruction": "Keep left to stay on Ring 1.",
+            "length": 0.851,
+            "street_names": [
+              "Ring 1"
+            ],
+            "time": 61.324,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 900 meters.",
+            "verbal_pre_transition_instruction": "Keep left to stay on Ring 1.",
+            "verbal_transition_alert_instruction": "Keep left to stay on Ring 1."
+          },
+          {
+            "bearing_after": 170,
+            "bearing_before": 225,
+            "begin_shape_index": 67,
+            "cost": 46.163,
+            "end_shape_index": 82,
+            "instruction": "Turn left onto Deichtorplatz.",
+            "length": 0.243,
+            "street_names": [
+              "Deichtorplatz"
+            ],
+            "time": 18.82,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Deichtorplatz.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Deichtorplatz."
           },
           {
             "bearing_after": 96,
             "bearing_before": 92,
-            "begin_shape_index": 74,
-            "cost": 56.389,
-            "end_shape_index": 106,
+            "begin_shape_index": 82,
+            "cost": 59.101,
+            "end_shape_index": 114,
             "instruction": "Bear right onto Recha-L\u00fcbke-Damm.",
             "length": 0.551,
             "street_names": [
@@ -71,9 +173,9 @@
           {
             "bearing_after": 137,
             "bearing_before": 97,
-            "begin_shape_index": 106,
-            "cost": 108.802,
-            "end_shape_index": 154,
+            "begin_shape_index": 114,
+            "cost": 111.792,
+            "end_shape_index": 162,
             "instruction": "Bear right onto Amsinckstra\u00dfe/B 4.",
             "length": 1.246,
             "street_names": [
@@ -92,14 +194,14 @@
           {
             "bearing_after": 202,
             "bearing_before": 181,
-            "begin_shape_index": 154,
+            "begin_shape_index": 162,
             "begin_street_names": [
               "B 4",
               "B 75",
               "Billhorner Br\u00fcckenstra\u00dfe"
             ],
-            "cost": 250.153,
-            "end_shape_index": 216,
+            "cost": 265.157,
+            "end_shape_index": 224,
             "highway": true,
             "instruction": "Bear right onto B 4/B 75/Billhorner Br\u00fcckenstra\u00dfe.",
             "length": 4.104,
@@ -118,9 +220,9 @@
           {
             "bearing_after": 171,
             "bearing_before": 159,
-            "begin_shape_index": 216,
-            "cost": 224.209,
-            "end_shape_index": 295,
+            "begin_shape_index": 224,
+            "cost": 239.536,
+            "end_shape_index": 303,
             "highway": true,
             "instruction": "Take exit 2 onto A 1 toward L\u00fcbeck/Berlin.",
             "length": 3.53,
@@ -165,9 +267,9 @@
           {
             "bearing_after": 111,
             "bearing_before": 102,
-            "begin_shape_index": 295,
-            "cost": 121.631,
-            "end_shape_index": 338,
+            "begin_shape_index": 303,
+            "cost": 130.192,
+            "end_shape_index": 346,
             "highway": true,
             "instruction": "Take exit 35 onto A 25 toward Geesthacht/Hamburg-Allerm\u00f6he.",
             "length": 3.527,
@@ -211,9 +313,9 @@
           {
             "bearing_after": 142,
             "bearing_before": 117,
-            "begin_shape_index": 338,
-            "cost": 9.129,
-            "end_shape_index": 358,
+            "begin_shape_index": 346,
+            "cost": 9.074,
+            "end_shape_index": 366,
             "instruction": "Take exit 2 toward HH-Allerm\u00f6he.",
             "length": 0.211,
             "sign": {
@@ -244,9 +346,9 @@
           {
             "bearing_after": 353,
             "bearing_before": 308,
-            "begin_shape_index": 358,
-            "cost": 142.6,
-            "end_shape_index": 422,
+            "begin_shape_index": 366,
+            "cost": 149.461,
+            "end_shape_index": 430,
             "instruction": "Turn right onto Hans-Duncker-Stra\u00dfe.",
             "length": 1.21,
             "street_names": [
@@ -264,9 +366,9 @@
           {
             "bearing_after": 285,
             "bearing_before": 15,
-            "begin_shape_index": 422,
-            "cost": 41.52,
-            "end_shape_index": 440,
+            "begin_shape_index": 430,
+            "cost": 43.76,
+            "end_shape_index": 448,
             "instruction": "Turn left onto Rungedamm.",
             "length": 0.3,
             "street_names": [
@@ -284,9 +386,9 @@
           {
             "bearing_after": 19,
             "bearing_before": 289,
-            "begin_shape_index": 440,
-            "cost": 107.685,
-            "end_shape_index": 446,
+            "begin_shape_index": 448,
+            "cost": 108.42,
+            "end_shape_index": 454,
             "instruction": "Turn right.",
             "length": 0.164,
             "time": 25.796,
@@ -301,9 +403,9 @@
           {
             "bearing_after": 313,
             "bearing_before": 40,
-            "begin_shape_index": 446,
-            "cost": 19.108,
-            "end_shape_index": 447,
+            "begin_shape_index": 454,
+            "cost": 20.508,
+            "end_shape_index": 455,
             "instruction": "Turn left.",
             "length": 0.066,
             "time": 14.612,
@@ -318,9 +420,9 @@
           },
           {
             "bearing_before": 313,
-            "begin_shape_index": 447,
+            "begin_shape_index": 455,
             "cost": 0.0,
-            "end_shape_index": 447,
+            "end_shape_index": 455,
             "instruction": "You have arrived at your destination.",
             "length": 0.0,
             "time": 0.0,
@@ -331,19 +433,33 @@
             "verbal_transition_alert_instruction": "You will arrive at your destination."
           }
         ],
-        "shape": "s|oceBiodaRcDuGiYkm@kLiXkNyZsDaJwEqLyPm_@u}@}pBcZss@o@yAoCiHdNuVdBuC|CcFxAkCtAiCh@uAxEwMjBmGfBoFzAoD~MaWtL}RbSmY~GoIhCmCtBmBtCyBrBwAxCgBzCuApCkAj\\eIlAOn@IlBUxAKhCc@`FgAx\\cHtI_CrIgBhFk@nKWnDGpBJlDEbCCxCEhFH`Ol@dIv@zKbBhG`A|GxBfUzD`IfBrCv@~FAfGoAzBStBc@rBs@zB}AdCkCxAmCz@}B|@oCr@yCZsC^uDTyb@LaYt@otAj@uVTeGf@eFp@uGbAwFlCsKj@gCtFcWlIi^jGyWrAiFbHyXvOgn@nFaUnBkIPs@tAmGhJo_@vEsQhCsHb@iB|C{LnCuKvHgZlCiLVsAZaCPqBz@kPDkATqGb@qMrAeCdEaKbEyLdC{IdCsJdDiNzp@mmC`Rcs@dCmJnEqPlBkH`Mib@bB}Gl@_CfAsEbBkHzCoO`AyGrAoJfC_RbAoGbEeUh@qC`AiFhEoXhHel@vB}PzD_[lAmJtLq`AjG_g@dD{SvCwPtFiZxGuXtFyRnLw^|Tsr@fLe^`KeZnEmJ~E}HpFqGhBuBdD{AvDy@tC@xDPzNzI~i@|[jUfMdHlDlEvBxf@nT`Bt@xu@~[de@rWrZ~Rh\\rWn[`YfDxCxh@hd@rCfCpAfAzFdF`YpVlJzIh}A|uA`e@z`@pZjYzT`TjDbDzLjMtNjOpO|LdUrMx\\rRnLvFn]pPvRhIrXfJl^pIfUxBvU@v[aCjPuBpMuBjPyDvOuFpOqHlMkHjS{LtM_J|U_SvgDuqCv[_XhDqCzh@sc@fmBygB~n@}k@j`@q\\dkAahA~gBq{Az~BgpBdjAaz@vd@cZ`\\mSjZaR~`Ail@rv@ab@d^sG~HeAbLKxHlA~IjCxEpCfG`GbF`IxEfKbDbNpAhKb@vMQ~L}AnNcCpLgFlLeEhHgHlHyFxDqJdE{HvCcM|CqK~AwO|@kLQgJw@sP{CcKaD{OwGsOiKeKwI_MmMqGoIuPwYkLwUmDcJuHqUiEoPaEqRcCiMyCySwBsPsBkTaBoRgBy\\{@yU}@c\\a@c]Qwb@?wm@jFkjItBsbAjAg|ANeT~CqsEJgO^ij@@o@rA_aCxG_dKZub@Ts]|AyfAtAi|@jB_m@j@_LrCkl@zDso@fBiVnAsOdAqMjEqf@tPk_BxOuvAnSsnBlFyk@`Fql@b@}FhCi`@jFa`@vEsWzF_XzEiSjFkQ~FkPjGcN`HcNrJkPjY}c@bMgNfLkLbMkN|f@mn@ri@gv@hR_Z~So_@xS_a@jT}d@vI_S|e@_hA|_Ae|Bdn@q{Avy@}gBzyBqeE`ByCdAiB~yAqhCrj@u`ApuAwfCtj@qiAtYom@pZeo@|LwYho@u}AlpAilDvJa\\~fA}oD`g@ulB|Ia^zFcW|VaiAtXutApHuKpMqUdDoDzDeCrCg@xCBzCx@xC`B`CjDrBdF|@~Dt@|Ed@jGXjFFpIkAjH}@hE_A~Co@zAcAvAc{@xKea@lAoUk@eSeDeX{HsCeA}UyImTuJoB{@kN_HaGuDiCoB_C}AqBs@sASoB?kBb@wAx@{AxAw@vBq@bDo@jL}@~GaDjVsA|I{@vEcBfFgBxCeBr@}BFiD}@sMkIuLaJoIqH_DqCsAkAaCsDiSa[mAiBoC_GcGmMyCoGiO{[yMoY}EaKmG}MoWij@{AcDgHiOoBcEiA_CqO_\\u@}AqIkRkAgCgBeDcCkDmCqC}C{CuAiA_As@kDyBgCsAcOkFsBrUq@xMUpEOnDaB`b@i@lNSzDqB~_@g@~JcB~[cApRaA|L[dFgAlNaA|JcAnJw@nG_AxHgBkAmBu@oBi@_PK{CCql@e_AiXhm@",
+        "shape": "s|oceBiodaRcDuGiYkm@iRd_@oBvDcCfE{H`NoDhG_FhI{BdFmCkF}NmY}e@{}@oy@o}AkCgFo@uAwBoEkNkUaFoHi@oBe@uHCGK{DMwCAwDAmLzD_JrHyPbGyNxDmRl@{BfA}CvDyIz^gt@|Uid@dLsRrLoQzNgTdKqMvF_HdDyClFwDpHoE|IiDdNmDtNoD~Q}CtM}CdLcDpL_DfLoB~GiAzH}@rGi@xKQnIV|J\\nNrAlDI`DBlDb@vVlE~EbAdE|@jD~@jAl@`@VtEfJfGoAzBStBc@rBs@zB}AdCkCxAmCz@}B|@oCr@yCZsC^uDTyb@LaYt@otAj@uVTeGf@eFp@uGbAwFlCsKj@gCtFcWlIi^jGyWrAiFbHyXvOgn@nFaUnBkIPs@tAmGhJo_@vEsQhCsHb@iB|C{LnCuKvHgZlCiLVsAZaCPqBz@kPDkATqGb@qMrAeCdEaKbEyLdC{IdCsJdDiNzp@mmC`Rcs@dCmJnEqPlBkH`Mib@bB}Gl@_CfAsEbBkHzCoO`AyGrAoJfC_RbAoGbEeUh@qC`AiFhEoXhHel@vB}PzD_[lAmJtLq`AjG_g@dD{SvCwPtFiZxGuXtFyRnLw^|Tsr@fLe^`KeZnEmJ~E}HpFqGhBuBdD{AvDy@tC@xDPzNzI~i@|[jUfMdHlDlEvBxf@nT`Bt@xu@~[de@rWrZ~Rh\\rWn[`YfDxCxh@hd@rCfCpAfAzFdF`YpVlJzIh}A|uA`e@z`@pZjYzT`TjDbDzLjMtNjOpO|LdUrMx\\rRnLvFn]pPvRhIrXfJl^pIfUxBvU@v[aCjPuBpMuBjPyDvOuFpOqHlMkHjS{LtM_J|U_SvgDuqCv[_XhDqCzh@sc@fmBygB~n@}k@j`@q\\dkAahA~gBq{Az~BgpBdjAaz@vd@cZ`\\mSjZaR~`Ail@rv@ab@d^sG~HeAbLKxHlA~IjCxEpCfG`GbF`IxEfKbDbNpAhKb@vMQ~L}AnNcCpLgFlLeEhHgHlHyFxDqJdE{HvCcM|CqK~AwO|@kLQgJw@sP{CcKaD{OwGsOiKeKwI_MmMqGoIuPwYkLwUmDcJuHqUiEoPaEqRcCiMyCySwBsPsBkTaBoRgBy\\{@yU}@c\\a@c]Qwb@?wm@jFkjItBsbAjAg|ANeT~CqsEJgO^ij@@o@rA_aCxG_dKZub@Ts]|AyfAtAi|@jB_m@j@_LrCkl@zDso@fBiVnAsOdAqMjEqf@tPk_BxOuvAnSsnBlFyk@`Fql@b@}FhCi`@jFa`@vEsWzF_XzEiSjFkQ~FkPjGcN`HcNrJkPjY}c@bMgNfLkLbMkN|f@mn@ri@gv@hR_Z~So_@xS_a@jT}d@vI_S|e@_hA|_Ae|Bdn@q{Avy@}gBzyBqeE`ByCdAiB~yAqhCrj@u`ApuAwfCtj@qiAtYom@pZeo@|LwYho@u}AlpAilDvJa\\~fA}oD`g@ulB|Ia^zFcW|VaiAtXutApHuKpMqUdDoDzDeCrCg@xCBzCx@xC`B`CjDrBdF|@~Dt@|Ed@jGXjFFpIkAjH}@hE_A~Co@zAcAvAc{@xKea@lAoUk@eSeDeX{HsCeA}UyImTuJoB{@kN_HaGuDiCoB_C}AqBs@sASoB?kBb@wAx@{AxAw@vBq@bDo@jL}@~GaDjVsA|I{@vEcBfFgBxCeBr@}BFiD}@sMkIuLaJoIqH_DqCsAkAaCsDiSa[mAiBoC_GcGmMyCoGiO{[yMoY}EaKmG}MoWij@{AcDgHiOoBcEiA_CqO_\\u@}AqIkRkAgCgBeDcCkDmCqC}C{CuAiA_As@kDyBgCsAcOkFsBrUq@xMUpEOnDaB`b@i@lNSzDqB~_@g@~JcB~[cApRaA|L[dFgAlNaA|JcAnJw@nG_AxHgBkAmBu@oBi@_PK{CCql@e_AiXhm@",
         "summary": {
-          "cost": 1283.743,
+          "cost": 1358.114,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 16.419,
-          "max_lat": 53.554556,
+          "length": 16.693,
+          "level_changes": [
+            [
+              33,
+              -1.0
+            ],
+            [
+              43,
+              -2.0
+            ],
+            [
+              48,
+              -1.0
+            ]
+          ],
+          "max_lat": 53.555386,
           "max_lon": 10.121057,
           "min_lat": 53.485324,
-          "min_lon": 9.997061,
-          "time": 1011.698
+          "min_lon": 9.99658,
+          "time": 1040.067
         }
       }
     ],
@@ -365,17 +481,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 1283.743,
+      "cost": 1358.114,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 16.419,
-      "max_lat": 53.554556,
+      "length": 16.693,
+      "max_lat": 53.555386,
       "max_lon": 10.121057,
       "min_lat": 53.485324,
-      "min_lon": 9.997061,
-      "time": 1011.698
+      "min_lon": 9.99658,
+      "time": 1040.067
     },
     "units": "kilometers"
   }

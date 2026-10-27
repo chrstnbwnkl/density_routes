@@ -25,7 +25,7 @@
             "bearing_after": 334,
             "bearing_before": 247,
             "begin_shape_index": 1,
-            "cost": 417.21,
+            "cost": 417.945,
             "end_shape_index": 2,
             "instruction": "Turn right onto Martin-Luther-Hof.",
             "length": 0.024,
@@ -46,7 +46,7 @@
             "bearing_after": 247,
             "bearing_before": 334,
             "begin_shape_index": 2,
-            "cost": 48.158,
+            "cost": 50.975,
             "end_shape_index": 7,
             "instruction": "Turn left onto Minoritenstra\u00dfe.",
             "length": 0.096,
@@ -67,7 +67,7 @@
             "bearing_after": 339,
             "bearing_before": 246,
             "begin_shape_index": 7,
-            "cost": 36.952,
+            "cost": 38.423,
             "end_shape_index": 25,
             "instruction": "Turn right onto Grabenstra\u00dfe.",
             "length": 0.245,
@@ -87,7 +87,7 @@
             "bearing_after": 313,
             "bearing_before": 35,
             "begin_shape_index": 25,
-            "cost": 16.78,
+            "cost": 18.617,
             "end_shape_index": 31,
             "instruction": "Turn left onto Peter-Br\u00fcning-Platz.",
             "length": 0.058,
@@ -108,7 +108,7 @@
             "bearing_after": 279,
             "bearing_before": 294,
             "begin_shape_index": 31,
-            "cost": 232.834,
+            "cost": 252.993,
             "end_shape_index": 113,
             "instruction": "Bear left onto Kaiserswerther Stra\u00dfe.",
             "length": 2.954,
@@ -128,7 +128,7 @@
             "bearing_after": 15,
             "bearing_before": 349,
             "begin_shape_index": 113,
-            "cost": 112.531,
+            "cost": 120.01,
             "end_shape_index": 161,
             "highway": true,
             "instruction": "Take the A 52 ramp toward Essen/Oberhausen/K\u00f6ln.",
@@ -167,9 +167,9 @@
             "bearing_after": 34,
             "bearing_before": 27,
             "begin_shape_index": 161,
-            "cost": 6.535,
+            "cost": 6.888,
             "end_shape_index": 162,
-            "instruction": "Take exit 25 toward Krefeld.",
+            "instruction": "Take exit 25 toward Oberhausen.",
             "length": 0.157,
             "sign": {
               "exit_name_elements": [
@@ -187,17 +187,19 @@
               ],
               "exit_toward_elements": [
                 {
-                  "consecutive_count": 1,
-                  "text": "Krefeld"
-                },
-                {
-                  "text": "Breitscheid"
-                },
-                {
+                  "consecutive_count": 3,
                   "text": "Oberhausen"
                 },
                 {
+                  "consecutive_count": 2,
                   "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Breitscheid"
+                },
+                {
+                  "text": "Krefeld"
                 }
               ]
             },
@@ -206,208 +208,199 @@
             "travel_type": "car",
             "type": 20,
             "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Take exit 25 toward Krefeld. Then Keep right to take A 524.",
+            "verbal_pre_transition_instruction": "Take exit 25 toward Oberhausen. Then Keep left toward Oberhausen.",
             "verbal_transition_alert_instruction": "Take exit 25."
           },
           {
-            "bearing_after": 51,
+            "bearing_after": 37,
             "bearing_before": 34,
             "begin_shape_index": 162,
-            "cost": 213.063,
-            "end_shape_index": 256,
-            "highway": true,
-            "instruction": "Keep right to take A 524 toward Krefeld.",
-            "length": 6.568,
+            "cost": 19.673,
+            "end_shape_index": 170,
+            "instruction": "Keep left toward Oberhausen.",
+            "length": 0.435,
+            "sign": {
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "Oberhausen"
+                },
+                {
+                  "consecutive_count": 2,
+                  "text": "K\u00f6ln"
+                },
+                {
+                  "consecutive_count": 1,
+                  "text": "Breitscheid"
+                }
+              ]
+            },
+            "time": 19.591,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left toward Oberhausen.",
+            "verbal_transition_alert_instruction": "Keep left toward Oberhausen."
+          },
+          {
+            "bearing_after": 45,
+            "bearing_before": 36,
+            "begin_shape_index": 170,
+            "cost": 5.923,
+            "end_shape_index": 178,
+            "instruction": "Keep right to take A 3 toward Oberhausen.",
+            "length": 0.135,
             "sign": {
               "exit_branch_elements": [
                 {
-                  "consecutive_count": 1,
-                  "text": "A 524"
+                  "consecutive_count": 2,
+                  "text": "A 3"
                 }
               ],
               "exit_toward_elements": [
                 {
+                  "consecutive_count": 2,
+                  "text": "Oberhausen"
+                },
+                {
                   "consecutive_count": 1,
-                  "text": "Krefeld"
+                  "text": "K\u00f6ln"
                 }
               ]
             },
-            "street_names": [
-              "A 524"
-            ],
-            "time": 224.227,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 23,
-            "verbal_post_transition_instruction": "Continue for 7 kilometers.",
-            "verbal_pre_transition_instruction": "Keep right to take A 524 toward Krefeld.",
-            "verbal_transition_alert_instruction": "Keep right to take A 524."
-          },
-          {
-            "bearing_after": 297,
-            "bearing_before": 287,
-            "begin_shape_index": 256,
-            "cost": 8.465,
-            "end_shape_index": 260,
-            "instruction": "Keep right to take exit 2.",
-            "length": 0.215,
-            "sign": {
-              "exit_name_elements": [
-                {
-                  "text": "Kreuz Duisburg-S\u00fcd"
-                }
-              ],
-              "exit_number_elements": [
-                {
-                  "text": "2"
-                }
-              ]
-            },
-            "time": 9.688,
+            "time": 6.088,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 23,
             "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Keep right to take exit 2. Then Keep right to take A 59.",
-            "verbal_transition_alert_instruction": "Keep right to take exit 2."
+            "verbal_pre_transition_instruction": "Keep right to take A 3 toward Oberhausen. Then Keep left to take A 3.",
+            "verbal_transition_alert_instruction": "Keep right to take A 3."
           },
           {
-            "bearing_after": 292,
-            "bearing_before": 286,
-            "begin_shape_index": 260,
-            "cost": 313.074,
-            "end_shape_index": 339,
+            "bearing_after": 49,
+            "bearing_before": 65,
+            "begin_shape_index": 178,
+            "cost": 256.9,
+            "end_shape_index": 264,
             "highway": true,
-            "instruction": "Keep right to take A 59 toward Duisburg.",
-            "length": 8.206,
+            "instruction": "Keep left to take A 3 toward Oberhausen.",
+            "length": 8.263,
             "sign": {
               "exit_branch_elements": [
                 {
-                  "consecutive_count": 1,
-                  "text": "A 59"
+                  "consecutive_count": 2,
+                  "text": "A 3"
                 }
               ],
               "exit_toward_elements": [
                 {
-                  "text": "Duisburg"
+                  "consecutive_count": 1,
+                  "text": "Oberhausen"
                 }
               ]
             },
             "street_names": [
-              "A 59"
+              "A 3",
+              "E 35"
             ],
-            "time": 298.925,
+            "time": 255.837,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 23,
+            "type": 24,
             "verbal_post_transition_instruction": "Continue for 8 kilometers.",
-            "verbal_pre_transition_instruction": "Keep right to take A 59 toward Duisburg.",
-            "verbal_transition_alert_instruction": "Keep right to take A 59."
+            "verbal_pre_transition_instruction": "Keep left to take A 3 toward Oberhausen.",
+            "verbal_transition_alert_instruction": "Keep left to take A 3."
           },
           {
-            "bearing_after": 12,
-            "bearing_before": 357,
-            "begin_shape_index": 339,
-            "cost": 6.318,
-            "end_shape_index": 347,
-            "instruction": "Take exit 11 toward Duisburg-Zentrum/-Neudorf.",
-            "length": 0.142,
+            "bearing_after": 338,
+            "bearing_before": 327,
+            "begin_shape_index": 264,
+            "cost": 14.557,
+            "end_shape_index": 274,
+            "instruction": "Take exit 15 toward Duisburg-Wedau/M\u00fclheim-Uhlenhorst.",
+            "length": 0.411,
             "sign": {
               "exit_name_elements": [
                 {
-                  "text": "Duisburg-Zentrum"
+                  "text": "Duisburg-Wedau"
                 }
               ],
               "exit_number_elements": [
                 {
-                  "text": "11"
+                  "text": "15"
                 }
               ],
               "exit_toward_elements": [
                 {
-                  "consecutive_count": 1,
-                  "text": "Duisburg-Zentrum"
+                  "text": "Duisburg-Wedau"
                 },
                 {
-                  "consecutive_count": 1,
-                  "text": "-Neudorf"
+                  "text": "M\u00fclheim-Uhlenhorst"
                 }
               ]
             },
-            "time": 5.764,
+            "time": 14.505,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Take exit 11 toward Duisburg-Zentrum, -Neudorf. Then Take the ramp on the left toward Duisburg-Zentrum.",
-            "verbal_transition_alert_instruction": "Take exit 11."
+            "verbal_pre_transition_instruction": "Take exit 15 toward Duisburg-Wedau, M\u00fclheim-Uhlenhorst.",
+            "verbal_transition_alert_instruction": "Take exit 15."
           },
           {
-            "bearing_after": 53,
-            "bearing_before": 47,
-            "begin_shape_index": 347,
-            "cost": 45.361,
-            "end_shape_index": 368,
-            "instruction": "Take the ramp on the left toward Duisburg-Zentrum/-Neudorf.",
-            "length": 0.303,
-            "sign": {
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "Duisburg-Zentrum"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "-Neudorf"
-                }
-              ]
-            },
+            "bearing_after": 237,
+            "bearing_before": 338,
+            "begin_shape_index": 274,
+            "cost": 41.778,
+            "end_shape_index": 285,
+            "instruction": "Turn left onto Uhlenhorststra\u00dfe/L 138.",
+            "length": 0.231,
             "street_names": [
-              "Am G\u00fcterbahnhof"
+              "Uhlenhorststra\u00dfe",
+              "L 138"
             ],
-            "time": 19.679,
+            "time": 23.086,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 19,
-            "verbal_post_transition_instruction": "Continue for 300 meters.",
-            "verbal_pre_transition_instruction": "Take the ramp on the left toward Duisburg-Zentrum, -Neudorf.",
-            "verbal_transition_alert_instruction": "Take the ramp on the left toward Duisburg-Zentrum."
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Uhlenhorststra\u00dfe, L 138.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Uhlenhorststra\u00dfe."
           },
           {
-            "bearing_after": 273,
-            "bearing_before": 356,
-            "begin_shape_index": 368,
+            "bearing_after": 304,
+            "bearing_before": 298,
+            "begin_shape_index": 285,
             "begin_street_names": [
               "Koloniestra\u00dfe",
               "L 60"
             ],
-            "cost": 171.192,
-            "end_shape_index": 458,
-            "instruction": "Turn left toward A 59/Ruhrort/Zentrum/Haupteingang.",
-            "length": 1.409,
-            "sign": {},
+            "cost": 464.434,
+            "end_shape_index": 490,
+            "instruction": "Bear right onto Koloniestra\u00dfe/L 60. Continue on L 60.",
+            "length": 4.218,
             "street_names": [
               "L 60"
             ],
-            "time": 120.671,
+            "time": 368.825,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 15,
-            "verbal_post_transition_instruction": "Continue on L 60 for 1.5 kilometers.",
-            "verbal_pre_transition_instruction": "Turn left toward A 59, Ruhrort.",
-            "verbal_succinct_transition_instruction": "Turn left toward A 59, Ruhrort.",
-            "verbal_transition_alert_instruction": "Turn left toward A 59."
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue on L 60 for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Bear right onto Koloniestra\u00dfe, L 60.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Koloniestra\u00dfe."
           },
           {
             "bearing_after": 342,
             "bearing_before": 330,
-            "begin_shape_index": 458,
+            "begin_shape_index": 490,
             "begin_street_names": [
               "Plessingstra\u00dfe",
               "L 60"
             ],
-            "cost": 42.483,
-            "end_shape_index": 477,
+            "cost": 47.48,
+            "end_shape_index": 509,
             "instruction": "Keep right to stay on L 60.",
             "length": 0.412,
             "street_names": [
@@ -424,9 +417,9 @@
           {
             "bearing_after": 227,
             "bearing_before": 334,
-            "begin_shape_index": 477,
-            "cost": 23.991,
-            "end_shape_index": 488,
+            "begin_shape_index": 509,
+            "cost": 27.077,
+            "end_shape_index": 520,
             "instruction": "Turn left onto Essenberger Stra\u00dfe.",
             "length": 0.151,
             "street_names": [
@@ -445,12 +438,12 @@
           {
             "bearing_after": 188,
             "bearing_before": 239,
-            "begin_shape_index": 488,
-            "cost": 103.748,
-            "end_shape_index": 492,
+            "begin_shape_index": 520,
+            "cost": 110.745,
+            "end_shape_index": 524,
             "instruction": "Turn left.",
             "length": 0.09,
-            "time": 13.866,
+            "time": 17.14,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
@@ -461,9 +454,9 @@
           },
           {
             "bearing_before": 234,
-            "begin_shape_index": 492,
+            "begin_shape_index": 524,
             "cost": 0.0,
-            "end_shape_index": 492,
+            "end_shape_index": 524,
             "instruction": "You have arrived at your destination.",
             "length": 0.0,
             "time": 0.0,
@@ -474,25 +467,19 @@
             "verbal_transition_alert_instruction": "You will arrive at your destination."
           }
         ],
-        "shape": "qs|y`Bgl_aLdBxJ}JdHhArGhDxRtHfb@VtA|BfMsC`B_JtDmA\\kFrA_HpAwFj@kDEwCy@kCmAcLyFiGsBsGY_Hj@qBNmBOkBiAgR}RaC{CqE`J{GzMwArDa@`BMxAGzAK|EIpB]fCk@pB{a@beBcD`NkExQ}Lrg@cAdFq@xD]xBa@fDk@hGwBfKkB~D{@fAwChEoD~EaB~BaB|BkDxEeAzAkC`FmDrJ}AzJyAdHeDfYa@~Es@|Qa@hYSlGEpB_@dF}@pI[dB}@nEmBbG_DjHiFjJ_D|B}InF}FhB_n@xSSF{G~BgBn@}L|EwBt@mDpA_FdByQvGy}A`m@aLzE}s@~ZclAlm@yGjDuDnBeG~C_LzFqc@~TwbCvcAa{Apn@ix@x[{O~F}MbGoHnD_Af@yBfAaF`C{BjAkSnJaIpCkLdEaUdGajAfVqnAnRafAtQgl@lLuEdAgGlA_yAt\\yq@lOaQ{FgBgAeBmBsCgEoCeLkCo`@eAuK_AaJcB{MgDyI{FiHiFoCsH{@aIX_SxDwJn@eHw@{FkCwGmH}Sg\\khAqnC_x@ylBmj@clAo]}q@yUsb@of@}u@qYw_@_^we@uQoT{d@_h@mg@sg@sl@{g@gi@ya@yf@k[}_@oTmdAii@kW}JmbBoj@mdA_[krAy`@uUcI_HcCez@s\\yUmL_O}HeVgOy_@qWcYmTsgAsnA{KaXoAuDqAcF_AiFq@sEg@aGYgHK_G?cGFcH\\oZGsGMgGa@_Fs@cEaAmDoAkDcBkDuBaDyByBgC}AeCs@yC_@}CAqCd@mC|@eC|AyBpBsBrCoB|DkBtE{A`F}L`g@}EhS_n@boCeLlg@uLza@{Mtk@aLxk@qJjk@yJbo@{Lh~@mIzs@wI`|@oB`TwIrlAwFz`A}FnpAwFfxAwc@neOwExkBkEziB_CfjAgHpiFu@v_Ae@ni@iL|bNaDpnBkErtB}EhbBgFd~AoHd~AsIn}AiOb}BmPp}Bsd@xtFkYxpDsEbt@}Chp@mClw@wAlf@Qlo@Dfv@LxVl@`^zCz`AdAbUdKrhBrNhjBvJxqAdCn\\~S`xCl@xLbEb`A|Apn@\\nv@Q|bA}@tm@uBvj@eFvz@eEho@cIf|@qHfr@iSzhBeDvNmIth@eIjh@_NrqAgEbX{BvJuCvIsCfEyDtEkvAljAuFbDoHrAcEDaDe@kFcA_ImE{NoH_WuXyq@{p@qw@qu@sAqAqc@mb@mu@}t@oo@il@eo@yj@eZ_Vu[gUs[eSu_@}Soh@eW{lAwj@cy@s`@w]sRs]sTia@kZwW_UsRcQcSgSs[g]gkA{rAo|@s{@eUcRaU_Pcb@}T}h@{SsN{Ec\\}H_[{F_YqCy_@uBo`@q@wt@lEapA|JubClRebClPylAbGa\\rAalE`QwnBzJm~AbJoMr@izPz`AqwAlJwG`@gW~BgdBdMclCdVym@lE}lDbQy[dAsq@zB}kFrPgfEvNgx@tBkx@D{]n@co@jDcHXeIb@{cA|I{c@rC_d@~@wz@jDkV{FcF_B{DqBoFmEkGcFgGaI}DiHoBwEaFcN}CiNaBkLYmC_@qBg@qCu@{Do@mAaAqAmAcAmCaAcAIa@AyVl@eUdAmIpAmb@~Ae@?mABkEJcH`@}@|JKlICnBBhTLfd@DfK@~A@zAFfDJlBh@jFtAnGVnAl@~B|@lDvA~DtE~HrHhL~IfPbEjL|AlEfBdGZjAXhAfD`M|BxJ~BbKrBtLdB|Lx@fHbArKp@jJ\\fGf@nLPlILzIR|Q@vDAtEMlGWfI[|HOtCWnCm@jFsAhN_@fEOhBUjCq@|I_BzQoAvLkAfKc@|H}BzOuBvLsC|NgDfPqJz_@eLhc@}Jda@aG`RuA`Do@|As@bBu@`BeC`GeCtFqH~NiFfKmElJyHhPmG|LoCtCeDhDuHdJiS|Rst@ts@gRbRwEjEsBlBcE`C{D|BoElByAj@kChAaFdCoDlBsTzMuBjBw_@~OoBtAiC`CwChDuHnPyLlYcO`S_Yh_@wHdKw@bAiHhKMRuDlHyQpZqNvUKR[b@{BjCwChApCrEj@lB`A`DjAbJFbI[jJ[vQ\\pTjAnJjBlKvD|MfD{@tAhCbNb`@pHxS",
+        "shape": "qs|y`Bgl_aLdBxJ}JdHhArGhDxRtHfb@VtA|BfMsC`B_JtDmA\\kFrA_HpAwFj@kDEwCy@kCmAcLyFiGsBsGY_Hj@qBNmBOkBiAgR}RaC{CqE`J{GzMwArDa@`BMxAGzAK|EIpB]fCk@pB{a@beBcD`NkExQ}Lrg@cAdFq@xD]xBa@fDk@hGwBfKkB~D{@fAwChEoD~EaB~BaB|BkDxEeAzAkC`FmDrJ}AzJyAdHeDfYa@~Es@|Qa@hYSlGEpB_@dF}@pI[dB}@nEmBbG_DjHiFjJ_D|B}InF}FhB_n@xSSF{G~BgBn@}L|EwBt@mDpA_FdByQvGy}A`m@aLzE}s@~ZclAlm@yGjDuDnBeG~C_LzFqc@~TwbCvcAa{Apn@ix@x[{O~F}MbGoHnD_Af@yBfAaF`C{BjAkSnJaIpCkLdEaUdGajAfVqnAnRafAtQgl@lLuEdAgGlA_yAt\\yq@lOaQ{FgBgAeBmBsCgEoCeLkCo`@eAuK_AaJcB{MgDyI{FiHiFoCsH{@aIX_SxDwJn@eHw@{FkCwGmH}Sg\\khAqnC_x@ylBmj@clAo]}q@yUsb@of@}u@qYw_@_^we@uQoT{d@_h@mg@sg@sl@{g@gi@ya@yf@k[}_@oTmdAii@kW}JmbBoj@mdA_[krAy`@uUcI_HcCez@s\\yUmL_O}HeVgOy_@qWcYmTsgAsnA}b@{i@}n@uu@gIqKiIkKwh@kp@{]{c@kJeLeGoHmLsTcBkDcBmEoAgEeAqE_Jmg@gAwFeAcF_AcDkAwCkAuBsAgBqBqBaBcAoCmA}Co@}HaAsMgA_HoBaCuAgCaC_FcGsYq]qU{ZmDwFcBuDqAiFq@gGKyFNoFj@oFfAkEjCaFbCeDdD}BbDeAhD[`EVfDdA`DxBdCxC|BhEdBpGbArI\\lIQbKeCbb@{aCf}IkfAl}D_k@`xBcjChyJq]lqAcXl|@_`@hgAaa@raAy_@l{@ie@b}@_i@z|@g_AvqAggAdoAws@fr@kr@ni@ok@b`@yt@dc@eiBlbAoVrOww@tc@qU|KmmA|p@goBvfAkgBn~@yx@tZ}t@dTmcAhSel]|xFgl@vLuc@fMox@pXwn@vXwd@vVog@r[qa@lYkfAj`Acg@pi@oh@bo@ce@np@aa@fm@_M~Qy|Dt`Ggy@znAck@tx@qa@bi@mQtTud@zf@i\\vQyFzA_IjAsJF}YGuObCe_BdT_KTuGjBcFpDhDzK~Hv^tBjPrAvR`@rPA~PWpPsAvPmDdYsAxHwAfG_B`Fw@bCwDpJkDxHyKpPkJfLgBpBiZnZ}m@ll@eSbRoQzQwC~CiDlEoEfEiC|Cmq@f{@mn@js@qc@ne@mIzH{JbJk@d@uF~E_BxAmC`CyGrFiOjMq@p@gHfH}HvLaDfFoMpUqI`RkFxHgKbRg[nj@aAhBsEjIeExHs[rk@ap@pmAmH|M_^xl@qGfMkA~B{CnGgCfGaBdEuBjG}CbJaAfBuCfFqDhGiLhSsMhUsHrMaZhh@y@|AgArBsAdC_EvHyArCkA|BaCjEkSt_@i@`AaEhHoEvHSb@}IlOeIfN?@aA|A]n@sFrJoGvKe@v@]h@_MpQiW`_@g\\zd@}FlIq@bAo@|@oC|DuFdIs[vc@wA~AkGbJaCxDcObVmVd^gB~CwJtTKTY|@W|@sAbEaCnIENqOzn@wj@tvC_Hr`@g@nCuE`JmCzHmMfYy@tBkA|CmAvEs@jCkAvEu@jFUvAW|A{AnL}@|JKlICnBBhTLfd@DfK@~A@zAFfDJlBh@jFtAnGVnAl@~B|@lDvA~DtE~HrHhL~IfPbEjL|AlEfBdGZjAXhAfD`M|BxJ~BbKrBtLdB|Lx@fHbArKp@jJ\\fGf@nLPlILzIR|Q@vDAtEMlGWfI[|HOtCWnCm@jFsAhN_@fEOhBUjCq@|I_BzQoAvLkAfKc@|H}BzOuBvLsC|NgDfPqJz_@eLhc@}Jda@aG`RuA`Do@|As@bBu@`BeC`GeCtFqH~NiFfKmElJyHhPmG|LoCtCeDhDuHdJiS|Rst@ts@gRbRwEjEsBlBcE`C{D|BoElByAj@kChAaFdCoDlBsTzMuBjBw_@~OoBtAiC`CwChDuHnPyLlYcO`S_Yh_@wHdKw@bAiHhKMRuDlHyQpZqNvUKR[b@{BjCwChApCrEj@lB`A`DjAbJFbI[jJ[vQ\\pTjAnJjBlKvD|MfD{@tAhCbNb`@pHxS",
         "summary": {
-          "cost": 1802.146,
+          "cost": 1897.867,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 23.855,
-          "level_changes": [
-            [
-              325,
-              1.0
-            ]
-          ],
+          "length": 20.706,
           "max_lat": 51.434169,
-          "max_lon": 6.854234,
+          "max_lon": 6.859601,
           "min_lat": 51.296884,
           "min_lon": 6.75003,
-          "time": 1096.615
+          "time": 1108.867
         }
       }
     ],
@@ -513,17 +500,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 1802.146,
+      "cost": 1897.867,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 23.855,
+      "length": 20.706,
       "max_lat": 51.434169,
-      "max_lon": 6.854234,
+      "max_lon": 6.859601,
       "min_lat": 51.296884,
       "min_lon": 6.75003,
-      "time": 1096.615
+      "time": 1108.867
     },
     "units": "kilometers"
   }
