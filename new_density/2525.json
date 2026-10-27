@@ -8,7 +8,7 @@
           {
             "bearing_after": 277,
             "begin_shape_index": 0,
-            "cost": 26.46,
+            "cost": 28.812,
             "end_shape_index": 8,
             "instruction": "Drive west.",
             "length": 0.087,
@@ -25,7 +25,7 @@
             "bearing_after": 0,
             "bearing_before": 270,
             "begin_shape_index": 8,
-            "cost": 42.992,
+            "cost": 57.332,
             "end_shape_index": 15,
             "instruction": "Turn right onto Talstra\u00dfe.",
             "length": 0.106,
@@ -46,7 +46,7 @@
             "bearing_after": 94,
             "bearing_before": 1,
             "begin_shape_index": 15,
-            "cost": 38.768,
+            "cost": 45.991,
             "end_shape_index": 19,
             "instruction": "Turn right onto Luisenstra\u00dfe.",
             "length": 0.136,
@@ -66,7 +66,7 @@
             "bearing_after": 180,
             "bearing_before": 93,
             "begin_shape_index": 19,
-            "cost": 46.082,
+            "cost": 53.783,
             "end_shape_index": 23,
             "instruction": "Turn right onto Jahnstra\u00dfe.",
             "length": 0.189,
@@ -86,7 +86,7 @@
             "bearing_after": 271,
             "bearing_before": 181,
             "begin_shape_index": 23,
-            "cost": 106.743,
+            "cost": 138.311,
             "end_shape_index": 60,
             "instruction": "Turn right onto Herzogstra\u00dfe.",
             "length": 0.552,
@@ -106,7 +106,7 @@
             "bearing_after": 300,
             "bearing_before": 301,
             "begin_shape_index": 60,
-            "cost": 200.704,
+            "cost": 219.993,
             "end_shape_index": 144,
             "instruction": "Bear left onto Rheinkniebr\u00fccke.",
             "length": 3.361,
@@ -126,10 +126,10 @@
             "bearing_after": 344,
             "bearing_before": 330,
             "begin_shape_index": 144,
-            "cost": 161.791,
-            "end_shape_index": 211,
+            "cost": 76.677,
+            "end_shape_index": 169,
             "instruction": "Take the exit toward Prinzenallee.",
-            "length": 1.361,
+            "length": 0.395,
             "sign": {
               "exit_toward_elements": [
                 {
@@ -140,40 +140,119 @@
             "street_names": [
               "Willst\u00e4tterstra\u00dfe"
             ],
-            "time": 100.653,
+            "time": 28.737,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
-            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
             "verbal_pre_transition_instruction": "Take the exit toward Prinzenallee.",
             "verbal_transition_alert_instruction": "Take the exit toward Prinzenallee."
           },
           {
-            "bearing_after": 8,
-            "bearing_before": 281,
-            "begin_shape_index": 211,
-            "cost": 144.962,
-            "end_shape_index": 256,
-            "instruction": "Turn right onto Schiessstra\u00dfe.",
-            "length": 0.967,
+            "bearing_after": 340,
+            "bearing_before": 305,
+            "begin_shape_index": 169,
+            "cost": 13.336,
+            "end_shape_index": 173,
+            "instruction": "Bear right.",
+            "length": 0.035,
+            "time": 4.596,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "verbal_pre_transition_instruction": "Bear right. Then Bear right onto Prinzenallee.",
+            "verbal_succinct_transition_instruction": "Bear right. Then Bear right onto Prinzenallee.",
+            "verbal_transition_alert_instruction": "Bear right."
+          },
+          {
+            "bearing_after": 28,
+            "bearing_before": 355,
+            "begin_shape_index": 173,
+            "cost": 52.213,
+            "end_shape_index": 183,
+            "instruction": "Bear right onto Prinzenallee.",
+            "length": 0.197,
             "street_names": [
-              "Schiessstra\u00dfe"
+              "Prinzenallee"
             ],
-            "time": 78.75,
+            "time": 14.363,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Bear right onto Prinzenallee.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right onto Prinzenallee."
+          },
+          {
+            "bearing_after": 355,
+            "bearing_before": 40,
+            "begin_shape_index": 183,
+            "cost": 43.991,
+            "end_shape_index": 188,
+            "instruction": "Bear left to stay on Prinzenallee.",
+            "length": 0.039,
+            "street_names": [
+              "Prinzenallee"
+            ],
+            "time": 3.66,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 16,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 40 meters.",
+            "verbal_pre_transition_instruction": "Bear left to stay on Prinzenallee. Then Turn left onto Hansaallee.",
+            "verbal_succinct_transition_instruction": "Bear left. Then Turn left onto Hansaallee.",
+            "verbal_transition_alert_instruction": "Bear left to stay on Prinzenallee."
+          },
+          {
+            "bearing_after": 299,
+            "bearing_before": 351,
+            "begin_shape_index": 188,
+            "cost": 208.389,
+            "end_shape_index": 229,
+            "instruction": "Turn left onto Hansaallee.",
+            "length": 1.055,
+            "street_names": [
+              "Hansaallee"
+            ],
+            "time": 79.205,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn left onto Hansaallee.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Hansaallee."
+          },
+          {
+            "bearing_after": 7,
+            "bearing_before": 299,
+            "begin_shape_index": 229,
+            "cost": 112.36,
+            "end_shape_index": 248,
+            "instruction": "Turn right onto L\u00f6ricker Stra\u00dfe.",
+            "length": 0.526,
+            "street_names": [
+              "L\u00f6ricker Stra\u00dfe"
+            ],
+            "time": 45.485,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
-            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
-            "verbal_pre_transition_instruction": "Turn right onto Schiessstra\u00dfe.",
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto L\u00f6ricker Stra\u00dfe.",
             "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto Schiessstra\u00dfe."
+            "verbal_transition_alert_instruction": "Turn right onto L\u00f6ricker Stra\u00dfe."
           },
           {
             "bearing_after": 98,
             "bearing_before": 2,
-            "begin_shape_index": 256,
-            "cost": 23.843,
-            "end_shape_index": 258,
+            "begin_shape_index": 248,
+            "cost": 33.581,
+            "end_shape_index": 250,
             "instruction": "Turn right onto B\u00fcttgenweg.",
             "length": 0.123,
             "street_names": [
@@ -191,9 +270,9 @@
           {
             "bearing_after": 8,
             "bearing_before": 98,
-            "begin_shape_index": 258,
-            "cost": 18.022,
-            "end_shape_index": 259,
+            "begin_shape_index": 250,
+            "cost": 37.246,
+            "end_shape_index": 251,
             "instruction": "Turn left onto Elfgenweg.",
             "length": 0.04,
             "street_names": [
@@ -211,9 +290,9 @@
           },
           {
             "bearing_before": 8,
-            "begin_shape_index": 259,
+            "begin_shape_index": 251,
             "cost": 0.0,
-            "end_shape_index": 259,
+            "end_shape_index": 251,
             "instruction": "Elfgenweg is on the right.",
             "length": 0.0,
             "time": 0.0,
@@ -224,19 +303,19 @@
             "verbal_transition_alert_instruction": "Elfgenweg will be on the right."
           }
         ],
-        "shape": "_|~t`Bmay|KQlKq@dBK~]{AdA_@`DAjKA`A?lDkA?oEIwA?eJMqJCaOWwGIFmEfAiu@Zw]\\y]`b@HzTDjk@LbDBChMOt]?dHQbd@BnS?`F?hDy@dFW`GW|QQ`i@EzK?jKH~FDzBD~E?r@@~EBrBF~BP|Bn@zFChe@?f@g@`HMhBYzHC\\OdGAx[Wl[]hIm@nI_@fEaCfNmFtUqFzRee@rfBkg@|fBqJ|[qSfo@qEbNoElM{GvQgG`OoGlNqHlO}IxPiM|S{L~PgWl\\wLpO}iFxwGySnWwc@tl@{P`WiLbSoKvTgIvSgHvUyF|VmF|ZqD|YsC`_@qBv\\{Btb@{@xPkB|]qC~e@kCva@uDbj@mArPoAjPiDfa@yDr`@gEpa@gB`PaFra@oDfXkDbWgF|]eF~[}Inh@oCfOmC~N{Gh_@mHn_@_I|^gDlOcD~N_DrNuIx^}I|]sJb^eIjYoRto@kNjc@gOhe@aRfl@kNde@mGfVkD|NeDbOcFxWyDnSw@pEgIrg@If@m@bE_ExWuDhRmEpPqDbKmAhDeGnMoDlGa@p@oG~IuBzBoCvCsSbRsPhG{EvB{EhBkHpC{GjB{MjDeCZeBFgBAqAE}B]qBc@kOwE{_Ai[eHyBeCk@w@UiA]uAAoAPoAb@mDvB_DxDwC`HuArFeBtI}A`Iy@|Iq@rIg@xD{G~Ym@bCs@hD}DxOoBjIcErPqLxf@yBdJy@dDqAxFaF|SiLdf@s@zCsClK{BjMqBlP}KzcAuBpKe@bCe@xHo@~Fa@lDoBlPeEd^gArLsXpwCoB|SyCj[uAhPe@|HWdEiBlf@sA`\\q@zPIfBMlBe@jHkFs@{B[gAOmLyBkFu@eNuAsMuAcU_DaWmDkHcAeXsDkCa@kDe@qAQiAQuASi\\}EsO{BaC_@kFw@yAWaAOoEm@}Dq@kAU{Cc@uAOkAMiI}@aDYwNgBqI{@yUeCk{@{IwHw@}TkBq_@{CsEe@iHg@mH[{GSgCAi\\w@mPc@yM]|EeiAbBqa@uUcD",
+        "shape": "_|~t`Bmay|KQlKq@dBK~]{AdA_@`DAjKA`A?lDkA?oEIwA?eJMqJCaOWwGIFmEfAiu@Zw]\\y]`b@HzTDjk@LbDBChMOt]?dHQbd@BnS?`F?hDy@dFW`GW|QQ`i@EzK?jKH~FDzBD~E?r@@~EBrBF~BP|Bn@zFChe@?f@g@`HMhBYzHC\\OdGAx[Wl[]hIm@nI_@fEaCfNmFtUqFzRee@rfBkg@|fBqJ|[qSfo@qEbNoElM{GvQgG`OoGlNqHlO}IxPiM|S{L~PgWl\\wLpO}iFxwGySnWwc@tl@{P`WiLbSoKvTgIvSgHvUyF|VmF|ZqD|YsC`_@qBv\\{Btb@{@xPkB|]qC~e@kCva@uDbj@mArPoAjPiDfa@yDr`@gEpa@gB`PaFra@oDfXkDbWgF|]eF~[}Inh@oCfOmC~N{Gh_@mHn_@_I|^gDlOcD~N_DrNuIx^}I|]sJb^eIjYoRto@kNjc@gOhe@aRfl@kNde@mGfVkD|NeDbOcFxWyDnSw@pEgIrg@If@m@bE_ExWuDhRmEpPqDbKmAhDeGnMoDlGa@p@oG~IuBzBoCvCsSbRsPhG{EvB{EhBkHpC{GjB{MjDeCZeBFgBAqAE}B]qBc@kOwE{_Ai[eHyBeCk@w@UiA]uAAoAPoAb@mDvB_DxDwC`HuArF{AfBaF|AyDVeBEuQ{Nw]aYgDsCiA_AmS{PyKcJWOYOsA}BuAcBiCIoBFqDXsBLeDj@Md@gAnEmAbFaN~j@oElR_@~AaBpHyCzLMp@o@vCGTu@fDePhp@WlAsK|c@{DpPkHnZcI~]mMhi@wPvr@wBjJoAdFgAbFcClK}A`H_BzGoKjd@_BzGsTb_A{BnJqIb^eQrt@qBnI_HrYqEjRaMph@wFbVqAjF{Pzs@o@nCuAtFuAOkAMiI}@aDYwNgBqI{@yUeCk{@{IwHw@}TkBq_@{CsEe@iHg@mH[{GSgCAi\\w@mPc@yM]|EeiAbBqa@uUcD",
         "summary": {
-          "cost": 810.37,
+          "cost": 1122.019,
           "has_ferry": false,
           "has_highway": false,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 6.923,
+          "length": 6.845,
           "max_lat": 51.247347,
           "max_lon": 6.78075,
           "min_lat": 51.215615,
-          "min_lon": 6.72092,
-          "time": 497.413
+          "min_lon": 6.721811,
+          "time": 494.059
         }
       }
     ],
@@ -259,17 +338,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 810.37,
+      "cost": 1122.019,
       "has_ferry": false,
       "has_highway": false,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 6.923,
+      "length": 6.845,
       "max_lat": 51.247347,
       "max_lon": 6.78075,
       "min_lat": 51.215615,
-      "min_lon": 6.72092,
-      "time": 497.413
+      "min_lon": 6.721811,
+      "time": 494.059
     },
     "units": "kilometers"
   }

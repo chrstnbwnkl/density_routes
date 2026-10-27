@@ -8,7 +8,7 @@
           {
             "bearing_after": 1,
             "begin_shape_index": 0,
-            "cost": 93.784,
+            "cost": 95.846,
             "end_shape_index": 6,
             "instruction": "Drive north.",
             "length": 0.068,
@@ -25,7 +25,7 @@
             "bearing_after": 134,
             "bearing_before": 43,
             "begin_shape_index": 6,
-            "cost": 16.501,
+            "cost": 19.763,
             "end_shape_index": 7,
             "instruction": "Turn right onto Wilhelmstra\u00dfe.",
             "length": 0.029,
@@ -46,7 +46,7 @@
             "bearing_after": 359,
             "bearing_before": 134,
             "begin_shape_index": 7,
-            "cost": 30.788,
+            "cost": 38.747,
             "end_shape_index": 8,
             "instruction": "Turn left onto Friedrichstra\u00dfe.",
             "length": 0.051,
@@ -67,7 +67,7 @@
             "bearing_after": 87,
             "bearing_before": 359,
             "begin_shape_index": 8,
-            "cost": 46.682,
+            "cost": 56.932,
             "end_shape_index": 11,
             "instruction": "Turn right onto Gustavstra\u00dfe.",
             "length": 0.138,
@@ -87,7 +87,7 @@
             "bearing_after": 359,
             "bearing_before": 96,
             "begin_shape_index": 11,
-            "cost": 76.309,
+            "cost": 95.07,
             "end_shape_index": 20,
             "instruction": "Turn left onto Amalienstra\u00dfe.",
             "length": 0.168,
@@ -111,7 +111,7 @@
               "Hoher Wall",
               "B 54"
             ],
-            "cost": 208.772,
+            "cost": 243.823,
             "end_shape_index": 124,
             "instruction": "Turn right onto Hoher Wall/B 54. Continue on B 54.",
             "length": 1.676,
@@ -131,7 +131,7 @@
             "bearing_after": 101,
             "bearing_before": 5,
             "begin_shape_index": 124,
-            "cost": 30.559,
+            "cost": 37.876,
             "end_shape_index": 139,
             "instruction": "Turn right toward DO-Brackel/DO-Wambel/DO-K\u00f6rne/Gro\u00dfmarkt.",
             "length": 0.115,
@@ -154,7 +154,7 @@
             "bearing_after": 8,
             "bearing_before": 101,
             "begin_shape_index": 139,
-            "cost": 80.395,
+            "cost": 100.796,
             "end_shape_index": 157,
             "instruction": "Turn left onto Wei\u00dfenburger Stra\u00dfe/K 17.",
             "length": 0.351,
@@ -179,249 +179,259 @@
               "Wei\u00dfenburger Stra\u00dfe",
               "K 17"
             ],
-            "cost": 325.189,
-            "end_shape_index": 278,
-            "instruction": "Turn right onto Wei\u00dfenburger Stra\u00dfe/K 17. Continue on K 17.",
-            "length": 3.607,
+            "cost": 462.82,
+            "end_shape_index": 305,
+            "instruction": "Turn right onto Wei\u00dfenburger Stra\u00dfe/K 17.",
+            "length": 4.765,
             "street_names": [
               "K 17"
             ],
-            "time": 215.262,
+            "time": 267.468,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
-            "verbal_post_transition_instruction": "Continue on K 17 for 4 kilometers.",
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
             "verbal_pre_transition_instruction": "Turn right onto Wei\u00dfenburger Stra\u00dfe, K 17.",
             "verbal_succinct_transition_instruction": "Turn right.",
             "verbal_transition_alert_instruction": "Turn right onto Wei\u00dfenburger Stra\u00dfe."
           },
           {
-            "bearing_after": 63,
-            "bearing_before": 54,
-            "begin_shape_index": 278,
-            "cost": 47.444,
-            "end_shape_index": 320,
-            "instruction": "Take the B 236 exit toward DO-Scharnhorst.",
-            "length": 0.539,
+            "bearing_after": 100,
+            "bearing_before": 90,
+            "begin_shape_index": 305,
+            "cost": 28.96,
+            "end_shape_index": 329,
+            "instruction": "Take the exit toward DO-Brackel.",
+            "length": 0.518,
             "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "B 236"
-                }
-              ],
               "exit_toward_elements": [
                 {
-                  "consecutive_count": 2,
-                  "text": "DO-Scharnhorst"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "A 2"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "L\u00fcnen"
+                  "text": "DO-Brackel"
                 }
               ]
             },
-            "time": 43.415,
+            "street_names": [
+              "Brackeler Stra\u00dfe"
+            ],
+            "time": 24.391,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
-            "verbal_pre_transition_instruction": "Take the B 236 exit toward DO-Scharnhorst.",
-            "verbal_transition_alert_instruction": "Take the B 236 exit."
+            "verbal_pre_transition_instruction": "Take the exit toward DO-Brackel.",
+            "verbal_transition_alert_instruction": "Take the exit toward DO-Brackel."
           },
           {
-            "bearing_after": 358,
-            "bearing_before": 2,
-            "begin_shape_index": 320,
-            "cost": 12.786,
-            "end_shape_index": 329,
-            "instruction": "Keep left to take B 236 toward DO-Scharnhorst.",
-            "length": 0.223,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "B 236"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 2,
-                  "text": "DO-Scharnhorst"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "A 2"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "L\u00fcnen"
-                }
-              ]
-            },
-            "time": 11.204,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 24,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Keep left to take B 236 toward DO-Scharnhorst. Then Keep right toward DO-Scharnhorst.",
-            "verbal_transition_alert_instruction": "Keep left to take B 236."
-          },
-          {
-            "bearing_after": 4,
-            "bearing_before": 352,
+            "bearing_after": 335,
+            "bearing_before": 41,
             "begin_shape_index": 329,
-            "cost": 37.56,
-            "end_shape_index": 398,
-            "instruction": "Keep right toward DO-Scharnhorst.",
-            "length": 0.741,
-            "sign": {
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "DO-Scharnhorst"
-                }
-              ]
-            },
-            "time": 34.713,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 23,
-            "verbal_pre_transition_instruction": "Keep right toward DO-Scharnhorst.",
-            "verbal_transition_alert_instruction": "Keep right toward DO-Scharnhorst."
-          },
-          {
-            "bearing_after": 331,
-            "bearing_before": 274,
-            "begin_shape_index": 398,
-            "cost": 38.962,
-            "end_shape_index": 409,
-            "instruction": "Turn right onto R\u00fcschebrinkstra\u00dfe.",
-            "length": 0.148,
-            "street_names": [
-              "R\u00fcschebrinkstra\u00dfe"
+            "begin_street_names": [
+              "Flughafenstra\u00dfe",
+              "K 7"
             ],
-            "time": 11.11,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 10,
-            "verbal_multi_cue": true,
-            "verbal_post_transition_instruction": "Continue for 100 meters.",
-            "verbal_pre_transition_instruction": "Turn right onto R\u00fcschebrinkstra\u00dfe. Then, in 100 meters, Bear left onto Sinterstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn right. Then, in 100 meters, Bear left onto Sinterstra\u00dfe.",
-            "verbal_transition_alert_instruction": "Turn right onto R\u00fcschebrinkstra\u00dfe."
-          },
-          {
-            "bearing_after": 290,
-            "bearing_before": 302,
-            "begin_shape_index": 409,
-            "cost": 68.309,
-            "end_shape_index": 446,
-            "instruction": "Bear left onto Sinterstra\u00dfe.",
-            "length": 0.803,
+            "cost": 237.906,
+            "end_shape_index": 400,
+            "instruction": "Turn left onto Flughafenstra\u00dfe/K 7. Continue on Flughafenstra\u00dfe.",
+            "length": 1.116,
             "street_names": [
-              "Sinterstra\u00dfe"
+              "Flughafenstra\u00dfe"
             ],
-            "time": 58.009,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 16,
-            "verbal_post_transition_instruction": "Continue for 800 meters.",
-            "verbal_pre_transition_instruction": "Bear left onto Sinterstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Bear left.",
-            "verbal_transition_alert_instruction": "Bear left onto Sinterstra\u00dfe."
-          },
-          {
-            "bearing_after": 86,
-            "bearing_before": 6,
-            "begin_shape_index": 446,
-            "cost": 76.954,
-            "end_shape_index": 494,
-            "instruction": "Turn right onto Kaiserstuhlstra\u00dfe.",
-            "length": 0.579,
-            "street_names": [
-              "Kaiserstuhlstra\u00dfe"
-            ],
-            "time": 45.179,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue for 600 meters.",
-            "verbal_pre_transition_instruction": "Turn right onto Kaiserstuhlstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto Kaiserstuhlstra\u00dfe."
-          },
-          {
-            "bearing_after": 22,
-            "bearing_before": 113,
-            "begin_shape_index": 494,
-            "cost": 49.686,
-            "end_shape_index": 508,
-            "instruction": "Turn left onto L\u00fcttenwiese.",
-            "length": 0.286,
-            "street_names": [
-              "L\u00fcttenwiese"
-            ],
-            "time": 34.882,
+            "time": 110.286,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
-            "verbal_post_transition_instruction": "Continue for 300 meters.",
-            "verbal_pre_transition_instruction": "Turn left onto L\u00fcttenwiese.",
+            "verbal_post_transition_instruction": "Continue on Flughafenstra\u00dfe for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn left onto Flughafenstra\u00dfe, K 7.",
             "verbal_succinct_transition_instruction": "Turn left.",
-            "verbal_transition_alert_instruction": "Turn left onto L\u00fcttenwiese."
+            "verbal_transition_alert_instruction": "Turn left onto Flughafenstra\u00dfe."
           },
           {
-            "bearing_after": 96,
-            "bearing_before": 0,
-            "begin_shape_index": 508,
-            "cost": 116.177,
-            "end_shape_index": 529,
-            "instruction": "Turn right onto Am Bellwinkelhof.",
-            "length": 0.677,
+            "bearing_after": 32,
+            "bearing_before": 2,
+            "begin_shape_index": 400,
+            "cost": 5.359,
+            "end_shape_index": 411,
+            "instruction": "Enter the roundabout and take the 2nd exit onto Flughafenstra\u00dfe/K 7.",
+            "length": 0.031,
+            "roundabout_exit_count": 2,
+            "time": 5.192,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 2nd exit onto Flughafenstra\u00dfe, K 7.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 2nd exit.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 2nd exit onto Flughafenstra\u00dfe."
+          },
+          {
+            "bearing_after": 6,
+            "bearing_before": 321,
+            "begin_shape_index": 411,
+            "cost": 56.191,
+            "end_shape_index": 432,
+            "instruction": "Exit the roundabout onto Flughafenstra\u00dfe/K 7.",
+            "length": 0.398,
             "street_names": [
-              "Am Bellwinkelhof"
+              "Flughafenstra\u00dfe",
+              "K 7"
             ],
-            "time": 77.412,
+            "time": 29.004,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto Flughafenstra\u00dfe, K 7.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout."
+          },
+          {
+            "bearing_after": 58,
+            "bearing_before": 11,
+            "begin_shape_index": 432,
+            "cost": 11.967,
+            "end_shape_index": 448,
+            "instruction": "Enter the roundabout and take the 3rd exit onto Drosselweg.",
+            "length": 0.048,
+            "roundabout_exit_count": 3,
+            "time": 9.548,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter the roundabout and take the 3rd exit onto Drosselweg.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 3rd exit.",
+            "verbal_transition_alert_instruction": "Enter the roundabout and take the 3rd exit onto Drosselweg."
+          },
+          {
+            "bearing_after": 284,
+            "bearing_before": 234,
+            "begin_shape_index": 448,
+            "cost": 113.949,
+            "end_shape_index": 471,
+            "instruction": "Exit the roundabout onto Drosselweg.",
+            "length": 0.498,
+            "street_names": [
+              "Drosselweg"
+            ],
+            "time": 58.724,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_post_transition_instruction": "Continue for 500 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto Drosselweg.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout."
+          },
+          {
+            "bearing_after": 182,
+            "bearing_before": 268,
+            "begin_shape_index": 471,
+            "cost": 49.919,
+            "end_shape_index": 477,
+            "instruction": "Turn left onto K\u00f6nigs-Sundern.",
+            "length": 0.127,
+            "street_names": [
+              "K\u00f6nigs-Sundern"
+            ],
+            "time": 20.414,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto K\u00f6nigs-Sundern.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto K\u00f6nigs-Sundern."
+          },
+          {
+            "bearing_after": 346,
+            "bearing_before": 260,
+            "begin_shape_index": 477,
+            "cost": 39.271,
+            "end_shape_index": 487,
+            "instruction": "Turn right onto Fellhammerstra\u00dfe.",
+            "length": 0.126,
+            "street_names": [
+              "Fellhammerstra\u00dfe"
+            ],
+            "time": 16.899,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
-            "verbal_post_transition_instruction": "Continue for 700 meters.",
-            "verbal_pre_transition_instruction": "Turn right onto Am Bellwinkelhof.",
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Fellhammerstra\u00dfe.",
             "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto Am Bellwinkelhof."
+            "verbal_transition_alert_instruction": "Turn right onto Fellhammerstra\u00dfe."
           },
           {
-            "bearing_before": 81,
-            "begin_shape_index": 529,
+            "bearing_after": 184,
+            "bearing_before": 274,
+            "begin_shape_index": 487,
+            "cost": 48.379,
+            "end_shape_index": 489,
+            "instruction": "Turn left onto Gleiwitzstra\u00dfe.",
+            "length": 0.057,
+            "street_names": [
+              "Gleiwitzstra\u00dfe"
+            ],
+            "time": 12.234,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 60 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Gleiwitzstra\u00dfe. Then Turn right onto Rybnikstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto Rybnikstra\u00dfe.",
+            "verbal_transition_alert_instruction": "Turn left onto Gleiwitzstra\u00dfe."
+          },
+          {
+            "bearing_after": 270,
+            "bearing_before": 185,
+            "begin_shape_index": 489,
+            "cost": 47.582,
+            "end_shape_index": 497,
+            "instruction": "Turn right onto Rybnikstra\u00dfe.",
+            "length": 0.146,
+            "street_names": [
+              "Rybnikstra\u00dfe"
+            ],
+            "time": 19.243,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 100 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Rybnikstra\u00dfe.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Rybnikstra\u00dfe."
+          },
+          {
+            "bearing_before": 261,
+            "begin_shape_index": 497,
             "cost": 0.0,
-            "end_shape_index": 529,
-            "instruction": "Rybnikstra\u00dfe is on the right.",
+            "end_shape_index": 497,
+            "instruction": "Rybnikstra\u00dfe is on the left.",
             "length": 0.0,
             "time": 0.0,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 5,
-            "verbal_pre_transition_instruction": "Rybnikstra\u00dfe is on the right.",
-            "verbal_transition_alert_instruction": "Rybnikstra\u00dfe will be on the right."
+            "type": 6,
+            "verbal_pre_transition_instruction": "Rybnikstra\u00dfe is on the left.",
+            "verbal_transition_alert_instruction": "Rybnikstra\u00dfe will be on the left."
           }
         ],
-        "shape": "wq~faB}ozeMiKIrAyBs@oA{@}Ak@aE_IeNpJaR{[d@oAwkAo@_i@LqEo^^cCiAcKWi@B{QeXcCgDmEeGaB}BgAgBfCqFnLs[pE_MdC{GvBmGnI}TvCoIjCoInJu[rAcEfCcF`Vao@Ri@hE{KlBcF~@cC^{@jUgh@nLsVnL_VtMiWjBeE|CuIf@kAlBaEpBgFvA}E\\qA|BcLvA{HtA{Jl@cG^_GZyJFiGDgJ@yVB_f@@eBFqHFsHh@}n@n@km@@kB@gEIaEGiC?wBLkFfBgk@z@qU@UDoA?wADmFAu@GyFIyDIsDU_DM{AKcAi@{Ey@kGcBmIoBcHeE}M[eAsBkHaCoIyAaFcGcS_G{P_HsNoGcKeEqGgDuEmO}TsXo`@qHmKyIgMgDgEoCgCsE_DeEmBiHsA}@Iy@GaEQ{CMiCMm^qBcOw@aJe@yIUiFEiA@eDCaAAaBAuBG}COgFYkNcAiAyA}@qAw@eAy@kAe@kA}@iCq@sCKk@YcEEeE`Ccb@H_BViEJiBh@oI}GeAiAOiCY_\\wCaE_@kTkBgRaBsGk@sKaAcCQmHe@c]_@yCEgFEgABkN?}@?qHPyBeHa@sAyBqGyBcHyK}]kPcj@_AyCaDgHmCaEw_@al@ua@on@mF_JuFoLyEsJuEgKyJgVeOeZyDkHoIoOaKuOuFmHwOiOiCoB}CaBqCuA{E{AqGeByL}CgDw@aEmAaGeBuCm@yFwA_BsAaBm@aBw@k@Y}A}@oAq@@k@EoD]iEw@{DmAeDiAkBiAmC[kBSiAUwAI{@_@aFqBiYEm@C}Ea@{FoAqDc@mGImAaAmNsCcb@sAmR{C{e@WaE?kB?yGc@qM{@iXE}Ak@iMqAuVi@qH[}E]iGeA}Qo@yHwB{XyF{n@mGwn@sOkwAsGoi@eBeU}E_^{K_p@{Mgw@_Rq`A}SucAqMim@sHk]qIw_@gHs[sMaj@iTaz@wK_`@gHaW}G_WyH}XeJs]wHs[{J_f@uHsa@qD{SaF{[eFy]eEi[oI_o@yPinAcH}e@}Haf@sGw_@cH{_@sPaw@k`@obBkH}X_Tat@sGwS}CyJ{K}\\}Ic[wP_f@ih@sxA_g@swAoE{S{BwKaAmGo@gHY}JN_Ir@}HrB{HvB_FjBuC~B}BhDqA`Bc@bEc@jDd@jCt@pBpA|BvBbBbCnBvDhC`I`CtJdHt]l@pF^hETfFAdHg@nHcAzFmBjFmBtDyCxDuCrBuBv@uAZqCRcCIyEReQcBaNmAqK_@iXm@_MTuM@gNNcNX_O`@eHZsFYqPjAcNfBwGc@kEI_E[wFg@mBa@cBi@_B}@iAw@iAgAiAaB_AqBu@wBq@mC]}BWaCKoC?uCDeCPiCb@aDn@yCr@}B|@qB|@uAdAmAhA_AlAq@fAa@nAWtAKvABnATjAf@nAl@nAfAt@|@t@hAx@xAr@hBn@tBj@|Br@vDh@bEn@|Fh@|F\\nET`Ef@zMFnF?~FG`GIxGUtGc@zIe@`Gu@xH_AtImA|I{AzJqAnHq[teBsJ`j@oCpQmD~YoFvk@g@xGM~AIfDOxKkErDq@h@cNjJaPbJqLxFyDnBcAn@{@z@uBvC{AlEo@|C_@jCWxAUxAwMry@uFvYkGrSmEtIiFpHqFzFuGnEaFjBaFz@_Jl@uGMsKYuLuAgOsBgFcCe@MsB[uDo@{Dw@_QmCeF@kZcE}`@cGcb@oEo[{BoMe@eBy@cG_@}YGeEEgLSqAI{@G{C[C}FI{Ae@aFYuEe@cE_A_Ia@{C}A{BcA_GeCcLmAgME_BCeARsKV_MHmBp@iOv@uQvBgf@ViFLgDbAuTvAoSfAcJ|AaLxB_M|AwI|@kGx@wGl@{Gb@gHXgLPaM@mD@yCH{SVyEn@aHrB_NV}ApAyIbB}Kp@kE~@uFfA_H`@cC^aCdD}RmC{Aif@qX_Fg@{E|AwCxCyEvEaC`CyFvBm@RcEA{RGcSGiSEuC?v@yZ`@ePBm@rCgaATaLrAyo@^kTGwEkIsr@wGoj@m@{GkFka@{A{JyE_TkUmoAk@{CsHob@aGab@}B_UuBmXSkE",
+        "shape": "wq~faB}ozeMiKIrAyBs@oA{@}Ak@aE_IeNpJaR{[d@oAwkAo@_i@LqEo^^cCiAcKWi@B{QeXcCgDmEeGaB}BgAgBfCqFnLs[pE_MdC{GvBmGnI}TvCoIjCoInJu[rAcEfCcF`Vao@Ri@hE{KlBcF~@cC^{@jUgh@nLsVnL_VtMiWjBeE|CuIf@kAlBaEpBgFvA}E\\qA|BcLvA{HtA{Jl@cG^_GZyJFiGDgJ@yVB_f@@eBFqHFsHh@}n@n@km@@kB@gEIaEGiC?wBLkFfBgk@z@qU@UDoA?wADmFAu@GyFIyDIsDU_DM{AKcAi@{Ey@kGcBmIoBcHeE}M[eAsBkHaCoIyAaFcGcS_G{P_HsNoGcKeEqGgDuEmO}TsXo`@qHmKyIgMgDgEoCgCsE_DeEmBiHsA}@Iy@GaEQ{CMiCMm^qBcOw@aJe@yIUiFEiA@eDCaAAaBAuBG}COgFYkNcAiAyA}@qAw@eAy@kAe@kA}@iCq@sCKk@YcEEeE`Ccb@H_BViEJiBh@oI}GeAiAOiCY_\\wCaE_@kTkBgRaBsGk@sKaAcCQmHe@c]_@yCEgFEgABkN?}@?qHPyBeHa@sAyBqGyBcHyK}]kPcj@_AyCaDgHmCaEw_@al@ua@on@mF_JuFoLyEsJuEgKyJgVeOeZyDkHoIoOaKuOuFmHwOiOiCoB}CaBqCuA{E{AqGeByL}CgDw@aEmAaGeBuCm@yFwA_BsAaBm@aBw@k@Y}A}@oAq@@k@EoD]iEw@{DmAeDiAkBiAmC[kBSiAUwAI{@_@aFqBiYEm@C}Ea@{FoAqDc@mGImAaAmNsCcb@sAmR{C{e@WaE?kB?yGc@qM{@iXE}Ak@iMqAuVi@qH[}E]iGeA}Qo@yHwB{XyF{n@mGwn@sOkwAsGoi@eBeU}E_^{K_p@{Mgw@_Rq`A}SucAqMim@sHk]qIw_@gHs[sMaj@iTaz@wK_`@gHaW}G_WyH}XeJs]wHs[{J_f@uHsa@qD{SaF{[eFy]eEi[oI_o@yPinAcH}e@}Haf@sGw_@cH{_@sPaw@k`@obBkH}X_Tat@sGwS}CyJ{K}\\}Ic[wP_f@ih@sxA_g@swA_KeVmLc^mP}h@qVu{@kJo^aJu^_Lyf@{Hw^kJwf@yKuo@}EcZqJct@wFyc@_Gci@WqCeEgd@uGiy@eDah@}Bk`@aCcj@kA_^o@ySi@cX[uP]i]a@af@Fgp@pCyh@z@kN~BgU~Iwk@rD{VlAcLp@{K`@mKHoKDcL]wKWoG[oGgAoMcBsLoGiYwFgTcSwj@_HoTiEmTeCoMUmAEGsD_GyDhCo@`@sHtEuIvFiD|BkCdBi@\\oAx@oGtEeD~BmBtAsD~BaFhDmAz@}@j@cW~P_D|BoBrAWTsA~A{@zBi@bCKlCHbDVxBvA`FrHpWbG`SpLn_@`GtSfExNfFtPXzAh@xFGxEq@`DaC~CkFfFqHnH{BzAmBXqB[yA{@wW_Xe\\o[{PeNuGsDwGuCsDmAqDoAmIuBoOcC}Gg@mKC{Gd@{G|@aMtC}LnEsEzBgNfImN~HaOdIsDxAoJ~CyNxBqIz@_@BwCNmDu@sDGwDGSaAYw@_@m@e@a@s@[cACi@Ns@d@g@r@_@~@ShAiA?cB[_Dg@w@@wA\\s_@_HoDo@_Y_FaP}CqAUiHoA}MeCkQ}CcJ_BiFeA}I{AmNwByKgBuBoAaKkCmDw@QmAYcAc@w@s@o@w@U{@@u@Xo@l@e@`AYfAMpAAfBJ`AVlAb@`Al@p@a@`FYhDo@`EaAvC[nByA|AeElBcFp@eIMaGv@}CtAmDlE_C`Hi@xCiAxIJnUX``Ap@n~AX`w@P~g@DfKL|ND`H~CNlF?~LJrBv@d@pCvEl{@yF`B}HpCcBnAuA`B_AfCk@bD[rGItAgAvk@GvDpOt@dN|@?vFApOA~N?pN?pBT|Tr@vVrApY",
         "summary": {
-          "cost": 1356.865,
+          "cost": 1791.162,
           "has_ferry": false,
           "has_highway": false,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 10.202,
-          "max_lat": 51.547905,
-          "max_lon": 7.526961,
+          "length": 10.431,
+          "level_changes": [
+            [
+              360,
+              0.0
+            ]
+          ],
+          "max_lat": 51.548687,
+          "max_lon": 7.541099,
           "min_lat": 51.50974,
           "min_lon": 7.452431,
-          "time": 774.13
+          "time": 816.347
         }
       }
     ],
@@ -437,7 +447,7 @@
         "lat": 51.547829,
         "lon": 7.526981,
         "original_index": 1,
-        "side_of_street": "right",
+        "side_of_street": "left",
         "street": "Rybnikstra\u00dfe",
         "type": "break"
       }
@@ -445,17 +455,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 1356.865,
+      "cost": 1791.162,
       "has_ferry": false,
       "has_highway": false,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 10.202,
-      "max_lat": 51.547905,
-      "max_lon": 7.526961,
+      "length": 10.431,
+      "max_lat": 51.548687,
+      "max_lon": 7.541099,
       "min_lat": 51.50974,
       "min_lon": 7.452431,
-      "time": 774.13
+      "time": 816.347
     },
     "units": "kilometers"
   }

@@ -8,7 +8,7 @@
           {
             "bearing_after": 100,
             "begin_shape_index": 0,
-            "cost": 16.388,
+            "cost": 20.96,
             "end_shape_index": 4,
             "instruction": "Drive east on Obervielander Stra\u00dfe.",
             "length": 0.132,
@@ -28,7 +28,7 @@
             "bearing_after": 51,
             "bearing_before": 136,
             "begin_shape_index": 4,
-            "cost": 40.379,
+            "cost": 58.259,
             "end_shape_index": 23,
             "instruction": "Turn left onto Kirchhuchtinger Landstra\u00dfe/L 336.",
             "length": 0.175,
@@ -50,10 +50,10 @@
             "bearing_after": 81,
             "bearing_before": 11,
             "begin_shape_index": 23,
-            "cost": 139.418,
-            "end_shape_index": 87,
+            "cost": 220.447,
+            "end_shape_index": 116,
             "instruction": "Turn right to take the B 75 ramp.",
-            "length": 2.221,
+            "length": 3.002,
             "sign": {
               "exit_branch_elements": [
                 {
@@ -65,64 +65,177 @@
               "B 75",
               "Oldenburger Stra\u00dfe"
             ],
-            "time": 120.339,
+            "time": 167.243,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 18,
-            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
             "verbal_pre_transition_instruction": "Turn right to take the B 75 ramp.",
             "verbal_transition_alert_instruction": "Turn right to take the B 75 ramp."
           },
           {
-            "bearing_after": 89,
-            "bearing_before": 73,
-            "begin_shape_index": 87,
-            "cost": 89.685,
-            "end_shape_index": 144,
-            "instruction": "Bear right onto Duckwitzstra\u00dfe.",
-            "length": 1.046,
-            "street_names": [
-              "Duckwitzstra\u00dfe"
-            ],
-            "time": 73.803,
+            "bearing_after": 47,
+            "bearing_before": 30,
+            "begin_shape_index": 116,
+            "cost": 23.549,
+            "end_shape_index": 129,
+            "instruction": "Take the A 281 ramp toward Bremen-Neust\u00e4dter Hafen/Hamburg/Osnabr\u00fcck/Bremen-Airport-Stadt.",
+            "length": 0.267,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 281"
+                }
+              ],
+              "exit_name_elements": [
+                {
+                  "text": "Bremen-Neustadt"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Bremen-Neust\u00e4dter Hafen"
+                },
+                {
+                  "text": "Hamburg"
+                },
+                {
+                  "text": "Osnabr\u00fcck"
+                },
+                {
+                  "text": "Bremen-Airport-Stadt"
+                }
+              ]
+            },
+            "time": 19.244,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 9,
-            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
-            "verbal_pre_transition_instruction": "Bear right onto Duckwitzstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Bear right.",
-            "verbal_transition_alert_instruction": "Bear right onto Duckwitzstra\u00dfe."
+            "type": 18,
+            "verbal_pre_transition_instruction": "Take the A 281 ramp toward Bremen-Neust\u00e4dter Hafen, Hamburg.",
+            "verbal_transition_alert_instruction": "Take the A 281 ramp."
           },
           {
-            "bearing_after": 135,
-            "bearing_before": 44,
-            "begin_shape_index": 144,
-            "cost": 270.859,
-            "end_shape_index": 226,
-            "instruction": "Turn right onto Neuenlander Stra\u00dfe.",
-            "length": 2.879,
+            "bearing_after": 308,
+            "bearing_before": 347,
+            "begin_shape_index": 129,
+            "cost": 29.435,
+            "end_shape_index": 141,
+            "instruction": "Turn left to take the A 281 ramp.",
+            "length": 0.177,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "A 281"
+                }
+              ]
+            },
             "street_names": [
-              "Neuenlander Stra\u00dfe"
+              "B 75"
             ],
-            "time": 212.148,
+            "time": 11.555,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 19,
+            "verbal_multi_cue": true,
+            "verbal_pre_transition_instruction": "Turn left to take the A 281 ramp. Then Keep left to take A 281.",
+            "verbal_transition_alert_instruction": "Turn left to take the A 281 ramp."
+          },
+          {
+            "bearing_after": 269,
+            "bearing_before": 275,
+            "begin_shape_index": 141,
+            "cost": 236.846,
+            "end_shape_index": 239,
+            "highway": true,
+            "instruction": "Keep left to take A 281 toward Hamburg/Osnabr\u00fcck/Bremen-Airportstadt/Flughafen.",
+            "length": 2.648,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "A 281"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Hamburg"
+                },
+                {
+                  "text": "Osnabr\u00fcck"
+                },
+                {
+                  "text": "Bremen-Airportstadt"
+                },
+                {
+                  "text": "Flughafen"
+                }
+              ]
+            },
+            "street_names": [
+              "A 281"
+            ],
+            "time": 163.629,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to take A 281 toward Hamburg, Osnabr\u00fcck.",
+            "verbal_transition_alert_instruction": "Keep left to take A 281."
+          },
+          {
+            "bearing_after": 117,
+            "bearing_before": 117,
+            "begin_shape_index": 239,
+            "cost": 12.109,
+            "end_shape_index": 251,
+            "instruction": "Continue toward A 281.",
+            "length": 0.173,
+            "sign": {},
+            "street_names": [
+              "Neuenlander Ring"
+            ],
+            "time": 10.01,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 8,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Continue toward A 281. Then Turn right onto Neuenlander Stra\u00dfe.",
+            "verbal_transition_alert_instruction": "Continue toward A 281."
+          },
+          {
+            "bearing_after": 133,
+            "bearing_before": 51,
+            "begin_shape_index": 251,
+            "cost": 95.364,
+            "end_shape_index": 280,
+            "instruction": "Turn right onto Neuenlander Stra\u00dfe/B 6.",
+            "length": 1.113,
+            "street_names": [
+              "Neuenlander Stra\u00dfe",
+              "B 6"
+            ],
+            "time": 81.626,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
-            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
-            "verbal_pre_transition_instruction": "Turn right onto Neuenlander Stra\u00dfe.",
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Turn right onto Neuenlander Stra\u00dfe, B 6.",
             "verbal_succinct_transition_instruction": "Turn right.",
             "verbal_transition_alert_instruction": "Turn right onto Neuenlander Stra\u00dfe."
           },
           {
             "bearing_after": 118,
             "bearing_before": 118,
-            "begin_shape_index": 226,
+            "begin_shape_index": 280,
             "begin_street_names": [
               "B 6n",
               "Neuenlander Stra\u00dfe"
             ],
-            "cost": 183.634,
-            "end_shape_index": 284,
+            "cost": 215.279,
+            "end_shape_index": 338,
             "instruction": "Keep left to take B 6n.",
             "length": 3.951,
             "street_names": [
@@ -139,9 +252,9 @@
           {
             "bearing_after": 172,
             "bearing_before": 156,
-            "begin_shape_index": 284,
-            "cost": 22.711,
-            "end_shape_index": 319,
+            "begin_shape_index": 338,
+            "cost": 28.613,
+            "end_shape_index": 373,
             "instruction": "Take the A 1 ramp toward Hamburg/Hannover.",
             "length": 0.551,
             "sign": {
@@ -162,7 +275,7 @@
                 }
               ]
             },
-            "time": 22.374,
+            "time": 23.703,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 18,
@@ -172,9 +285,9 @@
           {
             "bearing_after": 55,
             "bearing_before": 55,
-            "begin_shape_index": 319,
-            "cost": 409.868,
-            "end_shape_index": 505,
+            "begin_shape_index": 373,
+            "cost": 448.844,
+            "end_shape_index": 559,
             "highway": true,
             "instruction": "Keep left to take A 1 toward Hamburg/Hannover.",
             "length": 12.916,
@@ -203,7 +316,7 @@
               "A 1",
               "E 22"
             ],
-            "time": 426.987,
+            "time": 427.409,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 24,
@@ -214,9 +327,9 @@
           {
             "bearing_after": 98,
             "bearing_before": 87,
-            "begin_shape_index": 505,
-            "cost": 3.249,
-            "end_shape_index": 516,
+            "begin_shape_index": 559,
+            "cost": 3.761,
+            "end_shape_index": 570,
             "instruction": "Take exit 52 toward Oyten.",
             "length": 0.095,
             "sign": {
@@ -252,9 +365,9 @@
           {
             "bearing_after": 167,
             "bearing_before": 136,
-            "begin_shape_index": 516,
-            "cost": 3.146,
-            "end_shape_index": 532,
+            "begin_shape_index": 570,
+            "cost": 3.643,
+            "end_shape_index": 586,
             "instruction": "Turn right to take the ramp toward Oyten.",
             "length": 0.092,
             "sign": {
@@ -280,9 +393,9 @@
           {
             "bearing_after": 277,
             "bearing_before": 239,
-            "begin_shape_index": 532,
-            "cost": 7.438,
-            "end_shape_index": 541,
+            "begin_shape_index": 586,
+            "cost": 11.396,
+            "end_shape_index": 595,
             "instruction": "Turn right to take the ramp toward Oyten.",
             "length": 0.096,
             "sign": {
@@ -304,9 +417,9 @@
           {
             "bearing_after": 324,
             "bearing_before": 294,
-            "begin_shape_index": 541,
-            "cost": 58.261,
-            "end_shape_index": 567,
+            "begin_shape_index": 595,
+            "cost": 78.562,
+            "end_shape_index": 621,
             "instruction": "Bear right toward Oyten.",
             "length": 0.485,
             "sign": {},
@@ -326,12 +439,12 @@
           {
             "bearing_after": 355,
             "bearing_before": 336,
-            "begin_shape_index": 567,
-            "cost": 12.213,
-            "end_shape_index": 571,
+            "begin_shape_index": 621,
+            "cost": 15.384,
+            "end_shape_index": 625,
             "instruction": "Keep right at the fork.",
             "length": 0.054,
-            "time": 4.905,
+            "time": 5.599,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 23,
@@ -343,15 +456,15 @@
           {
             "bearing_after": 70,
             "bearing_before": 37,
-            "begin_shape_index": 571,
-            "cost": 134.683,
-            "end_shape_index": 603,
+            "begin_shape_index": 625,
+            "cost": 190.545,
+            "end_shape_index": 657,
             "instruction": "Bear right onto Industriestra\u00dfe.",
             "length": 0.987,
             "street_names": [
               "Industriestra\u00dfe"
             ],
-            "time": 89.065,
+            "time": 98.759,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 9,
@@ -363,9 +476,9 @@
           {
             "bearing_after": 347,
             "bearing_before": 94,
-            "begin_shape_index": 603,
-            "cost": 18.057,
-            "end_shape_index": 611,
+            "begin_shape_index": 657,
+            "cost": 19.724,
+            "end_shape_index": 665,
             "instruction": "Turn left to stay on Industriestra\u00dfe.",
             "length": 0.102,
             "street_names": [
@@ -383,9 +496,9 @@
           },
           {
             "bearing_before": 21,
-            "begin_shape_index": 611,
+            "begin_shape_index": 665,
             "cost": 0.0,
-            "end_shape_index": 611,
+            "end_shape_index": 665,
             "instruction": "Industriestra\u00dfe is on the left.",
             "length": 0.0,
             "time": 0.0,
@@ -396,19 +509,19 @@
             "verbal_transition_alert_instruction": "Industriestra\u00dfe will be on the left."
           }
         ],
-        "shape": "co_edBuvitOdEiy@RuDzBmb@vHoNgAgBoA_Cg@qAmDaPqAeEgDsHwA}AcEyDgCaBcEaBqDa@cEKaFWiAGyCS{CIiEk@cB[oBu@e@yIKqCy@ua@iBqo@qBuj@wB_b@YaGEk@WoDeEaj@cCg`@mD{\\uG}f@aCuRqI_[qI{g@oJgf@wJib@sFmT{FcSoGeS}GcTcHcSmHkSwU_n@cVom@q\\u{@q^i~@yAgEsFaNwPib@kMy\\wUom@iZyv@sLs\\}Mi_@eK}YaKm[wKs^eJg\\gKea@yEiSwEqRoHg\\yD{S}CyP_DqRgD{TiDmV{Hat@_AwKcFal@{Eel@cCiXcBiScEog@iAmMy@iJ{Did@qAmOe@uFeEig@kAeLkC}VE_RoI{q@_@_Fc@cKE}FHqGXsPCoFQuF[iFe@kFsBsMeB{K_EcRmByIg@{B{@cKQcDKaB_@eCS_BIoAs@_JgB}FcBoEeBoEcDiI[q@wEaKuFqKmHcNcc@yx@}_@us@mBsD_MaVsBmEaEuIuBsEgEaKmHqO_BgC}@wAuCqE{AuBwE_JaEyHoD_H_D{FkM}Ru~@keBaDoHmByDkH_OeEaJm@kAkDeHeAoBx@_BlBuDrAkCxFyPvEwIxGcL~F_KxXie@dQ{YzBwDfa@{q@xWsb@lKoOlXs`@jQmVlEoG~JeHzNmSjAaBdGaJp@eARYT_@tBmCxCkFvN{VfGiNbR{Y~v@{nAl{@euAbNoTbRaU~HiMn@eAhEyGfCoGrBaFhBuC|w@aoAb[ei@vVgb@de@sz@j\\{o@fNsXxE_K|B_FfQ__@fJ{LzKsU~@qBZo@`DyGdDgH~C{G|@mBbPa^jBwE`G_OpI_TjHuW~Tcm@bGuQ|GsSlIeW`Y{`ArGeVhHeXdN_k@fV}gAvDeRdBsI\\eBdCaMZ_B^kBpJ}d@v@{DlJod@jb@ksBb]_bBdJyYfPiu@|Jqd@tMat@hTeoAjUaoA|Iee@nR{bAdn@u_Djf@ifCjXivAnEuUfBmJf^}eBpVsjAdc@wnBlz@ilDz\\cnAt\\giAnOig@lX_y@vWov@rYkx@vW{t@`KeXbHcR|IgUrGsPzJcW~d@_jA`e@uiApLaZfHaQbCwFjJiT|H{QjeAecCbO}\\l~AamDlN{Zzb@e~@`NaYxNoX`LuSxLsSh[af@~Vi^xTmXdZc]hWqWnQmPrBkBt[mX~R{NhKyHrQaMfKiHtSuNbe@q[zWsQ~HkAtEg@hDNpDdAnCbBpDhD~AdCpA~CfBdFbAlGpB~KlBnN~AzMrApMXjJGlGYnDu@dFcAhFsB~EoBpC{BhBeBt@gBN_BH_CSgCaAsD}CcBqBcH_J{GwS{Xm|@{Uyu@uI{WyHeVgw@mdCyScp@cHmTaCsHgMi_@uPeb@qJcWaQ_Zy\\ifAq`CyoHsScq@eMsd@eKw^mMud@oKka@oLwg@aXonA_Omt@kL{n@yRojAqHse@yKsv@kEg]qFgb@uK_bAkImx@gCkZ}@{K}Gox@sHqhAsBwZ{Eo|@wEigAuDamAaCgfAqBiyAYg\\S_aA?eZJyt@Zoh@h@_h@j@}c@lCmvAbA_\\fBwm@~@iWhCaj@pEqx@nE_x@|B_`@fFgm@`L{oAlLajAhFsg@|Fqa@tMybAzNaaA|Lsu@fMer@|Lcn@~Lwm@pMgn@fPmp@vQcs@lSur@vT{x@fWcv@rP}g@rZmy@h[ex@tUyj@`r@y~AjYgr@zXit@jTen@tRsm@zOsj@`O{i@|Ray@jWylAtAuGfCgNHe@`Gg\\`Kol@jC}QlEgW`Kkv@zNgpAbGuj@xFep@bFwr@`Ecm@bFgbA~Bur@fBcn@`Aec@bAg}@d@s{@Hkl@Uol@Scc@mAow@{Bqu@sB_t@qDuy@kDqq@uFaw@mGkw@aHwr@{Foj@uHeo@iPgkAiNcy@eXavAaFmVsQqv@cNei@kHgYePej@eNcd@_N_b@}I}UwIwUoHeSgFwMuf@gkAaIsQIQep@sxAuG{NwLeXuc@k`AwZwq@uRge@gd@efAcn@s{A_c@qiAuZex@gNi`@sd@gpAeVgs@kSim@iOod@c\\ieAgYm`Ao]{jAsTkv@}i@{mBugByrGwPmn@ovAidF{Tyz@c`AqhDsQip@og@gjBo`AkkDwjAwdEiUe|@oB{HqUkdAuPsy@iPk~@mPkdAoLu}@iJex@sCiVcFwj@kDk`@oBmVyH}iAgCgk@cFegAeBuo@y@k^YiQcBknAMwJqA_xAo@wj@oHivGeDkvCaAyz@o@{k@wBklBjB{e@P}C\\aE\\iDb@sCj@gCp@wBx@wB|@eBdAwAfAoAhA}@lBy@vA[zBO~AA|@DlBHrBP`BVx@t@v@v@|@jAl@rAv@zBhAhEzB|I_@~JM|GGrJOlHOvGOxDYnCg@|CoDzSaAhBk@~@{@dAy@z@cA~@{@n@}L~GsAx@yG`Ey\\pTiMlIcY`RmFlDqE|Cy@j@kD`C_DxBmBrAgAv@}DrCiEvCgMtIeFlDs\\lUe\\bUgOhKeKz@eFoAsC_CoCqDS{A}Het@}Fol@mB{RuAyMsCiYiAcL_ByOu@sHo@mGmA{LkB}QmNixAq@_HkP{bBGo@{Daa@yGss@mI_{@}@eJ_@eE}F}m@kAoVa@oPYiULcJLkIzAsj@|@cWJeCtBuf@r@}i@ml@`QBrAKrA[fAg@r@o@Xs@?o@]",
+        "shape": "co_edBuvitOdEiy@RuDzBmb@vHoNgAgBoA_Cg@qAmDaPqAeEgDsHwA}AcEyDgCaBcEaBqDa@cEKaFWiAGyCS{CIiEk@cB[oBu@e@yIKqCy@ua@iBqo@qBuj@wB_b@YaGEk@WoDeEaj@cCg`@mD{\\uG}f@aCuRqI_[qI{g@oJgf@wJib@sFmT{FcSoGeS}GcTcHcSmHkSwU_n@cVom@q\\u{@q^i~@yAgEsFaNwPib@kMy\\wUom@iZyv@sLs\\}Mi_@eK}YaKm[wKs^eJg\\gKea@yEiSwEqRoHg\\yD{S}CyP_DqRgD{TiDmV{Hat@_AwKcFal@{Eel@cCiXcBiScEog@iAmMy@iJ{Did@qAmOe@uFeEig@kAeLkC}ViFo`@aC}Mu@}DeEwSaEaQuEiP}B}GqBgGsB{FyQwc@uAaD_CkFqHkPkKwQeIqNkS_\\sIiMgZo`@eLyNkL{MwK}LeM{M}LaMib@k`@_LsKiEyDoEoE{VwUyFmFkDiKeOyOon@ch@_WgSkK{JmAaAyD_DqBsAgBa@iC?q@L{@PwAl@q@hAkAbCwE~PkCdI_FlPeDlLgDbKcClLuAzJ_BtTYlGSdJHpT?tQFjQ?fBCfPYlSeBnx@InODlBLrGXpEh@zGdApGdBdJbC`I|HbPpClDvEzErEpChEh@xFA`GmA`FgErDoElDsHlBmHrAcLJiLm@qPwBoUYeNLmNrAwM~AsIjC}FhY{a@jr@ok@fRcR~T_SjRgRnNmPjZ_^bLyNlJgNv[wf@bMaTdLeTz]{s@h]ot@d^os@z^sr@vQoZzQgYfY{a@bUkYvXwZtA_BlRiT~R_VpQyTfNiRfMqR|@uArLeRnLcSjLgSfLcT~KiXt@eBtDkIvHuQxEaL`F{MdDgOfDqTfAaHpA}FdEaPnIuXlAiE`H{VtGuW`GuW`GeYzDeSfEyShEiTtD_T`AqGlAwKl@eJ\\yIt@_Pz@gKtA_KbBuJjCuLzGq\\zC}NzDyQrBaOh@sJLoG?qFYyEc@}DqC_PuFwXaAqD}BaG~C{G|@mBbPa^jBwE`G_OpI_TjHuW~Tcm@bGuQ|GsSlIeW`Y{`ArGeVhHeXdN_k@fV}gAvDeRdBsI\\eBdCaMZ_B^kBpJ}d@v@{DlJod@jb@ksBb]_bBdJyYfPiu@|Jqd@tMat@hTeoAjUaoA|Iee@nR{bAdn@u_Djf@ifCjXivAnEuUfBmJf^}eBpVsjAdc@wnBlz@ilDz\\cnAt\\giAnOig@lX_y@vWov@rYkx@vW{t@`KeXbHcR|IgUrGsPzJcW~d@_jA`e@uiApLaZfHaQbCwFjJiT|H{QjeAecCbO}\\l~AamDlN{Zzb@e~@`NaYxNoX`LuSxLsSh[af@~Vi^xTmXdZc]hWqWnQmPrBkBt[mX~R{NhKyHrQaMfKiHtSuNbe@q[zWsQ~HkAtEg@hDNpDdAnCbBpDhD~AdCpA~CfBdFbAlGpB~KlBnN~AzMrApMXjJGlGYnDu@dFcAhFsB~EoBpC{BhBeBt@gBN_BH_CSgCaAsD}CcBqBcH_J{GwS{Xm|@{Uyu@uI{WyHeVgw@mdCyScp@cHmTaCsHgMi_@uPeb@qJcWaQ_Zy\\ifAq`CyoHsScq@eMsd@eKw^mMud@oKka@oLwg@aXonA_Omt@kL{n@yRojAqHse@yKsv@kEg]qFgb@uK_bAkImx@gCkZ}@{K}Gox@sHqhAsBwZ{Eo|@wEigAuDamAaCgfAqBiyAYg\\S_aA?eZJyt@Zoh@h@_h@j@}c@lCmvAbA_\\fBwm@~@iWhCaj@pEqx@nE_x@|B_`@fFgm@`L{oAlLajAhFsg@|Fqa@tMybAzNaaA|Lsu@fMer@|Lcn@~Lwm@pMgn@fPmp@vQcs@lSur@vT{x@fWcv@rP}g@rZmy@h[ex@tUyj@`r@y~AjYgr@zXit@jTen@tRsm@zOsj@`O{i@|Ray@jWylAtAuGfCgNHe@`Gg\\`Kol@jC}QlEgW`Kkv@zNgpAbGuj@xFep@bFwr@`Ecm@bFgbA~Bur@fBcn@`Aec@bAg}@d@s{@Hkl@Uol@Scc@mAow@{Bqu@sB_t@qDuy@kDqq@uFaw@mGkw@aHwr@{Foj@uHeo@iPgkAiNcy@eXavAaFmVsQqv@cNei@kHgYePej@eNcd@_N_b@}I}UwIwUoHeSgFwMuf@gkAaIsQIQep@sxAuG{NwLeXuc@k`AwZwq@uRge@gd@efAcn@s{A_c@qiAuZex@gNi`@sd@gpAeVgs@kSim@iOod@c\\ieAgYm`Ao]{jAsTkv@}i@{mBugByrGwPmn@ovAidF{Tyz@c`AqhDsQip@og@gjBo`AkkDwjAwdEiUe|@oB{HqUkdAuPsy@iPk~@mPkdAoLu}@iJex@sCiVcFwj@kDk`@oBmVyH}iAgCgk@cFegAeBuo@y@k^YiQcBknAMwJqA_xAo@wj@oHivGeDkvCaAyz@o@{k@wBklBjB{e@P}C\\aE\\iDb@sCj@gCp@wBx@wB|@eBdAwAfAoAhA}@lBy@vA[zBO~AA|@DlBHrBP`BVx@t@v@v@|@jAl@rAv@zBhAhEzB|I_@~JM|GGrJOlHOvGOxDYnCg@|CoDzSaAhBk@~@{@dAy@z@cA~@{@n@}L~GsAx@yG`Ey\\pTiMlIcY`RmFlDqE|Cy@j@kD`C_DxBmBrAgAv@}DrCiEvCgMtIeFlDs\\lUe\\bUgOhKeKz@eFoAsC_CoCqDS{A}Het@}Fol@mB{RuAyMsCiYiAcL_ByOu@sHo@mGmA{LkB}QmNixAq@_HkP{bBGo@{Daa@yGss@mI_{@}@eJ_@eE}F}m@kAoVa@oPYiULcJLkIzAsj@|@cWJeCtBuf@r@}i@ml@`QBrAKrA[fAg@r@o@Xs@?o@]",
         "summary": {
-          "cost": 1409.995,
+          "cost": 1712.726,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 25.786,
-          "max_lat": 53.06679,
+          "length": 27.02,
+          "max_lat": 53.069309,
           "max_lon": 9.042845,
           "min_lat": 53.027277,
           "min_lon": 8.73817,
-          "time": 1228.932
+          "time": 1288.089
         }
       }
     ],
@@ -433,17 +546,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 1409.995,
+      "cost": 1712.726,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 25.786,
-      "max_lat": 53.06679,
+      "length": 27.02,
+      "max_lat": 53.069309,
       "max_lon": 9.042845,
       "min_lat": 53.027277,
       "min_lon": 8.73817,
-      "time": 1228.932
+      "time": 1288.089
     },
     "units": "kilometers"
   }
