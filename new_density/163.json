@@ -8,7 +8,7 @@
           {
             "bearing_after": 252,
             "begin_shape_index": 0,
-            "cost": 32.487,
+            "cost": 26.285,
             "end_shape_index": 11,
             "instruction": "Drive west on Berliner Stra\u00dfe/K 818.",
             "length": 0.183,
@@ -33,7 +33,7 @@
               "Theatertunnel",
               "K 818"
             ],
-            "cost": 179.118,
+            "cost": 143.56,
             "end_shape_index": 70,
             "instruction": "Keep left to stay on K 818 toward Gro\u00df-Gerau/Hauptbahnhof.",
             "length": 1.303,
@@ -57,265 +57,64 @@
               "Baseler Platz",
               "B 44"
             ],
-            "cost": 156.25,
-            "end_shape_index": 111,
+            "cost": 70.884,
+            "end_shape_index": 88,
             "instruction": "Turn left onto Baseler Platz/B 44. Continue on B 44.",
-            "length": 0.822,
+            "length": 0.519,
             "street_names": [
               "B 44"
             ],
-            "time": 62.606,
+            "time": 40.735,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
-            "verbal_post_transition_instruction": "Continue on B 44 for 800 meters.",
+            "verbal_post_transition_instruction": "Continue on B 44 for 500 meters.",
             "verbal_pre_transition_instruction": "Turn left onto Baseler Platz, B 44.",
             "verbal_succinct_transition_instruction": "Turn left.",
             "verbal_transition_alert_instruction": "Turn left onto Baseler Platz."
           },
           {
-            "bearing_after": 214,
-            "bearing_before": 143,
-            "begin_shape_index": 111,
-            "begin_street_names": [
-              "Kennedyallee",
-              "B 43",
-              "B 44"
-            ],
-            "cost": 267.947,
-            "end_shape_index": 205,
-            "instruction": "Turn right onto Kennedyallee/B 43/B 44. Continue on B 43/B 44.",
-            "length": 3.626,
+            "bearing_after": 241,
+            "bearing_before": 151,
+            "begin_shape_index": 88,
+            "cost": 338.748,
+            "end_shape_index": 192,
+            "instruction": "Turn right onto Theodor-Stern-Kai.",
+            "length": 3.945,
             "street_names": [
-              "B 43",
-              "B 44"
+              "Theodor-Stern-Kai"
             ],
-            "time": 214.462,
+            "time": 282.561,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
-            "verbal_post_transition_instruction": "Continue on B 43, B 44 for 4 kilometers.",
-            "verbal_pre_transition_instruction": "Turn right onto Kennedyallee, B 43.",
+            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right onto Theodor-Stern-Kai.",
             "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto Kennedyallee."
+            "verbal_transition_alert_instruction": "Turn right onto Theodor-Stern-Kai."
           },
           {
-            "bearing_after": 192,
-            "bearing_before": 191,
-            "begin_shape_index": 205,
-            "cost": 13.255,
-            "end_shape_index": 208,
-            "instruction": "Take the exit.",
-            "length": 0.24,
-            "street_names": [
-              "B 44"
-            ],
-            "time": 9.492,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 20,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Take the exit. Then Keep left to take Nordkreisel.",
-            "verbal_transition_alert_instruction": "Take the exit."
-          },
-          {
-            "bearing_after": 190,
-            "bearing_before": 192,
-            "begin_shape_index": 208,
-            "cost": 43.976,
-            "end_shape_index": 222,
-            "instruction": "Keep left to take Nordkreisel/B 44.",
-            "length": 0.491,
-            "street_names": [
-              "Nordkreisel",
-              "B 44"
-            ],
-            "time": 26.198,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 24,
-            "verbal_post_transition_instruction": "Continue for 500 meters.",
-            "verbal_pre_transition_instruction": "Keep left to take Nordkreisel, B 44.",
-            "verbal_transition_alert_instruction": "Keep left to take Nordkreisel."
-          },
-          {
-            "bearing_after": 236,
-            "bearing_before": 237,
-            "begin_shape_index": 222,
-            "cost": 93.949,
-            "end_shape_index": 277,
+            "bearing_after": 157,
+            "bearing_before": 272,
+            "begin_shape_index": 192,
+            "cost": 538.697,
+            "end_shape_index": 317,
             "highway": true,
-            "instruction": "Take the A 3 ramp toward K\u00f6ln/Wiesbaden/Frankfurter Kreuz/Frankfurt.",
-            "length": 2.365,
+            "instruction": "Take the A 5 ramp on the left toward Basel/Frankfurter Kreuz.",
+            "length": 15.895,
             "sign": {
               "exit_branch_elements": [
                 {
                   "consecutive_count": 1,
-                  "text": "A 3"
+                  "text": "A 5"
                 }
               ],
               "exit_toward_elements": [
                 {
-                  "text": "K\u00f6ln"
-                },
-                {
-                  "text": "Wiesbaden"
+                  "text": "Basel"
                 },
                 {
                   "text": "Frankfurter Kreuz"
-                },
-                {
-                  "text": "Frankfurt"
-                }
-              ]
-            },
-            "street_names": [
-              "A 3",
-              "E 42"
-            ],
-            "time": 81.102,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 18,
-            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
-            "verbal_pre_transition_instruction": "Take the A 3 ramp toward K\u00f6ln, Wiesbaden.",
-            "verbal_transition_alert_instruction": "Take the A 3 ramp."
-          },
-          {
-            "bearing_after": 277,
-            "bearing_before": 267,
-            "begin_shape_index": 277,
-            "cost": 28.455,
-            "end_shape_index": 290,
-            "instruction": "Take exit 50.",
-            "length": 0.773,
-            "sign": {
-              "exit_name_elements": [
-                {
-                  "text": "Frankfurter Kreuz"
-                }
-              ],
-              "exit_number_elements": [
-                {
-                  "text": "50"
-                }
-              ]
-            },
-            "time": 30.939,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 20,
-            "verbal_pre_transition_instruction": "Take exit 50.",
-            "verbal_transition_alert_instruction": "Take exit 50."
-          },
-          {
-            "bearing_after": 272,
-            "bearing_before": 274,
-            "begin_shape_index": 290,
-            "cost": 27.537,
-            "end_shape_index": 321,
-            "instruction": "Keep left to take A 5 toward Basel/Darmstadt.",
-            "length": 0.568,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 3,
-                  "text": "A 5"
-                },
-                {
-                  "text": "B 43"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 2,
-                  "text": "Basel"
-                },
-                {
-                  "consecutive_count": 2,
-                  "text": "Darmstadt"
-                },
-                {
-                  "text": "Frankfurt"
-                }
-              ]
-            },
-            "time": 25.591,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 24,
-            "verbal_pre_transition_instruction": "Keep left to take A 5 toward Basel, Darmstadt.",
-            "verbal_transition_alert_instruction": "Keep left to take A 5."
-          },
-          {
-            "bearing_after": 283,
-            "bearing_before": 274,
-            "begin_shape_index": 321,
-            "cost": 60.35,
-            "end_shape_index": 382,
-            "instruction": "Keep right to take A 5 toward Basel/Darmstadt.",
-            "length": 0.68,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 3,
-                  "text": "A 5"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 2,
-                  "text": "Basel"
-                },
-                {
-                  "consecutive_count": 2,
-                  "text": "Darmstadt"
-                },
-                {
-                  "text": "Terminal 3"
-                }
-              ]
-            },
-            "street_names": [
-              "A 5"
-            ],
-            "time": 54.031,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 23,
-            "verbal_pre_transition_instruction": "Keep right to take A 5 toward Basel, Darmstadt.",
-            "verbal_transition_alert_instruction": "Keep right to take A 5."
-          },
-          {
-            "bearing_after": 196,
-            "bearing_before": 197,
-            "begin_shape_index": 382,
-            "cost": 395.365,
-            "end_shape_index": 437,
-            "highway": true,
-            "instruction": "Keep left to take A 5 toward Basel/Darmstadt.",
-            "length": 11.658,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 2,
-                  "text": "A 5"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "Basel"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Darmstadt"
-                },
-                {
-                  "text": "Stuttgart"
-                },
-                {
-                  "text": "Karlsruhe"
                 }
               ]
             },
@@ -323,20 +122,20 @@
               "A 5",
               "E 451"
             ],
-            "time": 405.551,
+            "time": 549.313,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 24,
-            "verbal_post_transition_instruction": "Continue for 12 kilometers.",
-            "verbal_pre_transition_instruction": "Keep left to take A 5 toward Basel, Darmstadt.",
-            "verbal_transition_alert_instruction": "Keep left to take A 5."
+            "type": 19,
+            "verbal_post_transition_instruction": "Continue for 16 kilometers.",
+            "verbal_pre_transition_instruction": "Take the A 5 ramp on the left toward Basel, Frankfurter Kreuz.",
+            "verbal_transition_alert_instruction": "Take the A 5 ramp on the left."
           },
           {
             "bearing_after": 171,
             "bearing_before": 171,
-            "begin_shape_index": 437,
-            "cost": 337.057,
-            "end_shape_index": 493,
+            "begin_shape_index": 317,
+            "cost": 311.97,
+            "end_shape_index": 373,
             "highway": true,
             "instruction": "Continue on A 5/E 451.",
             "length": 9.928,
@@ -362,9 +161,9 @@
           {
             "bearing_after": 183,
             "bearing_before": 188,
-            "begin_shape_index": 493,
-            "cost": 1097.606,
-            "end_shape_index": 701,
+            "begin_shape_index": 373,
+            "cost": 1052.724,
+            "end_shape_index": 581,
             "highway": true,
             "instruction": "Keep left to take A 67 toward Stuttgart/Mannheim.",
             "length": 34.253,
@@ -384,12 +183,12 @@
           {
             "bearing_after": 191,
             "bearing_before": 183,
-            "begin_shape_index": 701,
-            "cost": 613.963,
-            "end_shape_index": 863,
+            "begin_shape_index": 581,
+            "cost": 381.014,
+            "end_shape_index": 678,
             "highway": true,
             "instruction": "Take exit 10 onto A 6 toward Saarbr\u00fccken.",
-            "length": 18.027,
+            "length": 11.905,
             "sign": {
               "exit_branch_elements": [
                 {
@@ -417,307 +216,246 @@
               "A 6",
               "E 50"
             ],
-            "time": 620.689,
+            "time": 409.628,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
-            "verbal_post_transition_instruction": "Continue for 18 kilometers.",
+            "verbal_post_transition_instruction": "Continue for 12 kilometers.",
             "verbal_pre_transition_instruction": "Take exit 10 onto A 6 toward Saarbr\u00fccken.",
             "verbal_transition_alert_instruction": "Take exit 10."
           },
           {
-            "bearing_after": 282,
-            "bearing_before": 273,
-            "begin_shape_index": 863,
-            "cost": 5.535,
-            "end_shape_index": 866,
-            "instruction": "Take exit 21 onto A 61 toward Neustadt/Weinstra\u00dfe.",
-            "length": 0.163,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 5,
-                  "text": "A 61"
-                }
-              ],
-              "exit_name_elements": [
-                {
-                  "text": "Kreuz Frankenthal"
-                }
-              ],
-              "exit_number_elements": [
-                {
-                  "text": "21"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 4,
-                  "text": "Neustadt/Weinstra\u00dfe"
-                },
-                {
-                  "text": "Speyer"
-                },
-                {
-                  "text": "Koblenz"
-                },
-                {
-                  "text": "Mainz"
-                }
-              ]
-            },
-            "time": 5.601,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 20,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Take exit 21 onto A 61 toward Neustadt/Weinstra\u00dfe. Then Keep left to take A 61.",
-            "verbal_transition_alert_instruction": "Take exit 21."
-          },
-          {
-            "bearing_after": 272,
-            "bearing_before": 276,
-            "begin_shape_index": 866,
-            "cost": 15.509,
-            "end_shape_index": 868,
-            "instruction": "Keep left to take A 61 toward Neustadt/Weinstra\u00dfe.",
-            "length": 0.402,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 5,
-                  "text": "A 61"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 4,
-                  "text": "Neustadt/Weinstra\u00dfe"
-                },
-                {
-                  "consecutive_count": 3,
-                  "text": "Ludwigshafen"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Karlsruhe"
-                }
-              ]
-            },
-            "time": 14.664,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 24,
-            "verbal_pre_transition_instruction": "Keep left to take A 61 toward Neustadt/Weinstra\u00dfe.",
-            "verbal_transition_alert_instruction": "Keep left to take A 61."
-          },
-          {
-            "bearing_after": 284,
-            "bearing_before": 272,
-            "begin_shape_index": 868,
-            "cost": 17.89,
-            "end_shape_index": 892,
-            "instruction": "Keep right to take A 61 toward Neustadt/Weinstra\u00dfe/Ludwigshafen.",
-            "length": 0.433,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 4,
-                  "text": "A 61"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 3,
-                  "text": "Neustadt/Weinstra\u00dfe"
-                },
-                {
-                  "consecutive_count": 3,
-                  "text": "Ludwigshafen"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Karlsruhe"
-                }
-              ]
-            },
-            "street_names": [
-              "A 61"
-            ],
-            "time": 15.812,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 23,
-            "verbal_pre_transition_instruction": "Keep right to take A 61 toward Neustadt/Weinstra\u00dfe, Ludwigshafen.",
-            "verbal_transition_alert_instruction": "Keep right to take A 61."
-          },
-          {
-            "bearing_after": 162,
-            "bearing_before": 164,
-            "begin_shape_index": 892,
-            "cost": 5.265,
-            "end_shape_index": 894,
-            "instruction": "Keep left to stay on A 61 toward Neustadt/Weinstra\u00dfe/Ludwigshafen.",
+            "bearing_after": 298,
+            "bearing_before": 280,
+            "begin_shape_index": 678,
+            "cost": 4.623,
+            "end_shape_index": 681,
+            "instruction": "Take exit 23 onto B 9 toward Ludwigshafen Nord.",
             "length": 0.127,
             "sign": {
               "exit_branch_elements": [
                 {
                   "consecutive_count": 3,
-                  "text": "A 61"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 2,
-                  "text": "Neustadt/Weinstra\u00dfe"
-                },
-                {
-                  "consecutive_count": 2,
-                  "text": "Ludwigshafen"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Heilbronn"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Speyer"
-                }
-              ]
-            },
-            "street_names": [
-              "A 61"
-            ],
-            "time": 5.157,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 24,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Keep left to stay on A 61 toward Neustadt/Weinstra\u00dfe, Ludwigshafen. Then Take the A 61 ramp on the left.",
-            "verbal_transition_alert_instruction": "Keep left to stay on A 61."
-          },
-          {
-            "bearing_after": 166,
-            "bearing_before": 164,
-            "begin_shape_index": 894,
-            "cost": 219.586,
-            "end_shape_index": 945,
-            "highway": true,
-            "instruction": "Take the A 61 ramp on the left toward Heilbronn/Speyer/Neustadt/Weinstra\u00dfe/Ludwigshafen.",
-            "length": 7.96,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 2,
-                  "text": "A 61"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "Heilbronn"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Speyer"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Neustadt/Weinstra\u00dfe"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Ludwigshafen"
-                }
-              ]
-            },
-            "street_names": [
-              "A 61",
-              "E 31"
-            ],
-            "time": 224.566,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 19,
-            "verbal_post_transition_instruction": "Continue for 8 kilometers.",
-            "verbal_pre_transition_instruction": "Take the A 61 ramp on the left toward Heilbronn, Speyer.",
-            "verbal_transition_alert_instruction": "Take the A 61 ramp on the left."
-          },
-          {
-            "bearing_after": 188,
-            "bearing_before": 179,
-            "begin_shape_index": 945,
-            "cost": 3.596,
-            "end_shape_index": 947,
-            "instruction": "Take exit 60 onto A 650 toward Ludwigshafen.",
-            "length": 0.135,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "text": "A 650"
+                  "text": "B 9"
                 }
               ],
               "exit_name_elements": [
                 {
-                  "text": "Kreuz Ludwigshafen"
+                  "text": "Ludwigshafen-Nord"
                 }
               ],
               "exit_number_elements": [
                 {
-                  "text": "60"
+                  "text": "23"
                 }
               ],
               "exit_toward_elements": [
                 {
                   "consecutive_count": 2,
-                  "text": "Ludwigshafen"
+                  "text": "Ludwigshafen Nord"
                 },
                 {
-                  "text": "Bad D\u00fcrkheim"
+                  "text": "Worms"
                 }
               ]
             },
-            "time": 3.751,
+            "time": 5.16,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
             "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Take exit 60 onto A 650 toward Ludwigshafen. Then Keep left toward Ludwigshafen.",
-            "verbal_transition_alert_instruction": "Take exit 60."
+            "verbal_pre_transition_instruction": "Take exit 23 onto B 9 toward Ludwigshafen Nord. Then Keep left to take B 9.",
+            "verbal_transition_alert_instruction": "Take exit 23."
           },
           {
-            "bearing_after": 182,
-            "bearing_before": 182,
-            "begin_shape_index": 947,
-            "cost": 10.458,
-            "end_shape_index": 951,
-            "instruction": "Keep left toward Ludwigshafen.",
-            "length": 0.367,
+            "bearing_after": 289,
+            "bearing_before": 289,
+            "begin_shape_index": 681,
+            "cost": 22.461,
+            "end_shape_index": 692,
+            "instruction": "Keep left to take B 9 toward Ludwigshafen Nord.",
+            "length": 0.577,
             "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 3,
+                  "text": "B 9"
+                }
+              ],
               "exit_toward_elements": [
                 {
                   "consecutive_count": 2,
+                  "text": "Ludwigshafen Nord"
+                },
+                {
+                  "text": "Frankenthal-Zentrum"
+                }
+              ]
+            },
+            "time": 23.355,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_pre_transition_instruction": "Keep left to take B 9 toward Ludwigshafen Nord.",
+            "verbal_transition_alert_instruction": "Keep left to take B 9."
+          },
+          {
+            "bearing_after": 318,
+            "bearing_before": 305,
+            "begin_shape_index": 692,
+            "cost": 69.791,
+            "end_shape_index": 749,
+            "instruction": "Keep right to take B 9 toward Ludwigshafen Nord.",
+            "length": 1.515,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 2,
+                  "text": "B 9"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "Ludwigshafen Nord"
+                }
+              ]
+            },
+            "street_names": [
+              "B 9"
+            ],
+            "time": 62.004,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Keep right to take B 9 toward Ludwigshafen Nord.",
+            "verbal_transition_alert_instruction": "Keep right to take B 9."
+          },
+          {
+            "bearing_after": 171,
+            "bearing_before": 146,
+            "begin_shape_index": 749,
+            "cost": 12.953,
+            "end_shape_index": 766,
+            "instruction": "Take the B 9 exit toward Frankenthal/Ludwigshafen-S\u00fcd/Ludwigshafen-Edigheim/Ludwigshafen-Pfingstweide.",
+            "length": 0.303,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "B 9"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Frankenthal"
+                },
+                {
+                  "text": "Ludwigshafen-S\u00fcd"
+                },
+                {
+                  "text": "Ludwigshafen-Edigheim"
+                },
+                {
+                  "text": "Ludwigshafen-Pfingstweide"
+                }
+              ]
+            },
+            "street_names": [
+              "B 9"
+            ],
+            "time": 13.667,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 20,
+            "verbal_pre_transition_instruction": "Take the B 9 exit toward Frankenthal, Ludwigshafen-S\u00fcd.",
+            "verbal_transition_alert_instruction": "Take the B 9 exit."
+          },
+          {
+            "bearing_after": 262,
+            "bearing_before": 243,
+            "begin_shape_index": 766,
+            "cost": 104.121,
+            "end_shape_index": 789,
+            "instruction": "Bear right to stay on B 9.",
+            "length": 2.057,
+            "street_names": [
+              "B 9"
+            ],
+            "time": 92.617,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Bear right to stay on B 9.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right to stay on B 9."
+          },
+          {
+            "bearing_after": 281,
+            "bearing_before": 260,
+            "begin_shape_index": 789,
+            "cost": 12.36,
+            "end_shape_index": 804,
+            "instruction": "Take the B 9 exit toward Speyer/Ludwigshafen.",
+            "length": 0.263,
+            "sign": {
+              "exit_branch_elements": [
+                {
+                  "consecutive_count": 1,
+                  "text": "B 9"
+                }
+              ],
+              "exit_toward_elements": [
+                {
+                  "text": "Speyer"
+                },
+                {
                   "text": "Ludwigshafen"
                 }
               ]
             },
-            "time": 10.192,
+            "street_names": [
+              "B 9"
+            ],
+            "time": 11.802,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 24,
+            "type": 20,
             "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Keep left toward Ludwigshafen. Then Keep right to take A 650.",
-            "verbal_transition_alert_instruction": "Keep left toward Ludwigshafen."
+            "verbal_pre_transition_instruction": "Take the B 9 exit toward Speyer, Ludwigshafen. Then Bear right to stay on B 9.",
+            "verbal_transition_alert_instruction": "Take the B 9 exit."
           },
           {
-            "bearing_after": 186,
-            "bearing_before": 178,
-            "begin_shape_index": 951,
-            "cost": 298.407,
-            "end_shape_index": 1059,
+            "bearing_after": 175,
+            "bearing_before": 160,
+            "begin_shape_index": 804,
+            "cost": 242.24,
+            "end_shape_index": 895,
+            "instruction": "Bear right to stay on B 9.",
+            "length": 6.318,
+            "street_names": [
+              "B 9"
+            ],
+            "time": 231.839,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 9,
+            "verbal_post_transition_instruction": "Continue for 6 kilometers.",
+            "verbal_pre_transition_instruction": "Bear right to stay on B 9.",
+            "verbal_succinct_transition_instruction": "Bear right.",
+            "verbal_transition_alert_instruction": "Bear right to stay on B 9."
+          },
+          {
+            "bearing_after": 191,
+            "bearing_before": 174,
+            "begin_shape_index": 895,
+            "cost": 177.027,
+            "end_shape_index": 960,
             "highway": true,
-            "instruction": "Keep right to take A 650 toward Ludwigshafen.",
-            "length": 8.415,
+            "instruction": "Take the A 650 ramp toward Mannheim/ Ludwigshafen/ Ludwigshafen-Oggersheim S\u00fcd.",
+            "length": 4.887,
             "sign": {
               "exit_branch_elements": [
                 {
@@ -727,28 +465,33 @@
               ],
               "exit_toward_elements": [
                 {
-                  "consecutive_count": 1,
-                  "text": "Ludwigshafen"
+                  "text": "Mannheim"
+                },
+                {
+                  "text": " Ludwigshafen"
+                },
+                {
+                  "text": " Ludwigshafen-Oggersheim S\u00fcd"
                 }
               ]
             },
             "street_names": [
               "A 650"
             ],
-            "time": 274.12,
+            "time": 165.18,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 23,
-            "verbal_post_transition_instruction": "Continue for 8 kilometers.",
-            "verbal_pre_transition_instruction": "Keep right to take A 650 toward Ludwigshafen.",
-            "verbal_transition_alert_instruction": "Keep right to take A 650."
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
+            "verbal_pre_transition_instruction": "Take the A 650 ramp toward Mannheim,  Ludwigshafen.",
+            "verbal_transition_alert_instruction": "Take the A 650 ramp."
           },
           {
             "bearing_after": 94,
             "bearing_before": 89,
-            "begin_shape_index": 1059,
-            "cost": 83.42,
-            "end_shape_index": 1095,
+            "begin_shape_index": 960,
+            "cost": 73.082,
+            "end_shape_index": 996,
             "instruction": "Keep right to take B 44 toward Mannheim/Oppau/Gartenstadt/Bruchwiesenstra\u00dfe.",
             "length": 1.017,
             "sign": {
@@ -786,9 +529,9 @@
           {
             "bearing_after": 48,
             "bearing_before": 27,
-            "begin_shape_index": 1095,
-            "cost": 37.061,
-            "end_shape_index": 1117,
+            "begin_shape_index": 996,
+            "cost": 32.522,
+            "end_shape_index": 1018,
             "instruction": "Stay straight to take the Heinigstra\u00dfe ramp.",
             "length": 0.437,
             "sign": {
@@ -808,9 +551,9 @@
           {
             "bearing_after": 215,
             "bearing_before": 127,
-            "begin_shape_index": 1117,
-            "cost": 37.376,
-            "end_shape_index": 1125,
+            "begin_shape_index": 1018,
+            "cost": 24.215,
+            "end_shape_index": 1026,
             "instruction": "Turn right onto Pasadenaallee.",
             "length": 0.128,
             "street_names": [
@@ -828,9 +571,9 @@
           },
           {
             "bearing_before": 214,
-            "begin_shape_index": 1125,
+            "begin_shape_index": 1026,
             "cost": 0.0,
-            "end_shape_index": 1125,
+            "end_shape_index": 1026,
             "instruction": "Your destination is on the right.",
             "length": 0.0,
             "time": 0.0,
@@ -841,19 +584,19 @@
             "verbal_transition_alert_instruction": "Your destination will be on the right."
           }
         ],
-        "shape": "ueqq~AqezpOpDpYbAvIbDxXR`EZzHp@|F`@`DdApJnA~J~CfUvC`NhElIjCdGhE`IVb@d@v@lBjCbDxExChDzCtC`HpFzOrJnIvFxFnFpCpDnB~DvDzHnAnGpAbGfQl~AbHh^fMtn@jIlYfFbPj\\vl@ri@tmArBhGnAhCfF~JvFfJzFjK~@lBlLrUfOz[zGvNfA~BfBxDrBfExHxOzQn_@dAnBlEhItBzDpA`CjGjLxKnS~@dB~BjErA|CrBhFnBhG~Ohf@hDjLlMlc@hCpI`AdDxB|GtC~K\\rAfAtEhNx@~N^vHm@xDiAzMqEdD_BlMoFnFcC~DaBvDuCzBaChDgEdmBg`CnRiW`BmB`A_AdAy@dC_BpDsBrD}BxC{BlBqBbQgThAwAtDsEpEqFzMkPbNcRnAyAdD}DbAqAlA}AFKn@u@h@o@|@cAp@y@~EaGvAaBvCyDhTmX`CN~@[lAWtAYxFCnEtAnDnDjFnGrU~XbYj\\j|@`hAv[ta@j}AfpB|C|D~FlH~LrObGvDtQjU|`@~g@`R`VrUhZfHbJbb@li@lMjPbtApdBtCxDjLlNnH|G`GxDbNfItAz@tAn@pCx@fFrBdBr@fGdCpjCxhAfaDvtAlOnGjx@b_@xNrGhLfFha@xOnIdEdBp@vAl@xChAtWrJde@zOtFjBzChApBbAtBzA~@z@n@r@l@r@bFjGbFpHh@v@f@r@lGxIjB`CxAdBpAtA|@|@t@l@hAb@~@RbAJzA@bBGbBSvA]hA]^OdDwAlB}@`Bu@hBm@hAWzAMpACjKd@tKnBdWbFvlDdw@jjAjWxZdHh|Cpp@fz@tQxJjBxKrBnIhBhGrApk@tOxb@bJhr@nOhlAnTxl@bOni@jOfEjA`EtAhExBtFtEnDfDrEnF|CfFbDjGjDjJvObf@vDvL|Lv_@zDdJtEjK`F|I`FzGjDjFtFxGbDhDfDnDbFxDxHxFvGvDbHlDfMjErd@pMbi@`NdKbCfJvChEpBlEzBrElC~FpE`EdDlDlDxBjCnEvFhHpKpFtJhFtLxKn[x\\fvA|Pn}@vj@pzCtt@`zDlJre@j\\~gBvl@z~CbKdl@xC~Q`ErUhGha@`D`UdE~YhEp^dEt\\hEf`@dDp`@`CzYlBdXbFt|@xBxe@vB~m@lA`e@f@p[b@jf@aBvh@{@pc@wC~_Bk@~ZaCf~Ag@nVgAvm@o@l^aAxh@o@z_@eAto@sCr_BmA|t@e@vj@GhFc@~Oc@fHe@tG{@nHeAjJyAjIgEbR{C`PmAdJcAxKg@zHi@jNEhF?lHJnJTbH\\zFv@xIhCvY^xFTnEFnDNxFFhFFhNIdEgCpxAQzJ{@hj@wA`Rg@fDm@jCsAhDu@|AiBbCiBvBqA|@}Av@wAd@}AR{ADuAA}@ImAYqAe@}Ay@iAcAuAqAiA_BqAeCeAcCqC_JaA}CgA_DmBeFqCqGoCwFuD{GsCoE_QaWkAuBy@oBm@wB_@cBWcBMuAQqAI}DHcDVaCPuARiBb@oBZiAf@cBz@eB`@q@\\k@v@w@j@k@`BcAxAi@hBStB@fCh@xCbA|aAlb@~DrAfq@rYx[rLpUbIhaAt^rh@jT|X`Md[dI|k@vP|]lLdk@dNniC`dAnmIveDh[lMrtAbi@nvAjj@tl@nTpl@~ShPxFlz@dWxa@jMr_@lKhh@hMbk@fMnXdFdrApUhKfBva@jFlsA~Nt^nCx^dCxJn@nU`A~e@nBf|@rBveAb@lLIlz@}@xz@iCn_C_Pr\\mC`_AgJ`nUiiDzjBsY|}G{_AvmA{QxpQamC~cBeWbzNiwBrsAaS~`BuVtGaAt|Dyl@lkBmXjuN}vB|vPsfCddF_t@dwAaUdyHsjAp`ByU|_Cy^|iBuXz\\wE|qCwa@dfAuLffAeJ|iAaG``@}@|h@oAdi@_@nh@?fpA`Bxj@jCz~@bEjjA`J|oBdWnaA`QjaApSpaAfVjzFbvAtf@fMxiCnj@bpAvSvpAbQhoAhO|bB~SzaCdY~o@~HpsAjOnPbBzsAjOpcAbMj~KbrAdaBlRhzBnW~cBdSlfBfSngEhc@l~ClXdmDt[bdBhPxMbAz\\jCbIt@zvBfRfwBjRxjBnTdhE|j@byBjZzQdC~wDxi@vr@dKj]jFfm@jI~VdAxTvC~yCjb@hkAfPtd@nGfdBbV`qAzOz`@bFbnArOl{B~Wpe@|Fpk@lGd[jD~uHd}@hbDv_@d_D`_@|p@bL`\\hGnV~Gtp@bSv]tMfV~JtPvHjVpLbp@r^bnAzs@`uAzx@fyAl{@hrDfwB~iFr|Cr|B|rAtUnNveDjnBx{@xh@`oIj`FjlAtr@xfBxeAhgHpeE`BbAhrAzv@pmBdiAp^dThx@fe@jx@re@rqBpkA~uBznAzWtOd]tSxWhPrl@r_@hl@x`@j~@|p@rk@pd@pEpDn}OpoMrzOvlM`u@rh@tw@td@xx@b`@b\\vMn\\~Kpn@jR|KlCpOpDzRzDxRlDbLhBrOxBfVrCzOvA|Jl@fJz@`P~@hLh@fK\\hFNzd@l@lXRpgExDzQPbfU|Rdp@j@nx@f@bKJph@f@jm@r@|h@b@nd@X`|NrMb}LvKlcA|@pq@h@br@h@fRDhSIlg@m@bZy@hS_A~\\mBjVeB|c@cE~UoC`PuBnJsAjSyC~SmD~YaFxReDrgAgRbkA}RnQgDpbCoa@lMyBdmBi\\zmCud@zViEbWiEdv@yMrdE{r@~KmBdfDmk@xVgEzF}@xSuDrj@mJdeBuYjv@{MziDyk@deB_ZphNa`Cr`Cca@baAmPv_AkPny@iNje@}HnRcDjaAeP~p@eKbf@_Irh@sIda@gGxbAuOlVgDrV}CdUiCpTwB|YuCv|@_G`n@oCln@yBvOQzl@Qjl@Ptq@`A`x@lCle@nC`{@tGj^zDfbArMdWrDlfAtR|~@nRfbEb_AfkA|VveAhSza@lGxY|Ddh@zGreBvNhh@pCpJXno@zBv~@l@fpAy@poAaE~S{@lxBiObxGuk@vnByO`i@mEriNykA~tZaiChdQkxAhqDw[vgAaI|\\uCbbAaJtxCwVzg@cEx|AuMno@mFxtCaVhQcAnnAoHru@_Dbd@eB|hA{BdbAw@jdBJbZJxq@~@bt@bBfkBzGllJd`@taS|w@zc@pBbrFvTpoAfFp`@zHfUxCrVpEvW|FhHvBzNxFtVvMxSfNbRlQzSvUxLzP`L|RzLvVlKdXjJrZnJn]|Hnb@pFh`@hDx]dEls@hEhmAdEps@hEtsEnCpgDnAjeCLbPtC|gDv@fgARvYrKzgMvDdoENpQfM~mOdB`yBfAjrAnN~nP`LtwM`J|mKBvGjNllPRpUdBvqBL`O|H|eJpH~yIJpN~A`iBnDvgE`CzpCdEjnFfElrElDlcEJbK~CzrDP~Sd@|k@zClkDrC`eDpCdaDlAvwA`ApeA|@jm@dAdg@LzE`Bnh@xAl^dB`^pDjn@dCh]bExh@~Fhm@bDf[zEfc@|Hzl@`Ipi@~Gzb@`Hz`@zJth@~Khi@tg@f_CdGdX~gA|dFvkAvpFdf@|yBnWblAdTbbAtJpg@`Lro@~PjtA~KxvAjFxoAdBbeA?bdAo@j_@aA`e@yBdm@uDtp@kE`l@eHrs@gMr~@iO~z@yIhb@uJp`@gR`t@aX~v@qJfXayAvbE}aAprCyXvu@aC|G}n@fgBkjAraDa\\|`AoGpSwM~e@sV|dAqSveA{Lfw@gD~U{Fpe@aKdaAoIvjA}El`AoCdz@y@xd@a@|b@Epy@Nlc@j@b`@fBry@tCzqAxAto@H|DnFdaCdChhA|B|w@nIptDnCxwAtGxnChCpcApClnAXfPXzKbHhzCRjMThJxE`~BvBngA|@ha@JdEhVbwKzQxbIfBpz@lAdz@bBvfBr@jgDk@``By@fhASt]m@lq@oA`uAuCh~CkDpg@WdKaE|uAkEjcFcBnvByDlb@cCxO}CrHwDvFaCxBwBv@cFjAgFI_FyAeEgDaCkDkByEcCyLYeGEyHVqEj@oEtBkIdCyEjC{C|KoKra@gPxd@gQpAc@xVuJ|k@gR|tAc`@dw@uXt\\eNhi@uKhDq@l{@kN`k@eH`k@wGd[yCfS}Azp@wEtkAsFlJYbcA_B~]YhZR|w@x@xy@vBje@xB|d@nCrh@xEr`@`DrjAxMhkAxOteAbTteA~VbjCnr@jvFnyApz@nP~hAdRdb@xFdYjDnKjAtk@bGpuB`Ndt@pCfkAtBt`@RvsA_@b{EcD`Tc@vq@mAbHOniImK~Q]jpNeSrMQ`qBkCpwQeVjpEwGniB_CtRdC~v@pAb[n@pmBkCbMElt@oA|Iv@lPrAlGtBlF~CzDvEbDrHbBlHp@lHFjJ]fIyAxHmC~GkD~EiE~CyEpAsFBwEaAuEmCkEmFuFeLwFsPyDaKoIed@eNos@m@uCeQw}@eDyRm\\ohBuB}KoMws@gFoYia@{}BkS_rAqEiY{Iep@wKeu@kVwnBeNcmAmAwL{PegBuP_nBwEso@wG{|@eLipBaJymByGyiBaFuqB}C{tBcA{t@YgkBg@ku@NorArBmmC|@}s@rEwuBfCc{@rE_zApDuz@ZeGzAc[x@oOtFqdA|S_bDlCq^`Ck[dDuc@xQ{uB~g@wiG`C}WfBgNvD}YjMe|A~@kKjPcpBrBuVnGax@~[uvE|TitEbCkm@xBam@dC{q@lEs_BrFasCpEmbEzD{`E`Cs|CjF_`HhIacKjEauFh@ay@dAmiAlBa`AzCo~@b@gKbD}l@`Fsv@vGou@`M{vAfD_e@vFo{@dB{b@r@{ZNeJn@oe@HqN@kO?}DI_WZoRWo]aAqk@m@mVc@iSs@wPeBuh@cA{UgB_d@yDqp@k@eJu@uK}BkSyBwRsE}XoD}OeFaSaBeGeDwJ{H}S}CwGwC}FqCeEyJ}NeKkNkPmPsI_HyM{IoMcHcOcIcYuOeQgJaH{DmOgIeJmGwV}Q_CoHqHwHcLmLuKqMaJ{LqKcPwLuToFoMwI{T_EwLwDwNoCaMkC}O}@sKGoJL{Fx@qGfAkFrAqHzDeGxGyLjEeLlB_BrB_AxBi@vCSpKvLlPzQ~NvOHJ",
+        "shape": "ueqq~AqezpOpDpYbAvIbDxXR`EZzHp@|F`@`DdApJnA~J~CfUvC`NhElIjCdGhE`IVb@d@v@lBjCbDxExChDzCtC`HpFzOrJnIvFxFnFpCpDnB~DvDzHnAnGpAbGfQl~AbHh^fMtn@jIlYfFbPj\\vl@ri@tmArBhGnAhCfF~JvFfJzFjK~@lBlLrUfOz[zGvNfA~BfBxDrBfExHxOzQn_@dAnBlEhItBzDpA`CjGjLxKnS~@dB~BjErA|CrBhFnBhG~Ohf@hDjLlMlc@hCpI`AdDxB|GtC~K\\rAfAtEhNx@~N^vHm@xDiAzMqEdD_BlMoFnFcC~DaBvDuCzBaChDgEdmBg`CnRiW`BmB`A_AdAy@dC_BZ`B\\rAb@tAt@bCn@bBnI`TlQxa@|ApDzu@tfBlKhY`LfZlG~S~@dE\\fEdC~HxKh]`C`FlWzw@nEdNhDfKbLd_@xDzLfAjD`D~JdBtFb@tA~I|VbVvq@tAhD~DlL~BzHh@hBfGfTtFpXnDpXzFth@pGxk@~Jv_A\\|C|Ffh@fJ|x@|AfIlApEbAxCxG~MfD~IjA~Cv@lCrBvH\\bB~G`^hi@`fDx@hF`L~u@jQpjApKjs@dHbd@dDzRjEbThMhd@bl@huAv}@~nCnVpl@lU~n@~@jCd@`BdA~DzHnYjHf\\xBbMlBlNvB|TdCv[v@|HRjCd@|HPdC`ApOfDvg@Dt@h@jH~UhfDJzAD|QG~N?pFP|F`Dtb@xFfy@hEr~@PzEn@nRx@lc@t@~vBKlgAo@jfAsGfbE}Az}@_@t_@G|FKjNQ|UMjRSbZ~ApQBzHBfDVrBZfAf@x@d@Xj@LdACdAUdBo@zDgBlCkB|EaEjFqF`BuAzBoB|A}@jDwAvEuAnPqC|k@uJ|G{@xFgAhHgBxGaBxH{AvMqAzRu@fRkHfX{@n\\XjTd@pTp@d\\tBbMxAbO~@fPnBh^jFje@fJph@fN`r@hTnNtFvlAhe@`a@lPfa@hPfQdHx\\bNl^tNje@fRnm@fVtRtHzQrHh]fNvGtAfmAze@po@lWbdA|`@tkAze@btCviAvrAji@nx@zZfdA~a@hn@lVvDzAvp@bXh[vLxu@vZn{@h]hjAdd@x[~M~ZfMfcCr`A|r@tYjxApk@vb@dQviFbuBph@|SniC`dAnmIveDh[lMrtAbi@nvAjj@tl@nTpl@~ShPxFlz@dWxa@jMr_@lKhh@hMbk@fMnXdFdrApUhKfBva@jFlsA~Nt^nCx^dCxJn@nU`A~e@nBf|@rBveAb@lLIlz@}@xz@iCn_C_Pr\\mC`_AgJ`nUiiDzjBsY|}G{_AvmA{QxpQamC~cBeWbzNiwBrsAaS~`BuVtGaAt|Dyl@lkBmXjuN}vB|vPsfCddF_t@dwAaUdyHsjAp`ByU|_Cy^|iBuXz\\wE|qCwa@dfAuLffAeJ|iAaG``@}@|h@oAdi@_@nh@?fpA`Bxj@jCz~@bEjjA`J|oBdWnaA`QjaApSpaAfVjzFbvAtf@fMxiCnj@bpAvSvpAbQhoAhO|bB~SzaCdY~o@~HpsAjOnPbBzsAjOpcAbMj~KbrAdaBlRhzBnW~cBdSlfBfSngEhc@l~ClXdmDt[bdBhPxMbAz\\jCbIt@zvBfRfwBjRxjBnTdhE|j@byBjZzQdC~wDxi@vr@dKj]jFfm@jI~VdAxTvC~yCjb@hkAfPtd@nGfdBbV`qAzOz`@bFbnArOl{B~Wpe@|Fpk@lGd[jD~uHd}@hbDv_@d_D`_@|p@bL`\\hGnV~Gtp@bSv]tMfV~JtPvHjVpLbp@r^bnAzs@`uAzx@fyAl{@hrDfwB~iFr|Cr|B|rAtUnNveDjnBx{@xh@`oIj`FjlAtr@xfBxeAhgHpeE`BbAhrAzv@pmBdiAp^dThx@fe@jx@re@rqBpkA~uBznAzWtOd]tSxWhPrl@r_@hl@x`@j~@|p@rk@pd@pEpDn}OpoMrzOvlM`u@rh@tw@td@xx@b`@b\\vMn\\~Kpn@jR|KlCpOpDzRzDxRlDbLhBrOxBfVrCzOvA|Jl@fJz@`P~@hLh@fK\\hFNzd@l@lXRpgExDzQPbfU|Rdp@j@nx@f@bKJph@f@jm@r@|h@b@nd@X`|NrMb}LvKlcA|@pq@h@br@h@fRDhSIlg@m@bZy@hS_A~\\mBjVeB|c@cE~UoC`PuBnJsAjSyC~SmD~YaFxReDrgAgRbkA}RnQgDpbCoa@lMyBdmBi\\zmCud@zViEbWiEdv@yMrdE{r@~KmBdfDmk@xVgEzF}@xSuDrj@mJdeBuYjv@{MziDyk@deB_ZphNa`Cr`Cca@baAmPv_AkPny@iNje@}HnRcDjaAeP~p@eKbf@_Irh@sIda@gGxbAuOlVgDrV}CdUiCpTwB|YuCv|@_G`n@oCln@yBvOQzl@Qjl@Ptq@`A`x@lCle@nC`{@tGj^zDfbArMdWrDlfAtR|~@nRfbEb_AfkA|VveAhSza@lGxY|Ddh@zGreBvNhh@pCpJXno@zBv~@l@fpAy@poAaE~S{@lxBiObxGuk@vnByO`i@mEriNykA~tZaiChdQkxAhqDw[vgAaI|\\uCbbAaJtxCwVzg@cEx|AuMno@mFxtCaVhQcAnnAoHru@_Dbd@eB|hA{BdbAw@jdBJbZJxq@~@bt@bBfkBzGllJd`@taS|w@zc@pBbrFvTpoAfFp`@zHfUxCrVpEvW|FhHvBzNxFtVvMxSfNbRlQzSvUxLzP`L|RzLvVlKdXjJrZnJn]|Hnb@pFh`@hDx]dEls@hEhmAdEps@hEtsEnCpgDnAjeCLbPtC|gDv@fgARvYrKzgMvDdoENpQfM~mOdB`yBfAjrAnN~nP`LtwM`J|mKBvGjNllPRpUdBvqBL`O|H|eJpH~yIJpN~A`iBnDvgE`CzpCdEjnFfElrElDlcEJbK~CzrDP~Sd@|k@zClkDrC`eDpCdaDlAvwA`ApeA|@jm@dAdg@LzE`Bnh@xAl^dB`^pDjn@dCh]bExh@~Fhm@bDf[zEfc@|Hzl@`Ipi@~Gzb@`Hz`@zJth@~Khi@tg@f_CdGdX~gA|dFvkAvpFdf@|yBnWblAdTbbAtJpg@`Lro@~PjtA~KxvAjFxoAdBbeA?bdAo@j_@aA`e@yBdm@uDtp@mDtNaDh[_Lty@cFx^qJtl@{Px|@sGzYoIj]_ElN}F`TuFzQoPxe@sJbXmt@bsBcGzIyBdEoBdDuBhCuBjBkCpA}Bf@kCDoBS}Bq@wBkA_BoAgB_CsAiCiAqCw@{Cg@cD_@mEAsDJ}Bf@}FtCwShD{Jb]aaAlIeR`DqGfBmCrB{BvBwA|Am@rAIlARtAh@xBbArNpGns@bw@d^|_@|O~NpNdKlN~HtCvAtYpLj^hJxMxBvb@pEzU`Ad[m@b[yCxc@eK~`@gNn[kPvZkR`d@_]hf@ic@`JmJfRoRrAwAfCa@tDu@xBkAfI{C~E}@jNkAtK^xH`BfGrBhGdDzGzEzFrG`FbH`FxItExKdD|KhIt^tHneBxGl{AlItmBlFvxA`GpuBv@p\\nHbkCzF~wBz@n[dA`]j@tPhBvd@nBzh@hCzj@pTpsDjNphBhIlnAnIp|AfM|aCvCtk@rA|V|AhYxFbfAqBj\\gB|HwCdE{DdBgEYcE_DyBcE_CmKeAqKgBuq@RcKhA_H|C}FzIeFhEsBfDUnLs@dGe@l~AoJ~Gc@jOeAd_AsFxU{AjbCkOrF_@d~AoKvLy@ra@gCzy@sEdq@oBpa@o@pb@Nz_@hAf[bChTdCh]~Fv_@|Jj`@jNfQ~Hba@lTnc@jZ~R|PtUdUxTdVvMfP|FxH|QhXpPvWhPjZnOxZlNh\\zO|`@dOra@rXrw@xTdm@~Nf_@`Snb@rSb_@vL|QvMzPjGbHfItInIbIjUtQjNvItJjF|J|EbKhExOdFlVzF~XjEd[xCve@rCjPx@tOn@~H^`q@xB~CHdsAtBh`BAp_@QjAAjOSrb@qAxx@gCnj@oBfa@_BjMq@`cCaNdr@uE|}AcLdt@oFjlAwJfeAuJ|eBiPvqBkRbOoA`qCgX~dAyJheA{Jzi@qFlb@uDbgBkPhq@cGhU{B|r@iGrSjE|FvBtDdDhClFzA~Fz@nI@~IuAbKeCfIkClF}DdGsDxDwG|BqESkFuBgDqD_CgGyAoH[}Hi@mRlCq^`Ck[dDuc@xQ{uB~g@wiG`C}WfBgNvD}YjMe|A~@kKjPcpBrBuVnGax@~[uvE|TitEbCkm@xBam@dC{q@lEs_BrFasCpEmbEzD{`E`Cs|CjF_`HhIacKjEauFh@ay@dAmiAlBa`AzCo~@b@gKbD}l@`Fsv@vGou@`M{vAfD_e@vFo{@dB{b@r@{ZNeJn@oe@HqN@kO?}DI_WZoRWo]aAqk@m@mVc@iSs@wPeBuh@cA{UgB_d@yDqp@k@eJu@uK}BkSyBwRsE}XoD}OeFaSaBeGeDwJ{H}S}CwGwC}FqCeEyJ}NeKkNkPmPsI_HyM{IoMcHcOcIcYuOeQgJaH{DmOgIeJmGwV}Q_CoHqHwHcLmLuKqMaJ{LqKcPwLuToFoMwI{T_EwLwDwNoCaMkC}O}@sKGoJL{Fx@qGfAkFrAqHzDeGxGyLjEeLlB_BrB_AxBi@vCSpKvLlPzQ~NvOHJ",
         "summary": {
-          "cost": 4081.429,
+          "cost": 3639.288,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 104.503,
+          "length": 95.564,
           "max_lat": 50.111594,
           "max_lon": 8.681065,
-          "min_lat": 49.475635,
-          "min_lon": 8.310532,
-          "time": 3819.26
+          "min_lat": 49.476033,
+          "min_lon": 8.355269,
+          "time": 3622.593
         }
       }
     ],
@@ -875,17 +618,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 4081.429,
+      "cost": 3639.288,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 104.503,
+      "length": 95.564,
       "max_lat": 50.111594,
       "max_lon": 8.681065,
-      "min_lat": 49.475635,
-      "min_lon": 8.310532,
-      "time": 3819.26
+      "min_lat": 49.476033,
+      "min_lon": 8.355269,
+      "time": 3622.593
     },
     "units": "kilometers"
   }
