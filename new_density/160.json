@@ -8,14 +8,14 @@
           {
             "bearing_after": 13,
             "begin_shape_index": 0,
-            "cost": 19.399,
+            "cost": 31.912,
             "end_shape_index": 6,
             "instruction": "Drive north on Konrad-Adenauer-Stra\u00dfe.",
             "length": 0.082,
             "street_names": [
               "Konrad-Adenauer-Stra\u00dfe"
             ],
-            "time": 9.601,
+            "time": 11.362,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 2,
@@ -28,7 +28,7 @@
             "bearing_after": 260,
             "bearing_before": 357,
             "begin_shape_index": 6,
-            "cost": 117.677,
+            "cost": 204.263,
             "end_shape_index": 48,
             "instruction": "Turn left to stay on Konrad-Adenauer-Stra\u00dfe.",
             "length": 1.115,
@@ -53,14 +53,14 @@
               "B 54",
               " B 236"
             ],
-            "cost": 193.987,
+            "cost": 230.163,
             "end_shape_index": 103,
             "instruction": "Turn right onto Dortmunder Stra\u00dfe/B 54/ B 236. Continue on Dortmunder Stra\u00dfe.",
             "length": 3.114,
             "street_names": [
               "Dortmunder Stra\u00dfe"
             ],
-            "time": 190.817,
+            "time": 197.32,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
@@ -73,213 +73,116 @@
             "bearing_after": 129,
             "bearing_before": 220,
             "begin_shape_index": 103,
-            "cost": 240.974,
-            "end_shape_index": 221,
+            "cost": 123.404,
+            "end_shape_index": 147,
             "instruction": "Turn left toward Dortmund/Schwerte.",
-            "length": 6.763,
+            "length": 3.155,
             "sign": {},
             "street_names": [
               "B 236"
             ],
-            "time": 218.139,
+            "time": 100.644,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
-            "verbal_post_transition_instruction": "Continue for 7 kilometers.",
+            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
             "verbal_pre_transition_instruction": "Turn left toward Dortmund, Schwerte.",
             "verbal_succinct_transition_instruction": "Turn left toward Dortmund, Schwerte.",
             "verbal_transition_alert_instruction": "Turn left toward Dortmund."
           },
           {
-            "bearing_after": 175,
-            "bearing_before": 158,
-            "begin_shape_index": 221,
-            "cost": 7.461,
-            "end_shape_index": 226,
-            "instruction": "Take the exit toward DO-Brackel/Borsigplatz.",
-            "length": 0.152,
+            "bearing_after": 165,
+            "bearing_before": 156,
+            "begin_shape_index": 147,
+            "cost": 20.681,
+            "end_shape_index": 168,
+            "instruction": "Take the exit toward Dortmund-Zentrum/Dortmund-Eving/Dortmund-Derne.",
+            "length": 0.418,
             "sign": {
               "exit_toward_elements": [
                 {
-                  "consecutive_count": 1,
-                  "text": "DO-Brackel"
+                  "text": "Dortmund-Zentrum"
                 },
                 {
-                  "consecutive_count": 1,
-                  "text": "Borsigplatz"
+                  "text": "Dortmund-Eving"
                 },
                 {
-                  "text": "DO-Scharnhorst"
-                },
-                {
-                  "text": "DO-Wambel"
+                  "text": "Dortmund-Derne"
                 }
               ]
             },
-            "time": 7.128,
+            "time": 19.626,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
-            "verbal_multi_cue": true,
-            "verbal_pre_transition_instruction": "Take the exit toward DO-Brackel, Borsigplatz. Then Keep left toward DO-Brackel.",
-            "verbal_transition_alert_instruction": "Take the exit toward DO-Brackel."
+            "verbal_pre_transition_instruction": "Take the exit toward Dortmund-Zentrum, Dortmund-Eving.",
+            "verbal_transition_alert_instruction": "Take the exit toward Dortmund-Zentrum."
           },
           {
-            "bearing_after": 170,
-            "bearing_before": 178,
-            "begin_shape_index": 226,
-            "cost": 13.007,
-            "end_shape_index": 236,
-            "instruction": "Keep left toward DO-Brackel/Borsigplatz.",
-            "length": 0.242,
-            "sign": {
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "DO-Brackel"
-                },
-                {
-                  "consecutive_count": 1,
-                  "text": "Borsigplatz"
-                }
-              ]
-            },
-            "time": 12.168,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 24,
-            "verbal_pre_transition_instruction": "Keep left toward DO-Brackel, Borsigplatz.",
-            "verbal_transition_alert_instruction": "Keep left toward DO-Brackel."
-          },
-          {
-            "bearing_after": 176,
-            "bearing_before": 169,
-            "begin_shape_index": 236,
-            "cost": 223.597,
-            "end_shape_index": 336,
-            "instruction": "Keep right to take K 17/Brackeler Stra\u00dfe.",
-            "length": 2.95,
-            "street_names": [
-              "K 17",
-              "Brackeler Stra\u00dfe"
-            ],
-            "time": 180.995,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 23,
-            "verbal_post_transition_instruction": "Continue for 3 kilometers.",
-            "verbal_pre_transition_instruction": "Keep right to take K 17, Brackeler Stra\u00dfe.",
-            "verbal_transition_alert_instruction": "Keep right to take K 17."
-          },
-          {
-            "bearing_after": 267,
-            "bearing_before": 300,
-            "begin_shape_index": 336,
-            "cost": 5.5,
-            "end_shape_index": 341,
-            "instruction": "Turn left onto Borsigplatz/K 17.",
-            "length": 0.034,
-            "street_names": [
-              "Borsigplatz",
-              "K 17"
-            ],
-            "time": 4.303,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 15,
-            "verbal_multi_cue": true,
-            "verbal_post_transition_instruction": "Continue for 30 meters.",
-            "verbal_pre_transition_instruction": "Turn left onto Borsigplatz, K 17. Then Turn left onto Oesterholzstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn left. Then Turn left onto Oesterholzstra\u00dfe.",
-            "verbal_transition_alert_instruction": "Turn left onto Borsigplatz."
-          },
-          {
-            "bearing_after": 187,
-            "bearing_before": 247,
-            "begin_shape_index": 341,
+            "bearing_after": 207,
+            "bearing_before": 110,
+            "begin_shape_index": 168,
             "begin_street_names": [
-              "Oesterholzstra\u00dfe",
-              "K 17"
+              "Walther-Kohlmann-Stra\u00dfe",
+              "L 684"
             ],
-            "cost": 123.451,
-            "end_shape_index": 396,
-            "instruction": "Turn left onto Oesterholzstra\u00dfe/K 17. Continue on K 17.",
-            "length": 0.856,
+            "cost": 450.583,
+            "end_shape_index": 350,
+            "instruction": "Turn right toward Dortmund-Zentrum/Eving/Kirchderne.",
+            "length": 4.911,
+            "sign": {},
             "street_names": [
-              "K 17"
+              "Walther-Kohlmann-Stra\u00dfe"
             ],
-            "time": 68.601,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 15,
-            "verbal_post_transition_instruction": "Continue on K 17 for 900 meters.",
-            "verbal_pre_transition_instruction": "Turn left onto Oesterholzstra\u00dfe, K 17.",
-            "verbal_succinct_transition_instruction": "Turn left.",
-            "verbal_transition_alert_instruction": "Turn left onto Oesterholzstra\u00dfe."
-          },
-          {
-            "bearing_after": 176,
-            "bearing_before": 239,
-            "begin_shape_index": 396,
-            "cost": 53.146,
-            "end_shape_index": 415,
-            "instruction": "Turn left onto Wei\u00dfenburger Stra\u00dfe/K 17.",
-            "length": 0.324,
-            "street_names": [
-              "Wei\u00dfenburger Stra\u00dfe",
-              "K 17"
-            ],
-            "time": 25.262,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 15,
-            "verbal_post_transition_instruction": "Continue for 300 meters.",
-            "verbal_pre_transition_instruction": "Turn left onto Wei\u00dfenburger Stra\u00dfe, K 17.",
-            "verbal_succinct_transition_instruction": "Turn left.",
-            "verbal_transition_alert_instruction": "Turn left onto Wei\u00dfenburger Stra\u00dfe."
-          },
-          {
-            "bearing_after": 284,
-            "bearing_before": 186,
-            "begin_shape_index": 415,
-            "cost": 30.226,
-            "end_shape_index": 423,
-            "instruction": "Turn right onto Br\u00fcderweg/L 663.",
-            "length": 0.109,
-            "street_names": [
-              "Br\u00fcderweg",
-              "L 663"
-            ],
-            "time": 11.031,
+            "time": 343.991,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 10,
-            "verbal_multi_cue": true,
-            "verbal_post_transition_instruction": "Continue for 100 meters.",
-            "verbal_pre_transition_instruction": "Turn right onto Br\u00fcderweg, L 663. Then Turn left onto Schwanenwall.",
-            "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Schwanenwall.",
-            "verbal_transition_alert_instruction": "Turn right onto Br\u00fcderweg."
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right toward Dortmund-Zentrum, Eving.",
+            "verbal_succinct_transition_instruction": "Turn right toward Dortmund-Zentrum, Eving.",
+            "verbal_transition_alert_instruction": "Turn right toward Dortmund-Zentrum."
           },
           {
-            "bearing_after": 182,
-            "bearing_before": 249,
-            "begin_shape_index": 423,
+            "bearing_after": 187,
+            "bearing_before": 185,
+            "begin_shape_index": 350,
+            "cost": 185.987,
+            "end_shape_index": 405,
+            "instruction": "Keep right to take Bornstra\u00dfe/L 684.",
+            "length": 1.195,
+            "street_names": [
+              "Bornstra\u00dfe",
+              "L 684"
+            ],
+            "time": 94.517,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 23,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Keep right to take Bornstra\u00dfe, L 684.",
+            "verbal_transition_alert_instruction": "Keep right to take Bornstra\u00dfe."
+          },
+          {
+            "bearing_after": 105,
+            "bearing_before": 196,
+            "begin_shape_index": 405,
             "begin_street_names": [
               "Schwanenwall",
               "B 54"
             ],
-            "cost": 76.621,
-            "end_shape_index": 472,
+            "cost": 143.314,
+            "end_shape_index": 484,
             "instruction": "Turn left onto Schwanenwall/B 54. Continue on B 54.",
-            "length": 0.709,
+            "length": 1.092,
             "street_names": [
               "B 54"
             ],
-            "time": 53.485,
+            "time": 84.164,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 15,
-            "verbal_post_transition_instruction": "Continue on B 54 for 700 meters.",
+            "verbal_post_transition_instruction": "Continue on B 54 for 1 kilometer.",
             "verbal_pre_transition_instruction": "Turn left onto Schwanenwall, B 54.",
             "verbal_succinct_transition_instruction": "Turn left.",
             "verbal_transition_alert_instruction": "Turn left onto Schwanenwall."
@@ -287,9 +190,9 @@
           {
             "bearing_after": 5,
             "bearing_before": 267,
-            "begin_shape_index": 472,
-            "cost": 72.055,
-            "end_shape_index": 492,
+            "begin_shape_index": 484,
+            "cost": 100.193,
+            "end_shape_index": 504,
             "instruction": "Turn right toward Fu\u00dfg\u00e4ngerzone.",
             "length": 0.343,
             "sign": {},
@@ -308,9 +211,9 @@
           {
             "bearing_after": 260,
             "bearing_before": 3,
-            "begin_shape_index": 492,
-            "cost": 28.811,
-            "end_shape_index": 497,
+            "begin_shape_index": 504,
+            "cost": 47.671,
+            "end_shape_index": 509,
             "instruction": "Turn left onto Viktoriastra\u00dfe.",
             "length": 0.076,
             "street_names": [
@@ -329,9 +232,9 @@
           {
             "bearing_after": 299,
             "bearing_before": 255,
-            "begin_shape_index": 497,
-            "cost": 444.322,
-            "end_shape_index": 500,
+            "begin_shape_index": 509,
+            "cost": 450.457,
+            "end_shape_index": 512,
             "instruction": "Bear right onto Brauhausstra\u00dfe.",
             "length": 0.065,
             "street_names": [
@@ -349,9 +252,9 @@
           },
           {
             "bearing_before": 270,
-            "begin_shape_index": 500,
+            "begin_shape_index": 512,
             "cost": 0.0,
-            "end_shape_index": 500,
+            "end_shape_index": 512,
             "instruction": "You have arrived at your destination.",
             "length": 0.0,
             "time": 0.0,
@@ -362,19 +265,25 @@
             "verbal_transition_alert_instruction": "You will arrive at your destination."
           }
         ],
-        "shape": "qylmaBsxwiMsRkF}@]mBg@{@B}Jk@oFPxA`XvC`d@jD`m@`Flq@bGxh@nH|^hH|UtEnLvHfNxAhBlH|IdJrGbHvCbE~AxIlC|C`AxRpEnKnBrRnDvYzFpJnCdFlBfI|DxH`E`IbF`HjEpIbGnMxHxO~HpLhE|IlCb\\`IzR~B`El@|UpCdKnAlTpDzIvAdCb@|OlCtJlB|Bb@QvSUjRFfWB~EXzWXdNdA~UvAfWtAhS`CnY`DdZhDjWnJvo@~J~p@hMjx@vEdYzIhe@hClMpBfXbCdLdH``@nUx`A|U~t@rV~n@b`@xv@jM|TnWpd@`f@fr@fYpa@rC`Ele@jp@|NnSnf@py@xZpe@hS|Xtc@do@pHfK`IzKdKvMnJpLvCrDdApAla@`f@zo@hz@~n@rw@frAriBrwAvtBz_A|rAhMpQrEpG~Wh^hfAx|ArhAraBvc@vo@hBpCpB\\r@@|A@~@k@fBoE`FwNxi@wgBnKs[pGiQzKoWzOuZn^an@vi@u}@zw@qpAtYkd@zv@wjAtf@oq@~f@mp@f[u`@pYi^dK}LjUqWhdA_jAhq@{s@|a@ua@l_@c]nYuWlZsWvd@}_@le@q_@h]uWtEkDfm@ec@bn@cb@xTqNhz@uh@ny@ue@~o@}^vo@k\\hOcIvmAwq@fmAyq@~d@aY~oAkx@dUuQne@g]t}@qs@h]iZh^w\\rSeSb^}^jNyO|LiNdb@gf@v[aa@lZga@`m@}z@re@eu@nc@er@|k@o_AnXgc@nSq[vTm\\lZab@vOaTpTsW~KeM~PoQrPcPlJiIlJyHnJoHpDiCrNgJ`LaHvUoMzSsIrFyB|MsEjMmEfXuGf]_GxW{ClXkAfMO~NQp]r@p[jCt[~DnT`FzXdHf\\xL~KxEffAtf@xZbMrLhEhNdE|OfEvPjDtMtBvMdBhd@hDfe@d@xFIdUcApTaBfRsBtRcDfZwG`LaDzKqDtPkGxPmHhToKh[_Qzd@gYb_A_l@tq@k_@rMgAnLw@hR{CpTeBtNYvDq@nGTlJ^tF`AvRh@vKd@nSI~ReAdIOhR{DlLm@lF}AdGs@vDLpEhA|DjBdDfC|CpD|CbFbDtHrFpN~CpGbDpFhEtEzEhDxF|BrMrBzPlBpJ`CjJfDlIlEdGfE~FzEpF~FfGjJnGnKhFdKnFbMbQrh@nRvp@nQ~p@~KbYrNfo@bIj`@xGb]b@dB`Nzv@`ErUrBfObH|e@lGpe@~Fte@fSheBjHbk@|Kfn@`Klc@jLvc@|YlbAtM`c@nIb[vMdg@hMhg@tXxkAhY`rA~X`vAxFpZtGb^~Fh^pKdr@dCbQ`EnYrHnk@tIht@|Hjt@fDj^lIt~@hB|TxBfZRxBn@hKlBbYrAtRLlBjAhPfB`X|ArJV`EzCze@rAlRrCbb@`AlNHlAb@lGTdQvBl[BjCWzBWfAe@dA]h@_@\\{Ax@{Bx@{BfBqAlBkAhCc@bBUx@c@bDIj@Eh@K`GZ|F`AhF|@jC~AnA`AfAlA`Av@^bAnAxBZxC]`A]bBgARUVWxAuBjAmCx@aDXwAnANjC`@fEVxB]xFvAtCl@`GdB`ElAfDv@xL|CpGdBzEzApCtA|C`BhCnBvOhOtFlH`KtOnInOxDjHdOdZxJfVtEfKxErJtFnLlF~Ita@nn@v_@`l@lC`E`DfH~@xCjPbj@xK|]xBbHxBpG`@rAxBdHlApEZlAbAhDfG]pW[zPZbDFvQZhCF~Kp@`Hb@N@`Iv@fFf@jEd@vCRtIn@vBP|[|Cz@H|ANnBRQnB[pD}Ab[u@fUQjGKzEQfGdBfLjCFxDD~@BpYz@tEHdA@bCDrA@`A?hDEzDEpKF`S`A~VlAbS`Az@DrDPrDNzALzGtAbEhBxDtC`EjEbDxEdLlPjVl]~AzBT\\pPhVj@z@bDzEvIdMzEpIdEpJjDhKfDzKtFzQ~DrNZjAVfAbB~JnA~GlBxMXfC@Fd@xEJrA?zBF|BiDYw@Gg@@wI?oMpAs@FkBPcATiAZwC~@mH[qVOwS`@eJJ}DAuGE_FZkUx@{_@n@uBIj@hKnAbVtAzVNnCV~Am@bC?vCBbq@",
+        "shape": "qylmaBsxwiMsRkF}@]mBg@{@B}Jk@oFPxA`XvC`d@jD`m@`Flq@bGxh@nH|^hH|UtEnLvHfNxAhBlH|IdJrGbHvCbE~AxIlC|C`AxRpEnKnBrRnDvYzFpJnCdFlBfI|DxH`E`IbF`HjEpIbGnMxHxO~HpLhE|IlCb\\`IzR~B`El@|UpCdKnAlTpDzIvAdCb@|OlCtJlB|Bb@QvSUjRFfWB~EXzWXdNdA~UvAfWtAhS`CnY`DdZhDjWnJvo@~J~p@hMjx@vEdYzIhe@hClMpBfXbCdLdH``@nUx`A|U~t@rV~n@b`@xv@jM|TnWpd@`f@fr@fYpa@rC`Ele@jp@|NnSnf@py@xZpe@hS|Xtc@do@pHfK`IzKdKvMnJpLvCrDdApAla@`f@zo@hz@~n@rw@frAriBrwAvtBz_A|rAhMpQrEpG~Wh^hfAx|ArhAraBvc@vo@hBpCpB\\r@@|A@~@k@fBoE`FwNxi@wgBnKs[pGiQzKoWzOuZn^an@vi@u}@zw@qpAtYkd@zv@wjAtf@oq@~f@mp@f[u`@pYi^dK}LjUqWhdA_jAhq@{s@|a@ua@l_@c]nYuWlZsWvd@}_@le@q_@h]uWtEkDfm@ec@bn@cb@xTqNhz@uh@ny@ue@~o@}^vo@k\\hOcIvmAwq@fmAyq@~d@aY~oAkx@bTyGdM_FxL{CjKeBrJy@hL?dHnAdHbCxHjEnKfHbHhB~Dt@fED`G}AfF_FbC_EfB}EdHiSvMme@nAsFPwFpH|F|KxIzRjLhOlIdKrExKlEhPnFhPrEjThEtQ~Bt[lCx[lA|Zf@`X`@hQd@nZpAhJVbAB~JVrEb@dJx@pLbBrOjCrIjBxQhE~NlEfRxGxF`CrIrDjNtGlHnD`QbKpIxFxR|LzQzLnYxX`ZpVr[~W|R~OnGfFhGfG~I`IrIvI~L~MfIbKjG|HpDpF`DxE~DvG|FfJtFvJ`u@tzAvLlVjL`WpOd^rNr]jMr[fLtYzCjHn@rA|ClHhBvD`DhFhLdQfNlPbK`M|BhC\\d@j@v@`GnHjGrHvHtKlHrKrNvTpQbYjSlZnHnKlMlQ~K~OlKfPjHtLhGzKbGfLtHnOdLfWlGrO`G|OvLd^hJlZxErO`Mfc@`N|h@fSnw@nGpVnGlX|Ft[rEpZdHpf@nC|OvB~JhCzJxCjJvBtFdFxL~ExIpA|BdFhJ`CpEvA|BpFnJvGtKlFfIrF|HrHtJjMnN|C|CvElEpHlGnMdJdJdG~A`AdFfDz@l@rFtC|D|Aj@TxIhDpHjBzEjA|K~A`SpBfRjChF~@|QrDhR`E|SzDhDr@tJpBbHbBvc@vKhDx@|JbC~PjEd\\|HhNzCtO~CnNnClB\\`WhEnEv@z@PtE|@|IfBja@vJnCr@jRfF|GjBn[pJbH`C~Bv@~FrB~y@vXxOvF`OlE~JvCt@R~IfC`D~@tExAnc@xKbKrCd[nIxl@vQnY~HhXtF`HpAjAVhDv@jEn@|EPxGTbF\\jHv@nJpBbEjApIlCdCt@fJ`DfLtDpXhJzMpE~@`@lDdB|F|DnDnBfExBjJlBlEV`Ix@pU~BnFn@rGv@bn@vIlE\\fEVdH@fPAvGj@nAL|@Fdn@`HtANxEl@dEj@`b@vEhGr@fATzD`@`E\\pb@dDvQbCvQtCfIhA`PtBhALlLvAfEh@vQpBbPbClNdCnP`DrC`AzY`K~@\\dBl@`DrAnG|Bt@eIn@{GJmApAgOtBwTzCmV`CwNrA}HlCgO|EiX`D}PfAcF|@mDlAwDfCcHrCeG~CuFhBcCzAiB~BoBpB_BbEiC|F}CxGqCxBi@rD{@`Da@fAKv@CpHHjCFxDD~@BpYz@tEHdA@bCDrA@`A?hDEzDEpKF`S`A~VlAbS`Az@DrDPrDNzALzGtAbEhBxDtC`EjEbDxEdLlPjVl]~AzBT\\pPhVj@z@bDzEvIdMzEpIdEpJjDhKfDzKtFzQ~DrNZjAVfAbB~JnA~GlBxMXfC@Fd@xEJrA?zBF|BiDYw@Gg@@wI?oMpAs@FkBPcATiAZwC~@mH[qVOwS`@eJJ}DAuGE_FZkUx@{_@n@uBIj@hKnAbVtAzVNnCV~Am@bC?vCBbq@",
         "summary": {
-          "cost": 1650.242,
+          "cost": 1988.634,
           "has_ferry": false,
           "has_highway": false,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 16.936,
+          "length": 15.569,
+          "level_changes": [
+            [
+              365,
+              0.0
+            ]
+          ],
           "max_lat": 51.617422,
-          "max_lon": 7.517112,
+          "max_lon": 7.516743,
           "min_lat": 51.509938,
           "min_lon": 7.466176,
-          "time": 950.519
+          "time": 1020.611
         }
       }
     ],
@@ -396,17 +305,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 1650.242,
+      "cost": 1988.634,
       "has_ferry": false,
       "has_highway": false,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 16.936,
+      "length": 15.569,
       "max_lat": 51.617422,
-      "max_lon": 7.517112,
+      "max_lon": 7.516743,
       "min_lat": 51.509938,
       "min_lon": 7.466176,
-      "time": 950.519
+      "time": 1020.611
     },
     "units": "kilometers"
   }
