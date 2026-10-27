@@ -6,184 +6,245 @@
       {
         "maneuvers": [
           {
-            "bearing_after": 48,
+            "bearing_after": 228,
             "begin_shape_index": 0,
-            "cost": 29.421,
-            "end_shape_index": 8,
-            "instruction": "Drive northeast on Braunkohlenstra\u00dfe.",
-            "length": 0.147,
+            "cost": 20.111,
+            "end_shape_index": 5,
+            "instruction": "Drive southwest on Braunkohlenstra\u00dfe.",
+            "length": 0.156,
             "street_names": [
               "Braunkohlenstra\u00dfe"
             ],
-            "time": 17.763,
+            "time": 19.06,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 2,
+            "type": 3,
             "verbal_multi_cue": true,
-            "verbal_post_transition_instruction": "Continue for 100 meters.",
-            "verbal_pre_transition_instruction": "Drive northeast on Braunkohlenstra\u00dfe. Then, in 100 meters, Turn right to stay on Braunkohlenstra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Drive northeast. Then, in 100 meters, Turn right to stay on Braunkohlenstra\u00dfe."
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Drive southwest on Braunkohlenstra\u00dfe. Then Turn left onto Talweg.",
+            "verbal_succinct_transition_instruction": "Drive southwest. Then Turn left onto Talweg."
           },
           {
-            "bearing_after": 63,
-            "bearing_before": 13,
-            "begin_shape_index": 8,
-            "cost": 8.34,
-            "end_shape_index": 9,
-            "instruction": "Turn right to stay on Braunkohlenstra\u00dfe.",
-            "length": 0.02,
+            "bearing_after": 113,
+            "bearing_before": 205,
+            "begin_shape_index": 5,
+            "cost": 59.342,
+            "end_shape_index": 13,
+            "instruction": "Turn left onto Talweg.",
+            "length": 0.378,
             "street_names": [
-              "Braunkohlenstra\u00dfe"
+              "Talweg"
             ],
-            "time": 2.594,
+            "time": 51.048,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 10,
-            "verbal_multi_cue": true,
-            "verbal_post_transition_instruction": "Continue for 20 meters.",
-            "verbal_pre_transition_instruction": "Turn right to stay on Braunkohlenstra\u00dfe. Then Turn right onto Bensberger Stra\u00dfe.",
-            "verbal_succinct_transition_instruction": "Turn right. Then Turn right onto Bensberger Stra\u00dfe.",
-            "verbal_transition_alert_instruction": "Turn right to stay on Braunkohlenstra\u00dfe."
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 400 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Talweg.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Talweg."
           },
           {
-            "bearing_after": 147,
-            "bearing_before": 63,
-            "begin_shape_index": 9,
-            "begin_street_names": [
+            "bearing_after": 343,
+            "bearing_before": 91,
+            "begin_shape_index": 13,
+            "cost": 95.89,
+            "end_shape_index": 62,
+            "instruction": "Turn left onto Bensberger Stra\u00dfe/L 288.",
+            "length": 0.812,
+            "street_names": [
               "Bensberger Stra\u00dfe",
               "L 288"
             ],
-            "cost": 324.452,
-            "end_shape_index": 190,
-            "instruction": "Turn right onto Bensberger Stra\u00dfe/L 288. Continue on L 288.",
-            "length": 2.733,
+            "time": 65.48,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 800 meters.",
+            "verbal_pre_transition_instruction": "Turn left onto Bensberger Stra\u00dfe, L 288.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Bensberger Stra\u00dfe."
+          },
+          {
+            "bearing_after": 345,
+            "bearing_before": 353,
+            "begin_shape_index": 62,
+            "cost": 24.997,
+            "end_shape_index": 77,
+            "instruction": "Keep left to stay on Bensberger Stra\u00dfe/L 288.",
+            "length": 0.222,
             "street_names": [
+              "Bensberger Stra\u00dfe",
               "L 288"
             ],
-            "time": 199.348,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue on L 288 for 2.5 kilometers.",
-            "verbal_pre_transition_instruction": "Turn right onto Bensberger Stra\u00dfe, L 288.",
-            "verbal_succinct_transition_instruction": "Turn right.",
-            "verbal_transition_alert_instruction": "Turn right onto Bensberger Stra\u00dfe."
-          },
-          {
-            "bearing_after": 227,
-            "bearing_before": 140,
-            "begin_shape_index": 190,
-            "begin_street_names": [
-              "K\u00f6lner Stra\u00dfe",
-              "L 136"
-            ],
-            "cost": 266.223,
-            "end_shape_index": 290,
-            "instruction": "Turn right toward K\u00f6ln.",
-            "length": 2.344,
-            "sign": {},
-            "street_names": [
-              "L 136"
-            ],
-            "time": 162.772,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
-            "verbal_pre_transition_instruction": "Turn right toward K\u00f6ln.",
-            "verbal_succinct_transition_instruction": "Turn right toward K\u00f6ln.",
-            "verbal_transition_alert_instruction": "Turn right toward K\u00f6ln."
-          },
-          {
-            "bearing_after": 237,
-            "bearing_before": 226,
-            "begin_shape_index": 290,
-            "cost": 120.525,
-            "end_shape_index": 359,
-            "highway": true,
-            "instruction": "Take the A 4 ramp.",
-            "length": 2.111,
-            "sign": {
-              "exit_branch_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "A 4"
-                }
-              ]
-            },
-            "street_names": [
-              "A 4",
-              "E 40"
-            ],
-            "time": 75.454,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 18,
-            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
-            "verbal_pre_transition_instruction": "Take the A 4 ramp.",
-            "verbal_transition_alert_instruction": "Take the A 4 ramp."
-          },
-          {
-            "bearing_after": 293,
-            "bearing_before": 290,
-            "begin_shape_index": 359,
-            "cost": 176.86,
-            "end_shape_index": 425,
-            "highway": true,
-            "instruction": "Keep left to stay on A 4/E 40 toward K\u00f6ln-Merheim.",
-            "length": 4.191,
-            "sign": {},
-            "street_names": [
-              "A 4",
-              "E 40"
-            ],
-            "time": 160.7,
+            "time": 21.519,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 24,
-            "verbal_post_transition_instruction": "Continue for 4 kilometers.",
-            "verbal_pre_transition_instruction": "Keep left to stay on A 4, E 40 toward K\u00f6ln-Merheim.",
-            "verbal_transition_alert_instruction": "Keep left to stay on A 4."
+            "verbal_post_transition_instruction": "Continue for 200 meters.",
+            "verbal_pre_transition_instruction": "Keep left to stay on Bensberger Stra\u00dfe, L 288.",
+            "verbal_transition_alert_instruction": "Keep left to stay on Bensberger Stra\u00dfe."
           },
           {
-            "bearing_after": 280,
-            "bearing_before": 280,
-            "begin_shape_index": 425,
-            "cost": 17.961,
-            "end_shape_index": 428,
-            "instruction": "Keep right to take exit 16 onto E 40.",
-            "length": 0.332,
-            "sign": {
-              "exit_name_elements": [
-                {
-                  "text": "Kreuz K\u00f6ln-Ost"
-                }
-              ],
-              "exit_number_elements": [
-                {
-                  "text": "16"
-                }
-              ]
-            },
+            "bearing_after": 11,
+            "bearing_before": 341,
+            "begin_shape_index": 77,
+            "cost": 6.271,
+            "end_shape_index": 93,
+            "instruction": "Enter Schnabelsm\u00fchle and take the 1st exit onto An der Gohrsm\u00fchle/L 288.",
+            "length": 0.058,
+            "roundabout_exit_count": 1,
             "street_names": [
-              "E 40"
+              "Schnabelsm\u00fchle"
             ],
-            "time": 14.946,
+            "time": 5.532,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 23,
-            "verbal_pre_transition_instruction": "Keep right to take exit 16 onto E 40.",
-            "verbal_transition_alert_instruction": "Keep right to take exit 16."
+            "type": 26,
+            "verbal_pre_transition_instruction": "Enter Schnabelsm\u00fchle and take the 1st exit onto An der Gohrsm\u00fchle, L 288.",
+            "verbal_succinct_transition_instruction": "Enter the roundabout and take the 1st exit.",
+            "verbal_transition_alert_instruction": "Enter Schnabelsm\u00fchle and take the 1st exit onto An der Gohrsm\u00fchle."
           },
           {
-            "bearing_after": 284,
-            "bearing_before": 279,
-            "begin_shape_index": 428,
-            "cost": 442.378,
-            "end_shape_index": 538,
+            "bearing_after": 258,
+            "bearing_before": 241,
+            "begin_shape_index": 93,
+            "cost": 8.43,
+            "end_shape_index": 99,
+            "instruction": "Exit the roundabout onto An der Gohrsm\u00fchle/L 288.",
+            "length": 0.077,
+            "street_names": [
+              "An der Gohrsm\u00fchle",
+              "L 288"
+            ],
+            "time": 5.618,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 27,
+            "verbal_multi_cue": true,
+            "verbal_post_transition_instruction": "Continue for 80 meters.",
+            "verbal_pre_transition_instruction": "Exit the roundabout onto An der Gohrsm\u00fchle, L 288. Then Keep left to stay on L 288.",
+            "verbal_succinct_transition_instruction": "Exit the roundabout. Then Keep left to stay on L 288."
+          },
+          {
+            "bearing_after": 270,
+            "bearing_before": 275,
+            "begin_shape_index": 99,
+            "cost": 85.129,
+            "end_shape_index": 133,
+            "instruction": "Keep left to stay on L 288.",
+            "length": 1.126,
+            "street_names": [
+              "L 288"
+            ],
+            "time": 80.737,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+            "verbal_pre_transition_instruction": "Keep left to stay on L 288.",
+            "verbal_transition_alert_instruction": "Keep left to stay on L 288."
+          },
+          {
+            "bearing_after": 13,
+            "bearing_before": 285,
+            "begin_shape_index": 133,
+            "cost": 27.316,
+            "end_shape_index": 143,
+            "instruction": "Turn right onto Am Stadion/L 288.",
+            "length": 0.277,
+            "street_names": [
+              "Am Stadion",
+              "L 288"
+            ],
+            "time": 21.852,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Am Stadion, L 288.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Am Stadion."
+          },
+          {
+            "bearing_after": 271,
+            "bearing_before": 3,
+            "begin_shape_index": 143,
+            "begin_street_names": [
+              "Paffrather Stra\u00dfe",
+              "L 288"
+            ],
+            "cost": 312.014,
+            "end_shape_index": 313,
+            "instruction": "Turn left onto Paffrather Stra\u00dfe/L 288. Continue on L 288.",
+            "length": 3.556,
+            "street_names": [
+              "L 288"
+            ],
+            "time": 262.666,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue on L 288 for 4 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Paffrather Stra\u00dfe, L 288.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Paffrather Stra\u00dfe."
+          },
+          {
+            "bearing_after": 26,
+            "bearing_before": 329,
+            "begin_shape_index": 313,
+            "cost": 35.913,
+            "end_shape_index": 341,
+            "instruction": "Turn right onto Altenberger-Dom-Stra\u00dfe/L 101.",
+            "length": 0.315,
+            "street_names": [
+              "Altenberger-Dom-Stra\u00dfe",
+              "L 101"
+            ],
+            "time": 23.078,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 10,
+            "verbal_post_transition_instruction": "Continue for 300 meters.",
+            "verbal_pre_transition_instruction": "Turn right onto Altenberger-Dom-Stra\u00dfe, L 101.",
+            "verbal_succinct_transition_instruction": "Turn right.",
+            "verbal_transition_alert_instruction": "Turn right onto Altenberger-Dom-Stra\u00dfe."
+          },
+          {
+            "bearing_after": 297,
+            "bearing_before": 22,
+            "begin_shape_index": 341,
+            "begin_street_names": [
+              "Leverkusener Stra\u00dfe",
+              "K 5"
+            ],
+            "cost": 399.278,
+            "end_shape_index": 533,
+            "instruction": "Turn left toward Leverkusen.",
+            "length": 5.229,
+            "sign": {},
+            "street_names": [
+              "K 5"
+            ],
+            "time": 347.6,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left toward Leverkusen.",
+            "verbal_succinct_transition_instruction": "Turn left toward Leverkusen.",
+            "verbal_transition_alert_instruction": "Turn left toward Leverkusen."
+          },
+          {
+            "bearing_after": 304,
+            "bearing_before": 262,
+            "begin_shape_index": 533,
+            "cost": 88.001,
+            "end_shape_index": 547,
             "highway": true,
-            "instruction": "Keep right to take A 3 toward Oberhausen/D\u00fcsseldorf/K\u00f6ln-Nord.",
-            "length": 10.074,
+            "instruction": "Turn right to take the A 3 ramp toward Oberhausen/Dortmund.",
+            "length": 1.625,
             "sign": {
               "exit_branch_elements": [
                 {
@@ -196,10 +257,7 @@
                   "text": "Oberhausen"
                 },
                 {
-                  "text": "D\u00fcsseldorf"
-                },
-                {
-                  "text": "K\u00f6ln-Nord"
+                  "text": "Dortmund"
                 }
               ]
             },
@@ -207,20 +265,20 @@
               "A 3",
               "E 35"
             ],
-            "time": 378.09,
+            "time": 58.381,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 23,
-            "verbal_post_transition_instruction": "Continue for 10 kilometers.",
-            "verbal_pre_transition_instruction": "Keep right to take A 3 toward Oberhausen, D\u00fcsseldorf.",
-            "verbal_transition_alert_instruction": "Keep right to take A 3."
+            "type": 18,
+            "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+            "verbal_pre_transition_instruction": "Turn right to take the A 3 ramp toward Oberhausen, Dortmund.",
+            "verbal_transition_alert_instruction": "Turn right to take the A 3 ramp."
           },
           {
             "bearing_after": 353,
             "bearing_before": 352,
-            "begin_shape_index": 538,
-            "cost": 663.818,
-            "end_shape_index": 686,
+            "begin_shape_index": 547,
+            "cost": 595.115,
+            "end_shape_index": 695,
             "highway": true,
             "instruction": "Keep left to stay on A 3/E 35.",
             "length": 17.753,
@@ -239,9 +297,9 @@
           {
             "bearing_after": 354,
             "bearing_before": 341,
-            "begin_shape_index": 686,
-            "cost": 8.362,
-            "end_shape_index": 690,
+            "begin_shape_index": 695,
+            "cost": 7.817,
+            "end_shape_index": 699,
             "instruction": "Take exit 19 onto A 46 toward Wuppertal.",
             "length": 0.202,
             "sign": {
@@ -289,9 +347,9 @@
           {
             "bearing_after": 348,
             "bearing_before": 341,
-            "begin_shape_index": 690,
-            "cost": 43.276,
-            "end_shape_index": 712,
+            "begin_shape_index": 699,
+            "cost": 33.91,
+            "end_shape_index": 721,
             "instruction": "Keep right to take A 46 toward Wuppertal.",
             "length": 0.776,
             "sign": {
@@ -312,7 +370,7 @@
                 }
               ]
             },
-            "time": 33.286,
+            "time": 31.615,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 23,
@@ -322,9 +380,9 @@
           {
             "bearing_after": 73,
             "bearing_before": 72,
-            "begin_shape_index": 712,
-            "cost": 415.971,
-            "end_shape_index": 890,
+            "begin_shape_index": 721,
+            "cost": 354.15,
+            "end_shape_index": 899,
             "highway": true,
             "instruction": "Keep left to take A 46 toward Wuppertal.",
             "length": 11.448,
@@ -345,7 +403,7 @@
             "street_names": [
               "A 46"
             ],
-            "time": 363.739,
+            "time": 363.469,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 24,
@@ -356,9 +414,9 @@
           {
             "bearing_after": 47,
             "bearing_before": 43,
-            "begin_shape_index": 890,
-            "cost": 45.45,
-            "end_shape_index": 911,
+            "begin_shape_index": 899,
+            "cost": 34.425,
+            "end_shape_index": 920,
             "instruction": "Take exit 31 onto A 535 toward Essen/Velbert/Wuppertal-Sonnborn/Remscheid.",
             "length": 0.781,
             "sign": {
@@ -395,7 +453,7 @@
             "street_names": [
               "L 74"
             ],
-            "time": 34.085,
+            "time": 34.086,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
@@ -405,9 +463,9 @@
           {
             "bearing_after": 4,
             "bearing_before": 4,
-            "begin_shape_index": 911,
-            "cost": 15.586,
-            "end_shape_index": 915,
+            "begin_shape_index": 920,
+            "cost": 11.562,
+            "end_shape_index": 924,
             "instruction": "Keep left to take L 74.",
             "length": 0.251,
             "street_names": [
@@ -424,9 +482,9 @@
           {
             "bearing_after": 1,
             "bearing_before": 3,
-            "begin_shape_index": 915,
-            "cost": 452.825,
-            "end_shape_index": 1096,
+            "begin_shape_index": 924,
+            "cost": 394.237,
+            "end_shape_index": 1105,
             "highway": true,
             "instruction": "Keep left to take A 535 toward Velbert/Essen.",
             "length": 11.522,
@@ -443,7 +501,7 @@
             "street_names": [
               "A 535"
             ],
-            "time": 413.492,
+            "time": 413.493,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 24,
@@ -454,9 +512,9 @@
           {
             "bearing_after": 348,
             "bearing_before": 323,
-            "begin_shape_index": 1096,
-            "cost": 11.675,
-            "end_shape_index": 1116,
+            "begin_shape_index": 1105,
+            "cost": 10.008,
+            "end_shape_index": 1125,
             "instruction": "Take exit 2 toward Velbert.",
             "length": 0.277,
             "sign": {
@@ -487,9 +545,9 @@
           {
             "bearing_after": 4,
             "bearing_before": 317,
-            "begin_shape_index": 1116,
-            "cost": 36.174,
-            "end_shape_index": 1131,
+            "begin_shape_index": 1125,
+            "cost": 18.502,
+            "end_shape_index": 1140,
             "instruction": "Enter the roundabout and take the 3rd exit onto Metallstra\u00dfe.",
             "length": 0.053,
             "roundabout_exit_count": 3,
@@ -504,9 +562,9 @@
           {
             "bearing_after": 221,
             "bearing_before": 211,
-            "begin_shape_index": 1131,
-            "cost": 41.166,
-            "end_shape_index": 1144,
+            "begin_shape_index": 1140,
+            "cost": 32.323,
+            "end_shape_index": 1153,
             "instruction": "Exit the roundabout onto Metallstra\u00dfe.",
             "length": 0.291,
             "street_names": [
@@ -523,9 +581,9 @@
           {
             "bearing_after": 200,
             "bearing_before": 169,
-            "begin_shape_index": 1144,
-            "cost": 10.711,
-            "end_shape_index": 1150,
+            "begin_shape_index": 1153,
+            "cost": 8.908,
+            "end_shape_index": 1159,
             "instruction": "Enter the roundabout and take the 2nd exit onto Metallstra\u00dfe.",
             "length": 0.035,
             "roundabout_exit_count": 2,
@@ -540,9 +598,9 @@
           {
             "bearing_after": 155,
             "bearing_before": 111,
-            "begin_shape_index": 1150,
-            "cost": 22.075,
-            "end_shape_index": 1159,
+            "begin_shape_index": 1159,
+            "cost": 18.145,
+            "end_shape_index": 1168,
             "instruction": "Exit the roundabout onto Metallstra\u00dfe.",
             "length": 0.144,
             "street_names": [
@@ -560,9 +618,9 @@
           {
             "bearing_after": 227,
             "bearing_before": 127,
-            "begin_shape_index": 1159,
-            "cost": 90.905,
-            "end_shape_index": 1195,
+            "begin_shape_index": 1168,
+            "cost": 66.407,
+            "end_shape_index": 1204,
             "instruction": "Turn right onto Langenberger Stra\u00dfe/L 427.",
             "length": 0.597,
             "street_names": [
@@ -581,9 +639,9 @@
           {
             "bearing_after": 335,
             "bearing_before": 232,
-            "begin_shape_index": 1195,
-            "cost": 102.79,
-            "end_shape_index": 1229,
+            "begin_shape_index": 1204,
+            "cost": 68.744,
+            "end_shape_index": 1238,
             "instruction": "Turn right onto Friedrichstra\u00dfe.",
             "length": 0.316,
             "street_names": [
@@ -601,9 +659,9 @@
           {
             "bearing_after": 332,
             "bearing_before": 333,
-            "begin_shape_index": 1229,
-            "cost": 20.202,
-            "end_shape_index": 1233,
+            "begin_shape_index": 1238,
+            "cost": 13.313,
+            "end_shape_index": 1242,
             "instruction": "Keep left to stay on Friedrichstra\u00dfe.",
             "length": 0.05,
             "street_names": [
@@ -621,9 +679,9 @@
           {
             "bearing_after": 232,
             "bearing_before": 300,
-            "begin_shape_index": 1233,
-            "cost": 59.213,
-            "end_shape_index": 1241,
+            "begin_shape_index": 1242,
+            "cost": 37.125,
+            "end_shape_index": 1250,
             "instruction": "Turn left onto Noldestra\u00dfe.",
             "length": 0.198,
             "street_names": [
@@ -641,9 +699,9 @@
           {
             "bearing_after": 139,
             "bearing_before": 234,
-            "begin_shape_index": 1241,
-            "cost": 127.269,
-            "end_shape_index": 1270,
+            "begin_shape_index": 1250,
+            "cost": 71.832,
+            "end_shape_index": 1279,
             "instruction": "Turn left onto Friedrich-Ebert-Stra\u00dfe/L 74.",
             "length": 0.295,
             "street_names": [
@@ -662,9 +720,9 @@
           {
             "bearing_after": 190,
             "bearing_before": 144,
-            "begin_shape_index": 1270,
-            "cost": 13.791,
-            "end_shape_index": 1278,
+            "begin_shape_index": 1279,
+            "cost": 11.243,
+            "end_shape_index": 1287,
             "instruction": "Turn right onto Mettmanner Stra\u00dfe.",
             "length": 0.06,
             "street_names": [
@@ -683,9 +741,9 @@
           {
             "bearing_after": 288,
             "bearing_before": 192,
-            "begin_shape_index": 1278,
-            "cost": 630.367,
-            "end_shape_index": 1281,
+            "begin_shape_index": 1287,
+            "cost": 623.156,
+            "end_shape_index": 1290,
             "instruction": "Turn right.",
             "length": 0.014,
             "rough": true,
@@ -701,9 +759,9 @@
           },
           {
             "bearing_before": 297,
-            "begin_shape_index": 1281,
+            "begin_shape_index": 1290,
             "cost": 0.0,
-            "end_shape_index": 1281,
+            "end_shape_index": 1290,
             "instruction": "Your destination is on the right.",
             "length": 0.0,
             "time": 0.0,
@@ -714,19 +772,19 @@
             "verbal_transition_alert_instruction": "Your destination will be on the right."
           }
         ],
-        "shape": "iaxf`B}|jrLkG{M_L_VcMsY}BkFuAsCkBsD{Ci@eG}AaDwN|@u@~EoFv@{@fA{Bv@}A`BcEb@gAnDaJvEcJpEsG\\i@bR}LrKgGfKaGbAk@dIuEpFyD~@o@bAq@VQlFuDjHkFvB{AtCuBvCuBrEoDrGeFnC{A|AqAf@QjAe@`E}A~CmA`Ca@~@O`Di@dJE|TB`DD~GClPc@tKq@vBKfAG~EWlIy@tAM~JcAvKuA~DwAzDgB`GqCz@c@`JkDjBi@nBk@`L}BxD[pCUf@ClAEjAEbZrAd@?rGIvGk@rGsAxGiB~BqAlM_H`QiLnFuDfFsFhImNtDuGhIyNr@sAxM_WbKiSdJoRP_@zHePfEqJb@eAxNw\\~AsDrA_DbDsHj@mAnGiMpCqEbDqFdBsCnEkHrE_HvWg`@fB{CtG{KbJoQvFgLvFuLxC_H~Mg^fH_Rn@}AjEgL~DiLp@gBxOab@nNi`@pBsF|AgEvEkMjHeTtG{SnGaTbJ_\\zBgJ\\qAdLsa@b@{AvB{G`@oAjB_Gp@sBlC{IlBwHlEwOlBaHnAaFnAaFdCsH~@kBdCaDbBcBbBoA~JgGdKoGdF}BxCo@vCUrHCzNA|WU|HGzMKfUVdJJfB?pIl@pCPnAJdEd@bCh@pFd@bAF|DX~BPjDAbEg@pBk@vEaBnEsB\\SdFiDnEqEvFwJ~BsEr@aBfAeCdCiHxBeI~AeHrBgJjFwV`CsJtCkJxAsDfIyLj@{@vDwF~FlLv@nA|@zAhTlc@bHhNP\\jBlDjDrHrGlN`@x@xIrQnAhCzf@ndAhLdV|InPlGtMrGbNx@`Bz@|At@~A\\n@`AjBlQ~]|F~Ll@pAn@pAbDbHnBtDpAbDd@dAhCzFnBpE~ApDnBzD`CdEhG|LvCfGzA~CtS|c@hGfMzOd\\fEvIjDhHvBbEhDxG`EjIbBfDr@tAr@tA|@dB`BtDdA|BnC|FxCzFrGjM~AdDrHnOtQf_@fNrYvM`XvMjXnXpj@nVje@jPt[hCdF`T|b@~a@~z@p@tAnDjHn@tAzFzLx@dBh_@bx@rL~VbFtKzH|OrQd^j@jAp@pAjEvIrFjLhg@lcAh]zr@fd@h}@tElKjA~EzDhMxGpV`CnGzBpE|IzOpAzBr@pAbAfBnDpHbDbF|HpMnH~N`c@rx@xDnHtCdJbAtDd@fEH~DK`Em@jFmWdn@{C`IiCnIiAnEy@~Ew@hG[|G?~GPxGn@xGdAbGjArEbB`ExB~DnCjDrH|EjHpBhW`D|GxB`HpEdDxDdBpCvC~GnAhD|@`DlBlIdL`e@rAnHnHra@jFzV`Hl[dH`[vP`s@nVpeAnL~g@nKrg@tQp}@lGt^nG~^zIfl@zM|dAxAtM|G|n@xHfy@bHv`AhEru@nDfx@nBtf@nAri@bAfo@PdVJvWQht@QnRm@d^}@bWeAjWyAjZaC|^yFbo@{BjTaDpWwCnSoMlv@mHz^iJv`@mMte@oXty@gQbd@uQxa@sWjk@aSxc@cGxN_G|NcH|QeItUqEbN_GjS_HhW}Ht[uK~d@gGl]cEhXeDxWoCrUkErb@oBtT{AnUoD~{@aAlt@u@l{@~Abz@tDzbAhFtt@nHns@hJrr@dQdkA`J~m@jEz^fEra@hElj@vCfc@jBp^fCzl@|Bzq@~A`x@|@dv@XjeASpdA{A`}@aAj_@cBpj@{GtbBeB|Y{B|]wHdlAeOhkBi`@bfFob@zjFaDn_@cZxlDeKtrAcD|`@{NxfBsE~h@oB|UqJblA{InmA_ItuAwA~XeNdpCaKdwB{BjWeCdWoC`WoC`ToDpSiExRiF`RaGdQ}GdPuHbOgSb\\uM`RySfVoK|Iw]lZwSjTeTtPg}@hc@icAdYusAj_@}e@|Mon@dQge@rMse@xMye@zMg}@xVe_FxtAgcCvq@qrAv_@inBfj@g_@pLqIhDcJ`EwUrLeSjLiWtPeVvQaXbU{TlT}TlVgWb[gW`^s_@lm@yQt\\{`B~~C}oAf`C{Zbh@yRxY_MhPyJtMeL~Mqf@~i@sKnLyXhXsHlHeDtCqWbUen@nf@}c@j\\_ShLae@rUuXnMaIrDqk@|UwT~Ii\\hLgp@hQob@nJs_@~F_OpA}D^uc@vEg{@jEucA@sb@aAwa@gCk~@yKyR}Bqz@kKobAaNuwAwRqhFsr@}PaBmdBgQqdAcE{{@i@iyA[ah@n@q`@f@yg@jCwy@~F_EZcnAzN_i@~Gi`@vGmqCd_@{NrB{T`Du`@lFarBjXqqBtXmm@tHgzAhSst@|Jo{BtZcw@hKi~Flx@mQzBeqCh\\}dGdx@ul@~GiDb@ef@vGkUvEiUlFk`@|JsTfHg]bLi\\rMa]`P}b@|TwR|Km[bSgXbRyW`Q{a@j\\i`@l_@c[~[uWrZmIpJaTxWgKjMya@dl@}p@lgAmDdGo_A``B_p@bhA{z@nwAeXfd@ki@vx@uYla@ua@vg@k`@hb@go@fm@{m@vg@uUlQqPxKq[xSgm@x[g]vNo`@nPq\\pLw[xKyShGgsBng@im@|Mws@bPef@xKmd@vG}QdC_VdC}`@lDq^nAmW`@iYGwt@e@alGiJuOUuYc@gOUc_D}E}sAuBo|@uAaaD_F_{@oAyo@o@mhHgKsb@m@yhBj@gfBhCy}@|@wnCpCmwAxAakCdDaiAvAofI`Ksu@~@_mDpEeCDgxBpEaXnB{^|Cci@rH_JnAql@tLgs@fS{m@jRwy@|^sUxLeNpHkVzNy^nVmMfJiRpN{YdVkXfVcWhVuNvN{wBbvBoKhJiZtYa`@n`@ug@`g@}a@va@gz@vv@}aAvw@aVhP{IbGcUpNevAxs@ut@hYgZpIsWrHoeFxtAg}O`hEoElAm|GzhBs{G`gBwvCv{@}q@dX}f@~T_w@td@g_CbbBcoD|bCydAts@q^xVeGfE_wBpyAaJrG{VjPwLfI_b@hZsIxFcNpJ{iCbhB{UrPs{EteDox@ze@sJbFyr@p\\gTpKarK`~EyzAxq@slCrmAkKvEydB`x@c|@fa@a}Azs@iRdB}_@tP{UpJ_`@~PyM|CuPdH_K~CkKbDo_@nKiNjBcPlA{PJuP[uMqAcSaD_VaHqSuIiO}IkNiKwKeLgFqHmGqMuEwNwE}OmF{QwY__CsWs}BkBoPeNmmA{H}[_E{g@{Dof@oJ_qAyHylAsEyv@sEo}@gDkt@iBcf@iLskCoNeiDsOksDeI_nB_AeU{Cav@oHqdBeF_jAgF{hAsDo{@{Bkj@aB{`@uDu_AiEoaAmOcqDuO{uD}NsmDkOgpDeG_zAyGe}A_N{eDcC{j@eBwa@gHgfBoDov@kDoq@wHuiAsFqo@sI_|@iGoi@gCgRkDiWiG_d@oVcaBkNg`AoWceBwV}aBiRwmAih@m|CqY{dBoJ{j@wC_R}AgJ}\\crByIoh@kXaaB_Niz@yDuVcL_v@cN{gAqDg_@aGcs@yDkl@wDax@}@mXo@uTmAgl@c@_[_@et@Eg\\KypAGsw@Ecf@KsgAGyvA?sEAoYYuoCmAg|@_Byo@iDup@wCcb@cEi`@kOofAsP__Ay\\wzAc[gpAaUy`Awa@keBcDaNsc@ufBub@kzAg^y`A_c@k~@af@}v@{b@uj@eg@{g@gPgPi[_VwVyNy[sSg_@{U_`@}UaMaKaMcKwUyUoIkKqIkLuGuJoGoKkHqM}G_NsGuNeGgOiJsW{F}QiFoRmHe[{Ga^cGy_@oDkX}F{k@qEmj@_IygAgHwbAaEqc@yFej@oFo`@_H{^mKef@{J_]wKw[uMg[wMcXaPmXyOqU_q@i_A_NeS}Rk\\cNmYkMi]oIuVoIc\\eFkVaFsZ{Ei`@uFqn@}Dqn@_KoyBaC_g@kE_l@kF}g@sD{YuGs_@iG{ZqEsPwEeOyMg_@}Sue@uMuUwPkVcRwTkReRsOcM{WoPgRcK}RsJeTuKkZkReLuIyJuJkMwMgSmWqO}Ua_@}l@kFyI{NoZgMeTmQoX}NoSeJ{K}L{LwKeJcKuGmL}FoIoCyIqCwKoBoLeA_MU_HJmSp@_dA|HeJr@eR|A_DKipAcIys@oEsKq@mq@_EyWcA}XW{JL_Sx@}S`BcSxCuRlDuRzEeJdCc\\|JmLdEw^`NadA~_@gj@dQy^vIsV|Eue@~GmWzCqWrCu~@pKkL`BiLnBiLzBgLdCeLpC}\\dKw\\|Mm\\~Oc\\|Pu~CpbB{DvB}k@nZmd@dVm_@fSe{@vc@_c@~TaUpL}a@hS{[dOgrCxfAea@tL{\\dJyN|Daz@dQ}dAtPsdApPcj@nIol@pJqa@fIe}@bRos@`Rqp@hTw_@~Mab@pPmWbLyXpMaw@z`@_m@n]wu@vf@oeA|x@aY`UywAhkAub@l]__@xYyXlT}i@~_@uOzJyY`RaVfMsM`Huj@xXa^fP_JxDk[dLme@jOsb@lLqn@fMyq@nLgwAdRgwAjR}h@jKcg@rMi~@t[s^~Ow^tP{HrEqM|H_lAft@uQnMoWdQgz@dg@sUjL{LxFeTrJwRnHkx@lV}x@|Naw@`Ig_@lAqf@PgV{@s]kAaOuAqK}@eOeB}OsBwMkBuMqCoQ}D}LuCyLqDiRuFcRwGeS{HcSwIyQcJoOaIea@}Vcb@cY{a@gZw{BigBeVaQ_VwPoQ{Le`@uSi`@gQkM{EqMgEeSiFcRyDsOaCqLiA_ZwBwTc@uJAkM\\mDLg\\lB}[lEmRzDaIjBe_@fLya@rNaf@fTcQfIgOrIggAzi@uNhH}TbLu`@pRin@rX_t@xZmz@~[eX`Jqq@xTso@hQgr@lN{\\bGgZnE_q@zHsj@hFem@`Eam@rEwc@jG{Q~CaIhB{KnCwH~BuNlFmHfDwKtFqFxDm_@bX__@lYe_Adt@qyAnjAm~AfoAw[xWgPnOuXjXyVbY}Xr^eGzAyFzGqFbFuFtEyGjCeHhA_HEwGwAmJmCqJmCcGk@eG\\uDr@qDpByBjCyDdH}ArDiEjJ{ApBs@t@y@Oy@@u@Vs@f@k@x@e@lAYxAKbB@dBN`B`@zAl@jAx@v@~@^`ABnDvHjDxBvMzJdNdKlGpDdUpMvP`DlThBlPR~Fw@`ILrBu@nBeAxAxAjBV`Bg@pA_Bt@mCPcDnBwAzFwDtFqDb@g@zGoHtIkLhR{Yp@cAfC{GxCbGn@nAJRzJtRfKnSdAtBlAhCdMrWfIpPTb@jE`I`D~FzAtCr@tAdKxRvA|CdFbL`EzI|BpEhKjSjFfKxKhTfDtGhBpDdHbNhS~_@|F~JhD|GzCdG|@dB~ClGfGvKhJ|Pb@hAlCtGdAvCsFrDoBjByQpPyEhEiSzQ_HjGmF|EcJfI}DnD{AjAkA|@gEpDkAbAiAP{@n@yBjBUV{@xD[r@k@d@_CtBk@h@y@r@wBjBSPUROL]XcCnBy@T{@Pu@h@cClByGhFmG`FkJpH_AzBYzB`@dArVxp@nAjDzEvMz@bC`[n{@FRfAzCtFsI|DuGxE_Ir@mAbE_Hl@aApAwBzAeChAkBXe@t@mAhB}ClIgNjC{EzGgLpBQl@mAh@cA|AkC~@kEzAcDrAqCtD{HdGgMpCoBtJqOp@aAr@cAdC{C|B`@pAXbARpFzAvAb@t@b@fAlAlHbB_@xCUbBi@fB",
+        "shape": "iaxf`B}|jrLvBtEnHnBvCpBvc@nh@fS`Nf[ekBxAoTRkVSwdAnCix@Laa@?eCBwG_DlAaE|AkAd@g@P}ApAoCzAsGdFsEnDwCtBuCtBwBzAkHjFmFtDWPcAp@_An@qFxDeItEcAj@gK`GsKfGcR|L]h@qErGwEbJoD`Jc@fAaBbEw@|AgAzBw@z@_FnF}@t@yWpT_d@ra@yE~DqJnImYhUwDV{EtD_O`Lo@f@mJ~DiHpBuJlCaKx@gNb@sQf@gQlBeQxFcFxBaDbB{FnF}DbEwB`CaGvIcGpM{GxPw@dBgFpImCzA}GxDwDdBy@^q@Jg@Mk@e@y@k@{@[cAIw@Fq@Pk@Zo@b@s@`AY~@_@bCK`DVdE`@`Bp@vCRvCE|CiAv`@GlB]bO@dU^`ThA`MtM`bBxKnkA~Ezh@|@zRNpr@_@zWaCb`AmDpb@kYboAaHfUuEvLcGdLcGnJiMfQcJjMcGfJoHvLyClGoHlSiAbFcB`J{AlIuAfLMdBeB~T_B|]{Bn`AoAzXkBhSQbBm@vGwF_BgLeC{IkAwv@UaQBwE@uU{@yIU_BImEKAzB?fBAt@BpGHxTIpc@Gfh@O~ME~R_AvUyAbRsB|N[|BkChP[nAaB~GgC~IwAzDuGlQqAjDgEdLsDjKk@|AcC~GcCzGwBfG_]h`AiA`D_CvGcVjq@wG~QsM~^eFzMiMv\\sBxGgNzd@oSt_AcVlhA{BfKyXfoAk@jCkAlFgA`FeDhOoA|FSbAqAbJCRQnAU`Bg@fGSvGk@zQE~BQjKm@fMw@zFgB~LuA~FWt@i@vAaBpE{BrEcCbDsGzH_FtCwE`BoE~@_Hn@wFWiMaCgIq@yEC{E^ub@|Hi`@vHqM~EuKhGkLbJcLpLoJbOqArBqDzGkA|BwEtIsDlK}AjE_CvGuEjP_DvQiBfNQhB]jG[lJ[v^?b@DfKQdJ_AxRs@nIo@tHuBnKqAvGeArDaBzFiEdKyCfHe@l@eJbTup@fwAcJ|RsCdG_@j@cAxAmBtCcKbOaLbN_AhAeWxZiJnNKNiOt]iKtb@oCdLc@dB_@~AmCzKuGnY_YjnA}CvLwE`NeEzI{EtHaF|GqBlBub@`\\gLhIq@d@gBnAWRyEzDyHjG_PtMwLvJqb@l_@oCbCsF|EqDbDq@l@wErDaHrF_WxXqM`PcF|HoEfIsJfUyB~EiInLcLtLgJzFcVfOqBbAiJvEiPfIyLrGgDhBmBVcExByCtBmChCqDiC{@i@aHoEkBmAoEiCUMoGuDkOiI{LoG]Q_B}@sAu@mAq@o@_@iAm@{KiGaB_AeGgDuGqDuAw@cAk@wCaBgLqGeCuAuGqDsF{CeAm@qDqB{A~Fs@jDsE|UyBnIa@bBeIdb@}DpOmKxj@_EvV{E~ZwFx[qG|]I`@kZtrA}EpU}CrM}DnP_HxYwD`L_DdHy\\~a@gApAcLvLk@l@w@t@eBdB_LnKWXk@l@yPbUsHlK_HzKwCnG]t@sBjFy@~Bw@dCy@hDeAjFaA~FiAxIm_@f|Cin@hbF}_@dcDoC`VwBxQiFbd@uD`\\aF~b@eFzc@qCjVwBdRoAtJsApJiAlGoAjGsAdGcBpGgB|FcBbFwAvDmBrEeFhLiQ`a@g@jAmElJ_D|Gi@jA_f@pdAaQh_@wD|HkAxBiArBcAbB{@lAsAdByAbBsDnDuDrDwGdHiFvEaEnH_AlBi@nAO`@yBlGwA~EaFjRyBlIyGfWwEfQmR~s@aDpM{FnVyDlR{CnUQlCuKj~A]~EuEbk@g@zGiBlZOvEKrIMhOSdIC`D?hMT`VHvBJ~D\\~GfAlNl@xGpAtM~@rInCtUvBdQZnC~BvR`Inp@zDf[`FvUzF`b@rHzg@vHhg@`OpaApJ`n@tClR^fLrCpR~BdP^nCfDfHrAfKv@jGl@dF~Ipu@xAfU~BrYhBvYnA`T~Af^vA~e@t@tm@Hbc@Mj_@}@pl@c@hS{@b\\KbEGdCIvCI~DSlJOrI}@x_@EdFYp\\Ef]Jbl@t@pk@~@h_@lBdh@T`G~Bnb@`Ehk@xAvQnDd_@zEhb@|Hvo@nLpgAzCt\\p@zIpA|OdEfp@m@hFN`IrBdL\\zI`E`m@n@zQd@rNn@lNNtDp@|Q^`SaA`Nd@tQ~A|b@dCtF`FdmAoClFeArGcCjHgD`FiEhE}y@d]cWvIaWlG_TxKcw@hKi~Flx@mQzBeqCh\\}dGdx@ul@~GiDb@ef@vGkUvEiUlFk`@|JsTfHg]bLi\\rMa]`P}b@|TwR|Km[bSgXbRyW`Q{a@j\\i`@l_@c[~[uWrZmIpJaTxWgKjMya@dl@}p@lgAmDdGo_A``B_p@bhA{z@nwAeXfd@ki@vx@uYla@ua@vg@k`@hb@go@fm@{m@vg@uUlQqPxKq[xSgm@x[g]vNo`@nPq\\pLw[xKyShGgsBng@im@|Mws@bPef@xKmd@vG}QdC_VdC}`@lDq^nAmW`@iYGwt@e@alGiJuOUuYc@gOUc_D}E}sAuBo|@uAaaD_F_{@oAyo@o@mhHgKsb@m@yhBj@gfBhCy}@|@wnCpCmwAxAakCdDaiAvAofI`Ksu@~@_mDpEeCDgxBpEaXnB{^|Cci@rH_JnAql@tLgs@fS{m@jRwy@|^sUxLeNpHkVzNy^nVmMfJiRpN{YdVkXfVcWhVuNvN{wBbvBoKhJiZtYa`@n`@ug@`g@}a@va@gz@vv@}aAvw@aVhP{IbGcUpNevAxs@ut@hYgZpIsWrHoeFxtAg}O`hEoElAm|GzhBs{G`gBwvCv{@}q@dX}f@~T_w@td@g_CbbBcoD|bCydAts@q^xVeGfE_wBpyAaJrG{VjPwLfI_b@hZsIxFcNpJ{iCbhB{UrPs{EteDox@ze@sJbFyr@p\\gTpKarK`~EyzAxq@slCrmAkKvEydB`x@c|@fa@a}Azs@iRdB}_@tP{UpJ_`@~PyM|CuPdH_K~CkKbDo_@nKiNjBcPlA{PJuP[uMqAcSaD_VaHqSuIiO}IkNiKwKeLgFqHmGqMuEwNwE}OmF{QwY__CsWs}BkBoPeNmmA{H}[_E{g@{Dof@oJ_qAyHylAsEyv@sEo}@gDkt@iBcf@iLskCoNeiDsOksDeI_nB_AeU{Cav@oHqdBeF_jAgF{hAsDo{@{Bkj@aB{`@uDu_AiEoaAmOcqDuO{uD}NsmDkOgpDeG_zAyGe}A_N{eDcC{j@eBwa@gHgfBoDov@kDoq@wHuiAsFqo@sI_|@iGoi@gCgRkDiWiG_d@oVcaBkNg`AoWceBwV}aBiRwmAih@m|CqY{dBoJ{j@wC_R}AgJ}\\crByIoh@kXaaB_Niz@yDuVcL_v@cN{gAqDg_@aGcs@yDkl@wDax@}@mXo@uTmAgl@c@_[_@et@Eg\\KypAGsw@Ecf@KsgAGyvA?sEAoYYuoCmAg|@_Byo@iDup@wCcb@cEi`@kOofAsP__Ay\\wzAc[gpAaUy`Awa@keBcDaNsc@ufBub@kzAg^y`A_c@k~@af@}v@{b@uj@eg@{g@gPgPi[_VwVyNy[sSg_@{U_`@}UaMaKaMcKwUyUoIkKqIkLuGuJoGoKkHqM}G_NsGuNeGgOiJsW{F}QiFoRmHe[{Ga^cGy_@oDkX}F{k@qEmj@_IygAgHwbAaEqc@yFej@oFo`@_H{^mKef@{J_]wKw[uMg[wMcXaPmXyOqU_q@i_A_NeS}Rk\\cNmYkMi]oIuVoIc\\eFkVaFsZ{Ei`@uFqn@}Dqn@_KoyBaC_g@kE_l@kF}g@sD{YuGs_@iG{ZqEsPwEeOyMg_@}Sue@uMuUwPkVcRwTkReRsOcM{WoPgRcK}RsJeTuKkZkReLuIyJuJkMwMgSmWqO}Ua_@}l@kFyI{NoZgMeTmQoX}NoSeJ{K}L{LwKeJcKuGmL}FoIoCyIqCwKoBoLeA_MU_HJmSp@_dA|HeJr@eR|A_DKipAcIys@oEsKq@mq@_EyWcA}XW{JL_Sx@}S`BcSxCuRlDuRzEeJdCc\\|JmLdEw^`NadA~_@gj@dQy^vIsV|Eue@~GmWzCqWrCu~@pKkL`BiLnBiLzBgLdCeLpC}\\dKw\\|Mm\\~Oc\\|Pu~CpbB{DvB}k@nZmd@dVm_@fSe{@vc@_c@~TaUpL}a@hS{[dOgrCxfAea@tL{\\dJyN|Daz@dQ}dAtPsdApPcj@nIol@pJqa@fIe}@bRos@`Rqp@hTw_@~Mab@pPmWbLyXpMaw@z`@_m@n]wu@vf@oeA|x@aY`UywAhkAub@l]__@xYyXlT}i@~_@uOzJyY`RaVfMsM`Huj@xXa^fP_JxDk[dLme@jOsb@lLqn@fMyq@nLgwAdRgwAjR}h@jKcg@rMi~@t[s^~Ow^tP{HrEqM|H_lAft@uQnMoWdQgz@dg@sUjL{LxFeTrJwRnHkx@lV}x@|Naw@`Ig_@lAqf@PgV{@s]kAaOuAqK}@eOeB}OsBwMkBuMqCoQ}D}LuCyLqDiRuFcRwGeS{HcSwIyQcJoOaIea@}Vcb@cY{a@gZw{BigBeVaQ_VwPoQ{Le`@uSi`@gQkM{EqMgEeSiFcRyDsOaCqLiA_ZwBwTc@uJAkM\\mDLg\\lB}[lEmRzDaIjBe_@fLya@rNaf@fTcQfIgOrIggAzi@uNhH}TbLu`@pRin@rX_t@xZmz@~[eX`Jqq@xTso@hQgr@lN{\\bGgZnE_q@zHsj@hFem@`Eam@rEwc@jG{Q~CaIhB{KnCwH~BuNlFmHfDwKtFqFxDm_@bX__@lYe_Adt@qyAnjAm~AfoAw[xWgPnOuXjXyVbY}Xr^eGzAyFzGqFbFuFtEyGjCeHhA_HEwGwAmJmCqJmCcGk@eG\\uDr@qDpByBjCyDdH}ArDiEjJ{ApBs@t@y@Oy@@u@Vs@f@k@x@e@lAYxAKbB@dBN`B`@zAl@jAx@v@~@^`ABnDvHjDxBvMzJdNdKlGpDdUpMvP`DlThBlPR~Fw@`ILrBu@nBeAxAxAjBV`Bg@pA_Bt@mCPcDnBwAzFwDtFqDb@g@zGoHtIkLhR{Yp@cAfC{GxCbGn@nAJRzJtRfKnSdAtBlAhCdMrWfIpPTb@jE`I`D~FzAtCr@tAdKxRvA|CdFbL`EzI|BpEhKjSjFfKxKhTfDtGhBpDdHbNhS~_@|F~JhD|GzCdG|@dB~ClGfGvKhJ|Pb@hAlCtGdAvCsFrDoBjByQpPyEhEiSzQ_HjGmF|EcJfI}DnD{AjAkA|@gEpDkAbAiAP{@n@yBjBUV{@xD[r@k@d@_CtBk@h@y@r@wBjBSPUROL]XcCnBy@T{@Pu@h@cClByGhFmG`FkJpH_AzBYzB`@dArVxp@nAjDzEvMz@bC`[n{@FRfAzCtFsI|DuGxE_Ir@mAbE_Hl@aApAwBzAeChAkBXe@t@mAhB}ClIgNjC{EzGgLpBQl@mAh@cA|AkC~@kEzAcDrAqCtD{HdGgMpCoBtJqOp@aAr@cAdC{C|B`@pAXbARpFzAvAb@t@b@fAlAlHbB_@xCUbBi@fB",
         "summary": {
-          "cost": 4197.801,
+          "cost": 3573.628,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 67.02,
+          "length": 58.898,
           "max_lat": 51.341505,
-          "max_lon": 7.153894,
-          "min_lat": 50.946025,
+          "max_lon": 7.137259,
+          "min_lat": 50.981683,
           "min_lon": 6.941403,
-          "time": 2692.422
+          "time": 2641.386
         }
       }
     ],
@@ -735,7 +793,7 @@
         "lat": 50.983333,
         "lon": 7.133333,
         "original_index": 0,
-        "side_of_street": "right",
+        "side_of_street": "left",
         "type": "break"
       },
       {
@@ -749,17 +807,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 4197.801,
+      "cost": 3573.628,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 67.02,
+      "length": 58.898,
       "max_lat": 51.341505,
-      "max_lon": 7.153894,
-      "min_lat": 50.946025,
+      "max_lon": 7.137259,
+      "min_lat": 50.981683,
       "min_lon": 6.941403,
-      "time": 2692.422
+      "time": 2641.386
     },
     "units": "kilometers"
   }

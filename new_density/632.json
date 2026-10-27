@@ -8,7 +8,7 @@
           {
             "bearing_after": 6,
             "begin_shape_index": 0,
-            "cost": 10.068,
+            "cost": 8.835,
             "end_shape_index": 2,
             "instruction": "Drive north on St\u00f6ckmannstra\u00dfe.",
             "length": 0.068,
@@ -28,7 +28,7 @@
             "bearing_after": 276,
             "bearing_before": 6,
             "begin_shape_index": 2,
-            "cost": 46.995,
+            "cost": 28.61,
             "end_shape_index": 7,
             "instruction": "Turn left onto Hermann-Albertz-Stra\u00dfe.",
             "length": 0.119,
@@ -49,7 +49,7 @@
             "bearing_after": 186,
             "bearing_before": 276,
             "begin_shape_index": 7,
-            "cost": 72.034,
+            "cost": 45.433,
             "end_shape_index": 16,
             "instruction": "Turn left onto Friedrich-Karl-Stra\u00dfe.",
             "length": 0.264,
@@ -73,7 +73,7 @@
               "Grenzstra\u00dfe",
               "K 14"
             ],
-            "cost": 295.824,
+            "cost": 198.673,
             "end_shape_index": 93,
             "instruction": "Turn right onto Grenzstra\u00dfe/K 14. Continue on K 14.",
             "length": 1.885,
@@ -93,7 +93,7 @@
             "bearing_after": 50,
             "bearing_before": 288,
             "begin_shape_index": 93,
-            "cost": 140.219,
+            "cost": 105.02,
             "end_shape_index": 118,
             "instruction": "Turn right onto Duisburger Stra\u00dfe/L 452.",
             "length": 1.246,
@@ -114,7 +114,7 @@
             "bearing_after": 321,
             "bearing_before": 49,
             "begin_shape_index": 118,
-            "cost": 169.777,
+            "cost": 120.977,
             "end_shape_index": 168,
             "instruction": "Turn left onto Ruhrorter Stra\u00dfe/L 447.",
             "length": 1.685,
@@ -135,7 +135,7 @@
             "bearing_after": 358,
             "bearing_before": 269,
             "begin_shape_index": 168,
-            "cost": 2584.143,
+            "cost": 2325.986,
             "end_shape_index": 743,
             "highway": true,
             "instruction": "Turn right to take the A 3 ramp toward K\u00f6ln/Duisburg.",
@@ -172,7 +172,7 @@
             "bearing_after": 153,
             "bearing_before": 146,
             "begin_shape_index": 743,
-            "cost": 25.897,
+            "cost": 22.198,
             "end_shape_index": 761,
             "highway": true,
             "instruction": "Keep right to take A 4/A 59/E 40.",
@@ -194,7 +194,7 @@
             "bearing_after": 147,
             "bearing_before": 147,
             "begin_shape_index": 761,
-            "cost": 808.33,
+            "cost": 721.01,
             "end_shape_index": 989,
             "highway": true,
             "instruction": "Keep left to stay on A 59 toward Bonn.",
@@ -212,143 +212,101 @@
             "verbal_transition_alert_instruction": "Keep left to stay on A 59."
           },
           {
-            "bearing_after": 222,
+            "bearing_after": 204,
             "bearing_before": 211,
             "begin_shape_index": 989,
-            "cost": 90.209,
+            "cost": 60.742,
             "end_shape_index": 1021,
             "highway": true,
-            "instruction": "Keep right to take exit 40 onto A 565 toward Koblenz/Bonn.",
-            "length": 2.098,
+            "instruction": "Keep left to stay on A 59 toward K\u00f6nigswinter/Bonn-Ost.",
+            "length": 1.752,
+            "sign": {},
+            "street_names": [
+              "A 59"
+            ],
+            "time": 63.13,
+            "travel_mode": "drive",
+            "travel_type": "car",
+            "type": 24,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Keep left to stay on A 59 toward K\u00f6nigswinter, Bonn-Ost.",
+            "verbal_transition_alert_instruction": "Keep left to stay on A 59."
+          },
+          {
+            "bearing_after": 181,
+            "bearing_before": 170,
+            "begin_shape_index": 1021,
+            "cost": 15.544,
+            "end_shape_index": 1045,
+            "instruction": "Take exit 41 onto B 56 toward BN-Vilich/-Beuel/Hangelar.",
+            "length": 0.365,
             "sign": {
               "exit_branch_elements": [
                 {
                   "consecutive_count": 1,
-                  "text": "A 565"
+                  "text": "B 56"
                 }
               ],
               "exit_name_elements": [
                 {
-                  "text": "Dreieck Bonn-Nordost"
+                  "text": "Bonn-Vilich"
                 }
               ],
               "exit_number_elements": [
                 {
-                  "text": "40"
+                  "text": "41"
                 }
               ],
               "exit_toward_elements": [
                 {
-                  "text": "Koblenz"
+                  "text": "BN-Vilich"
                 },
                 {
-                  "text": "Bonn"
+                  "text": "-Beuel"
+                },
+                {
+                  "text": "Hangelar"
                 }
               ]
             },
-            "street_names": [
-              "A 565"
-            ],
-            "time": 75.6,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 23,
-            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
-            "verbal_pre_transition_instruction": "Keep right to take exit 40 onto A 565 toward Koblenz, Bonn.",
-            "verbal_transition_alert_instruction": "Keep right to take exit 40."
-          },
-          {
-            "bearing_after": 261,
-            "bearing_before": 252,
-            "begin_shape_index": 1021,
-            "cost": 14.652,
-            "end_shape_index": 1037,
-            "instruction": "Take exit 2 toward Bonn-Beuel.",
-            "length": 0.345,
-            "sign": {
-              "exit_name_elements": [
-                {
-                  "text": "Bonn-Beuel"
-                }
-              ],
-              "exit_number_elements": [
-                {
-                  "text": "2"
-                }
-              ],
-              "exit_toward_elements": [
-                {
-                  "consecutive_count": 1,
-                  "text": "Bonn-Beuel"
-                },
-                {
-                  "text": "Niederkasssel"
-                }
-              ]
-            },
-            "time": 14.003,
+            "time": 14.839,
             "travel_mode": "drive",
             "travel_type": "car",
             "type": 20,
-            "verbal_pre_transition_instruction": "Take exit 2 toward Bonn-Beuel.",
-            "verbal_transition_alert_instruction": "Take exit 2."
+            "verbal_pre_transition_instruction": "Take exit 41 onto B 56 toward BN-Vilich, -Beuel.",
+            "verbal_transition_alert_instruction": "Take exit 41."
           },
           {
-            "bearing_after": 144,
-            "bearing_before": 107,
-            "begin_shape_index": 1037,
-            "begin_street_names": [
-              "Niederkasseler Stra\u00dfe",
-              "L 269"
-            ],
-            "cost": 227.245,
-            "end_shape_index": 1094,
-            "instruction": "Bear right onto Niederkasseler Stra\u00dfe/L 269. Continue on Niederkasseler Stra\u00dfe.",
-            "length": 2.175,
-            "street_names": [
-              "Niederkasseler Stra\u00dfe"
-            ],
-            "time": 143.9,
-            "travel_mode": "drive",
-            "travel_type": "car",
-            "type": 9,
-            "verbal_post_transition_instruction": "Continue on Niederkasseler Stra\u00dfe for 2 kilometers.",
-            "verbal_pre_transition_instruction": "Bear right onto Niederkasseler Stra\u00dfe, L 269.",
-            "verbal_succinct_transition_instruction": "Bear right.",
-            "verbal_transition_alert_instruction": "Bear right onto Niederkasseler Stra\u00dfe."
-          },
-          {
-            "bearing_after": 207,
-            "bearing_before": 133,
-            "begin_shape_index": 1094,
-            "cost": 65.662,
-            "end_shape_index": 1120,
-            "instruction": "Turn right toward Zentrum.",
-            "length": 0.419,
-            "sign": {},
+            "bearing_after": 265,
+            "bearing_before": 360,
+            "begin_shape_index": 1045,
+            "cost": 221.91,
+            "end_shape_index": 1110,
+            "instruction": "Turn left onto Sankt Augustiner Stra\u00dfe/B 56.",
+            "length": 2.059,
             "street_names": [
               "Sankt Augustiner Stra\u00dfe",
               "B 56"
             ],
-            "time": 43.296,
+            "time": 166.876,
             "travel_mode": "drive",
             "travel_type": "car",
-            "type": 10,
-            "verbal_post_transition_instruction": "Continue for 400 meters.",
-            "verbal_pre_transition_instruction": "Turn right toward Zentrum.",
-            "verbal_succinct_transition_instruction": "Turn right toward Zentrum.",
-            "verbal_transition_alert_instruction": "Turn right toward Zentrum."
+            "type": 15,
+            "verbal_post_transition_instruction": "Continue for 2 kilometers.",
+            "verbal_pre_transition_instruction": "Turn left onto Sankt Augustiner Stra\u00dfe, B 56.",
+            "verbal_succinct_transition_instruction": "Turn left.",
+            "verbal_transition_alert_instruction": "Turn left onto Sankt Augustiner Stra\u00dfe."
           },
           {
             "bearing_after": 226,
             "bearing_before": 223,
-            "begin_shape_index": 1120,
+            "begin_shape_index": 1110,
             "begin_street_names": [
               "Sankt Augustiner Stra\u00dfe",
               "B 56"
             ],
-            "cost": 196.174,
-            "end_shape_index": 1196,
+            "cost": 166.158,
+            "end_shape_index": 1186,
             "instruction": "Keep right to stay on B 56.",
             "length": 1.747,
             "street_names": [
@@ -365,13 +323,13 @@
           {
             "bearing_after": 58,
             "bearing_before": 244,
-            "begin_shape_index": 1196,
+            "begin_shape_index": 1186,
             "begin_street_names": [
               "Oxfordstra\u00dfe",
               "B 56"
             ],
-            "cost": 66.791,
-            "end_shape_index": 1234,
+            "cost": 55.76,
+            "end_shape_index": 1224,
             "instruction": "Make a left U-turn at Oxfordstra\u00dfe to stay on B 56.",
             "length": 0.545,
             "street_names": [
@@ -389,9 +347,9 @@
           {
             "bearing_after": 143,
             "bearing_before": 91,
-            "begin_shape_index": 1234,
-            "cost": 34.198,
-            "end_shape_index": 1253,
+            "begin_shape_index": 1224,
+            "cost": 28.771,
+            "end_shape_index": 1243,
             "instruction": "Turn right onto Belderberg/B 9.",
             "length": 0.212,
             "street_names": [
@@ -410,9 +368,9 @@
           {
             "bearing_after": 243,
             "bearing_before": 159,
-            "begin_shape_index": 1253,
-            "cost": 1375.132,
-            "end_shape_index": 1281,
+            "begin_shape_index": 1243,
+            "cost": 1336.605,
+            "end_shape_index": 1271,
             "instruction": "Turn right onto Rathausgasse.",
             "length": 0.448,
             "street_names": [
@@ -429,9 +387,9 @@
           },
           {
             "bearing_before": 240,
-            "begin_shape_index": 1281,
+            "begin_shape_index": 1271,
             "cost": 0.0,
-            "end_shape_index": 1281,
+            "end_shape_index": 1271,
             "instruction": "Your destination is on the right.",
             "length": 0.0,
             "time": 0.0,
@@ -442,19 +400,19 @@
             "verbal_transition_alert_instruction": "Your destination will be on the right."
           }
         ],
-        "shape": "qygdaB_~aaLiE_@e_@sDU`ImAlj@K`G_@bPy@hZ|^nD|NtA~NrArXhCvK`AvK`A`OvAvJ`AlCNkAjS[dEU`B]fBmDzJgPnf@I~Gk@nd@YxPQhLMbMKfSCfWBzXCnc@?~JEhYUxTExBq@xa@a@tWQbGs@fVa@hIw@dPwCjm@m@jMmBba@mAtXmA|UgAbVq@tNmA~X[nGcHvs@yDz[{CtV_Ef_@cBvQm@hIsBjTwDjb@wFdo@aAhLqMbyAmGnt@{AvPuApNaA~J}Frm@kAxKa@xGk@hVgAhj@uBnjAIhBIhAQlB]|BaBvIiGj[eNtp@{DxQoDhReBfKkJll@]xBoA|Hy@`Fu@fEo@`E}@jJi@zIY|IUvBY`Bk@dA_AwBmAsCkEaKi@oAgGuNkDgI[u@mGaOgc@}cAsb@sbAkb@ibAsM{Z_Wml@{]qy@qIoRia@_aA_EkJeq@i~AgS}e@uLcY{J_UgJsTyr@{_BiP{`@mKkVgPpUkP|P_JdHuI|I{FdGeNbNeHfHaOnO{AbCcAfCu@tDQvEF|FXfEt@|GzDx\\tAzN|Gpt@tD`b@rBbWjFz`AdApW~A|XtEvq@jCjZ|CpZ|Ejc@zBjQbHll@~C|T|CtRlDrR`Pty@bDjRdAlIx@rInAdR`@`IRrI`@`cArAvuCd@~`Ab@n|@LrLV~v@\\lr@D`J\\bv@B|IFrMsDHmDN_CByCq@{CqB}^q^sCoFgAgFCaHh@gFdBoFfCkDvDuBhTmH`GsHf[kKrIyBvj@_Opp@_PxXyGz]eHr`@oGr`@wEf[oCrh@aCfg@qAlt@j@fr@jDpnAtNrOfBh_AtSll@nRbc@`T|l@d`@|MhKlU|RxZ~_@tLdOj^xe@jJxNj^tq@l]xv@hQle@`Pth@vh@z{Aph@lsB|Nhe@pO~d@fV~i@zVtf@nSb`@rWl`@jYd_@bYfZdW|U|U|RlVbRpx@hc@t^fM~\\|Hx]bGr~A~PjfAlFhiAnCln@`@zl@cD~j@gF~_@aHda@wKdf@qPhk@e]vf@wa@tb@ce@lqAsrBr_@su@ng@iz@~\\af@lWm[jWsW`PkP`P_MhUuPfWcPv]uQns@uVzd@uKdf@uHjPoAfl@Crt@jB~f@xHxe@nNni@~\\v_@zV|[tS`g@ta@vc@fg@j`@ff@v|AxrBv{AvpBhk@|u@j}@jjAj[l^b\\|Z~WrStU|NlVvM`[fMx\\nK`W~F`_@xE`YnBh]RjZe@jZgCz[oFnYeHh[uIn[aKrVkHdmBim@zYcJhaCou@hScGh~Biu@|c@kSfMiHvPoKfZaRpo@sc@|h@ad@vb@m`@pv@uy@bWq[jhAe}Ary@}nAtzDs|F~L_Rhc@aq@~d@qo@xf@om@|e@}g@`gAaaAv_@sXpf@}Zzg@qYxl@wWfx@uXvb@}L~i@kKdn]yyFncAsSdu@}S|{@y[~dBy}@`qC_|AzgBwaArbBs~@j`B{}@ls@kf@hs@ej@ht@{r@bgAknA|_AysAth@k}@xf@{~@r_@sz@x`@saA|`@egApXs~@vg@ciBztBa{HlnAw|EloA{wEfbAupD~l@a{BtWy}@r]ifAzUmm@l`@{}@fb@{{@|Ymi@`h@ky@vqAikBt^wh@z]wg@~yC}aEbdOs`TlQcWtu@yeAnfFojHpsEsqGbx@keAjRoSjJ_Kpf@}e@dn@ei@ru@oi@hq@qa@pe@}U`i@{Uhf@qP|KyDd`@mLx[gIr`@gIxTwDjSuC~ZkD`[eCb[_Bb[y@rZSh`@Vdc@tA|_@dCf[zCr]~Dtk@dKlpDxq@j}Bbg@dmBx`@x\\nG`E^tj@vEjZtBvWpAfPb@d^f@|cAw@l\\yAh]{Bxa@_Frx@cNlKqBrk@}K`MsChxAyZz~@uQ~{Beg@~a@iJljBqa@hx@mQdaCkd@`V_G|UwGxUoHvUeIpU{Iv\\qNbd@kTt^aSl^qT`_@yVj\\mVhxJcaIt}@qt@deEghDd{@ap@|f@k]|^}Sl^cR~\\{Nbd@sQhYwIfn@}Qxl@cM~`@qH``@uEzx@eG|bAqA`h@t@r]fBve@dDvw@vJfv@fKrsAjRlTrC`hBzW~eCn^p{GjaAz_Kd{Alk@rIlz@fMdf@xFxf@tCxOt@fz@hBzgAuBl`AyH`e@aEz]yGhj@cJti@cPjUgJph@cSvw@u`@zz@ed@|fAou@pz@io@bgHeuFd}_@}fZj\\aVl`A{n@`m@s_@j]wQt^eSbZuN`LsFzyCauAhNmGnT{JrpHwiDhb@{R~_@}PnL_FtLuFjqA_m@nbByv@hx@e^dmAkk@~nAok@`oAom@ttAen@dKaFj|R_`JnUsKvn@qZnJaFbz@if@hvEkbDfV{ObqCeoBdKsGpI_GjEyChYsSfKyGvDiCzTkOvIiGnxByzAxF}Dv}@}m@lrEa~CnmBqtArc@cXzn@c^xy@w]|UaKztC{}@v{GmdB`_HyiB`EeA|{OmgE|dFeuAjX}HdZkIjf@mRpNuFruAot@lVmNjG{DhBiAxTkOd`Aqx@bi@{d@ts@yr@`j@qh@h`@k_@x~Cu{Clg@_f@|lAoaAfRoMxRaNz[aStcAag@xd@qQdSuGbNoE|l@gPzk@wKns@aLfc@}Dla@oBr]q@ftCwDpaB{B~t@y@||NaQbx@_AhfA}AddAsAdgCcDz|ByBfpAs@f_@z@~_HzI~|@~BxwEtGbbAtArtFbIpLPz^j@b}G~Jnq@r@zq@o@~_@cBn_@uCdSgBlPoBrk@}Inj@iLzm@yNzm@{NhsBag@`RsElb@iM`a@mPnViJ~^wPfe@wXtFcDbn@o`@pn@me@hTiRjx@qv@dXyYj`@ie@l^ed@v[wd@x~AmiC~pA{yBhg@uz@jp@yhAjU{[b[s`@tN{Ula@me@bb@yb@~_@s^xUgSzXwThY_T`[gRbX_Oz^oR|^gQj\\qM~ZmL|SgGz\\eIrn@cMti@kHpq@aI|hA{MfwA{P~t@sJlhBwTvsAaQzQ}Bxh@oGnaCs]bvAaTjq@gJlbCw[ts@oJntAuQfqB_Wdr@uJxRmC`zAmSbp@}IlU_DfgB{UhnAkQ`f@_HnlAgNn_AoHrh@wCvg@u@hsD|A`g@~Cfq@fDzpAvJzPbCzuC~]nrAtS`}Cjc@r|@lLnTpC`DV`t@hGxgAvF~aAs@|k@uClOoArc@{Czt@gJ~b@{Ipq@ePbz@sYto@{W~[sO|d@gWfa@sWz~@{r@z`@a_@tJsJpVkVlO_Ptj@mo@dD_FpScXdT}XtTc`@xsAmdCfkBemDpQc\\ra@mp@vVq\\jTqWbSmTrSaSvVkT|WkSrVeP|RgLxTaL|IcEvIoDv^wMhw@wTlwBwl@ttBsk@fdBse@zpB}j@~aAeX`e@_Nvc@kM~|@mVvq@eRlKuClr@sRdgCqt@|p@aRvp@gRno@qQn~Bio@dt@oSnb@iL|o@kRvb@eMbp@{Q`~@gWl{Bwm@bTcG`d@sOve@}Sfg@_W|T{MfTqNlaA_r@t[eTrbBymAbi@_d@jMqKrbAc{@x`Ag~@no@ip@`gEisEluAwyAnCwCfYqZrtDy}DlVwQtImItGoFtEsD~EsD`EoCvEuCnSwLvOeJ`JuF~GsEvFeE~DcDbHeGpFeFrHiHvv@ay@xY}Z`Zg[hQ_Rhg@oi@zr@ct@d_@g`@r\\k\\nQiQlTiRxReO`SmNhSuMzJyF|RgLrXkNxXcMbY}KhYuJpYkIvYeHddAcRjoBmZnT}C|~AgVpw@eMzt@wPhRiFbRaG`R}GhOiGdO}G`OoH|NaIvNsIbRkM|NyKbOuKrPyNtKuJjKyJhKoKzHoItHyJhUeYfOaS~NqSvNgTnNuTdNgU|MyUpMgVxMaYhMaWzUkh@zU_k@~JsVlJuXjQqi@r`@ilAnPi_@xm@ivA~kAumCdmBwkEtUmc@n`AajBhh@wy@hn@sz@vi@}l@vh@yh@fe@{`@df@g]|j@}^lq@y]xKmFnc@gSvy@kXpM}DvZqId[wHzQ{DpH}A~^aHxOmCfVsDtY}DtPmBn`@oE|JcAzOuAhVsBxc@cDd]yB`]iBd]_BhVc@jQgAtSc@lrAyHbnCeKntAcG`Tm@fgBgIblBaJ~O}@vcIya@rfFc[~Pw@nt@gFdh@kCrd@mCr`@cCjYiAvbAmH~k@uCbyCoUrlBkJ`jA_HddAgG|UU`mAuAdmArA`|@jEheAlK`NfAnd@rHb}AnZvf@dLvdBda@nRtEdM`DpeD~u@~WvGhbB|]nkAxQhc@tEba@vCbc@|Azc@l@vc@e@hf@kDzg@cG~a@sIt^yJjk@aT|i@kYlk@c_@fe@y_@p^o]|^q`@zlAe}A|w@knAxk@saAjm@efAjyAcqCfb@k{@l`AynBzgAmhChu@miBth@stA~u@irBb~@umCpt@m}Bzi@iiBlz@wxCvK_a@rLeb@zBeIrmAu{DrbAcwChMs\\v_@kbAp_@}`AtUaj@lVof@bo@cnAnr@aiAdh@yp@jh@al@x^g]~\\}YrT}OdUuPznBsqAxvBizA|l@{b@lp@_g@tpCgwBxnBq{Arj@mc@jd@k\\hp@_f@tt@ae@bs@aa@`\\wQvSkJhb@yOxI_DlgA_Yrg@cIbZyC~Ki@pPWxQs@zO[jMEpN?pQd@fLXtFRfIb@vHf@hOpApQlB|PvBdQ~CtTfEz]pIta@jLbc@bOrj@fUjEfBhb@fQn`Afd@rbCvlAt}Hr}DfaAhl@bf@r\\b|AvnA`rAvnAdJbOdWjYpSbZ~N|X`Nn[hGhSpEfQjGhYnExTbE`ZfDna@fA`VHra@TbXi@`~BVnfBzD|aBdAhXtE`dAfGb{@hH|z@nOptA|Kdw@rLju@vSldAfd@bpBbg@ncCdNlw@dQveAxUdaBjC`SxJvw@fE||@y@~QkBlLuDhKuEnF{CdB}EZyEi@_HaEuCeDqCkEcEkH}Rqk@i@uLJgLzBoSlVaZdKmLpJuKp_@q_@bOsOxDmDfEqDdEwDhKgIhNgLfIyGp_@o[v^eVfYmOrU}KpZqKb]uKfq@sPvd@sMl]oNrSkMva@aXhF_Db[qQ~ZgQtZaNzMyElKuD~QqEdLeCzKwAz@KhGg@nGi@bBOpJ}@nVi@pn@b@ze@rAzl@~Ahj@JpMc@fMoAb[{ChJaBdGwAp]iJ`WkL~FwCtCwBvBoAxEqDfR}OlXiZzD{AlMqU~Smb@jBwBnAiApAaAdAg@f@QhAYhAO~AK~BhB~L|IfE`DpHvFlMlJpM~HnQvHxHpDlYpM~IhFtJ|H~@bAr@fArDrF~BpD~DvGpLxStJnP`EzH~FxIt@vAvEvIzCrF~FvKPZxHzNtJ~QdGjLjEdI`CtExCxFpCvGjApDj@fCh@hERbDPlBp@bDhAdFb@lE~AfUvBd[jAtORrBV`Cj@vIh@dHbBjU|Bf[l|@~uLrGj|@dC`a@x@rNdAfOxFt{@ZvKJvKGlLY`NIvCSpFI`DI`DKnFa@vr@Ax_@N|NP~ENdD^rIPfCd@fGf@|Gb@rGPfETlTWpVe@rTs@xVqAt`@E`LE`JX`Mf@zFTnCR~BNnB~BfTzD~TnD~R^nBhCxMNv@XtAxBf@v@Jx@D~@Ol@S`A]~APmDyLsDcMiF{RuAeHiA_H]sBm@kIo@{HeAcMw@wOg@sNC}QN_NP}IPoSf@sTLqVCkc@MgEGwA[cHWcIMsEMwPByWDgNBwINwb@BsL?cCB_GfHaJlCwCvLsLfC_GbCkBnEqDhCwBrAeATQrDmCb@[lD_CnAy@pD}BtCgB`Q_Kx@a@v@_@fEwB`BnHjGbYt@vC|E`P`DhIfDpGrKlTzCdIpE|L^lAt@nCxAbGlElMdB|Er@xBtClF|C`ErShXdBfCjUv\\jGtInDlFlD|GlCnIfAdEfChM~AvFJV",
+        "shape": "qygdaB_~aaLiE_@e_@sDU`ImAlj@K`G_@bPy@hZ|^nD|NtA~NrArXhCvK`AvK`A`OvAvJ`AlCNkAjS[dEU`B]fBmDzJgPnf@I~Gk@nd@YxPQhLMbMKfSCfWBzXCnc@?~JEhYUxTExBq@xa@a@tWQbGs@fVa@hIw@dPwCjm@m@jMmBba@mAtXmA|UgAbVq@tNmA~X[nGcHvs@yDz[{CtV_Ef_@cBvQm@hIsBjTwDjb@wFdo@aAhLqMbyAmGnt@{AvPuApNaA~J}Frm@kAxKa@xGk@hVgAhj@uBnjAIhBIhAQlB]|BaBvIiGj[eNtp@{DxQoDhReBfKkJll@]xBoA|Hy@`Fu@fEo@`E}@jJi@zIY|IUvBY`Bk@dA_AwBmAsCkEaKi@oAgGuNkDgI[u@mGaOgc@}cAsb@sbAkb@ibAsM{Z_Wml@{]qy@qIoRia@_aA_EkJeq@i~AgS}e@uLcY{J_UgJsTyr@{_BiP{`@mKkVgPpUkP|P_JdHuI|I{FdGeNbNeHfHaOnO{AbCcAfCu@tDQvEF|FXfEt@|GzDx\\tAzN|Gpt@tD`b@rBbWjFz`AdApW~A|XtEvq@jCjZ|CpZ|Ejc@zBjQbHll@~C|T|CtRlDrR`Pty@bDjRdAlIx@rInAdR`@`IRrI`@`cArAvuCd@~`Ab@n|@LrLV~v@\\lr@D`J\\bv@B|IFrMsDHmDN_CByCq@{CqB}^q^sCoFgAgFCaHh@gFdBoFfCkDvDuBhTmH`GsHf[kKrIyBvj@_Opp@_PxXyGz]eHr`@oGr`@wEf[oCrh@aCfg@qAlt@j@fr@jDpnAtNrOfBh_AtSll@nRbc@`T|l@d`@|MhKlU|RxZ~_@tLdOj^xe@jJxNj^tq@l]xv@hQle@`Pth@vh@z{Aph@lsB|Nhe@pO~d@fV~i@zVtf@nSb`@rWl`@jYd_@bYfZdW|U|U|RlVbRpx@hc@t^fM~\\|Hx]bGr~A~PjfAlFhiAnCln@`@zl@cD~j@gF~_@aHda@wKdf@qPhk@e]vf@wa@tb@ce@lqAsrBr_@su@ng@iz@~\\af@lWm[jWsW`PkP`P_MhUuPfWcPv]uQns@uVzd@uKdf@uHjPoAfl@Crt@jB~f@xHxe@nNni@~\\v_@zV|[tS`g@ta@vc@fg@j`@ff@v|AxrBv{AvpBhk@|u@j}@jjAj[l^b\\|Z~WrStU|NlVvM`[fMx\\nK`W~F`_@xE`YnBh]RjZe@jZgCz[oFnYeHh[uIn[aKrVkHdmBim@zYcJhaCou@hScGh~Biu@|c@kSfMiHvPoKfZaRpo@sc@|h@ad@vb@m`@pv@uy@bWq[jhAe}Ary@}nAtzDs|F~L_Rhc@aq@~d@qo@xf@om@|e@}g@`gAaaAv_@sXpf@}Zzg@qYxl@wWfx@uXvb@}L~i@kKdn]yyFncAsSdu@}S|{@y[~dBy}@`qC_|AzgBwaArbBs~@j`B{}@ls@kf@hs@ej@ht@{r@bgAknA|_AysAth@k}@xf@{~@r_@sz@x`@saA|`@egApXs~@vg@ciBztBa{HlnAw|EloA{wEfbAupD~l@a{BtWy}@r]ifAzUmm@l`@{}@fb@{{@|Ymi@`h@ky@vqAikBt^wh@z]wg@~yC}aEbdOs`TlQcWtu@yeAnfFojHpsEsqGbx@keAjRoSjJ_Kpf@}e@dn@ei@ru@oi@hq@qa@pe@}U`i@{Uhf@qP|KyDd`@mLx[gIr`@gIxTwDjSuC~ZkD`[eCb[_Bb[y@rZSh`@Vdc@tA|_@dCf[zCr]~Dtk@dKlpDxq@j}Bbg@dmBx`@x\\nG`E^tj@vEjZtBvWpAfPb@d^f@|cAw@l\\yAh]{Bxa@_Frx@cNlKqBrk@}K`MsChxAyZz~@uQ~{Beg@~a@iJljBqa@hx@mQdaCkd@`V_G|UwGxUoHvUeIpU{Iv\\qNbd@kTt^aSl^qT`_@yVj\\mVhxJcaIt}@qt@deEghDd{@ap@|f@k]|^}Sl^cR~\\{Nbd@sQhYwIfn@}Qxl@cM~`@qH``@uEzx@eG|bAqA`h@t@r]fBve@dDvw@vJfv@fKrsAjRlTrC`hBzW~eCn^p{GjaAz_Kd{Alk@rIlz@fMdf@xFxf@tCxOt@fz@hBzgAuBl`AyH`e@aEz]yGhj@cJti@cPjUgJph@cSvw@u`@zz@ed@|fAou@pz@io@bgHeuFd}_@}fZj\\aVl`A{n@`m@s_@j]wQt^eSbZuN`LsFzyCauAhNmGnT{JrpHwiDhb@{R~_@}PnL_FtLuFjqA_m@nbByv@hx@e^dmAkk@~nAok@`oAom@ttAen@dKaFj|R_`JnUsKvn@qZnJaFbz@if@hvEkbDfV{ObqCeoBdKsGpI_GjEyChYsSfKyGvDiCzTkOvIiGnxByzAxF}Dv}@}m@lrEa~CnmBqtArc@cXzn@c^xy@w]|UaKztC{}@v{GmdB`_HyiB`EeA|{OmgE|dFeuAjX}HdZkIjf@mRpNuFruAot@lVmNjG{DhBiAxTkOd`Aqx@bi@{d@ts@yr@`j@qh@h`@k_@x~Cu{Clg@_f@|lAoaAfRoMxRaNz[aStcAag@xd@qQdSuGbNoE|l@gPzk@wKns@aLfc@}Dla@oBr]q@ftCwDpaB{B~t@y@||NaQbx@_AhfA}AddAsAdgCcDz|ByBfpAs@f_@z@~_HzI~|@~BxwEtGbbAtArtFbIpLPz^j@b}G~Jnq@r@zq@o@~_@cBn_@uCdSgBlPoBrk@}Inj@iLzm@yNzm@{NhsBag@`RsElb@iM`a@mPnViJ~^wPfe@wXtFcDbn@o`@pn@me@hTiRjx@qv@dXyYj`@ie@l^ed@v[wd@x~AmiC~pA{yBhg@uz@jp@yhAjU{[b[s`@tN{Ula@me@bb@yb@~_@s^xUgSzXwThY_T`[gRbX_Oz^oR|^gQj\\qM~ZmL|SgGz\\eIrn@cMti@kHpq@aI|hA{MfwA{P~t@sJlhBwTvsAaQzQ}Bxh@oGnaCs]bvAaTjq@gJlbCw[ts@oJntAuQfqB_Wdr@uJxRmC`zAmSbp@}IlU_DfgB{UhnAkQ`f@_HnlAgNn_AoHrh@wCvg@u@hsD|A`g@~Cfq@fDzpAvJzPbCzuC~]nrAtS`}Cjc@r|@lLnTpC`DV`t@hGxgAvF~aAs@|k@uClOoArc@{Czt@gJ~b@{Ipq@ePbz@sYto@{W~[sO|d@gWfa@sWz~@{r@z`@a_@tJsJpVkVlO_Ptj@mo@dD_FpScXdT}XtTc`@xsAmdCfkBemDpQc\\ra@mp@vVq\\jTqWbSmTrSaSvVkT|WkSrVeP|RgLxTaL|IcEvIoDv^wMhw@wTlwBwl@ttBsk@fdBse@zpB}j@~aAeX`e@_Nvc@kM~|@mVvq@eRlKuClr@sRdgCqt@|p@aRvp@gRno@qQn~Bio@dt@oSnb@iL|o@kRvb@eMbp@{Q`~@gWl{Bwm@bTcG`d@sOve@}Sfg@_W|T{MfTqNlaA_r@t[eTrbBymAbi@_d@jMqKrbAc{@x`Ag~@no@ip@`gEisEluAwyAnCwCfYqZrtDy}DlVwQtImItGoFtEsD~EsD`EoCvEuCnSwLvOeJ`JuF~GsEvFeE~DcDbHeGpFeFrHiHvv@ay@xY}Z`Zg[hQ_Rhg@oi@zr@ct@d_@g`@r\\k\\nQiQlTiRxReO`SmNhSuMzJyF|RgLrXkNxXcMbY}KhYuJpYkIvYeHddAcRjoBmZnT}C|~AgVpw@eMzt@wPhRiFbRaG`R}GhOiGdO}G`OoH|NaIvNsIbRkM|NyKbOuKrPyNtKuJjKyJhKoKzHoItHyJhUeYfOaS~NqSvNgTnNuTdNgU|MyUpMgVxMaYhMaWzUkh@zU_k@~JsVlJuXjQqi@r`@ilAnPi_@xm@ivA~kAumCdmBwkEtUmc@n`AajBhh@wy@hn@sz@vi@}l@vh@yh@fe@{`@df@g]|j@}^lq@y]xKmFnc@gSvy@kXpM}DvZqId[wHzQ{DpH}A~^aHxOmCfVsDtY}DtPmBn`@oE|JcAzOuAhVsBxc@cDd]yB`]iBd]_BhVc@jQgAtSc@lrAyHbnCeKntAcG`Tm@fgBgIblBaJ~O}@vcIya@rfFc[~Pw@nt@gFdh@kCrd@mCr`@cCjYiAvbAmH~k@uCbyCoUrlBkJ`jA_HddAgG|UU`mAuAdmArA`|@jEheAlK`NfAnd@rHb}AnZvf@dLvdBda@nRtEdM`DpeD~u@~WvGhbB|]nkAxQhc@tEba@vCbc@|Azc@l@vc@e@hf@kDzg@cG~a@sIt^yJjk@aT|i@kYlk@c_@fe@y_@p^o]|^q`@zlAe}A|w@knAxk@saAjm@efAjyAcqCfb@k{@l`AynBzgAmhChu@miBth@stA~u@irBb~@umCpt@m}Bzi@iiBlz@wxCvK_a@rLeb@zBeIrmAu{DrbAcwChMs\\v_@kbAp_@}`AtUaj@lVof@bo@cnAnr@aiAdh@yp@jh@al@x^g]~\\}YrT}OdUuPznBsqAxvBizA|l@{b@lp@_g@tpCgwBxnBq{Arj@mc@jd@k\\hp@_f@tt@ae@bs@aa@`\\wQvSkJhb@yOxI_DlgA_Yrg@cIbZyC~Ki@pPWxQs@zO[jMEpN?pQd@fLXtFRfIb@vHf@hOpApQlB|PvBdQ~CtTfEz]pIta@jLbc@bOrj@fUjEfBhb@fQn`Afd@rbCvlAt}Hr}DfaAhl@bf@r\\b|AvnA`rAvnAzR|Lt`@x]lLfJvRpMla@vTrIvDjUnJ~LfE~TrGnRlEpRnDvRfCtSlB`]rAj]VxVw@jf@yCfEs@`K{AzGwA|JyBl\\}I|d@kNhcAo]pGmCvmAid@liA_`@`}@{Zre@uNhXsHxo@cOdj@oKna@^pGPtGr@tDpA|C|AxCzBzCdE|BpF`BxGr@`HNdGQbGo@nH}A~GoCdGgDjE}EnCgEx@sR`AgOZiO_@]@i@?eF@PrILlGrCzn@z@lf@rCxo@vFv`AtL~rBrCpd@~FlfAvCbh@bBrYlDxd@lH~h@~GnZxDzNpBdHhD~JrL`[dJpRzSh[nDhH~cArqAvJ|MvFvHlBdCzKrNpK~LlT~VdFbGzFvGfGzGdFxFfL~L~IjItI~GbJ`GzWpNnE~BpTfLbe@jV`HpDta@lZ|DnCl@b@hBpAfCjBlHbG~BhB~L|IfE`DpHvFlMlJpM~HnQvHxHpDlYpM~IhFtJ|H~@bAr@fArDrF~BpD~DvGpLxStJnP`EzH~FxIt@vAvEvIzCrF~FvKPZxHzNtJ~QdGjLjEdI`CtExCxFpCvGjApDj@fCh@hERbDPlBp@bDhAdFb@lE~AfUvBd[jAtORrBV`Cj@vIh@dHbBjU|Bf[l|@~uLrGj|@dC`a@x@rNdAfOxFt{@ZvKJvKGlLY`NIvCSpFI`DI`DKnFa@vr@Ax_@N|NP~ENdD^rIPfCd@fGf@|Gb@rGPfETlTWpVe@rTs@xVqAt`@E`LE`JX`Mf@zFTnCR~BNnB~BfTzD~TnD~R^nBhCxMNv@XtAxBf@v@Jx@D~@Ol@S`A]~APmDyLsDcMiF{RuAeHiA_H]sBm@kIo@{HeAcMw@wOg@sNC}QN_NP}IPoSf@sTLqVCkc@MgEGwA[cHWcIMsEMwPByWDgNBwINwb@BsL?cCB_GfHaJlCwCvLsLfC_GbCkBnEqDhCwBrAeATQrDmCb@[lD_CnAy@pD}BtCgB`Q_Kx@a@v@_@fEwB`BnHjGbYt@vC|E`P`DhIfDpGrKlTzCdIpE|L^lAt@nCxAbGlElMdB|Er@xBtClF|C`ErShXdBfCjUv\\jGtInDlFlD|GlCnIfAdEfChM~AvFJV",
         "summary": {
-          "cost": 6223.359,
+          "cost": 5462.241,
           "has_ferry": false,
           "has_highway": true,
           "has_time_restrictions": false,
           "has_toll": false,
-          "length": 101.128,
+          "length": 100.267,
           "max_lat": 51.477731,
           "max_lon": 7.150618,
           "min_lat": 50.733159,
           "min_lon": 6.796819,
-          "time": 4029.009
+          "time": 3997.054
         }
       }
     ],
@@ -476,17 +434,17 @@
     "status": 0,
     "status_message": "Found route between points",
     "summary": {
-      "cost": 6223.359,
+      "cost": 5462.241,
       "has_ferry": false,
       "has_highway": true,
       "has_time_restrictions": false,
       "has_toll": false,
-      "length": 101.128,
+      "length": 100.267,
       "max_lat": 51.477731,
       "max_lon": 7.150618,
       "min_lat": 50.733159,
       "min_lon": 6.796819,
-      "time": 4029.009
+      "time": 3997.054
     },
     "units": "kilometers",
     "warnings": [
